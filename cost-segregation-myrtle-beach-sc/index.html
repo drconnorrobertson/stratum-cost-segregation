@@ -15,24 +15,25 @@
   <meta name="twitter:description" content="Professional cost segregation studies for vacation rental investors in Myrtle Beach, South Carolina. Accelerate depreciation on your STR property and maximize tax savings.">
   <link rel="canonical" href="https://drconnorrobertson.github.io/stratum-cost-segregation/cost-segregation-myrtle-beach-sc/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
   
 </head>
 <body>
-  <nav class="nav">
+  <nav class="nav" id="main-nav">
   <div class="nav-inner">
     <a href="../index.html" class="nav-logo"><span>Stratum</span> Cost Segregation</a>
-    <div class="nav-links">
+    <div class="nav-links" id="nav-menu">
       <a href="../services/index.html">Services</a>
       <a href="../how-it-works/index.html">How It Works</a>
       <a href="../pricing/index.html">Pricing</a>
       <a href="../blog/index.html">Blog</a>
       <a href="../reviews/index.html">Reviews</a>
       <a href="../contact/index.html">Contact</a>
-      <a href="../free-estimate/index.html" class="nav-cta">Free Estimate</a>
+      <a href="../free-estimate/index.html" class="nav-cta">Free Estimate &rarr;</a>
     </div>
-    <button class="mobile-toggle" onclick="document.querySelector('.nav-links').style.display=document.querySelector('.nav-links').style.display==='flex'?'none':'flex'" aria-label="Menu">&#9776;</button>
+    <button class="mobile-toggle" onclick="var m=document.getElementById('nav-menu');m.style.display=m.style.display==='flex'?'none':'flex'" aria-label="Menu">&#9776;</button>
   </div>
 </nav>
   
@@ -58,7 +59,7 @@
     <div class="cta-banner">
   <h2>Ready to Unlock Hidden Tax Savings?</h2>
   <p>Get a free, no-obligation estimate for your rental property cost segregation study.</p>
-  <a href="../free-estimate/index.html" class="btn btn-gold">Get Your Free Estimate</a>
+  <a href="../free-estimate/index.html" class="btn btn-gold">Get Your Free Estimate &rarr;</a>
 </div>
   </div>
 </section>
@@ -67,7 +68,12 @@
   <div class="footer-grid">
     <div>
       <div class="footer-brand"><span>Stratum</span> Cost Segregation</div>
-      <p class="footer-desc">Residential cost segregation studies for short-term and long-term rental property investors. Maximize your depreciation deductions and accelerate your tax savings.</p>
+      <p class="footer-desc">Engineering-based cost segregation studies for short-term and long-term rental property investors. Maximize depreciation deductions and accelerate tax savings across all 50 states.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="LinkedIn" title="LinkedIn">in</a>
+        <a href="#" aria-label="Twitter" title="Twitter">X</a>
+        <a href="#" aria-label="Facebook" title="Facebook">f</a>
+      </div>
     </div>
     <div>
       <h4>Services</h4>
@@ -97,10 +103,37 @@
       </ul>
     </div>
   </div>
+  <div class="footer-trust">
+    <div class="footer-trust-item"><span class="trust-icon">&#9733;</span> 4.9/5.0 Client Rating</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#128737;</span> IRS Audit-Ready</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#127968;</span> All 50 States</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#9989;</span> 5,000+ Studies Completed</div>
+  </div>
   <div class="footer-bottom">
-    &copy; 2026 Stratum Cost Segregation. All rights reserved.
+    &copy; 2026 Stratum Cost Segregation. All rights reserved. &nbsp;|&nbsp; Engineering-based tax solutions for rental property investors.
   </div>
 </footer>
   
+  <script>
+  // Nav scroll effect
+  (function(){
+    var nav=document.getElementById('main-nav');
+    if(!nav)return;
+    function onScroll(){nav.classList.toggle('scrolled',window.scrollY>40);}
+    window.addEventListener('scroll',onScroll,{passive:true});
+    onScroll();
+  })();
+  // Scroll-triggered fade-in animations
+  (function(){
+    var els=document.querySelectorAll('.fade-in-up');
+    if(!els.length)return;
+    var observer=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target);}
+      });
+    },{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+    els.forEach(function(el){observer.observe(el);});
+  })();
+  </script>
 </body>
 </html>

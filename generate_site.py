@@ -14,305 +14,30 @@ EMAIL = "info@stratumcostseg.com"
 YEAR = datetime.now().year
 
 # ============================================================
-# COLOR SCHEME & SHARED CSS
+# COLOR SCHEME & SHARED CSS (loaded from style.css)
 # ============================================================
-SHARED_CSS = """
-:root {
-  --navy: #0a1628;
-  --navy-light: #111d32;
-  --navy-mid: #162440;
-  --gold: #c8a052;
-  --gold-light: #d4b06a;
-  --gold-dark: #b08a3e;
-  --white: #ffffff;
-  --gray-100: #f0f2f5;
-  --gray-200: #dce0e6;
-  --gray-300: #b0b8c4;
-  --gray-400: #8892a0;
-  --text: #e8eaf0;
-  --text-muted: #a0a8b8;
-  --radius: 8px;
-  --shadow: 0 4px 24px rgba(0,0,0,0.3);
-  --transition: all 0.3s ease;
-}
-
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-html { scroll-behavior: smooth; }
-
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background: var(--navy);
-  color: var(--text);
-  line-height: 1.7;
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-}
-
-a { color: var(--gold); text-decoration: none; transition: var(--transition); }
-a:hover { color: var(--gold-light); }
-
-img { max-width: 100%; height: auto; }
-
-.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-
-/* NAV */
-.nav {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-  background: rgba(10,22,40,0.95); backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(200,160,82,0.15);
-  padding: 0 24px; height: 72px;
-  display: flex; align-items: center; justify-content: center;
-}
-.nav-inner {
-  max-width: 1200px; width: 100%;
-  display: flex; align-items: center; justify-content: space-between;
-}
-.nav-logo {
-  font-size: 1.3rem; font-weight: 700; color: var(--white);
-  letter-spacing: -0.02em;
-}
-.nav-logo span { color: var(--gold); }
-.nav-links { display: flex; gap: 28px; align-items: center; }
-.nav-links a { color: var(--text-muted); font-size: 0.9rem; font-weight: 500; }
-.nav-links a:hover { color: var(--gold); }
-.nav-cta {
-  background: var(--gold); color: var(--navy) !important; padding: 10px 22px;
-  border-radius: var(--radius); font-weight: 600; font-size: 0.9rem;
-}
-.nav-cta:hover { background: var(--gold-light); color: var(--navy) !important; }
-.mobile-toggle { display: none; background: none; border: none; color: var(--white); font-size: 1.5rem; cursor: pointer; }
-
-/* HERO */
-.hero {
-  padding: 160px 24px 100px;
-  text-align: center;
-  background: linear-gradient(180deg, var(--navy) 0%, var(--navy-light) 100%);
-  position: relative;
-}
-.hero::before {
-  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0;
-  background: radial-gradient(ellipse at 50% 0%, rgba(200,160,82,0.08) 0%, transparent 60%);
-  pointer-events: none;
-}
-.hero h1 {
-  font-size: 3.2rem; font-weight: 800; color: var(--white);
-  line-height: 1.15; margin-bottom: 20px; letter-spacing: -0.03em;
-  max-width: 800px; margin-left: auto; margin-right: auto;
-}
-.hero h1 span { color: var(--gold); }
-.hero p {
-  font-size: 1.2rem; color: var(--text-muted); max-width: 620px;
-  margin: 0 auto 36px; line-height: 1.6;
-}
-.hero-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-
-/* BUTTONS */
-.btn {
-  display: inline-flex; align-items: center; gap: 8px;
-  padding: 14px 32px; border-radius: var(--radius);
-  font-weight: 600; font-size: 1rem; cursor: pointer;
-  border: none; transition: var(--transition);
-}
-.btn-gold { background: var(--gold); color: var(--navy); }
-.btn-gold:hover { background: var(--gold-light); color: var(--navy); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(200,160,82,0.3); }
-.btn-outline { background: transparent; color: var(--gold); border: 2px solid var(--gold); }
-.btn-outline:hover { background: var(--gold); color: var(--navy); }
-
-/* SECTIONS */
-.section { padding: 80px 24px; }
-.section-alt { background: var(--navy-light); }
-.section-title {
-  font-size: 2.4rem; font-weight: 700; color: var(--white);
-  text-align: center; margin-bottom: 16px; letter-spacing: -0.02em;
-}
-.section-subtitle {
-  font-size: 1.1rem; color: var(--text-muted); text-align: center;
-  max-width: 600px; margin: 0 auto 48px;
-}
-
-/* CARDS */
-.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto; }
-.card {
-  background: var(--navy-mid); border: 1px solid rgba(200,160,82,0.12);
-  border-radius: 12px; padding: 36px; transition: var(--transition);
-}
-.card:hover { border-color: rgba(200,160,82,0.3); transform: translateY(-4px); box-shadow: var(--shadow); }
-.card h3 { font-size: 1.3rem; color: var(--white); margin-bottom: 12px; }
-.card p { color: var(--text-muted); font-size: 0.95rem; }
-.card-icon {
-  width: 56px; height: 56px; border-radius: 12px;
-  background: rgba(200,160,82,0.1); display: flex; align-items: center;
-  justify-content: center; margin-bottom: 20px; font-size: 1.5rem;
-}
-
-/* STATS */
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; max-width: 1000px; margin: 0 auto; text-align: center; }
-.stat-num { font-size: 2.8rem; font-weight: 800; color: var(--gold); }
-.stat-label { color: var(--text-muted); font-size: 0.95rem; margin-top: 4px; }
-
-/* FAQ */
-.faq-item {
-  background: var(--navy-mid); border: 1px solid rgba(200,160,82,0.1);
-  border-radius: 12px; margin-bottom: 12px; overflow: hidden;
-}
-.faq-q {
-  padding: 20px 24px; cursor: pointer; font-weight: 600; color: var(--white);
-  display: flex; justify-content: space-between; align-items: center;
-}
-.faq-q:hover { color: var(--gold); }
-.faq-a { padding: 0 24px 20px; color: var(--text-muted); line-height: 1.7; display: none; }
-.faq-item.open .faq-a { display: block; }
-.faq-item.open .faq-arrow { transform: rotate(180deg); }
-.faq-arrow { transition: var(--transition); color: var(--gold); }
-
-/* BLOG */
-.blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; max-width: 1200px; margin: 0 auto; }
-.blog-card {
-  background: var(--navy-mid); border: 1px solid rgba(200,160,82,0.1);
-  border-radius: 12px; overflow: hidden; transition: var(--transition);
-}
-.blog-card:hover { border-color: rgba(200,160,82,0.3); transform: translateY(-4px); }
-.blog-card-body { padding: 28px; }
-.blog-card h3 { font-size: 1.15rem; color: var(--white); margin-bottom: 10px; }
-.blog-card p { color: var(--text-muted); font-size: 0.9rem; }
-.blog-card .meta { font-size: 0.8rem; color: var(--gold); margin-bottom: 8px; font-weight: 600; }
-
-/* ARTICLE */
-.article { max-width: 780px; margin: 0 auto; padding: 140px 24px 80px; }
-.article h1 { font-size: 2.4rem; font-weight: 700; margin-bottom: 16px; color: var(--white); line-height: 1.2; }
-.article .meta { color: var(--gold); font-size: 0.9rem; margin-bottom: 32px; }
-.article h2 { font-size: 1.6rem; color: var(--white); margin: 40px 0 16px; }
-.article h3 { font-size: 1.25rem; color: var(--gold-light); margin: 32px 0 12px; }
-.article p { color: var(--text-muted); margin-bottom: 20px; font-size: 1.05rem; line-height: 1.8; }
-.article ul, .article ol { color: var(--text-muted); margin: 0 0 20px 24px; }
-.article li { margin-bottom: 8px; line-height: 1.7; }
-.article blockquote {
-  border-left: 3px solid var(--gold); padding: 16px 24px; margin: 24px 0;
-  background: var(--navy-mid); border-radius: 0 8px 8px 0;
-  color: var(--text); font-style: italic;
-}
-
-/* CTA BANNER */
-.cta-banner {
-  background: linear-gradient(135deg, var(--navy-mid) 0%, rgba(200,160,82,0.1) 100%);
-  border: 1px solid rgba(200,160,82,0.2); border-radius: 16px;
-  padding: 60px 40px; text-align: center; margin: 48px auto; max-width: 800px;
-}
-.cta-banner h2 { font-size: 2rem; color: var(--white); margin-bottom: 12px; }
-.cta-banner p { color: var(--text-muted); margin-bottom: 28px; }
-
-/* FOOTER */
-.footer {
-  background: var(--navy-light); border-top: 1px solid rgba(200,160,82,0.1);
-  padding: 64px 24px 32px;
-}
-.footer-grid {
-  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 40px; max-width: 1200px; margin: 0 auto 48px;
-}
-.footer-brand { font-size: 1.2rem; font-weight: 700; color: var(--white); margin-bottom: 12px; }
-.footer-brand span { color: var(--gold); }
-.footer-desc { color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; }
-.footer h4 { color: var(--white); font-size: 0.95rem; margin-bottom: 16px; font-weight: 600; }
-.footer-links { list-style: none; }
-.footer-links li { margin-bottom: 10px; }
-.footer-links a { color: var(--text-muted); font-size: 0.9rem; }
-.footer-links a:hover { color: var(--gold); }
-.footer-bottom {
-  text-align: center; color: var(--text-muted); font-size: 0.85rem;
-  border-top: 1px solid rgba(200,160,82,0.1); padding-top: 24px;
-  max-width: 1200px; margin: 0 auto;
-}
-
-/* FORM */
-.form-group { margin-bottom: 20px; }
-.form-group label { display: block; color: var(--white); font-weight: 500; margin-bottom: 6px; font-size: 0.9rem; }
-.form-group input, .form-group select, .form-group textarea {
-  width: 100%; padding: 12px 16px; background: var(--navy-mid);
-  border: 1px solid rgba(200,160,82,0.2); border-radius: var(--radius);
-  color: var(--white); font-size: 1rem; font-family: inherit;
-}
-.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
-  outline: none; border-color: var(--gold);
-}
-.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-
-/* REVIEWS */
-.review-card {
-  background: var(--navy-mid); border: 1px solid rgba(200,160,82,0.1);
-  border-radius: 12px; padding: 32px;
-}
-.review-stars { color: var(--gold); font-size: 1.2rem; margin-bottom: 12px; }
-.review-text { color: var(--text-muted); font-style: italic; margin-bottom: 16px; line-height: 1.7; }
-.review-author { color: var(--white); font-weight: 600; }
-.review-location { color: var(--text-muted); font-size: 0.85rem; }
-
-/* PRICING */
-.pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; max-width: 1000px; margin: 0 auto; }
-.pricing-card {
-  background: var(--navy-mid); border: 1px solid rgba(200,160,82,0.12);
-  border-radius: 16px; padding: 40px; text-align: center; position: relative;
-}
-.pricing-card.featured { border-color: var(--gold); }
-.pricing-card.featured::before {
-  content: 'Most Popular'; position: absolute; top: -14px; left: 50%;
-  transform: translateX(-50%); background: var(--gold); color: var(--navy);
-  padding: 4px 20px; border-radius: 20px; font-size: 0.8rem; font-weight: 700;
-}
-.pricing-card h3 { font-size: 1.3rem; color: var(--white); margin-bottom: 8px; }
-.pricing-amount { font-size: 2.8rem; font-weight: 800; color: var(--gold); margin: 16px 0; }
-.pricing-features { list-style: none; text-align: left; margin-bottom: 28px; }
-.pricing-features li { padding: 8px 0; color: var(--text-muted); border-bottom: 1px solid rgba(200,160,82,0.06); }
-.pricing-features li::before { content: '\\2713'; color: var(--gold); margin-right: 10px; font-weight: 700; }
-
-/* TABLE */
-.table-wrap { overflow-x: auto; }
-table { width: 100%; border-collapse: collapse; background: var(--navy-mid); border-radius: 12px; overflow: hidden; }
-th { background: rgba(200,160,82,0.12); color: var(--gold); padding: 14px 16px; text-align: left; font-weight: 600; font-size: 0.9rem; }
-td { padding: 14px 16px; border-bottom: 1px solid rgba(200,160,82,0.06); color: var(--text-muted); font-size: 0.95rem; }
-tr:last-child td { border-bottom: none; }
-
-/* BREADCRUMBS */
-.breadcrumbs { padding: 100px 24px 0; max-width: 1200px; margin: 0 auto; }
-.breadcrumbs a, .breadcrumbs span { font-size: 0.85rem; color: var(--text-muted); }
-.breadcrumbs a:hover { color: var(--gold); }
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  .nav-links { display: none; }
-  .mobile-toggle { display: block; }
-  .hero h1 { font-size: 2.2rem; }
-  .hero { padding: 120px 16px 60px; }
-  .section { padding: 48px 16px; }
-  .section-title { font-size: 1.8rem; }
-  .footer-grid { grid-template-columns: 1fr; }
-  .form-row { grid-template-columns: 1fr; }
-  .card-grid { grid-template-columns: 1fr; }
-  .blog-grid { grid-template-columns: 1fr; }
-  .pricing-grid { grid-template-columns: 1fr; }
-  .stats { grid-template-columns: 1fr 1fr; }
-}
-"""
+# CSS is maintained in style.css and loaded via link tag.
+# The SHARED_CSS variable is kept empty since we use external CSS.
+SHARED_CSS = ""  # CSS is in style.css
 
 # ============================================================
 # NAVIGATION & FOOTER HTML
 # ============================================================
 def get_nav(depth=0):
     prefix = "../" * depth
-    return f"""<nav class="nav">
+    return f"""<nav class="nav" id="main-nav">
   <div class="nav-inner">
     <a href="{prefix}index.html" class="nav-logo"><span>Stratum</span> Cost Segregation</a>
-    <div class="nav-links">
+    <div class="nav-links" id="nav-menu">
       <a href="{prefix}services/index.html">Services</a>
       <a href="{prefix}how-it-works/index.html">How It Works</a>
       <a href="{prefix}pricing/index.html">Pricing</a>
       <a href="{prefix}blog/index.html">Blog</a>
       <a href="{prefix}reviews/index.html">Reviews</a>
       <a href="{prefix}contact/index.html">Contact</a>
-      <a href="{prefix}free-estimate/index.html" class="nav-cta">Free Estimate</a>
+      <a href="{prefix}free-estimate/index.html" class="nav-cta">Free Estimate &rarr;</a>
     </div>
-    <button class="mobile-toggle" onclick="document.querySelector('.nav-links').style.display=document.querySelector('.nav-links').style.display==='flex'?'none':'flex'" aria-label="Menu">&#9776;</button>
+    <button class="mobile-toggle" onclick="var m=document.getElementById('nav-menu');m.style.display=m.style.display==='flex'?'none':'flex'" aria-label="Menu">&#9776;</button>
   </div>
 </nav>"""
 
@@ -323,7 +48,12 @@ def get_footer(depth=0):
   <div class="footer-grid">
     <div>
       <div class="footer-brand"><span>Stratum</span> Cost Segregation</div>
-      <p class="footer-desc">Residential cost segregation studies for short-term and long-term rental property investors. Maximize your depreciation deductions and accelerate your tax savings.</p>
+      <p class="footer-desc">Engineering-based cost segregation studies for short-term and long-term rental property investors. Maximize depreciation deductions and accelerate tax savings across all 50 states.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="LinkedIn" title="LinkedIn">in</a>
+        <a href="#" aria-label="Twitter" title="Twitter">X</a>
+        <a href="#" aria-label="Facebook" title="Facebook">f</a>
+      </div>
     </div>
     <div>
       <h4>Services</h4>
@@ -353,8 +83,14 @@ def get_footer(depth=0):
       </ul>
     </div>
   </div>
+  <div class="footer-trust">
+    <div class="footer-trust-item"><span class="trust-icon">&#9733;</span> 4.9/5.0 Client Rating</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#128737;</span> IRS Audit-Ready</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#127968;</span> All 50 States</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#9989;</span> 5,000+ Studies Completed</div>
+  </div>
   <div class="footer-bottom">
-    &copy; {YEAR} Stratum Cost Segregation. All rights reserved.
+    &copy; {YEAR} Stratum Cost Segregation. All rights reserved. &nbsp;|&nbsp; Engineering-based tax solutions for rental property investors.
   </div>
 </footer>"""
 
@@ -364,7 +100,7 @@ def get_cta_banner(depth=0):
     return f"""<div class="cta-banner">
   <h2>Ready to Unlock Hidden Tax Savings?</h2>
   <p>Get a free, no-obligation estimate for your rental property cost segregation study.</p>
-  <a href="{prefix}free-estimate/index.html" class="btn btn-gold">Get Your Free Estimate</a>
+  <a href="{prefix}free-estimate/index.html" class="btn btn-gold">Get Your Free Estimate &rarr;</a>
 </div>"""
 
 
@@ -400,6 +136,7 @@ document.querySelectorAll('.faq-q').forEach(q => {
   <meta name="twitter:description" content="{og_desc}">
   <link rel="canonical" href="{canonical}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{css_path}">
   {schema}
@@ -409,6 +146,27 @@ document.querySelectorAll('.faq-q').forEach(q => {
   {body}
   {get_footer(depth)}
   {faq_js}
+  <script>
+  // Nav scroll effect
+  (function(){{
+    var nav=document.getElementById('main-nav');
+    if(!nav)return;
+    function onScroll(){{nav.classList.toggle('scrolled',window.scrollY>40);}}
+    window.addEventListener('scroll',onScroll,{{passive:true}});
+    onScroll();
+  }})();
+  // Scroll-triggered fade-in animations
+  (function(){{
+    var els=document.querySelectorAll('.fade-in-up');
+    if(!els.length)return;
+    var observer=new IntersectionObserver(function(entries){{
+      entries.forEach(function(e){{
+        if(e.isIntersecting){{e.target.classList.add('visible');observer.unobserve(e.target);}}
+      }});
+    }},{{threshold:0.1,rootMargin:'0px 0px -40px 0px'}});
+    els.forEach(function(el){{observer.observe(el);}});
+  }})();
+  </script>
 </body>
 </html>"""
 
@@ -431,19 +189,23 @@ def generate_homepage():
     <h1>Maximize Your Rental Property <span>Tax Savings</span></h1>
     <p>Stratum Cost Segregation delivers professional, IRS-compliant cost segregation studies for short-term and long-term rental property investors across all 50 states.</p>
     <div class="hero-buttons">
-      <a href="free-estimate/index.html" class="btn btn-gold">Get a Free Estimate</a>
+      <a href="free-estimate/index.html" class="btn btn-gold">Get a Free Estimate &rarr;</a>
       <a href="how-it-works/index.html" class="btn btn-outline">How It Works</a>
     </div>
   </div>
 </section>
 
+<div class="social-proof-bar">
+  <p>Trusted by <span>5,000+</span> rental property investors &nbsp;&bull;&nbsp; <span>$2.1B+</span> in tax savings identified &nbsp;&bull;&nbsp; All <span>50</span> states</p>
+</div>
+
 <section class="section">
   <div class="container">
     <div class="stats">
-      <div><div class="stat-num">$2.1B+</div><div class="stat-label">Tax Savings Identified</div></div>
-      <div><div class="stat-num">5,000+</div><div class="stat-label">Studies Completed</div></div>
-      <div><div class="stat-num">50</div><div class="stat-label">States Served</div></div>
-      <div><div class="stat-num">14 Days</div><div class="stat-label">Average Turnaround</div></div>
+      <div class="stat-item fade-in-up"><div class="stat-num">$2.1B+</div><div class="stat-label">Tax Savings Identified</div></div>
+      <div class="stat-item fade-in-up"><div class="stat-num">5,000+</div><div class="stat-label">Studies Completed</div></div>
+      <div class="stat-item fade-in-up"><div class="stat-num">50</div><div class="stat-label">States Served</div></div>
+      <div class="stat-item fade-in-up"><div class="stat-num">14 Days</div><div class="stat-label">Average Turnaround</div></div>
     </div>
   </div>
 </section>
@@ -453,32 +215,32 @@ def generate_homepage():
     <h2 class="section-title">Why Property Investors Choose Stratum</h2>
     <p class="section-subtitle">We specialize exclusively in residential cost segregation for STR and LTR investors, delivering precise, audit-ready studies.</p>
     <div class="card-grid">
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#9881;</div>
         <h3>Engineering-Based Studies</h3>
         <p>Our studies are prepared by licensed professionals using component-level analysis that meets IRS standards for audit defense. Every asset is individually identified and classified.</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#128176;</div>
         <h3>Maximize Depreciation</h3>
         <p>Reclassify 20-40% of your property cost basis into 5, 7, and 15-year recovery periods instead of 27.5 or 39 years. Accelerate deductions and improve cash flow from day one.</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#128640;</div>
         <h3>Fast 14-Day Delivery</h3>
         <p>Receive your completed, audit-ready cost segregation report within 14 business days. We know time matters during tax season and for year-end planning.</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#128737;</div>
         <h3>IRS Audit Protection</h3>
         <p>Every Stratum study includes comprehensive documentation, component photographs, and engineering methodology that withstands IRS examination.</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#127968;</div>
-        <h3>STR & LTR Specialists</h3>
+        <h3>STR &amp; LTR Specialists</h3>
         <p>We focus exclusively on residential rental properties, from Airbnb vacation rentals to traditional long-term rental portfolios. We understand the nuances of each strategy.</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#128200;</div>
         <h3>Look-Back Studies Available</h3>
         <p>Already own your property? File Form 3115 to claim missed depreciation from prior years without amending previous returns. Recover years of unclaimed deductions.</p>
@@ -492,15 +254,15 @@ def generate_homepage():
     <h2 class="section-title">How Cost Segregation Works</h2>
     <p class="section-subtitle">A straightforward process that accelerates your depreciation deductions and puts money back in your pocket.</p>
     <div class="card-grid">
-      <div class="card">
+      <div class="card fade-in-up">
         <h3>1. Property Analysis</h3>
         <p>Share your property details, closing statement, and photos. We evaluate whether a cost segregation study makes financial sense for your specific property and investment strategy.</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <h3>2. Engineering Study</h3>
         <p>Our team conducts a detailed component-level analysis, identifying and reclassifying building components into shorter MACRS recovery periods (5, 7, and 15-year property classes).</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <h3>3. Deliver Your Report</h3>
         <p>You receive a comprehensive, audit-ready report with all asset classifications, depreciation schedules, and supporting documentation. Your CPA files the study with your tax return.</p>
       </div>
@@ -566,35 +328,35 @@ def generate_services():
 <section class="section">
   <div class="container">
     <div class="card-grid">
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#127965;</div>
         <h3>Short-Term Rental Cost Segregation</h3>
         <p>Maximize depreciation on your Airbnb, VRBO, or vacation rental property. STR investors can often qualify for bonus depreciation to offset active income when they meet material participation requirements. Our studies identify every component eligible for accelerated recovery.</p>
         <p style="margin-top:16px;"><a href="../short-term-rental-cost-segregation/index.html" class="btn btn-outline" style="padding:10px 20px; font-size:0.9rem;">Learn More</a></p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#127970;</div>
         <h3>Long-Term Rental Cost Segregation</h3>
         <p>Accelerate deductions on your traditional rental properties with a study tailored to buy-and-hold investors. Even with passive activity limitations, LTR cost segregation creates significant tax-deferred cash flow advantages and portfolio-level depreciation strategies.</p>
         <p style="margin-top:16px;"><a href="../long-term-rental-cost-segregation/index.html" class="btn btn-outline" style="padding:10px 20px; font-size:0.9rem;">Learn More</a></p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#128203;</div>
         <h3>Look-Back / Catch-Up Studies</h3>
         <p>Already own your property and missed years of accelerated depreciation? File IRS Form 3115 to claim prior-year deductions in a single tax year without amending old returns. This is one of the most powerful tools in a real estate investor's tax toolkit.</p>
         <p style="margin-top:16px;"><a href="../blog/form-3115-look-back-cost-segregation/index.html" class="btn btn-outline" style="padding:10px 20px; font-size:0.9rem;">Learn More</a></p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#128269;</div>
         <h3>Partial Asset Disposition</h3>
         <p>Renovating your rental? A partial asset disposition study identifies components being replaced, allowing you to write off their remaining book value in the year of renovation. This pairs perfectly with a cost segregation study on the newly installed improvements.</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#128202;</div>
         <h3>Portfolio Studies</h3>
         <p>Own multiple rental properties? We offer portfolio pricing and batch processing to maximize efficiency across your entire real estate portfolio. One engagement, one point of contact, all properties analyzed.</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <div class="card-icon">&#128101;</div>
         <h3>CPA Partnership Program</h3>
         <p>We work directly with your CPA or tax advisor, providing all documentation and schedules needed to file the study. Our reports integrate seamlessly with major tax preparation software for efficient implementation.</p>
@@ -719,19 +481,19 @@ def generate_how_it_works():
   <div class="container">
     <h2 class="section-title">What You Need to Get Started</h2>
     <div class="card-grid" style="max-width:800px; margin:32px auto 0;">
-      <div class="card">
+      <div class="card fade-in-up">
         <h3>Closing Statement</h3>
         <p>Your HUD-1 settlement statement or closing disclosure showing the purchase price breakdown and transaction details.</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <h3>Property Photos</h3>
         <p>Interior and exterior photographs of the property. Listing photos from the purchase are typically sufficient for most studies.</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <h3>Renovation Documentation</h3>
         <p>If applicable, invoices and details for any renovations or improvements made to the property since purchase.</p>
       </div>
-      <div class="card">
+      <div class="card fade-in-up">
         <h3>Property Details</h3>
         <p>Basic information including property address, date placed in service, property type (STR or LTR), and your CPA contact.</p>
       </div>
@@ -760,7 +522,7 @@ def generate_pricing():
 <section class="section">
   <div class="container">
     <div class="pricing-grid">
-      <div class="pricing-card">
+      <div class="pricing-card fade-in-up">
         <h3>Single Property</h3>
         <div class="pricing-amount">$3,500</div>
         <p style="color:var(--text-muted); margin-bottom:24px;">Ideal for individual STR or LTR investors</p>
@@ -774,7 +536,7 @@ def generate_pricing():
         </ul>
         <a href="../free-estimate/index.html" class="btn btn-outline" style="width:100%;">Get Started</a>
       </div>
-      <div class="pricing-card featured">
+      <div class="pricing-card featured fade-in-up">
         <h3>Portfolio (3-5 Properties)</h3>
         <div class="pricing-amount">$2,900<span style="font-size:1rem; color:var(--text-muted);">/each</span></div>
         <p style="color:var(--text-muted); margin-bottom:24px;">Best value for growing portfolios</p>
@@ -788,7 +550,7 @@ def generate_pricing():
         </ul>
         <a href="../free-estimate/index.html" class="btn btn-gold" style="width:100%;">Get Started</a>
       </div>
-      <div class="pricing-card">
+      <div class="pricing-card fade-in-up">
         <h3>Enterprise (6+ Properties)</h3>
         <div class="pricing-amount">Custom</div>
         <p style="color:var(--text-muted); margin-bottom:24px;">For large portfolios and partnerships</p>
@@ -1007,12 +769,19 @@ def generate_reviews():
     review_cards = ""
     for text, name, loc, stars in reviews:
         star_str = "&#9733;" * stars
+        # Get initials for avatar circle
+        initials = "".join([part[0] for part in name.replace(",", "").split()[:2]])
         review_cards += f"""
-      <div class="review-card">
+      <div class="review-card fade-in-up">
         <div class="review-stars">{star_str}</div>
-        <p class="review-text">"{text}"</p>
-        <p class="review-author">{name}</p>
-        <p class="review-location">{loc}</p>
+        <p class="review-text">&ldquo;{text}&rdquo;</p>
+        <div style="display:flex;align-items:center;gap:14px;">
+          <div style="width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,rgba(200,160,82,0.2),rgba(200,160,82,0.05));border:1px solid rgba(200,160,82,0.2);display:flex;align-items:center;justify-content:center;color:var(--gold);font-weight:700;font-size:0.85rem;flex-shrink:0;">{initials}</div>
+          <div>
+            <p class="review-author">{name}</p>
+            <p class="review-location">{loc}</p>
+          </div>
+        </div>
       </div>"""
 
     body = f"""
@@ -1705,8 +1474,8 @@ def main():
 
     all_paths = []
 
-    # Write shared CSS
-    write_file("style.css", SHARED_CSS)
+    # Style CSS is maintained separately in style.css
+    # (no longer generated from SHARED_CSS)
 
     # Core pages
     print("\n--- Core Pages ---")
