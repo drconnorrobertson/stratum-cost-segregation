@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drconnorrobertson.github.io/stratum-cost-segregation/sitemap.xml
