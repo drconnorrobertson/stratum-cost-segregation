@@ -582,6 +582,9 @@ img { max-width: 100%; height: auto; display: block; }
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
 }
+#guide-list .blog-card[hidden] { display: none !important; }
+.card h3 a { color: var(--white); text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 4px; }
+.card h3 a:hover { color: var(--gold); }
 
 .blog-card-body { padding: 32px; }
 .blog-card h3 {
