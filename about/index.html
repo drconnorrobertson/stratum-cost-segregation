@@ -18,7 +18,7 @@
   <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
-  <nav class="nav" id="main-nav">
+        <nav class="nav" id="main-nav">
   <div class="nav-inner">
     <a href="../index.html" class="nav-logo"><span>Stratum</span> Cost Segregation</a>
     <div class="nav-links" id="nav-menu">
@@ -28,9 +28,9 @@
       <a href="../blog/index.html">Blog</a>
       <a href="../reviews/index.html">Study Standards</a>
       <a href="../contact/index.html">Contact</a>
-      <a href="https://www.aetaxadvisors.com/discovery/?utm_source=stratumcostsegregation.com&amp;utm_medium=referral&amp;utm_campaign=cost_segregation" class="nav-cta">Book a Free AE Tax Advisors Call &rarr;</a>
+      <a href="https://www.aetaxadvisors.com/discovery/?utm_source=stratumcostsegregation.com&amp;utm_medium=referral&amp;utm_campaign=cost_segregation" class="nav-cta">Book with AE Tax Advisors &rarr;</a>
     </div>
-    <button class="mobile-toggle" onclick="var m=document.getElementById('nav-menu');m.style.display=m.style.display==='flex'?'none':'flex'" aria-label="Menu">&#9776;</button>
+    <button class="mobile-toggle" type="button" aria-label="Open navigation" aria-controls="nav-menu" aria-expanded="false"><span aria-hidden="true">&#9776;</span></button>
   </div>
 </nav>
 <section class="hero" style="padding-bottom:60px;"><div class="container"><h1>About <span>Stratum</span> Cost Segregation</h1><p>Property-level cost segregation analysis with tax strategy coordination through AE Tax Advisors.</p></div></section>
@@ -42,11 +42,14 @@
 <h2>What Owners Should Expect</h2><ul><li>A scope based on the actual property and available records</li><li>Transparent assumptions and basis reconciliation</li><li>Component-level schedules and cited classification methodology</li><li>Coordination with AE Tax Advisors and the owner’s tax preparer</li><li>Clear disclosure that tax results depend on individual facts</li></ul>
 <div class="cta-banner"><h2>Start With Your Property Facts</h2><p>Book a discovery call with AE Tax Advisors to discuss whether a Stratum study may fit.</p><a href="https://www.aetaxadvisors.com/discovery/?utm_source=stratumcostsegregation.com&amp;utm_medium=referral&amp;utm_campaign=cost_segregation" class="btn btn-gold">Book a Free AE Tax Advisors Call &rarr;</a></div>
 </div></main>
-  <footer class="footer">
-  <div class="footer-partner" style="max-width:1100px;margin:0 auto 34px;padding:20px 24px;border:1px solid rgba(255,255,255,.15);border-radius:8px;">
-    <strong>Stratum Cost Segregation + AE Tax Advisors</strong>
-    <p style="margin:8px 0 12px;color:var(--text-muted);">Stratum focuses on cost segregation studies. AE Tax Advisors handles discovery calls and broader tax strategy discussions for investors referred from this site.</p>
-    <a href="https://www.aetaxadvisors.com/discovery/?utm_source=stratumcostsegregation.com&amp;utm_medium=referral&amp;utm_campaign=cost_segregation" style="color:var(--gold);">Book a call with AE Tax Advisors &rarr;</a>
+        <footer class="footer">
+  <div class="footer-partner">
+    <div class="footer-partner-copy">
+      <span class="eyebrow">One coordinated process</span>
+      <strong>Stratum studies. AE Tax strategy.</strong>
+      <p>Stratum documents the property. AE Tax Advisors leads the discovery call and broader strategy discussion.</p>
+    </div>
+    <a href="https://www.aetaxadvisors.com/discovery/?utm_source=stratumcostsegregation.com&amp;utm_medium=referral&amp;utm_campaign=cost_segregation" class="btn btn-outline">Book a Discovery Call &rarr;</a>
   </div>
 
   <div class="footer-grid">
@@ -69,7 +72,7 @@
         <li><a href="../blog/index.html">Blog</a></li>
         <li><a href="../faq/index.html">FAQ</a></li>
         <li><a href="../reviews/index.html">Study Standards</a></li>
-        <li><a href="/editorial-policy/">Editorial Policy</a></li>
+        <li><a href="../editorial-policy/index.html">Editorial Policy</a></li>
         <li><a href="../about/index.html">About Us</a></li>
       </ul>
     </div>
@@ -93,14 +96,36 @@
     &copy; 2026 Stratum Cost Segregation. All rights reserved. &nbsp;|&nbsp; Engineering-based tax solutions for rental property investors.
   </div>
 </footer>
+
+
+
   <script>
-  // Nav scroll effect
+  // Navigation behavior
   (function(){
     var nav=document.getElementById('main-nav');
     if(!nav)return;
     function onScroll(){nav.classList.toggle('scrolled',window.scrollY>40);}
     window.addEventListener('scroll',onScroll,{passive:true});
     onScroll();
+    var toggle=nav.querySelector('.mobile-toggle');
+    var menu=document.getElementById('nav-menu');
+    if(!toggle||!menu)return;
+    toggle.addEventListener('click',function(){
+      var open=toggle.getAttribute('aria-expanded')==='true';
+      toggle.setAttribute('aria-expanded',String(!open));
+      toggle.setAttribute('aria-label',open?'Open navigation':'Close navigation');
+      toggle.querySelector('span').textContent=open?'☰':'×';
+      menu.classList.toggle('is-open',!open);
+      document.body.classList.toggle('menu-open',!open);
+    });
+    menu.addEventListener('click',function(event){
+      if(event.target.tagName!=='A')return;
+      toggle.setAttribute('aria-expanded','false');
+      toggle.setAttribute('aria-label','Open navigation');
+      toggle.querySelector('span').textContent='☰';
+      menu.classList.remove('is-open');
+      document.body.classList.remove('menu-open');
+    });
   })();
   // Scroll-triggered fade-in animations
   (function(){

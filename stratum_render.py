@@ -36,9 +36,9 @@ def nav(depth):
       <a href="{r}blog/index.html">Blog</a>
       <a href="{r}reviews/index.html">Study Standards</a>
       <a href="{r}contact/index.html">Contact</a>
-      <a href="{AE_BOOKING}" class="nav-cta">Book a Free AE Tax Advisors Call &rarr;</a>
+      <a href="{AE_BOOKING}" class="nav-cta">Book with AE Tax Advisors &rarr;</a>
     </div>
-    <button class="mobile-toggle" onclick="var m=document.getElementById('nav-menu');m.style.display=m.style.display==='flex'?'none':'flex'" aria-label="Menu">&#9776;</button>
+    <button class="mobile-toggle" type="button" aria-label="Open navigation" aria-controls="nav-menu" aria-expanded="false"><span aria-hidden="true">&#9776;</span></button>
   </div>
 </nav>"""
 
@@ -46,21 +46,19 @@ def nav(depth):
 def footer(depth):
     r = _rel(depth)
     return f"""  <footer class="footer">
-  <div class="footer-partner" style="max-width:1100px;margin:0 auto 34px;padding:20px 24px;border:1px solid rgba(255,255,255,.15);border-radius:8px;">
-    <strong>Stratum Cost Segregation + AE Tax Advisors</strong>
-    <p style="margin:8px 0 12px;color:var(--text-muted);">Stratum focuses on cost segregation studies. AE Tax Advisors handles discovery calls and broader tax strategy discussions for investors referred from this site.</p>
-    <a href="{AE_BOOKING}" style="color:var(--gold);">Book a call with AE Tax Advisors &rarr;</a>
+  <div class="footer-partner">
+    <div class="footer-partner-copy">
+      <span class="eyebrow">One coordinated process</span>
+      <strong>Stratum studies. AE Tax strategy.</strong>
+      <p>Stratum documents the property. AE Tax Advisors leads the discovery call and broader strategy discussion.</p>
+    </div>
+    <a href="{AE_BOOKING}" class="btn btn-outline">Book a Discovery Call &rarr;</a>
   </div>
 
   <div class="footer-grid">
     <div>
       <div class="footer-brand"><span>Stratum</span> Cost Segregation</div>
       <p class="footer-desc">Engineering-based cost segregation studies for short-term and long-term rental property investors, with tax strategy coordination through AE Tax Advisors.</p>
-      <div class="footer-social">
-        <a href="#" aria-label="LinkedIn" title="LinkedIn">in</a>
-        <a href="#" aria-label="Twitter" title="Twitter">X</a>
-        <a href="#" aria-label="Facebook" title="Facebook">f</a>
-      </div>
     </div>
     <div>
       <h4>Services</h4>
@@ -109,13 +107,32 @@ ANALYTICS = """  <script>
   <script defer src="/_vercel/insights/script.js"></script>"""
 
 SCRIPTS = """  <script>
-  // Nav scroll effect
+  // Navigation behavior
   (function(){
     var nav=document.getElementById('main-nav');
     if(!nav)return;
     function onScroll(){nav.classList.toggle('scrolled',window.scrollY>40);}
     window.addEventListener('scroll',onScroll,{passive:true});
     onScroll();
+    var toggle=nav.querySelector('.mobile-toggle');
+    var menu=document.getElementById('nav-menu');
+    if(!toggle||!menu)return;
+    toggle.addEventListener('click',function(){
+      var open=toggle.getAttribute('aria-expanded')==='true';
+      toggle.setAttribute('aria-expanded',String(!open));
+      toggle.setAttribute('aria-label',open?'Open navigation':'Close navigation');
+      toggle.querySelector('span').textContent=open?'\u2630':'\u00d7';
+      menu.classList.toggle('is-open',!open);
+      document.body.classList.toggle('menu-open',!open);
+    });
+    menu.addEventListener('click',function(event){
+      if(event.target.tagName!=='A')return;
+      toggle.setAttribute('aria-expanded','false');
+      toggle.setAttribute('aria-label','Open navigation');
+      toggle.querySelector('span').textContent='\u2630';
+      menu.classList.remove('is-open');
+      document.body.classList.remove('menu-open');
+    });
   })();
   // Scroll-triggered fade-in animations
   (function(){

@@ -9,7 +9,7 @@
   </script>
   <script defer src="/_vercel/insights/script.js"></script>
 </head><body>
-  <nav class="nav" id="main-nav">
+        <nav class="nav" id="main-nav">
   <div class="nav-inner">
     <a href="../index.html" class="nav-logo"><span>Stratum</span> Cost Segregation</a>
     <div class="nav-links" id="nav-menu">
@@ -19,9 +19,9 @@
       <a href="../blog/index.html">Blog</a>
       <a href="../reviews/index.html">Study Standards</a>
       <a href="../contact/index.html">Contact</a>
-      <a href="https://www.aetaxadvisors.com/discovery/?utm_source=stratumcostsegregation.com&amp;utm_medium=referral&amp;utm_campaign=cost_segregation" class="nav-cta">Book a Free AE Tax Advisors Call &rarr;</a>
+      <a href="https://www.aetaxadvisors.com/discovery/?utm_source=stratumcostsegregation.com&amp;utm_medium=referral&amp;utm_campaign=cost_segregation" class="nav-cta">Book with AE Tax Advisors &rarr;</a>
     </div>
-    <button class="mobile-toggle" onclick="var m=document.getElementById('nav-menu');m.style.display=m.style.display==='flex'?'none':'flex'" aria-label="Menu">&#9776;</button>
+    <button class="mobile-toggle" type="button" aria-label="Open navigation" aria-controls="nav-menu" aria-expanded="false"><span aria-hidden="true">&#9776;</span></button>
   </div>
 </nav><section class="hero" style="padding-bottom:60px;"><div class="container"><h1>Cost Segregation <span>Calculator</span></h1><p>Estimate a planning range for accelerated depreciation. See every assumption, then discuss the result with your tax advisor.</p></div></section>
 <section class="section"><div class="container calc-layout"><form class="calc-panel" id="costseg-calculator"><h2>Property Inputs</h2>
@@ -32,17 +32,20 @@
 <div class="form-group"><label for="bonus-rate">Bonus depreciation assumption</label><div class="input-suffix"><input id="bonus-rate" type="number" min="0" max="100" step="1" value="100"><span>%</span></div></div></div>
 <button class="btn btn-gold" type="submit">Update Estimate</button><p class="calc-note">Use the bonus percentage your tax advisor confirms for the property's placed-in-service date and facts.</p></form>
 <div class="calc-results" aria-live="polite"><p class="eyebrow">Planning estimate</p><h2>Potential first-year impact</h2><div class="result-grid"><div><span>Basis reclassified</span><strong id="reclass-result">$0 to $0</strong></div><div><span>Additional first-year depreciation</span><strong id="deduction-result">$0 to $0</strong></div><div><span>Potential federal and state tax deferral</span><strong id="savings-result">$0 to $0</strong></div></div><div class="assumptions" id="assumptions"></div><a href="https://www.aetaxadvisors.com/discovery/?utm_source=stratumcostsegregation.com&amp;utm_medium=referral&amp;utm_campaign=cost_segregation" class="btn btn-outline">Review This Estimate with AE Tax Advisors &rarr;</a></div></div></section>
-<section class="section section-alt"><div class="container" style="max-width:900px;"><h2 class="section-title">How the Estimate Works</h2><p>The calculator applies a low and high reclassification assumption to the depreciable building basis. It estimates first-year depreciation on that short-life basis using the bonus percentage you enter plus a 15% blended first-year MACRS assumption on the remaining short-life basis. It compares that amount with straight-line building depreciation.</p><p>The result is a range, not a quote or tax opinion. It does not model passive-activity loss limits, real estate professional status, the short-term rental material-participation rules, state depreciation adjustments, interest limits, at-risk limits, recapture, or time value of money. A study determines classification; a tax advisor determines how the deduction fits your return.</p><h2>What to Do Next</h2><p>Gather the closing statement, land allocation, depreciation schedule, placed-in-service date, renovation costs, and any construction drawings. Browse the <a href="../property-types/index.html">property type guides</a>, then use the estimate to frame a discovery call.</p></div></section>  <footer class="footer">
-  <div class="footer-partner" style="max-width:1100px;margin:0 auto 34px;padding:20px 24px;border:1px solid rgba(255,255,255,.15);border-radius:8px;">
-    <strong>Stratum Cost Segregation + AE Tax Advisors</strong>
-    <p style="margin:8px 0 12px;color:var(--text-muted);">Stratum focuses on cost segregation studies. AE Tax Advisors handles discovery calls and broader tax strategy discussions for investors referred from this site.</p>
-    <a href="https://www.aetaxadvisors.com/discovery/?utm_source=stratumcostsegregation.com&amp;utm_medium=referral&amp;utm_campaign=cost_segregation" style="color:var(--gold);">Book a call with AE Tax Advisors &rarr;</a>
+<section class="section section-alt"><div class="container" style="max-width:900px;"><h2 class="section-title">How the Estimate Works</h2><p>The calculator applies a low and high reclassification assumption to the depreciable building basis. It estimates first-year depreciation on that short-life basis using the bonus percentage you enter plus a 15% blended first-year MACRS assumption on the remaining short-life basis. It compares that amount with straight-line building depreciation.</p><p>The result is a range, not a quote or tax opinion. It does not model passive-activity loss limits, real estate professional status, the short-term rental material-participation rules, state depreciation adjustments, interest limits, at-risk limits, recapture, or time value of money. A study determines classification; a tax advisor determines how the deduction fits your return.</p><h2>What to Do Next</h2><p>Gather the closing statement, land allocation, depreciation schedule, placed-in-service date, renovation costs, and any construction drawings. Browse the <a href="../property-types/index.html">property type guides</a>, then use the estimate to frame a discovery call.</p></div></section>        <footer class="footer">
+  <div class="footer-partner">
+    <div class="footer-partner-copy">
+      <span class="eyebrow">One coordinated process</span>
+      <strong>Stratum studies. AE Tax strategy.</strong>
+      <p>Stratum documents the property. AE Tax Advisors leads the discovery call and broader strategy discussion.</p>
+    </div>
+    <a href="https://www.aetaxadvisors.com/discovery/?utm_source=stratumcostsegregation.com&amp;utm_medium=referral&amp;utm_campaign=cost_segregation" class="btn btn-outline">Book a Discovery Call &rarr;</a>
   </div>
 
   <div class="footer-grid">
     <div>
       <div class="footer-brand"><span>Stratum</span> Cost Segregation</div>
-      <p class="footer-desc">Engineering-based cost segregation studies for short-term and long-term rental property investors. Identify and document property components for depreciation analysis across all 50 states.</p>
+      <p class="footer-desc">Engineering-based cost segregation studies for short-term and long-term rental property investors, with tax strategy coordination through AE Tax Advisors.</p>
     </div>
     <div>
       <h4>Services</h4>
@@ -59,8 +62,8 @@
         <li><a href="../blog/index.html">Blog</a></li>
         <li><a href="../faq/index.html">FAQ</a></li>
         <li><a href="../reviews/index.html">Study Standards</a></li>
+        <li><a href="../editorial-policy/index.html">Editorial Policy</a></li>
         <li><a href="../about/index.html">About Us</a></li>
-      <li><a href="/editorial-policy/">Editorial Policy</a></li>
       </ul>
     </div>
     <div>
@@ -82,14 +85,41 @@
   <div class="footer-bottom">
     &copy; 2026 Stratum Cost Segregation. All rights reserved. &nbsp;|&nbsp; Engineering-based tax solutions for rental property investors.
   </div>
-</footer>  <script>
-  // Nav scroll effect
+</footer>  <script>(function(){
+const f=document.getElementById('costseg-calculator'),money=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
+function calculate(e){if(e)e.preventDefault();const basis=Math.max(0,Number(document.getElementById('basis').value)||0),parts=document.getElementById('property-type').value.split(',').map(Number),life=Number(document.getElementById('recovery').value),tax=Math.max(0,Number(document.getElementById('tax-rate').value)||0)/100,bonus=Math.min(1,Math.max(0,Number(document.getElementById('bonus-rate').value)||0)/100),baseRate=1/life,shortRate=bonus+(1-bonus)*.15;
+const lowBasis=basis*parts[0]/100,highBasis=basis*parts[1]/100,lowExtra=Math.max(0,lowBasis*(shortRate-baseRate)),highExtra=Math.max(0,highBasis*(shortRate-baseRate));
+document.getElementById('reclass-result').textContent=money.format(lowBasis)+' to '+money.format(highBasis);document.getElementById('deduction-result').textContent=money.format(lowExtra)+' to '+money.format(highExtra);document.getElementById('savings-result').textContent=money.format(lowExtra*tax)+' to '+money.format(highExtra*tax);document.getElementById('assumptions').innerHTML='<strong>Assumptions used:</strong> '+parts[0]+'% to '+parts[1]+'% reclassified, '+Math.round(bonus*100)+'% bonus depreciation, '+life+'-year building life, and '+Math.round(tax*100)+'% combined marginal rate.';}
+f.addEventListener('submit',calculate);f.addEventListener('input',calculate);calculate();})();</script>
+
+
+  <script>
+  // Navigation behavior
   (function(){
     var nav=document.getElementById('main-nav');
     if(!nav)return;
     function onScroll(){nav.classList.toggle('scrolled',window.scrollY>40);}
     window.addEventListener('scroll',onScroll,{passive:true});
     onScroll();
+    var toggle=nav.querySelector('.mobile-toggle');
+    var menu=document.getElementById('nav-menu');
+    if(!toggle||!menu)return;
+    toggle.addEventListener('click',function(){
+      var open=toggle.getAttribute('aria-expanded')==='true';
+      toggle.setAttribute('aria-expanded',String(!open));
+      toggle.setAttribute('aria-label',open?'Open navigation':'Close navigation');
+      toggle.querySelector('span').textContent=open?'☰':'×';
+      menu.classList.toggle('is-open',!open);
+      document.body.classList.toggle('menu-open',!open);
+    });
+    menu.addEventListener('click',function(event){
+      if(event.target.tagName!=='A')return;
+      toggle.setAttribute('aria-expanded','false');
+      toggle.setAttribute('aria-label','Open navigation');
+      toggle.querySelector('span').textContent='☰';
+      menu.classList.remove('is-open');
+      document.body.classList.remove('menu-open');
+    });
   })();
   // Scroll-triggered fade-in animations
   (function(){
@@ -102,17 +132,13 @@
     },{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
     els.forEach(function(el){observer.observe(el);});
   })();
-  </script><script>(function(){
-const f=document.getElementById('costseg-calculator'),money=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
-function calculate(e){if(e)e.preventDefault();const basis=Math.max(0,Number(document.getElementById('basis').value)||0),parts=document.getElementById('property-type').value.split(',').map(Number),life=Number(document.getElementById('recovery').value),tax=Math.max(0,Number(document.getElementById('tax-rate').value)||0)/100,bonus=Math.min(1,Math.max(0,Number(document.getElementById('bonus-rate').value)||0)/100),baseRate=1/life,shortRate=bonus+(1-bonus)*.15;
-const lowBasis=basis*parts[0]/100,highBasis=basis*parts[1]/100,lowExtra=Math.max(0,lowBasis*(shortRate-baseRate)),highExtra=Math.max(0,highBasis*(shortRate-baseRate));
-document.getElementById('reclass-result').textContent=money.format(lowBasis)+' to '+money.format(highBasis);document.getElementById('deduction-result').textContent=money.format(lowExtra)+' to '+money.format(highExtra);document.getElementById('savings-result').textContent=money.format(lowExtra*tax)+' to '+money.format(highExtra*tax);document.getElementById('assumptions').innerHTML='<strong>Assumptions used:</strong> '+parts[0]+'% to '+parts[1]+'% reclassified, '+Math.round(bonus*100)+'% bonus depreciation, '+life+'-year building life, and '+Math.round(tax*100)+'% combined marginal rate.';}
-f.addEventListener('submit',calculate);f.addEventListener('input',calculate);calculate();})();</script><script>
+  // Measure outbound discovery-call clicks without collecting form or tax data.
   document.addEventListener('click',function(event){
     var link=event.target.closest('a[href*="aetaxadvisors.com/discovery"]');
     if(!link||!window.va)return;
-    var placement=link.classList.contains('nav-cta')?'navigation':link.closest('.cta-banner')?'content-cta':link.closest('footer')?'footer':'inline';
+    var placement=link.classList.contains('nav-cta')?'navigation':
+      link.closest('.cta-banner')?'content-cta':link.closest('footer')?'footer':'inline';
     window.va('event',{name:'AE Discovery Click',data:{path:location.pathname,placement:placement}});
   });
-</script>
+  </script>
 </body></html>
