@@ -34,7 +34,7 @@ def nav(depth):
       <a href="{r}how-it-works/index.html">How It Works</a>
       <a href="{r}pricing/index.html">Pricing</a>
       <a href="{r}blog/index.html">Blog</a>
-      <a href="{r}reviews/index.html">Reviews</a>
+      <a href="{r}reviews/index.html">Study Standards</a>
       <a href="{r}contact/index.html">Contact</a>
       <a href="{AE_BOOKING}" class="nav-cta">Book a Free AE Tax Advisors Call &rarr;</a>
     </div>
@@ -55,7 +55,7 @@ def footer(depth):
   <div class="footer-grid">
     <div>
       <div class="footer-brand"><span>Stratum</span> Cost Segregation</div>
-      <p class="footer-desc">Engineering-based cost segregation studies for short-term and long-term rental property investors. Maximize depreciation deductions and accelerate tax savings across all 50 states.</p>
+      <p class="footer-desc">Engineering-based cost segregation studies for short-term and long-term rental property investors, with tax strategy coordination through AE Tax Advisors.</p>
       <div class="footer-social">
         <a href="#" aria-label="LinkedIn" title="LinkedIn">in</a>
         <a href="#" aria-label="Twitter" title="Twitter">X</a>
@@ -76,7 +76,8 @@ def footer(depth):
       <ul class="footer-links">
         <li><a href="{r}blog/index.html">Blog</a></li>
         <li><a href="{r}faq/index.html">FAQ</a></li>
-        <li><a href="{r}reviews/index.html">Reviews</a></li>
+        <li><a href="{r}reviews/index.html">Study Standards</a></li>
+        <li><a href="{r}editorial-policy/index.html">Editorial Policy</a></li>
         <li><a href="{r}about/index.html">About Us</a></li>
       </ul>
     </div>
@@ -91,16 +92,21 @@ def footer(depth):
     </div>
   </div>
   <div class="footer-trust">
-    <div class="footer-trust-item"><span class="trust-icon">&#9733;</span> 4.9/5.0 Client Rating</div>
-    <div class="footer-trust-item"><span class="trust-icon">&#128737;</span> IRS Audit-Ready</div>
-    <div class="footer-trust-item"><span class="trust-icon">&#127968;</span> All 50 States</div>
-    <div class="footer-trust-item"><span class="trust-icon">&#9989;</span> 5,000+ Studies Completed</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#128736;</span> Engineering-Based Methodology</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#128196;</span> Component-Level Reporting</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#127968;</span> Nationwide Service</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#129309;</span> AE Tax Strategy Coordination</div>
   </div>
   <div class="footer-bottom">
     &copy; 2026 Stratum Cost Segregation. All rights reserved. &nbsp;|&nbsp; Engineering-based tax solutions for rental property investors.
   </div>
 </footer>"""
 
+
+ANALYTICS = """  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>"""
 
 SCRIPTS = """  <script>
   // Nav scroll effect
@@ -122,6 +128,14 @@ SCRIPTS = """  <script>
     },{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
     els.forEach(function(el){observer.observe(el);});
   })();
+  // Measure outbound discovery-call clicks without collecting form or tax data.
+  document.addEventListener('click',function(event){
+    var link=event.target.closest('a[href*="aetaxadvisors.com/discovery"]');
+    if(!link||!window.va)return;
+    var placement=link.classList.contains('nav-cta')?'navigation':
+      link.closest('.cta-banner')?'content-cta':link.closest('footer')?'footer':'inline';
+    window.va('event',{name:'AE Discovery Click',data:{path:location.pathname,placement:placement}});
+  });
   </script>"""
 
 
@@ -213,7 +227,8 @@ def render_post(post):
             "description": desc,
             "datePublished": iso,
             "dateModified": iso,
-            "author": {"@type": "Organization", "name": "Stratum Cost Segregation", "@id": f"{BASE_URL}/#organization"},
+            "author": {"@type": "Person", "name": "Dr. Connor Robertson", "url": "https://www.drconnorrobertson.com/"},
+            "reviewedBy": {"@type": "Organization", "name": "AE Tax Advisors Tax Team", "url": "https://www.aetaxadvisors.com/"},
             "publisher": {"@id": f"{BASE_URL}/#organization"},
             "mainEntityOfPage": {"@type": "WebPage", "@id": url},
             "url": url,
@@ -261,6 +276,7 @@ def render_post(post):
   <link rel="stylesheet" href="../../style.css">
 
 <script type="application/ld+json">{ld}</script>
+{ANALYTICS}
 </head>
 <body>
 {nav(2)}
@@ -270,7 +286,7 @@ def render_post(post):
     <a href="../../index.html">Home</a> &raquo; <a href="../index.html">Blog</a> &raquo; <span>{title}</span>
   </div>
   <h1>{title}</h1>
-  <div class="meta">{post['date']} &middot; Stratum Cost Segregation</div>
+  <div class="meta">{post['date']} &middot; Published by <a href="https://www.drconnorrobertson.com/">Dr. Connor Robertson</a> &middot; Tax review by <a href="https://www.aetaxadvisors.com/">AE Tax Advisors Tax Team</a> &middot; <a href="../../editorial-policy/index.html">Editorial policy</a></div>
 
 {body_html}
 {related}  <div class="cta-banner">

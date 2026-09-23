@@ -33,7 +33,7 @@ def get_nav(depth=0):
       <a href="{prefix}how-it-works/index.html">How It Works</a>
       <a href="{prefix}pricing/index.html">Pricing</a>
       <a href="{prefix}blog/index.html">Blog</a>
-      <a href="{prefix}reviews/index.html">Reviews</a>
+      <a href="{prefix}reviews/index.html">Study Standards</a>
       <a href="{prefix}contact/index.html">Contact</a>
       <a href="{prefix}free-estimate/index.html" class="nav-cta">Free Estimate &rarr;</a>
     </div>
@@ -69,7 +69,7 @@ def get_footer(depth=0):
       <ul class="footer-links">
         <li><a href="{prefix}blog/index.html">Blog</a></li>
         <li><a href="{prefix}faq/index.html">FAQ</a></li>
-        <li><a href="{prefix}reviews/index.html">Reviews</a></li>
+        <li><a href="{prefix}reviews/index.html">Study Standards</a></li>
         <li><a href="{prefix}about/index.html">About Us</a></li>
       </ul>
     </div>
@@ -84,10 +84,10 @@ def get_footer(depth=0):
     </div>
   </div>
   <div class="footer-trust">
-    <div class="footer-trust-item"><span class="trust-icon">&#9733;</span> 4.9/5.0 Client Rating</div>
-    <div class="footer-trust-item"><span class="trust-icon">&#128737;</span> IRS Audit-Ready</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#9733;</span> Component-Level Reporting</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#128737;</span> Documented Methodology</div>
     <div class="footer-trust-item"><span class="trust-icon">&#127968;</span> All 50 States</div>
-    <div class="footer-trust-item"><span class="trust-icon">&#9989;</span> 5,000+ Studies Completed</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#9989;</span> AE Tax Strategy Coordination</div>
   </div>
   <div class="footer-bottom">
     &copy; {YEAR} Stratum Cost Segregation. All rights reserved. &nbsp;|&nbsp; Engineering-based tax solutions for rental property investors.
@@ -187,7 +187,7 @@ def generate_homepage():
 <section class="hero">
   <div class="container">
     <h1>Maximize Your Rental Property <span>Tax Savings</span></h1>
-    <p>Stratum Cost Segregation delivers professional, IRS-compliant cost segregation studies for short-term and long-term rental property investors across all 50 states.</p>
+    <p>Stratum Cost Segregation delivers professional, engineering-based cost segregation studies for short-term and long-term rental property investors across all 50 states.</p>
     <div class="hero-buttons">
       <a href="free-estimate/index.html" class="btn btn-gold">Get a Free Estimate &rarr;</a>
       <a href="how-it-works/index.html" class="btn btn-outline">How It Works</a>
@@ -196,14 +196,14 @@ def generate_homepage():
 </section>
 
 <div class="social-proof-bar">
-  <p>Trusted by <span>5,000+</span> rental property investors &nbsp;&bull;&nbsp; <span>$2.1B+</span> in tax savings identified &nbsp;&bull;&nbsp; All <span>50</span> states</p>
+  <p>Engineering-based property studies &nbsp;&bull;&nbsp; Transparent assumptions &nbsp;&bull;&nbsp; Tax strategy coordination with AE Tax Advisors</p>
 </div>
 
 <section class="section">
   <div class="container">
     <div class="stats">
-      <div class="stat-item fade-in-up"><div class="stat-num">$2.1B+</div><div class="stat-label">Tax Savings Identified</div></div>
-      <div class="stat-item fade-in-up"><div class="stat-num">5,000+</div><div class="stat-label">Studies Completed</div></div>
+      <div class="stat-item fade-in-up"><div class="stat-num">5, 7 &amp; 15</div><div class="stat-label">Year Property Classes Analyzed</div></div>
+      <div class="stat-item fade-in-up"><div class="stat-num">1</div><div class="stat-label">Component-Level Report</div></div>
       <div class="stat-item fade-in-up"><div class="stat-num">50</div><div class="stat-label">States Served</div></div>
       <div class="stat-item fade-in-up"><div class="stat-num">14 Days</div><div class="stat-label">Average Turnaround</div></div>
     </div>
@@ -213,7 +213,7 @@ def generate_homepage():
 <section class="section section-alt">
   <div class="container">
     <h2 class="section-title">Why Property Investors Choose Stratum</h2>
-    <p class="section-subtitle">We specialize exclusively in residential cost segregation for STR and LTR investors, delivering precise, audit-ready studies.</p>
+    <p class="section-subtitle">We specialize exclusively in residential cost segregation for STR and LTR investors, delivering precise, well-documented studies.</p>
     <div class="card-grid">
       <div class="card fade-in-up">
         <div class="card-icon">&#9881;</div>
@@ -228,7 +228,7 @@ def generate_homepage():
       <div class="card fade-in-up">
         <div class="card-icon">&#128640;</div>
         <h3>Fast 14-Day Delivery</h3>
-        <p>Receive your completed, audit-ready cost segregation report within 14 business days. We know time matters during tax season and for year-end planning.</p>
+        <p>Receive your completed, well-documented cost segregation report within 14 business days. We know time matters during tax season and for year-end planning.</p>
       </div>
       <div class="card fade-in-up">
         <div class="card-icon">&#128737;</div>
@@ -264,7 +264,7 @@ def generate_homepage():
       </div>
       <div class="card fade-in-up">
         <h3>3. Deliver Your Report</h3>
-        <p>You receive a comprehensive, audit-ready report with all asset classifications, depreciation schedules, and supporting documentation. Your CPA files the study with your tax return.</p>
+        <p>You receive a comprehensive, well-documented report with all asset classifications, depreciation schedules, and supporting documentation. Your CPA files the study with your tax return.</p>
       </div>
     </div>
   </div>
@@ -288,7 +288,7 @@ def generate_about():
 <section class="hero" style="padding-bottom:60px;">
   <div class="container">
     <h1>About <span>Stratum</span> Cost Segregation</h1>
-    <p>We are a team of tax professionals and engineers dedicated to helping residential rental property investors maximize their depreciation deductions through IRS-compliant cost segregation studies.</p>
+    <p>We are a team of tax professionals and engineers dedicated to helping residential rental property investors maximize their depreciation deductions through engineering-based cost segregation studies.</p>
   </div>
 </section>
 <section class="section">
@@ -298,7 +298,7 @@ def generate_about():
     <p style="color:var(--text-muted); margin-bottom:24px;">Too many property investors leave money on the table because they either do not know about cost segregation or believe it is only for large commercial buildings. That is not the case. A single-family rental purchased for $350,000 can yield $25,000 to $50,000 in first-year depreciation deductions through a properly conducted cost segregation study.</p>
     <h2 class="section-title" style="text-align:left; font-size:1.8rem; margin-top:48px;">Why Stratum?</h2>
     <p style="color:var(--text-muted); margin-bottom:24px;">The name Stratum comes from the geological concept of layers. Just as the earth is composed of distinct strata, every building is composed of distinct components with different useful lives. Our job is to identify each layer and classify it correctly under the IRS tax code, unlocking deductions that straight-line depreciation would spread over decades.</p>
-    <p style="color:var(--text-muted); margin-bottom:24px;">We serve property investors in all 50 states and have completed over 5,000 studies. Our reports are prepared by licensed engineers and reviewed by tax professionals, ensuring they meet the highest standards for IRS compliance and audit defense.</p>
+    <p style="color:var(--text-muted); margin-bottom:24px;">We serve property investors nationwide. Each engagement defines the study scope, available records, methodology, assumptions, and coordination required with the owner's tax professional.</p>
     <h2 class="section-title" style="text-align:left; font-size:1.8rem; margin-top:48px;">Our Values</h2>
     <p style="color:var(--text-muted); margin-bottom:12px;"><strong style="color:var(--gold);">Precision.</strong> Every component is individually identified and classified. No shortcuts, no estimates.</p>
     <p style="color:var(--text-muted); margin-bottom:12px;"><strong style="color:var(--gold);">Transparency.</strong> Clear pricing, clear timelines, and clear reports. No hidden fees or upsells.</p>
@@ -322,7 +322,7 @@ def generate_services():
 <section class="hero" style="padding-bottom:60px;">
   <div class="container">
     <h1>Cost Segregation <span>Services</span></h1>
-    <p>Professional, IRS-compliant cost segregation studies designed specifically for residential rental property investors.</p>
+    <p>Professional, engineering-based cost segregation studies designed specifically for residential rental property investors.</p>
   </div>
 </section>
 <section class="section">
@@ -528,7 +528,7 @@ def generate_pricing():
         <p style="color:var(--text-muted); margin-bottom:24px;">Ideal for individual STR or LTR investors</p>
         <ul class="pricing-features">
           <li>Full engineering-based study</li>
-          <li>IRS audit-ready documentation</li>
+          <li>well-documented methodology and supporting records</li>
           <li>14-day delivery</li>
           <li>CPA coordination included</li>
           <li>Form 3115 guidance if applicable</li>
@@ -597,11 +597,11 @@ def generate_faq():
         ("How does cost segregation work with passive activity rules?", "Rental income is generally classified as passive, meaning deductions can only offset passive income. However, investors who qualify as Real Estate Professionals under IRC Section 469 can use passive losses to offset active income. Additionally, short-term rental properties with an average guest stay of seven days or less may be treated as non-passive if the owner materially participates."),
         ("Can my CPA do a cost segregation study?", "While CPAs are qualified to advise on the tax implications, a cost segregation study requires engineering expertise to identify and classify building components. The IRS expects cost segregation studies to be prepared by professionals with engineering or construction knowledge. Stratum works directly with your CPA to implement the study."),
         ("What is the minimum property value for cost segregation?", "We generally recommend cost segregation for properties with a purchase price of $150,000 or more (excluding land). Below this threshold, the study fee may not be justified by the tax savings. However, portfolio investors with multiple lower-value properties can still benefit from batch processing and portfolio-level strategies."),
-        ("Do you serve all 50 states?", "Yes. Stratum Cost Segregation serves property investors in all 50 states. Our desktop analysis methodology allows us to deliver high-quality, IRS-compliant studies regardless of property location. We have completed studies in every major market and vacation rental destination in the country."),
+        ("Do you serve all 50 states?", "Yes. Stratum Cost Segregation serves property investors in all 50 states. Our desktop analysis methodology allows us to deliver high-quality, engineering-based studies regardless of property location. We have completed studies in every major market and vacation rental destination in the country."),
         ("What happens after I receive my report?", "After receiving your cost segregation report, you or your CPA uses the asset classifications and depreciation schedules to file the appropriate forms with your tax return. For new properties, the accelerated depreciation is included on your current-year return. For existing properties, your CPA files Form 3115 to claim prior-year missed depreciation."),
         ("Is the cost segregation fee tax-deductible?", "Yes. The fee for a cost segregation study is fully tax-deductible as a business expense (investment expense) in the year it is paid. This further increases the return on investment of the study."),
         ("How much can I save with cost segregation?", "Savings vary based on property value, type, and your tax bracket. As a general rule, a cost segregation study can accelerate 20-40% of your property's depreciable basis into 5, 7, and 15-year categories. For a $400,000 property, this could mean $60,000 to $120,000 in first-year deductions, translating to $15,000 to $45,000 in tax savings depending on your marginal tax rate."),
-        ("What makes Stratum different from other cost segregation firms?", "Stratum focuses exclusively on residential rental properties for STR and LTR investors. Our engineering-based methodology, 14-day turnaround, flat-fee pricing, and IRS audit-ready documentation set us apart. We also offer portfolio pricing, CPA coordination, and Form 3115 guidance as standard inclusions with every study."),
+        ("What makes Stratum different from other cost segregation firms?", "Stratum focuses exclusively on residential rental properties for STR and LTR investors. Our engineering-based methodology, 14-day turnaround, flat-fee pricing, and well-documented methodology and supporting records set us apart. We also offer portfolio pricing, CPA coordination, and Form 3115 guidance as standard inclusions with every study."),
     ]
 
     faq_schema = {
@@ -741,66 +741,21 @@ def generate_blog_index():
 
 
 def generate_reviews():
-    reviews = [
-        ("Our cost segregation study identified over $120,000 in accelerated deductions on a $450,000 vacation rental. The tax savings in year one alone were more than 10x the cost of the study.", "Michael T.", "Airbnb Investor, Nashville TN", 5),
-        ("Stratum made the entire process effortless. I sent my closing docs and photos, and two weeks later had a comprehensive report my CPA was able to file immediately.", "Sarah K.", "STR Investor, Scottsdale AZ", 5),
-        ("I had owned my rental for three years before discovering cost segregation. Stratum did a look-back study and I claimed all three years of missed depreciation in one shot. Game changer.", "David R.", "LTR Investor, Austin TX", 5),
-        ("As a CPA, I refer all my real estate clients to Stratum. Their reports are thorough, well-documented, and formatted exactly how I need them for filing. Great to work with.", "Jennifer L., CPA", "Tax Professional, Denver CO", 5),
-        ("Five properties across three states and Stratum handled all of them in a single engagement. The portfolio pricing saved me thousands compared to getting individual studies.", "Robert M.", "Portfolio Investor, Charlotte NC", 5),
-        ("I was skeptical about desktop cost segregation studies, but the level of detail in my Stratum report was impressive. Every component was individually identified and classified.", "Amanda W.", "VRBO Host, Destin FL", 5),
-        ("The Form 3115 look-back study was the best financial decision I made all year. Recovered four years of missed depreciation in one tax filing. Highly recommend.", "Chris P.", "Real Estate Investor, Pittsburgh PA", 5),
-        ("Fast turnaround, fair pricing, and a report that my CPA said was one of the best-documented studies he had ever seen. Will use Stratum again for my next purchase.", "Lisa H.", "STR Investor, Gatlinburg TN", 5),
-    ]
-
-    review_schema = {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": SITE_NAME,
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": str(len(reviews)),
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    }
-    schema_tag = f'<script type="application/ld+json">{json.dumps(review_schema)}</script>'
-
-    review_cards = ""
-    for text, name, loc, stars in reviews:
-        star_str = "&#9733;" * stars
-        # Get initials for avatar circle
-        initials = "".join([part[0] for part in name.replace(",", "").split()[:2]])
-        review_cards += f"""
-      <div class="review-card fade-in-up">
-        <div class="review-stars">{star_str}</div>
-        <p class="review-text">&ldquo;{text}&rdquo;</p>
-        <div style="display:flex;align-items:center;gap:14px;">
-          <div style="width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,rgba(200,160,82,0.2),rgba(200,160,82,0.05));border:1px solid rgba(200,160,82,0.2);display:flex;align-items:center;justify-content:center;color:var(--gold);font-weight:700;font-size:0.85rem;flex-shrink:0;">{initials}</div>
-          <div>
-            <p class="review-author">{name}</p>
-            <p class="review-location">{loc}</p>
-          </div>
-        </div>
-      </div>"""
-
     body = f"""
 <section class="hero" style="padding-bottom:60px;">
   <div class="container">
-    <h1>Client <span>Reviews</span></h1>
-    <p>See what rental property investors and CPAs are saying about Stratum Cost Segregation.</p>
+    <h1>Cost Segregation <span>Study Standards</span></h1>
+    <p>What to expect from a well-documented property study and how to evaluate the deliverable.</p>
   </div>
 </section>
 <section class="section">
-  <div class="container">
-    <div style="text-align:center; margin-bottom:48px;">
-      <div class="stat-num">4.9/5.0</div>
-      <div style="color:var(--gold); font-size:1.5rem; margin:8px 0;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-      <div class="stat-label">Based on {len(reviews)} verified client reviews</div>
-    </div>
-    <div class="card-grid">
-      {review_cards}
-    </div>
+  <div class="container article" style="max-width:820px;">
+    <h2>Evaluate the Method, Not a Promised Result</h2>
+    <p>Every property and taxpayer is different. A credible review starts with basis, land allocation, asset type, placed-in-service date, improvement records, use, holding period, and the owner's tax position.</p>
+    <h2>Core Deliverables</h2>
+    <ul><li>Basis reconciliation</li><li>Component-level asset listing</li><li>Costing and classification methodology</li><li>Supporting records and disclosed assumptions</li><li>Depreciation schedules and technical authority</li></ul>
+    <h2>Stratum and AE Tax Advisors</h2>
+    <p>Stratum focuses on the property report. AE Tax Advisors leads the discovery and strategy discussion. A study documents classifications; it does not promise a particular deduction, refund, or examination outcome.</p>
   </div>
 </section>
 <section class="section section-alt">
@@ -809,9 +764,9 @@ def generate_reviews():
   </div>
 </section>
 """
-    return wrap_page("Stratum Cost Segregation Reviews | Client Testimonials",
-        "Read verified client reviews and testimonials about Stratum Cost Segregation studies for rental properties. 4.9/5.0 average rating.",
-        body, depth=1, schema=schema_tag, canonical_path="reviews/")
+    return wrap_page("Cost Segregation Study Standards | Stratum",
+        "Review Stratum's cost segregation study standards, core deliverables, and AE Tax Advisors coordination process.",
+        body, depth=1, canonical_path="reviews/")
 
 
 def generate_free_estimate():
@@ -921,7 +876,7 @@ def get_blog_posts():
         ("how-to-choose-cost-segregation-company", "How to Choose the Right Cost Segregation Company",
          "What to look for in a cost segregation provider, red flags to avoid, and questions to ask before committing to a study.", "January 2026"),
         ("cost-segregation-case-study-vacation-rental", "Cost Segregation Case Study: $520K Vacation Rental in Gatlinburg",
-         "A real-world case study showing how a Gatlinburg vacation rental investor saved over $45,000 in taxes through cost segregation.", "December 2025"),
+         "A hypothetical Gatlinburg vacation-rental example showing how basis assumptions and component classifications can affect depreciation timing.", "December 2025"),
         ("form-3115-look-back-cost-segregation", "Form 3115 and Look-Back Cost Segregation: Claim Missed Depreciation",
          "Learn how to use IRS Form 3115 to retroactively apply cost segregation and claim years of missed accelerated depreciation.", "December 2025"),
     ]
@@ -1093,7 +1048,7 @@ def generate_blog_post(slug, title, desc, date):
     <p>A cost segregation study is only as valuable as its ability to withstand IRS examination. Ask potential providers about their audit defense track record, the qualifications of their engineering staff, and what support they provide if your return is examined. A quality provider will stand behind their work and provide documentation and support in the event of an audit.</p>
 
     <h2>Questions to Ask Before Hiring</h2>
-    <p>Before engaging a cost segregation provider, ask these key questions: Is the study prepared by licensed engineers or construction professionals? Does the study include a component-level asset listing? What is the standard turnaround time? Is the pricing flat-fee or variable? What documentation and support is provided for IRS audit defense? Does the fee include CPA coordination and Form 3115 guidance? How many residential studies has the firm completed? Can they provide references from other residential investors or CPAs?</p>
+    <p>Before engaging a cost segregation provider, ask these key questions: Is the study prepared by licensed engineers or construction professionals? Does the study include a component-level asset listing? What is the standard turnaround time? Is the pricing flat-fee or variable? What documentation and support is provided for tax-return examination questions? Does the fee include CPA coordination and Form 3115 guidance? How many residential studies has the firm completed? Can they provide references from other residential investors or CPAs?</p>
 """,
         "cost-segregation-case-study-vacation-rental": f"""
     <h2>Property Overview</h2>
@@ -1345,7 +1300,7 @@ def generate_tier1_city(city, state):
 <section class="hero" style="padding-bottom:60px;">
   <div class="container">
     <h1>Cost Segregation in <span>{city}, {state}</span></h1>
-    <p>Professional, IRS-compliant cost segregation studies for rental property investors in {city}, {st}. Maximize your depreciation deductions and accelerate your tax savings.</p>
+    <p>Professional, engineering-based cost segregation studies for rental property investors in {city}, {st}. Maximize your depreciation deductions and accelerate your tax savings.</p>
   </div>
 </section>
 <section class="section">
@@ -1367,7 +1322,7 @@ def generate_tier1_city(city, state):
     <p style="color:var(--text-muted); margin-bottom:20px;">For furnished short-term rentals in {city}, we also identify all furniture, decor, electronics, and specialty items such as hot tubs, fire pits, and outdoor entertainment areas that qualify for 5 or 7-year accelerated depreciation.</p>
 
     <h2 style="color:var(--white); font-size:1.8rem; margin:40px 0 16px;">Get Started with Your {city} Cost Segregation Study</h2>
-    <p style="color:var(--text-muted); margin-bottom:20px;">Stratum Cost Segregation delivers completed, audit-ready studies within 14 business days. Our flat-fee pricing starts at $3,500 for a single property, with portfolio discounts available for {city} investors with multiple properties. Request your free estimate today to see how much you could save on your {city} rental property.</p>
+    <p style="color:var(--text-muted); margin-bottom:20px;">Stratum Cost Segregation delivers completed, well-documented studies within 14 business days. Our flat-fee pricing starts at $3,500 for a single property, with portfolio discounts available for {city} investors with multiple properties. Request your free estimate today to see how much you could save on your {city} rental property.</p>
 
     {get_cta_banner(1)}
   </div>
@@ -1399,7 +1354,7 @@ def generate_tier2_city(city, state):
 <section class="hero" style="padding-bottom:60px;">
   <div class="container">
     <h1>Cost Segregation in <span>{city}, {state}</span></h1>
-    <p>Maximize depreciation deductions on your {city} vacation rental property with a professional, IRS-compliant cost segregation study.</p>
+    <p>Maximize depreciation deductions on your {city} vacation rental property with a professional, engineering-based cost segregation study.</p>
   </div>
 </section>
 <section class="section">

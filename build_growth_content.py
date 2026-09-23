@@ -6,7 +6,7 @@ import html
 import json
 
 from build_new_content import rebuild_sitemap, update_blog_index
-from stratum_render import AE_BOOKING, BASE_URL, SCRIPTS, footer, nav, write_post
+from stratum_render import AE_BOOKING, ANALYTICS, BASE_URL, SCRIPTS, footer, nav, write_post
 
 ROOT = Path(__file__).resolve().parent
 
@@ -190,7 +190,7 @@ def page_shell(title, description, slug, body, extra_schema=None, extra_head="",
 <meta name="description" content="{html.escape(description, quote=True)}"><link rel="canonical" href="{url}">
 <meta property="og:title" content="{html.escape(title, quote=True)}"><meta property="og:description" content="{html.escape(description, quote=True)}"><meta property="og:type" content="website"><meta property="og:url" content="{url}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="../style.css">{extra_head}
-<script type="application/ld+json">{schema}</script></head><body>
+<script type="application/ld+json">{schema}</script>{ANALYTICS}</head><body>
 {nav(1)}{body}{footer(1)}{SCRIPTS}{extra_scripts}</body></html>"""
 
 

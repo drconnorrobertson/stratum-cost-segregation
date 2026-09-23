@@ -24,7 +24,7 @@ POSTS = [
             ("Common Misconceptions First-Time Owners Have",
              """<p>Many new investors assume cost segregation is only for large commercial properties or investors with massive portfolios. That is not the case. Any residential rental with a depreciable basis above $150,000 can benefit from a study, and the return on investment is typically 5 to 10 times the cost of the study itself.</p>
 <p>Another misconception is that cost segregation creates a permanent tax benefit. In reality, it is a timing strategy. You are pulling future deductions into the present, which gives you more capital to reinvest now. When you sell the property, depreciation recapture applies, but many investors use <a href="/blog/cost-segregation-1031-exchanges/">1031 exchanges</a> to defer that recapture indefinitely.</p>
-<p>Some owners worry the IRS will flag them for taking large depreciation deductions. A properly prepared, engineering-based cost segregation study is fully compliant with IRS guidelines and the Cost Segregation Audit Techniques Guide. Stratum delivers audit-ready reports that stand up to scrutiny.</p>"""),
+<p>Some owners worry the IRS will flag them for taking large depreciation deductions. A properly prepared, engineering-based cost segregation study is fully compliant with IRS guidelines and the Cost Segregation Audit Techniques Guide. Stratum delivers well-documented reports that stand up to scrutiny.</p>"""),
             ("When to Order Your Study",
              """<p>The best time to conduct a cost segregation study is in the same tax year you place the property in service. This maximizes your first-year deductions and allows your CPA to include the accelerated depreciation on your current tax return without any additional filings.</p>
 <p>If you have already been depreciating your property under straight-line for one or more years, you can still benefit. A look-back study allows you to claim all the missed accelerated depreciation in a single year by filing IRS <a href="/blog/form-3115-look-back-cost-segregation/">Form 3115</a>. There is no amended return required and no limit on how far back you can look.</p>"""),
@@ -79,7 +79,7 @@ POSTS = [
 <p>Without cost segregation, bonus depreciation has limited impact because the entire building is classified as 27.5-year or 39-year property, which does not qualify for bonus depreciation. The study is what unlocks the shorter-lived classifications that make bonus depreciation available.</p>"""),
             ("Making the Right Choice for Your Portfolio",
              """<p>For most rental property investors with a depreciable basis above $150,000, cost segregation delivers a dramatically better outcome than standard depreciation. The study typically costs a fraction of the first-year tax savings it generates, making it one of the highest-ROI investments a property owner can make.</p>
-<p>Stratum Cost Segregation provides engineering-based studies with a detailed asset listing and full IRS-compliant documentation. Your CPA receives everything needed to implement the accelerated depreciation on your tax return.</p>"""),
+<p>Stratum Cost Segregation provides engineering-based studies with a detailed asset listing and full engineering-based documentation. Your CPA receives everything needed to implement the accelerated depreciation on your tax return.</p>"""),
         ],
         "internal_links": ["what-is-cost-segregation", "roi-cost-segregation-study"],
     },
@@ -154,7 +154,7 @@ POSTS = [
              """<p>While <a href="/blog/cost-segregation-duplexes-multifamily/">multifamily properties</a> have a higher total depreciable basis and therefore larger absolute deductions, single-family rentals often have a higher percentage of reclassifiable components relative to the total basis. This is because single-family homes tend to have more land improvements per unit (individual driveways, landscaping, fencing) and a higher proportion of personal property items like appliances and flooring.</p>
 <p>The bottom line is that cost segregation is just as valuable for a single-family rental as it is for a larger property. The study cost is lower for smaller properties, and the ROI remains compelling.</p>"""),
             ("Get a Free Estimate for Your Single-Family Rental",
-             """<p>If you own a single-family rental property with a depreciable basis above $150,000, cost segregation almost certainly makes financial sense. Stratum's engineering-based approach ensures your study is thorough, compliant, and audit-ready. Start with a <a href="/free-estimate/">free estimate</a> to see exactly what your property could yield in accelerated depreciation.</p>"""),
+             """<p>If you own a single-family rental property with a depreciable basis above $150,000, cost segregation almost certainly makes financial sense. Stratum's engineering-based approach ensures your study is thorough, compliant, and well-documented. Start with a <a href="/free-estimate/">free estimate</a> to see exactly what your property could yield in accelerated depreciation.</p>"""),
         ],
         "internal_links": ["what-is-cost-segregation", "cost-segregation-first-time-rental-owners"],
     },
@@ -178,7 +178,7 @@ POSTS = [
              """<p>Investors who own multiple multifamily properties can realize significant portfolio-level tax savings through cost segregation. Each property study is independent, and the accelerated deductions compound across the portfolio. An investor with three fourplexes and a 10-unit building could potentially generate $300,000 or more in first-year accelerated depreciation.</p>
 <p>For investors who qualify as real estate professionals or who use the <a href="/blog/offset-w2-income-rental-property/">STR exception to offset W-2 income</a>, these losses become even more valuable because they can be applied against active income.</p>"""),
             ("Get Started with Your Multifamily Study",
-             """<p>Whether you own a duplex or a 50-unit apartment building, Stratum Cost Segregation has the engineering expertise to identify every reclassifiable component and deliver an audit-ready report. Our studies follow the IRS Cost Segregation Audit Techniques Guide and include detailed asset listings, depreciation schedules, and supporting documentation. Request a <a href="/free-estimate/">free estimate</a> to see what your multifamily property could yield.</p>"""),
+             """<p>Whether you own a duplex or a 50-unit apartment building, Stratum Cost Segregation has the engineering expertise to identify every reclassifiable component and deliver an well-documented report. Our studies follow the IRS Cost Segregation Audit Techniques Guide and include detailed asset listings, depreciation schedules, and supporting documentation. Request a <a href="/free-estimate/">free estimate</a> to see what your multifamily property could yield.</p>"""),
         ],
         "internal_links": ["cost-segregation-single-family-rentals", "what-is-cost-segregation"],
     },
@@ -501,7 +501,7 @@ NAV = """<nav class="nav" id="main-nav">
       <a href="../../how-it-works/index.html">How It Works</a>
       <a href="../../pricing/index.html">Pricing</a>
       <a href="../../blog/index.html">Blog</a>
-      <a href="../../reviews/index.html">Reviews</a>
+      <a href="../../reviews/index.html">Study Standards</a>
       <a href="../../contact/index.html">Contact</a>
       <a href="../../free-estimate/index.html" class="nav-cta">Free Estimate &rarr;</a>
     </div>
@@ -534,7 +534,7 @@ FOOTER = """<footer class="footer">
       <ul class="footer-links">
         <li><a href="../../blog/index.html">Blog</a></li>
         <li><a href="../../faq/index.html">FAQ</a></li>
-        <li><a href="../../reviews/index.html">Reviews</a></li>
+        <li><a href="../../reviews/index.html">Study Standards</a></li>
         <li><a href="../../about/index.html">About Us</a></li>
       </ul>
     </div>
@@ -549,10 +549,10 @@ FOOTER = """<footer class="footer">
     </div>
   </div>
   <div class="footer-trust">
-    <div class="footer-trust-item"><span class="trust-icon">&#9733;</span> 4.9/5.0 Client Rating</div>
-    <div class="footer-trust-item"><span class="trust-icon">&#128737;</span> IRS Audit-Ready</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#9733;</span> Component-Level Reporting</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#128737;</span> Documented Methodology</div>
     <div class="footer-trust-item"><span class="trust-icon">&#127968;</span> All 50 States</div>
-    <div class="footer-trust-item"><span class="trust-icon">&#9989;</span> 5,000+ Studies Completed</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#9989;</span> AE Tax Strategy Coordination</div>
   </div>
   <div class="footer-bottom">
     &copy; 2026 Stratum Cost Segregation. All rights reserved. &nbsp;|&nbsp; Engineering-based tax solutions for rental property investors.

@@ -13,12 +13,15 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Page Not Found | Stratum Cost Segregation">
   <meta name="twitter:description" content="The page you are looking for does not exist.">
-  <link rel="canonical" href="https://www.stratumcostsegregation.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
   <nav class="nav" id="main-nav">
@@ -29,7 +32,7 @@
       <a href="how-it-works/index.html">How It Works</a>
       <a href="pricing/index.html">Pricing</a>
       <a href="blog/index.html">Blog</a>
-      <a href="reviews/index.html">Reviews</a>
+      <a href="reviews/index.html">Study Standards</a>
       <a href="contact/index.html">Contact</a>
       <a href="https://www.aetaxadvisors.com/discovery/?utm_source=stratumcostsegregation.com&amp;utm_medium=referral&amp;utm_campaign=cost_segregation" class="nav-cta">Book a Free AE Tax Advisors Call &rarr;</a>
     </div>
@@ -55,12 +58,7 @@
   <div class="footer-grid">
     <div>
       <div class="footer-brand"><span>Stratum</span> Cost Segregation</div>
-      <p class="footer-desc">Engineering-based cost segregation studies for short-term and long-term rental property investors. Maximize depreciation deductions and accelerate tax savings across all 50 states.</p>
-      <div class="footer-social">
-        <a href="#" aria-label="LinkedIn" title="LinkedIn">in</a>
-        <a href="#" aria-label="Twitter" title="Twitter">X</a>
-        <a href="#" aria-label="Facebook" title="Facebook">f</a>
-      </div>
+      <p class="footer-desc">Engineering-based cost segregation studies for short-term and long-term rental property investors. Identify and document property components for depreciation analysis across all 50 states.</p>
     </div>
     <div>
       <h4>Services</h4>
@@ -76,8 +74,9 @@
       <ul class="footer-links">
         <li><a href="blog/index.html">Blog</a></li>
         <li><a href="faq/index.html">FAQ</a></li>
-        <li><a href="reviews/index.html">Reviews</a></li>
+        <li><a href="reviews/index.html">Study Standards</a></li>
         <li><a href="about/index.html">About Us</a></li>
+      <li><a href="/editorial-policy/">Editorial Policy</a></li>
       </ul>
     </div>
     <div>
@@ -91,10 +90,10 @@
     </div>
   </div>
   <div class="footer-trust">
-    <div class="footer-trust-item"><span class="trust-icon">&#9733;</span> 4.9/5.0 Client Rating</div>
-    <div class="footer-trust-item"><span class="trust-icon">&#128737;</span> IRS Audit-Ready</div>
-    <div class="footer-trust-item"><span class="trust-icon">&#127968;</span> All 50 States</div>
-    <div class="footer-trust-item"><span class="trust-icon">&#9989;</span> 5,000+ Studies Completed</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#128736;</span> Engineering-Based Methodology</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#128196;</span> Component-Level Reporting</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#127968;</span> Nationwide Service</div>
+    <div class="footer-trust-item"><span class="trust-icon">&#129309;</span> AE Tax Strategy Coordination</div>
   </div>
   <div class="footer-bottom">
     &copy; 2026 Stratum Cost Segregation. All rights reserved. &nbsp;|&nbsp; Engineering-based tax solutions for rental property investors.
@@ -122,5 +121,13 @@
     els.forEach(function(el){observer.observe(el);});
   })();
   </script>
+<script>
+  document.addEventListener('click',function(event){
+    var link=event.target.closest('a[href*="aetaxadvisors.com/discovery"]');
+    if(!link||!window.va)return;
+    var placement=link.classList.contains('nav-cta')?'navigation':link.closest('.cta-banner')?'content-cta':link.closest('footer')?'footer':'inline';
+    window.va('event',{name:'AE Discovery Click',data:{path:location.pathname,placement:placement}});
+  });
+</script>
 </body>
 </html>

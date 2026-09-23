@@ -67,7 +67,7 @@ POSTS_A = [
              """<p>Retail turns over. When a tenant vacates and you demolish the old build-out to deliver a white box for the next one, the improvements you removed are still being depreciated on your books. A partial asset disposition election lets you deduct the remaining basis of the demolished components in the year of removal, and it also lets you deduct the removal costs rather than capitalizing them.</p>
 <p>Without a cost segregation study you generally cannot make this election, because you have no basis figures for the individual components. The study is what makes the disposition deduction possible. For a landlord who re-tenants space every few years, this compounds into a meaningful recurring benefit that most retail owners never claim.</p>"""),
             ("Next Steps for Retail Owners",
-             """<p>If you own a strip center, shopping center, standalone retail building, or a portfolio of net-leased stores, a cost segregation study is likely to produce a first-year deduction several times larger than your current schedule. Stratum delivers audit-ready, engineering-based studies with full component detail and the documentation your CPA needs to implement the results.</p>
+             """<p>If you own a strip center, shopping center, standalone retail building, or a portfolio of net-leased stores, a cost segregation study is likely to produce a first-year deduction several times larger than your current schedule. Stratum delivers well-documented, engineering-based studies with full component detail and the documentation your CPA needs to implement the results.</p>
 <p>Request a free estimate with your purchase price and placed-in-service date, or book a call and we will size the opportunity on the phone.</p>"""),
         ],
         "related": [
@@ -178,7 +178,7 @@ POSTS_A = [
 <p>First, interior nonstructural remodel work in a nonresidential building placed in service earlier is qualified improvement property, recovered over 15 years and bonus eligible, not 39-year building. Second, the fixtures and finishes you tear out are still on your depreciation schedule. A partial asset disposition election writes off their remaining basis and lets you deduct the removal cost rather than capitalizing it.</p>
 <p>Both require component-level basis detail. A cost segregation study at acquisition or at build-out is what makes the later elections available.</p>"""),
             ("Getting an Estimate",
-             """<p>Whether you own a single freestanding location, a portfolio of franchised units, or the real estate under a tenant-operated concept, restaurant properties are among the highest-yield cost segregation candidates in commercial real estate. Stratum delivers engineering-based studies with full component detail and IRS-compliant documentation.</p>
+             """<p>Whether you own a single freestanding location, a portfolio of franchised units, or the real estate under a tenant-operated concept, restaurant properties are among the highest-yield cost segregation candidates in commercial real estate. Stratum delivers engineering-based studies with full component detail and engineering-based documentation.</p>
 <p>Request a free estimate or book a call and we will size the first-year deduction for your property.</p>"""),
         ],
         "related": [
