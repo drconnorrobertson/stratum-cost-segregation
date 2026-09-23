@@ -1044,6 +1044,39 @@ tr:hover td { background: rgba(200,160,82,0.03); }
 }
 .breadcrumbs a:hover { color: var(--gold); }
 
+/* Interactive cost segregation estimator */
+.calc-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+.calc-panel, .calc-results {
+  background: var(--navy-light);
+  border: 1px solid rgba(200,160,82,0.18);
+  border-radius: var(--radius);
+  padding: 36px;
+  box-shadow: var(--shadow);
+}
+.calc-panel h2, .calc-results h2 { margin-bottom: 24px; }
+.input-suffix { position: relative; }
+.input-suffix input { padding-right: 42px; }
+.input-suffix span {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-weight: 700;
+}
+.calc-note { margin: 16px 0 0; color: var(--text-muted); font-size: .88rem; }
+.eyebrow { color: var(--gold); text-transform: uppercase; letter-spacing: .12em; font-size: .78rem; font-weight: 800; }
+.result-grid { display: grid; gap: 14px; margin: 28px 0; }
+.result-grid > div { background: rgba(255,255,255,.04); border-radius: 8px; padding: 18px; }
+.result-grid span { display: block; color: var(--text-muted); font-size: .86rem; margin-bottom: 6px; }
+.result-grid strong { display: block; color: var(--gold); font-size: 1.35rem; line-height: 1.3; }
+.assumptions { color: var(--text-muted); font-size: .9rem; line-height: 1.7; margin-bottom: 24px; }
+
 /* ============================================================
    RESPONSIVE
    ============================================================ */
@@ -1122,6 +1155,8 @@ tr:hover td { background: rgba(200,160,82,0.03); }
 
   .article { padding: 120px 20px 64px; }
   .article h1 { font-size: 1.9rem; }
+  .calc-layout { grid-template-columns: 1fr; }
+  .calc-panel, .calc-results { padding: 28px; }
 }
 
 @media (max-width: 480px) {

@@ -76,9 +76,10 @@ def update_blog_index(posts):
     with open(path, encoding="utf-8") as f:
         html = f.read()
 
-    anchor = '<div class="blog-grid">'
-    if anchor not in html:
+    match = re.search(r'<div class="blog-grid"[^>]*>', html)
+    if not match:
         raise SystemExit("blog index: could not find .blog-grid anchor")
+    anchor = match.group(0)
 
     cards = []
     for p in posts:

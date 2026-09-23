@@ -12,6 +12,11 @@ BASE_URL = "https://www.stratumcostsegregation.com"
 PHONE = "(412) 255-8888"
 PHONE_HREF = "+14122558888"
 EMAIL = "info@stratumcostseg.com"
+AE_BOOKING = (
+    "https://www.aetaxadvisors.com/discovery/"
+    "?utm_source=stratumcostsegregation.com"
+    "&amp;utm_medium=referral&amp;utm_campaign=cost_segregation"
+)
 
 
 def _rel(depth):
@@ -31,8 +36,7 @@ def nav(depth):
       <a href="{r}blog/index.html">Blog</a>
       <a href="{r}reviews/index.html">Reviews</a>
       <a href="{r}contact/index.html">Contact</a>
-      <a href="{r}booking/index.html">Book a Call</a>
-      <a href="{r}free-estimate/index.html" class="nav-cta">Free Estimate &rarr;</a>
+      <a href="{AE_BOOKING}" class="nav-cta">Book a Free AE Tax Advisors Call &rarr;</a>
     </div>
     <button class="mobile-toggle" onclick="var m=document.getElementById('nav-menu');m.style.display=m.style.display==='flex'?'none':'flex'" aria-label="Menu">&#9776;</button>
   </div>
@@ -42,6 +46,12 @@ def nav(depth):
 def footer(depth):
     r = _rel(depth)
     return f"""  <footer class="footer">
+  <div class="footer-partner" style="max-width:1100px;margin:0 auto 34px;padding:20px 24px;border:1px solid rgba(255,255,255,.15);border-radius:8px;">
+    <strong>Stratum Cost Segregation + AE Tax Advisors</strong>
+    <p style="margin:8px 0 12px;color:var(--text-muted);">Stratum focuses on cost segregation studies. AE Tax Advisors handles discovery calls and broader tax strategy discussions for investors referred from this site.</p>
+    <a href="{AE_BOOKING}" style="color:var(--gold);">Book a call with AE Tax Advisors &rarr;</a>
+  </div>
+
   <div class="footer-grid">
     <div>
       <div class="footer-brand"><span>Stratum</span> Cost Segregation</div>
@@ -75,8 +85,7 @@ def footer(depth):
       <ul class="footer-links">
         <li><a href="tel:{PHONE_HREF}">{PHONE}</a></li>
         <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>
-        <li><a href="{r}booking/index.html">Book a Call</a></li>
-        <li><a href="{r}free-estimate/index.html">Free Estimate</a></li>
+        <li><a href="{AE_BOOKING}">Book with AE Tax Advisors</a></li>
         <li><a href="{r}contact/index.html">Contact Us</a></li>
       </ul>
     </div>
@@ -123,8 +132,6 @@ def _org_nodes():
             "@id": f"{BASE_URL}/#organization",
             "name": "Stratum Cost Segregation",
             "url": BASE_URL,
-            "logo": {"@type": "ImageObject", "url": f"{BASE_URL}/logo.png", "width": 300, "height": 60},
-            "image": f"{BASE_URL}/og-image.png",
             "description": "Professional engineering-based cost segregation studies for short-term and long-term rental property investors across all 50 states.",
             "telephone": "+1-412-255-8888",
             "email": EMAIL,
@@ -144,8 +151,6 @@ def _org_nodes():
             "@id": f"{BASE_URL}/#business",
             "name": "Stratum Cost Segregation",
             "url": BASE_URL,
-            "logo": {"@type": "ImageObject", "url": f"{BASE_URL}/logo.png", "width": 300, "height": 60},
-            "image": f"{BASE_URL}/og-image.png",
             "description": "Professional engineering-based cost segregation studies for short-term and long-term rental property investors. Maximize depreciation deductions and accelerate tax savings.",
             "telephone": "+1-412-255-8888",
             "email": EMAIL,
@@ -270,9 +275,8 @@ def render_post(post):
 {body_html}
 {related}  <div class="cta-banner">
   <h2>Ready to Unlock Hidden Tax Savings?</h2>
-  <p>Get a free, no-obligation estimate for your property, or book a call with a Stratum specialist.</p>
-  <a href="../../free-estimate/index.html" class="btn btn-gold">Get Your Free Estimate &rarr;</a>
-  <a href="../../booking/index.html" class="btn btn-outline">Book a Call</a>
+  <p>Discuss your property with AE Tax Advisors and learn whether a Stratum study may fit your tax plan.</p>
+  <a href="{AE_BOOKING}" class="btn btn-gold">Book a Free AE Tax Advisors Call &rarr;</a>
 </div>
 </article>
 
