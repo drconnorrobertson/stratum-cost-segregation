@@ -303,7 +303,7 @@ def render_post(post):
     <a href="../../index.html">Home</a> &raquo; <a href="../index.html">Blog</a> &raquo; <span>{title}</span>
   </div>
   <h1>{title}</h1>
-  <div class="meta">{post['date']} &middot; Published by <a href="https://www.drconnorrobertson.com/">Dr. Connor Robertson</a> &middot; Tax review by <a href="https://www.aetaxadvisors.com/">AE Tax Advisors Tax Team</a> &middot; <a href="../../editorial-policy/index.html">Editorial policy</a></div>
+  <div class="meta">{post['date']} &middot; Published by Dr. Connor Robertson &middot; Tax review by <a href="https://www.aetaxadvisors.com/">AE Tax Advisors Tax Team</a> &middot; <a href="../../editorial-policy/index.html">Editorial policy</a></div>
 
 {body_html}
 {related}  <div class="cta-banner">
