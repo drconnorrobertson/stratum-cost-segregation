@@ -1,0 +1,692 @@
+{
+  "method": "Five-word Jaccard similarity of main body; shared navigation excluded. 0.65 is an internal editorial flag, not a Google threshold.",
+  "market_count": 114,
+  "flagged_count": 77,
+  "median_nearest_similarity": 0.9026,
+  "pages": [
+    {
+      "page": "cost-segregation-telluride-co",
+      "nearest_page": "cost-segregation-vail-co",
+      "five_word_jaccard": 0.9349,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-vail-co",
+      "nearest_page": "cost-segregation-telluride-co",
+      "five_word_jaccard": 0.9349,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-marco-island-fl",
+      "nearest_page": "cost-segregation-clearwater-fl",
+      "five_word_jaccard": 0.9336,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-clearwater-fl",
+      "nearest_page": "cost-segregation-marco-island-fl",
+      "five_word_jaccard": 0.9336,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-suncadia-wa",
+      "nearest_page": "cost-segregation-chelan-wa",
+      "five_word_jaccard": 0.9334,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-chelan-wa",
+      "nearest_page": "cost-segregation-suncadia-wa",
+      "five_word_jaccard": 0.9334,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-galveston-tx",
+      "nearest_page": "cost-segregation-fredericksburg-tx",
+      "five_word_jaccard": 0.9306,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-fredericksburg-tx",
+      "nearest_page": "cost-segregation-galveston-tx",
+      "five_word_jaccard": 0.9306,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-leavenworth-wa",
+      "nearest_page": "cost-segregation-suncadia-wa",
+      "five_word_jaccard": 0.9305,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-pensacola-fl",
+      "nearest_page": "cost-segregation-islamorada-fl",
+      "five_word_jaccard": 0.9305,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-islamorada-fl",
+      "nearest_page": "cost-segregation-pensacola-fl",
+      "five_word_jaccard": 0.9305,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-aspen-co",
+      "nearest_page": "cost-segregation-telluride-co",
+      "five_word_jaccard": 0.9291,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-wimberley-tx",
+      "nearest_page": "cost-segregation-galveston-tx",
+      "five_word_jaccard": 0.9291,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-sanibel-island-fl",
+      "nearest_page": "cost-segregation-marco-island-fl",
+      "five_word_jaccard": 0.928,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-anna-maria-island-fl",
+      "nearest_page": "cost-segregation-pensacola-fl",
+      "five_word_jaccard": 0.928,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-bend-or",
+      "nearest_page": "cost-segregation-hood-river-or",
+      "five_word_jaccard": 0.9278,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-hood-river-or",
+      "nearest_page": "cost-segregation-bend-or",
+      "five_word_jaccard": 0.9278,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-cannon-beach-or",
+      "nearest_page": "cost-segregation-bend-or",
+      "five_word_jaccard": 0.9249,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-steamboat-springs-co",
+      "nearest_page": "cost-segregation-telluride-co",
+      "five_word_jaccard": 0.9249,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-key-west-fl",
+      "nearest_page": "cost-segregation-pensacola-fl",
+      "five_word_jaccard": 0.9249,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-myrtle-beach-sc",
+      "nearest_page": "cost-segregation-hilton-head-sc",
+      "five_word_jaccard": 0.9196,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-hilton-head-sc",
+      "nearest_page": "cost-segregation-myrtle-beach-sc",
+      "five_word_jaccard": 0.9196,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-lake-geneva-wi",
+      "nearest_page": "cost-segregation-door-county-wi",
+      "five_word_jaccard": 0.9194,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-door-county-wi",
+      "nearest_page": "cost-segregation-lake-geneva-wi",
+      "five_word_jaccard": 0.9194,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-traverse-city-mi",
+      "nearest_page": "cost-segregation-mackinac-island-mi",
+      "five_word_jaccard": 0.9194,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-south-padre-island-tx",
+      "nearest_page": "cost-segregation-wimberley-tx",
+      "five_word_jaccard": 0.9194,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-mackinac-island-mi",
+      "nearest_page": "cost-segregation-traverse-city-mi",
+      "five_word_jaccard": 0.9194,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-houston-tx",
+      "nearest_page": "cost-segregation-wimberley-tx",
+      "five_word_jaccard": 0.9167,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-miami-fl",
+      "nearest_page": "cost-segregation-islamorada-fl",
+      "five_word_jaccard": 0.9154,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-portland-or",
+      "nearest_page": "cost-segregation-bend-or",
+      "five_word_jaccard": 0.9153,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-jacksonville-fl",
+      "nearest_page": "cost-segregation-pensacola-fl",
+      "five_word_jaccard": 0.9139,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-put-in-bay-oh",
+      "nearest_page": "cost-segregation-hocking-hills-oh",
+      "five_word_jaccard": 0.9139,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-hocking-hills-oh",
+      "nearest_page": "cost-segregation-put-in-bay-oh",
+      "five_word_jaccard": 0.9139,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-memphis-tn",
+      "nearest_page": "cost-segregation-pigeon-forge-tn",
+      "five_word_jaccard": 0.9127,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-pigeon-forge-tn",
+      "nearest_page": "cost-segregation-memphis-tn",
+      "five_word_jaccard": 0.9127,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-dallas-tx",
+      "nearest_page": "cost-segregation-wimberley-tx",
+      "five_word_jaccard": 0.9126,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-seattle-wa",
+      "nearest_page": "cost-segregation-leavenworth-wa",
+      "five_word_jaccard": 0.9126,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-colorado-springs-co",
+      "nearest_page": "cost-segregation-telluride-co",
+      "five_word_jaccard": 0.9114,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-deep-creek-md",
+      "nearest_page": "cost-segregation-baltimore-md",
+      "five_word_jaccard": 0.9112,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-baltimore-md",
+      "nearest_page": "cost-segregation-deep-creek-md",
+      "five_word_jaccard": 0.9112,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-whitefish-mt",
+      "nearest_page": "cost-segregation-shenandoah-va",
+      "five_word_jaccard": 0.9103,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-shenandoah-va",
+      "nearest_page": "cost-segregation-whitefish-mt",
+      "five_word_jaccard": 0.9103,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-cincinnati-oh",
+      "nearest_page": "cost-segregation-hocking-hills-oh",
+      "five_word_jaccard": 0.9099,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-tampa-fl",
+      "nearest_page": "cost-segregation-pensacola-fl",
+      "five_word_jaccard": 0.9099,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-san-antonio-tx",
+      "nearest_page": "cost-segregation-wimberley-tx",
+      "five_word_jaccard": 0.9086,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-mammoth-lakes-ca",
+      "nearest_page": "cost-segregation-sacramento-ca",
+      "five_word_jaccard": 0.9072,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-virginia-beach-va",
+      "nearest_page": "cost-segregation-shenandoah-va",
+      "five_word_jaccard": 0.9072,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-sacramento-ca",
+      "nearest_page": "cost-segregation-mammoth-lakes-ca",
+      "five_word_jaccard": 0.9072,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-cleveland-oh",
+      "nearest_page": "cost-segregation-hocking-hills-oh",
+      "five_word_jaccard": 0.9059,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-pittsburgh-pa",
+      "nearest_page": "cost-segregation-philadelphia-pa",
+      "five_word_jaccard": 0.9051,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-philadelphia-pa",
+      "nearest_page": "cost-segregation-pittsburgh-pa",
+      "five_word_jaccard": 0.9051,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-fresno-ca",
+      "nearest_page": "cost-segregation-mammoth-lakes-ca",
+      "five_word_jaccard": 0.9046,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-mesa-az",
+      "nearest_page": "cost-segregation-phoenix-az",
+      "five_word_jaccard": 0.9035,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-phoenix-az",
+      "nearest_page": "cost-segregation-mesa-az",
+      "five_word_jaccard": 0.9035,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-milwaukee-wi",
+      "nearest_page": "cost-segregation-lake-geneva-wi",
+      "five_word_jaccard": 0.9032,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-san-jose-ca",
+      "nearest_page": "cost-segregation-mammoth-lakes-ca",
+      "five_word_jaccard": 0.9032,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-charlotte-nc",
+      "nearest_page": "cost-segregation-raleigh-nc",
+      "five_word_jaccard": 0.9026,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-raleigh-nc",
+      "nearest_page": "cost-segregation-charlotte-nc",
+      "five_word_jaccard": 0.9026,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-boise-id",
+      "nearest_page": "cost-segregation-coeur-d-alene-id",
+      "five_word_jaccard": 0.9019,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-san-francisco-ca",
+      "nearest_page": "cost-segregation-mammoth-lakes-ca",
+      "five_word_jaccard": 0.9019,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-coeur-d-alene-id",
+      "nearest_page": "cost-segregation-boise-id",
+      "five_word_jaccard": 0.9019,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-tucson-az",
+      "nearest_page": "cost-segregation-phoenix-az",
+      "five_word_jaccard": 0.9007,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-los-angeles-ca",
+      "nearest_page": "cost-segregation-mammoth-lakes-ca",
+      "five_word_jaccard": 0.9006,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-broken-bow-ok",
+      "nearest_page": "cost-segregation-whitefish-mt",
+      "five_word_jaccard": 0.8993,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-cape-cod-ma",
+      "nearest_page": "cost-segregation-pensacola-fl",
+      "five_word_jaccard": 0.8979,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-st-louis-mo",
+      "nearest_page": "cost-segregation-kansas-city-mo",
+      "five_word_jaccard": 0.8958,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-kansas-city-mo",
+      "nearest_page": "cost-segregation-st-louis-mo",
+      "five_word_jaccard": 0.8958,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-omaha-ne",
+      "nearest_page": "cost-segregation-leavenworth-wa",
+      "five_word_jaccard": 0.8913,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-indianapolis-in",
+      "nearest_page": "cost-segregation-cleveland-oh",
+      "five_word_jaccard": 0.89,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-louisville-ky",
+      "nearest_page": "cost-segregation-leavenworth-wa",
+      "five_word_jaccard": 0.8874,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-minneapolis-mn",
+      "nearest_page": "cost-segregation-leavenworth-wa",
+      "five_word_jaccard": 0.8847,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-atlanta-ga",
+      "nearest_page": "cost-segregation-leavenworth-wa",
+      "five_word_jaccard": 0.8847,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-las-vegas-nv",
+      "nearest_page": "cost-segregation-leavenworth-wa",
+      "five_word_jaccard": 0.8823,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-new-orleans-la",
+      "nearest_page": "cost-segregation-leavenworth-wa",
+      "five_word_jaccard": 0.8821,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-chicago-il",
+      "nearest_page": "cost-segregation-leavenworth-wa",
+      "five_word_jaccard": 0.8821,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-albuquerque-nm",
+      "nearest_page": "cost-segregation-leavenworth-wa",
+      "five_word_jaccard": 0.8795,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-salt-lake-city-ut",
+      "nearest_page": "cost-segregation-leavenworth-wa",
+      "five_word_jaccard": 0.8759,
+      "review_flag": true
+    },
+    {
+      "page": "cost-segregation-moab-ut",
+      "nearest_page": "cost-segregation-newport-ri",
+      "five_word_jaccard": 0.4423,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-newport-ri",
+      "nearest_page": "cost-segregation-moab-ut",
+      "five_word_jaccard": 0.4423,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-honolulu-hi",
+      "nearest_page": "cost-segregation-newport-ri",
+      "five_word_jaccard": 0.4414,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-washington-dc",
+      "nearest_page": "cost-segregation-newport-ri",
+      "five_word_jaccard": 0.4339,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-jackson-hole-wy",
+      "nearest_page": "cost-segregation-newport-ri",
+      "five_word_jaccard": 0.4277,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-breckenridge-co",
+      "nearest_page": "cost-segregation-branson-mo",
+      "five_word_jaccard": 0.2029,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-branson-mo",
+      "nearest_page": "cost-segregation-breckenridge-co",
+      "five_word_jaccard": 0.2029,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-kauai-hi",
+      "nearest_page": "cost-segregation-scottsdale-az",
+      "five_word_jaccard": 0.2007,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-scottsdale-az",
+      "nearest_page": "cost-segregation-kauai-hi",
+      "five_word_jaccard": 0.2007,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-sedona-az",
+      "nearest_page": "cost-segregation-kauai-hi",
+      "five_word_jaccard": 0.199,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-austin-tx",
+      "nearest_page": "cost-segregation-breckenridge-co",
+      "five_word_jaccard": 0.1977,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-maui-hi",
+      "nearest_page": "cost-segregation-outer-banks-nc",
+      "five_word_jaccard": 0.1968,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-outer-banks-nc",
+      "nearest_page": "cost-segregation-maui-hi",
+      "five_word_jaccard": 0.1968,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-orange-beach-al",
+      "nearest_page": "cost-segregation-poconos-pa",
+      "five_word_jaccard": 0.1965,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-poconos-pa",
+      "nearest_page": "cost-segregation-orange-beach-al",
+      "five_word_jaccard": 0.1965,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-kissimmee-fl",
+      "nearest_page": "cost-segregation-kauai-hi",
+      "five_word_jaccard": 0.196,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-blue-ridge-ga",
+      "nearest_page": "cost-segregation-kauai-hi",
+      "five_word_jaccard": 0.1954,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-charleston-sc",
+      "nearest_page": "cost-segregation-kauai-hi",
+      "five_word_jaccard": 0.1945,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-boston-ma",
+      "nearest_page": "cost-segregation-kauai-hi",
+      "five_word_jaccard": 0.1941,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-big-bear-ca",
+      "nearest_page": "cost-segregation-maui-hi",
+      "five_word_jaccard": 0.194,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-san-diego-ca",
+      "nearest_page": "cost-segregation-maui-hi",
+      "five_word_jaccard": 0.194,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-palm-springs-ca",
+      "nearest_page": "cost-segregation-kauai-hi",
+      "five_word_jaccard": 0.1939,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-asheville-nc",
+      "nearest_page": "cost-segregation-blue-ridge-ga",
+      "five_word_jaccard": 0.1933,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-park-city-ut",
+      "nearest_page": "cost-segregation-poconos-pa",
+      "five_word_jaccard": 0.1926,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-lake-tahoe-ca",
+      "nearest_page": "cost-segregation-poconos-pa",
+      "five_word_jaccard": 0.1921,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-panama-city-beach-fl",
+      "nearest_page": "cost-segregation-boston-ma",
+      "five_word_jaccard": 0.1921,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-orlando-fl",
+      "nearest_page": "cost-segregation-breckenridge-co",
+      "five_word_jaccard": 0.19,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-joshua-tree-ca",
+      "nearest_page": "cost-segregation-kauai-hi",
+      "five_word_jaccard": 0.19,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-gulf-shores-al",
+      "nearest_page": "cost-segregation-savannah-ga",
+      "five_word_jaccard": 0.1888,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-savannah-ga",
+      "nearest_page": "cost-segregation-gulf-shores-al",
+      "five_word_jaccard": 0.1888,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-gatlinburg-tn",
+      "nearest_page": "cost-segregation-big-bear-ca",
+      "five_word_jaccard": 0.1882,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-denver-co",
+      "nearest_page": "cost-segregation-maui-hi",
+      "five_word_jaccard": 0.1881,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-destin-fl",
+      "nearest_page": "cost-segregation-poconos-pa",
+      "five_word_jaccard": 0.1873,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-new-york-ny",
+      "nearest_page": "cost-segregation-breckenridge-co",
+      "five_word_jaccard": 0.187,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-sevierville-tn",
+      "nearest_page": "cost-segregation-kauai-hi",
+      "five_word_jaccard": 0.1868,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-nashville-tn",
+      "nearest_page": "cost-segregation-30a-fl",
+      "five_word_jaccard": 0.1846,
+      "review_flag": false
+    },
+    {
+      "page": "cost-segregation-30a-fl",
+      "nearest_page": "cost-segregation-nashville-tn",
+      "five_word_jaccard": 0.1846,
+      "review_flag": false
+    }
+  ]
+}
