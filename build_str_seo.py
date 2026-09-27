@@ -117,6 +117,7 @@ def main():
     page('str-cost-segregation-resources','STR Cost Segregation Guides & Resources | Stratum','A reading path for STR owners: compare providers, prepare documents, understand depreciation, and explore local cost segregation guides.','STR Cost Segregation Resource Center',''.join('<h2>'+h+'</h2>'+links(items) for h,items in resources))
     # Site-wide navigation carries the specialist positioning; each article retains its own search intent.
     for p in ROOT.rglob('*.html'):
+        if 'public' in p.relative_to(ROOT).parts:continue
         text=p.read_text()
         if '<footer class="footer">' not in text:continue
         if 'id="str-footer-links"' not in text:
@@ -131,6 +132,8 @@ def main():
     from build_content_quality import apply_quality, apply_buyer_focus
     apply_quality(page, links)
     apply_buyer_focus(page, links)
-    rebuild_sitemap([])
+    from build_seo_integrity import apply_integrity, finalize_sitemap
+    apply_integrity(page, links, metadata)
+    finalize_sitemap()
     print('STR content build complete; run validate_str_seo.py and audit_content.py for current totals.')
 if __name__=='__main__':main()

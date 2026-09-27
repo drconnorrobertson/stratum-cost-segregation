@@ -1,0 +1,330 @@
+[
+  {
+    "slug": "bonus-depreciation-2026-rental-property",
+    "title": "Bonus Depreciation in 2026: Rental Property Checklist",
+    "description": "Review current bonus depreciation rules, property dates, study classifications, and owner-level limitations before relying on a rental-property deduction.",
+    "sections": [
+      [
+        "The current rule is not a universal 20% rate",
+        "The IRS announced guidance on restored 100% additional first-year depreciation for eligible property acquired after January 19, 2025. Older phase-down language should not be applied automatically to every 2026 purchase. Eligibility still depends on the property and applicable acquisition and placed-in-service rules; the year printed on a study does not establish the rate."
+      ],
+      [
+        "Separate the property from the tax outcome",
+        "A cost segregation report identifies and supports components. The return preparer determines how those conclusions interact with the owner’s tax position. Ask for two separate deliverables: a reconciled property schedule and a tax projection showing assumptions, limitations, state adjustments, and the timing of any usable benefit. A large deduction and an equally large reduction in current tax are different results."
+      ],
+      [
+        "Build a date-and-cost file",
+        "Collect the purchase agreement, relevant amendments, closing statement, construction contracts, invoices, and evidence of readiness for use. Identify later furniture purchases and improvements rather than assigning every item the house closing date. Flag related-party transactions, changes from personal use, incomplete projects, and previous depreciation for the preparer; do not fill missing dates with a convenient default."
+      ],
+      [
+        "Compare the incremental result",
+        "Ask the preparer to compare the proposed study treatment with the depreciation available without the study. Include the fee, filing work, expected holding period, and possible sale consequences. Multiplying a gross deduction by a marginal rate can be a useful illustration only when all assumptions are stated; it is not a property-specific savings promise."
+      ],
+      [
+        "Questions before the return is filed",
+        "Confirm which components are eligible, which elections were considered, whether prior returns contain relevant choices, and how state treatment differs. Keep the final asset schedule and election records with the report. For properties acquired earlier, use the historical-date guide rather than assuming a new report changes their original tax history."
+      ]
+    ],
+    "sources": [
+      [
+        "https://www.irs.gov/newsroom/treasury-irs-issue-guidance-on-the-additional-first-year-depreciation-deduction-amended-as-part-of-the-one-big-beautiful-bill",
+        "IRS announcement of Notice 2026-11"
+      ],
+      [
+        "https://www.irs.gov/publications/p946",
+        "IRS Publication 946"
+      ]
+    ],
+    "related": [
+      "bonus-depreciation-phase-down-strategy",
+      "irs-notice-2026-11-permanent-bonus-depreciation",
+      "depreciation-recapture-cost-segregation"
+    ]
+  },
+  {
+    "slug": "bonus-depreciation-phase-down-strategy",
+    "title": "Historical Bonus Depreciation: Records for Older Rentals",
+    "description": "Understand why an older rental’s acquisition and service dates matter when a new cost segregation study revisits its depreciation history.",
+    "sections": [
+      [
+        "A new study does not create a new purchase",
+        "The historical bonus-depreciation schedule still matters for some older assets. A report commissioned now does not automatically move those assets into the rules for a current-year acquisition. Have the preparer determine the governing rules from the original facts, including contract dates, service dates, and elections."
+      ],
+      [
+        "Build a timeline rather than choosing one year",
+        "Start with the building acquisition and add each separately completed improvement. Then list furnishing purchases, replacements, personal-use conversions, and prior dispositions. Distinguish when an item was ordered, paid for, delivered, installed, and ready for its intended use. Those dates can differ, and an invoice alone may not resolve every question."
+      ],
+      [
+        "Keep prior returns with the property file",
+        "Provide prior depreciation schedules, the originally filed returns, amended returns, and any election statements or accounting-method changes. The provider should be able to reconcile its proposed components to the cost pool the preparer is reviewing. Missing records should be visible in an exception list rather than silently reconstructed as if certain."
+      ],
+      [
+        "Do not apply one rate to an entire portfolio",
+        "Two similar homes purchased in different years can have different histories. One may include a later furnishing package; another may have an election or a period of personal use. Organize the engagement by property and asset group. A single percentage across the portfolio can obscure those differences even if the floor plans match."
+      ],
+      [
+        "Coordinate implementation before ordering a final report",
+        "Ask the preparer what filing approach is appropriate for the facts and which records the study must supply. Do not assume every correction uses an amended return or every look-back uses Form 3115. Agree on responsibilities, expected filing costs, and unresolved questions before treating a preliminary catch-up estimate as a currently usable deduction."
+      ]
+    ],
+    "sources": [
+      [
+        "https://www.irs.gov/publications/p946",
+        "IRS Publication 946: depreciation rules and historical provisions"
+      ],
+      [
+        "https://www.irs.gov/forms-pubs/about-form-3115",
+        "IRS Form 3115 information"
+      ]
+    ],
+    "related": [
+      "bonus-depreciation-2026-rental-property",
+      "form-3115-look-back-cost-segregation",
+      "str-cost-segregation-multiple-properties"
+    ]
+  },
+  {
+    "slug": "irs-notice-2026-11-bonus-depreciation",
+    "title": "Notice 2026-11: What to Send Your Tax Preparer",
+    "description": "Prepare acquisition dates, component records, and election history for a tax-preparer review of IRS Notice 2026-11.",
+    "sections": [
+      [
+        "What the notice addresses",
+        "Notice 2026-11 provides interim guidance following changes to section 168(k). It addresses eligibility and elections for additional first-year depreciation. It is not an IRS approval of a cost segregation provider, and it does not establish that every component in a rental building qualifies."
+      ],
+      [
+        "Turn the notice into a document request",
+        "Ask the preparer which acquisition and construction records are needed for your facts. Assemble the signed agreement and amendments, purchase closing, construction timeline, and itemized additions. Keep documents tied to the property or component they describe. Avoid a folder of unlabelled invoices that forces the reviewer to infer which project each charge belongs to."
+      ],
+      [
+        "Reconcile the report before applying a rate",
+        "Have the provider show how the analyzed cost pool connects to the owner’s records. Identify land, acquired furnishings, later improvements, and costs outside the study’s scope. Confirm that the report explains important assumptions and unresolved items. A rate applied to an unreconciled total can produce a precise-looking calculation without a supported starting point."
+      ],
+      [
+        "Record the filing decisions",
+        "The preparer should evaluate applicable elections, required statements, and filing deadlines using the notice and current guidance. Retain a copy of what was actually filed, not only an email discussing an option. If the report arrives after a return has been prepared, coordinate the change instead of assuming the report automatically updates the filing."
+      ],
+      [
+        "Keep the company decision separate",
+        "When comparing providers, ask who handles property analysis and who handles tax-return decisions. Confirm whether election questions, prior-year implementation, and state adjustments are included in the engagement or belong to your CPA. A provider’s projected deduction is not a substitute for the preparer’s evaluation of the owner’s usable benefit."
+      ]
+    ],
+    "sources": [
+      [
+        "https://www.irs.gov/pub/irs-drop/n-26-11.pdf",
+        "IRS Notice 2026-11"
+      ]
+    ],
+    "related": [
+      "bonus-depreciation-2026-rental-property",
+      "irs-notice-2026-11-permanent-bonus-depreciation",
+      "how-to-choose-cost-segregation-company"
+    ]
+  },
+  {
+    "slug": "irs-notice-2026-11-permanent-bonus-depreciation",
+    "title": "Bonus Depreciation Elections: Construction Component Records",
+    "description": "Organize component contracts, installation dates, and cost support before asking your preparer about construction-related bonus depreciation elections.",
+    "sections": [
+      [
+        "Why a construction project needs component records",
+        "Section 3.05 of Notice 2026-11 addresses an election involving certain components of larger self-constructed property. This is a fact-specific provision, not permission to treat any later invoice as automatically eligible. Have the preparer determine whether the provision applies before building an estimate around it."
+      ],
+      [
+        "Map the larger project and each candidate component",
+        "Identify the project, its contracts, and the physical components being considered. For each component, record the supplier, scope, dates, cost support, installation location, and link to the larger construction schedule. Mark owner-purchased equipment and contractor allowances so the same costs are not counted in both places."
+      ],
+      [
+        "Preserve contract changes",
+        "A signed original agreement, later amendment, purchase order, deposit, and installation invoice tell different parts of the story. Keep the full sequence. Do not assume that a late payment or delivery changes the legal acquisition facts. Send ambiguous arrangements to the preparer rather than selecting the date that produces the largest deduction."
+      ],
+      [
+        "Use a cost reconciliation the reviewer can follow",
+        "Start with final project costs, subtract credits, and identify excluded or incomplete work. Tie the component list back to that total. If an allowance was removed from a general contract and the owner purchased the item directly, show the credit and replacement invoice together. A component cannot be added twice merely because two parties handled it."
+      ],
+      [
+        "Define the handoff and election responsibility",
+        "Ask who will prepare any election statement and who will confirm its timeliness and eligibility. The cost segregation provider can supply component evidence within the agreed scope; the return preparer makes the filing determination. Retain the final report, reconciliation, and filed statement together so later reviewers can understand what was claimed and why."
+      ]
+    ],
+    "sources": [
+      [
+        "https://www.irs.gov/pub/irs-drop/n-26-11.pdf",
+        "Notice 2026-11, including section 3.05"
+      ]
+    ],
+    "related": [
+      "irs-notice-2026-11-bonus-depreciation",
+      "str-contractor-invoice-breakdown",
+      "str-renovation-phased-opening"
+    ]
+  },
+  {
+    "slug": "depreciation-recapture-cost-segregation",
+    "title": "Depreciation Recapture After Cost Segregation",
+    "description": "Plan for a property sale using asset-level basis, depreciation, and sale allocations. Recapture is not one flat rate applied to every component.",
+    "sections": [
+      [
+        "Why the sale needs an asset-level review",
+        "Cost segregation creates component records that remain relevant when assets are sold or removed. Give the sale adviser the final study, subsequent additions, prior dispositions, and current depreciation schedule. A single original purchase price does not describe the adjusted basis of every asset still present at sale."
+      ],
+      [
+        "Section 1245 is limited by the applicable gain calculation",
+        "For a typical taxable sale of section 1245 property, ordinary-income recapture is generally limited to the lesser of depreciation subject to recapture and recognized gain. It is inaccurate to say every depreciation dollar always returns as ordinary income regardless of the sale result. The preparer must determine the classification and calculation for the actual assets."
+      ],
+      [
+        "Section 1250 is not simply a flat 25% tax",
+        "Section 1250 can produce ordinary income from additional depreciation. Unrecaptured section 1250 gain is a related but different category, with a maximum 25% federal rate for individuals where applicable. A 15-year recovery period alone does not establish the entire sale treatment. Avoid assigning one rate to all land improvements or structural components without reviewing the facts."
+      ],
+      [
+        "Reconcile what is still there",
+        "Before sale, identify assets replaced since the study, items retained by the seller, and equipment included under a separate agreement. Retain invoices and disposition records. The proposed sale allocation should reflect the actual transaction and receive adviser review; it should not be reverse-engineered solely to minimize recapture."
+      ],
+      [
+        "Use a holding-period comparison",
+        "Ask the adviser to compare the timing benefit of earlier deductions with expected sale consequences, transaction costs, and uncertainty. A simplified model should state its assumptions and show more than one holding period. A planned exchange or investment structure needs its own eligibility review and does not automatically eliminate recapture on every component."
+      ],
+      [
+        "Records to send before closing",
+        "Provide the signed sale contract and allocation exhibits, original study, updated asset schedule, improvement invoices, removed-item list, and any proposed exchange documents. Resolve discrepancies while the parties can still clarify the contract. Waiting until return preparation can make it harder to recover the physical and transaction evidence."
+      ]
+    ],
+    "sources": [
+      [
+        "https://www.irs.gov/publications/p544",
+        "IRS Publication 544: dispositions and recapture"
+      ],
+      [
+        "https://www.irs.gov/instructions/i4797",
+        "IRS Form 4797 instructions"
+      ]
+    ],
+    "related": [
+      "when-not-to-do-cost-segregation",
+      "roi-cost-segregation-study",
+      "partial-asset-disposition-cost-segregation"
+    ]
+  },
+  {
+    "slug": "section-179d-sunset-2026-depreciation-strategy",
+    "title": "Section 179D After June 2026: Project Review Checklist",
+    "description": "Review construction timing and eligibility for section 179D separately from cost segregation and bonus depreciation.",
+    "sections": [
+      [
+        "The termination rule depends on construction timing",
+        "The IRS states that the section 179D deduction is not allowed for property whose construction begins after June 30, 2026. That does not mean every earlier-started project qualifies automatically or that every deduction disappeared on that date. Eligibility, substantiation, and the applicable beginning-of-construction rules still require review."
+      ],
+      [
+        "Do not infer eligibility from a headline",
+        "Give the adviser the building type, project scope, construction timeline, and ownership or designer arrangement. Ask what current guidance governs the construction-start determination. Do not assume a signed contract, permit date, deposit, or a stated percentage of spending is sufficient without that review."
+      ],
+      [
+        "Keep the energy analysis and component study distinct",
+        "A cost segregation study analyzes property components and costs. Section 179D involves separate requirements and documentation. Confirm which professional is responsible for each workstream and how the resulting tax treatment is coordinated. Purchasing one report does not establish that the other deduction is available."
+      ],
+      [
+        "Build a project evidence packet",
+        "Collect contracts, amendments, dated site records, contractor invoices, plans, certification materials, and the project’s placed-in-service evidence. Explain interruptions, changes of scope, and unfinished work. The purpose is to let the reviewer reconstruct what happened, not simply find one date that precedes a deadline."
+      ],
+      [
+        "Model the actual alternatives",
+        "Ask the preparer for a projection reflecting the project’s confirmed eligibility and any remaining uncertainty. Avoid substituting an assumed bonus-depreciation benefit dollar for dollar for an unavailable energy deduction. Different provisions address different costs and can interact; the investment decision should use a coordinated calculation rather than stacked headline amounts."
+      ]
+    ],
+    "sources": [
+      [
+        "https://www.irs.gov/credits-deductions/energy-efficient-commercial-buildings-deduction",
+        "IRS section 179D overview"
+      ],
+      [
+        "https://www.irs.gov/newsroom/faqs-for-modification-of-sections-25c-25d-25e-30c-30d-45l-45w-and-179d-under-public-law-119-21-139-stat-72-july-4-2025-commonly-known-as-the-one-big-beautiful-bill-obbb",
+        "IRS FAQs on section 179D termination"
+      ]
+    ],
+    "related": [
+      "bonus-depreciation-2026-rental-property",
+      "str-contractor-invoice-breakdown",
+      "how-to-choose-cost-segregation-company"
+    ]
+  },
+  {
+    "slug": "str-100-hour-material-participation-test",
+    "title": "STR Material Participation: More Than 100 Hours",
+    "description": "Understand the comparative 100-hour material participation test and organize actual participation records for your tax preparer.",
+    "sections": [
+      [
+        "The comparative test has two parts",
+        "One material-participation test requires more than 100 hours of participation and participation at least as great as that of any other individual, including nonowners. Exactly 100 hours does not satisfy the first requirement. A tie can satisfy the comparative requirement; saying the owner must always exceed everyone else is too restrictive. Other tests and limitations may apply."
+      ],
+      [
+        "Determine the activity rules first",
+        "Rental activities generally receive passive treatment, subject to exceptions. The short average-period-of-customer-use exception is one issue the preparer must evaluate before applying a material-participation analysis. A platform label, local STR permit, or a few short bookings does not establish the tax result for the year."
+      ],
+      [
+        "Record actual work without manufacturing hours",
+        "Keep a dated description of tasks, the property or activity involved, time spent, and supporting records. Separate investor monitoring and personal tasks for the preparer’s review rather than assuming all time counts. Do not backfill a log to hit a target. Accurate gaps and uncertainty are more useful than an apparently precise but unsupported total."
+      ],
+      [
+        "Understand the manager’s role",
+        "Request information about the work performed by managers, cleaners, and other individuals. An annual management fee does not reveal each person’s participation. Describe what information is available and what remains unknown, and ask the preparer whether another test or additional evidence is relevant."
+      ],
+      [
+        "Evaluate the deduction separately",
+        "Passing a participation test does not establish the amount of depreciable basis, bonus eligibility, or freedom from other loss limits. Give the preparer the ownership and financing facts along with the study. The economic question is whether a supported deduction produces a usable benefit after all applicable rules, fees, and future consequences are considered."
+      ]
+    ],
+    "sources": [
+      [
+        "https://www.irs.gov/publications/p925",
+        "IRS Publication 925: material participation, rental exceptions, and at-risk rules"
+      ]
+    ],
+    "related": [
+      "passive-activity-loss-rules-cost-segregation",
+      "str-property-manager-study-handoff",
+      "when-not-to-do-cost-segregation"
+    ]
+  },
+  {
+    "slug": "cost-segregation-opportunity-zones",
+    "title": "Cost Segregation in an Opportunity Fund: Questions to Resolve",
+    "description": "Coordinate property studies with fund structure, investor records, and adviser review. Opportunity-zone location alone does not establish investor tax benefits.",
+    "sections": [
+      [
+        "Location and investment structure are different questions",
+        "An address in an opportunity zone does not by itself establish that an owner has a qualifying fund investment or a particular exclusion. The IRS describes opportunity-zone investment through Qualified Opportunity Funds. Have the fund’s advisers identify the rules, dates, elections, and investment structure that apply to the actual transaction."
+      ],
+      [
+        "Identify who owns the property costs",
+        "A property-level study belongs with the entity that owns the relevant assets. An investor’s capital contribution, the fund’s investment, and the operating entity’s property acquisition can be different transactions. Supply the organizational chart and acquisition records so the preparer can reconcile the report at the correct level."
+      ],
+      [
+        "Separate fund compliance from component evidence",
+        "The study provider should document physical components, cost reconciliation, methodology, and assumptions within its engagement. Fund qualification, investor eligibility, holding periods, and exit elections require separate advice. Do not ask a component schedule to serve as proof of compliance with the entire investment program."
+      ],
+      [
+        "Plan the exit without a blanket recapture promise",
+        "Ask the adviser to distinguish a sale of a fund interest from sales of assets inside an entity, and to model the actual elections and limitations. It is not appropriate to promise that every zone investment permanently eliminates all capital gains or recapture. Retain the basis and depreciation records even where an exclusion is being evaluated."
+      ],
+      [
+        "A practical engagement checklist",
+        "Identify the owning entity, responsible return preparer, acquisition and improvement costs, existing depreciation, and intended report recipients. Agree on how adjustments will flow into entity returns and investor reporting. Keep transaction documents and adviser conclusions with the study so future reviewers can follow the chain from property costs to the claimed tax treatment."
+      ]
+    ],
+    "sources": [
+      [
+        "https://www.irs.gov/credits-deductions/businesses/invest-in-a-qualified-opportunity-fund",
+        "IRS Qualified Opportunity Fund investor overview"
+      ],
+      [
+        "https://www.irs.gov/forms-pubs/about-form-8996",
+        "IRS Form 8996 information"
+      ]
+    ],
+    "related": [
+      "cost-segregation-partnership-special-allocations",
+      "depreciation-recapture-cost-segregation",
+      "how-to-choose-cost-segregation-company"
+    ]
+  }
+]

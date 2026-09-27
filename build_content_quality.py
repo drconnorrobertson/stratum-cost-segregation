@@ -90,7 +90,7 @@ def render_directory(page,links,markets):
         if not m:continue
         h=html.unescape(re.sub('<[^>]+>','',m[1]));m=re.search(r'(?:STR )?Cost Segregation in (.*), ([A-Z]{2})',h)
         if m:groups[m[2]].append((p.parent.name,m[1]))
-    body='''<p>Choose the state where the property is located. A guide describes nationwide service coverage, not a local branch office. Local operating resources and property-study questions are included where researched.</p><label class="market-search" for="market-search">Find a city, region, or state<input type="search" id="market-search" placeholder="Try Gatlinburg, Florida, or condo"></label><p id="market-count" role="status" aria-live="polite"></p><noscript><p>Search requires JavaScript; all market links remain available below by state.</p></noscript>'''
+    body='''<p>Choose the state where the property is located. A guide describes nationwide service coverage, not a local branch office. Each guide includes a checked local resource and a distinct property-study question.</p><label class="market-search" for="market-search">Find a city, region, or state<input type="search" id="market-search" placeholder="Try Gatlinburg, Florida, or condo"></label><p id="market-count" role="status" aria-live="polite"></p><noscript><p>Search requires JavaScript; all market links remain available below by state.</p></noscript>'''
     for code,entries in sorted(groups.items(),key=lambda x:STATE_NAMES.get(x[0],x[0])):
         body+=f'<section class="market-state"><h2>{E(STATE_NAMES.get(code,code))}</h2><ul class="market-list">'
         for slug,city in sorted(entries,key=lambda x:x[1]):
@@ -131,7 +131,10 @@ def apply_quality(page,links):
         body+=f'<h2>{E(m["question"])}</h2><p>{E(m["answer"])}</p>'
         body+='<h2>Prepare for a Stratum study</h2><p>Stratum provides nationwide property-study services, with discovery calls through AE Tax Advisors. Confirm the engagement scope, fee, evidence requirements, and CPA handoff. A service-area page does not represent a local office. Local operating approval and federal depreciation are separate questions.</p>'
         body+=links([('str-study-planner','Build your document checklist'),('blog/'+m['topic'],titles[m['topic']]),('short-term-rental-cost-segregation','Understand the STR study service'),('blog/best-str-cost-segregation-company','Compare study providers')])
-        body+='<h2>Related service areas</h2>'+links([('cost-segregation-'+s,s.rsplit('-',1)[0].replace('-',' ').title()) for s in m['related']])
+        if m['related']:
+            body+='<h2>Related service areas</h2>'+links([('cost-segregation-'+s,s.rsplit('-',1)[0].replace('-',' ').title()) for s in m['related']])
+        else:
+            body+='<h2>Explore service coverage</h2><p><a href="/locations/">Browse market guides by state</a></p>'
         body+='<p class="meta">Local source checked September 27, 2026. Confirm current address-specific requirements with the relevant authority. This page provides planning information, not a determination of rental eligibility or tax treatment.</p>'
         page('cost-segregation-'+m['slug'],f'STR Cost Segregation in {m["city"]}, {m["state"]} | Stratum',desc,f'STR Cost Segregation in {m["city"]}, {m["state"]}',body,area=f'{m["city"]}, {m["state"]}')
     downloads()
@@ -195,4 +198,5 @@ def apply_buyer_focus(page,links):
 
     # Version the revised shared stylesheet so returning readers receive responsive fixes.
     for p in ROOT.rglob('index.html'):
+        if 'public' in p.relative_to(ROOT).parts:continue
         s=p.read_text();s=re.sub(r'href="([^"?]*style\.css)(?:\?v=[^" ]*)?"',r'href="\1?v=20260927"',s);p.write_text(s)
