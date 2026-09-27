@@ -128,6 +128,9 @@ def main():
             text=text.replace('Stratum documents the building at component level. AE Tax Advisors connects the study to your wider tax strategy.','Stratum provides cost segregation studies for short-term rentals, Airbnb properties, and vacation homes. AE Tax Advisors connects the property analysis to your wider tax strategy.')
         if p==ROOT/'blog/index.html':text=metadata(text,'STR Cost Segregation Blog & Tax Guides | Stratum','Explore STR cost segregation guides, study checklists, depreciation topics, and rental-property planning resources from Stratum Cost Segregation.')
         p.write_text(text)
+    from build_content_quality import apply_quality, apply_buyer_focus
+    apply_quality(page, links)
+    apply_buyer_focus(page, links)
     rebuild_sitemap([])
-    print(f'Updated {sum(len(x) for x in groups.values())} market pages; added {len(MARKETS)} markets, {len(POSTS)} articles and 2 hubs.')
+    print('STR content build complete; run validate_str_seo.py and audit_content.py for current totals.')
 if __name__=='__main__':main()
