@@ -1,21 +1,25 @@
-# SEO content rollout — September 27, 2026
+# Stratum SEO release — September 27, 2026
 
-Primary commercial query: best cost segregation company. Use the existing /blog/how-to-choose-cost-segregation-company/ as the comparison destination, with contextual links from commercial pages and researched markets. Keep the STR-specific company guide as a supporting intent. Do not manufacture independent rankings, ratings, office locations, or client results.
+Primary commercial intent: “best cost seg company” / “best cost segregation company.” The national buyer guide remains the main comparison destination, supported by the STR guide, commercial pages, practical resources and contextual market links. No independent ranking, local office, professional review or client result is invented.
 
-This release rewrites 30 existing market pages and adds Palm Springs and Sevierville, adds six practical articles, a checklist planner, four blank CSV worksheets, and a searchable directory. There are 256 canonical pages, including 114 markets and 122 blog articles. Local sources support jurisdiction-specific planning context; IRS sources support technical references. Outbound links serve readers and substantiate information, not guaranteed ranking gains.
+## Released content
 
-## Quality and remaining work
+The site contains 256 canonical pages: 114 market guides, 122 blog articles and 20 other pages. This release rewrites the remaining 82 market guides, bringing all 114 into the sourced editorial dataset. Each has a distinct local planning question, scope discussion, records checklist, illustrative scenario and source references. Existing URLs remain intact.
 
-The five-word main-body similarity audit flags 77 older market pages after this release, down from 100. All 32 researched pages pass the internal editorial threshold. This is not a Google metric or a guarantee of indexing or compliance. See similarity-before.json and similarity-after.json for the exact backlog. A service footprint alone does not justify interchangeable city pages.
+Eight older articles receive complete targeted rewrites covering current and historical bonus depreciation, Notice 2026-11 records and construction components, recapture, section 179D timing, material participation and opportunity-fund coordination. Homepage, LTR service, services, pricing and FAQs receive accuracy and buyer-focused improvements. Other historic articles receive shared technical/navigation corrections; this release is not a professional tax review of every article.
 
-Before adding another batch, research a distinct property/ownership question, check the relevant official local source, record its date, write a meaningful example and records checklist, and link to appropriate service and topic pages. Populate markets-researched.json and run the build and validators. Consider consolidating overlapping markets only after reviewing search performance and user intent. Do not grow toward an arbitrary 250-location quota.
+## Technical changes
 
-Next business evidence with highest value: a real redacted sample report, named and verified preparer/reviewer credentials, permissioned client case studies with methodology and limitations, and independently verifiable client feedback. These require actual business evidence; this release invents none.
+Canonical directory links and permanent legacy index.html redirects reduce URL ambiguity. Metadata and JSON-LD match visible content; undocumented reviewer attribution is removed. The sitemap includes meaningful editorial dates. Every page is reachable from the homepage. The blog has one accessible search and 122 unique article cards. Native FAQ disclosures, planning links, privacy and consultation links improve navigation.
 
-Measure the national guide and market cohorts in Search Console: indexing, non-brand impressions, query mix, clicks, and qualified booking conversions. Search Console data was not available for this release. Prioritize remaining rewrites using that evidence. Google rankings are not guaranteed.
+Vercel packages only public pages and assets. Generators, editorial source data and audit files are excluded from deployment. The local release checks rebuild and validate committed output, navigation, schema, sitemap and JavaScript. The optional GitHub Actions template is saved as content/site-quality-workflow.yml.example; it is not installed because the existing GitHub token lacks workflow scope.
 
-## Validation
+## Validation and maintenance
 
-Run python3 build_str_seo.py, python3 validate_str_seo.py, and python3 audit_content.py --output content/similarity-after.json. All 256 pages pass the HTML/navigation/sitemap validator. Repeat generation is stable. Both new scripts pass node --check. Browser checks cover planner selection/reset, market filtering and empty results, buyer-guide layout, and mobile overflow.
+Run `python3 build_str_seo.py`, `python3 validate_str_seo.py`, `python3 audit_content.py --output content/similarity-after.json`, and `node build_static.mjs`. The validator covers all 256 canonical pages, assets, link fragments, unique metadata, schema, sitemap parity, homepage reachability, 122 blog cards and 114 complete sourced market records.
 
-Google reference: https://developers.google.com/search/docs/essentials/spam-policies
+All market pages pass the internal five-word similarity threshold of 0.65; the remaining flagged-market backlog is zero. This is an editorial heuristic, not a Google metric or a guarantee of indexing or ranking. Serving a market alone does not justify an interchangeable city page. Add markets only when there is useful original local material; do not pursue an arbitrary page quota.
+
+The most valuable next business evidence is an actual redacted sample report, verified preparer credentials and permissioned client case studies with documented results. Search Console access and search-performance data were unavailable. Measure indexing, nonbrand queries, qualified leads and the national comparison guide after launch; this work does not promise a particular ranking.
+
+References: [Google spam policies](https://developers.google.com/search/docs/essentials/spam-policies), [helpful content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content), [IRS Publication 946](https://www.irs.gov/publications/p946), [Publication 925](https://www.irs.gov/publications/p925), [Publication 544](https://www.irs.gov/publications/p544). Individual articles and markets carry their relevant sources.

@@ -1,23 +1,25 @@
-# STR search content expansion
+# Stratum SEO release — September 27, 2026
 
-Run `python3 build_str_seo.py` after the legacy site generators. It preserves existing URLs and regenerates the expansion, applies shared resource links, and rebuilds the sitemap. Run `python3 validate_str_seo.py` before deployment.
+Primary commercial intent: “best cost seg company” / “best cost segregation company.” The national buyer guide remains the main comparison destination, supported by the STR guide, commercial pages, practical resources and contextual market links. No independent ranking, local office, professional review or client result is invented.
 
-This release adds 12 service-area guides, 3 original buyer/preparation articles, a directory of all 112 market guides, and an STR resource center. It refreshes the homepage, blog metadata, STR service content and existing location search presentation. Other articles retain their specific subject and receive shared navigation to the STR resources; this is not a claim that every historic article received a technical tax review.
+## Released content
 
-The STR service page replaces outdated bonus phase-down language and removes blanket recovery-period and deduction claims. New articles use an organizational byline without asserting an unperformed professional review. New market pages identify national service coverage rather than fictitious local offices; scenarios are illustrative rather than fabricated client results.
+The site contains 256 canonical pages: 114 market guides, 122 blog articles and 20 other pages. This release rewrites the remaining 82 market guides, bringing all 114 into the sourced editorial dataset. Each has a distinct local planning question, scope discussion, records checklist, illustrative scenario and source references. Existing URLs remain intact.
 
-## Verification
+Eight older articles receive complete targeted rewrites covering current and historical bonus depreciation, Notice 2026-11 records and construction components, recapture, section 179D timing, material participation and opportunity-fund coordination. Homepage, LTR service, services, pricing and FAQs receive accuracy and buyer-focused improvements. Other historic articles receive shared technical/navigation corrections; this release is not a professional tax review of every article.
 
-The validator covers all 247 index pages: internal link destinations, one H1, descriptions, unique titles, self-canonicals, parseable JSON-LD and complete unique sitemap URLs. Re-running the builder produces identical HTML.
+## Technical changes
 
-## Search follow-through
+Canonical directory links and permanent legacy index.html redirects reduce URL ambiguity. Metadata and JSON-LD match visible content; undocumented reviewer attribution is removed. The sitemap includes meaningful editorial dates. Every page is reachable from the homepage. The blog has one accessible search and 122 unique article cards. Native FAQ disclosures, planning links, privacy and consultation links improve navigation.
 
-After production deployment, verify representative new URLs return 200 and inspect rendered pages on desktop/mobile. Submit the updated sitemap in the verified Search Console property. Establish a baseline for nonbrand impressions, qualified discovery calls, and market-page engagement. Search Console and keyword-volume data were not available during this change; no measured traffic, keyword difficulty, or ranking claims are made.
+Vercel packages only public pages and assets. Generators, editorial source data and audit files are excluded from deployment. The local release checks rebuild and validate committed output, navigation, schema, sitemap and JavaScript. The optional GitHub Actions template is saved as content/site-quality-workflow.yml.example; it is not installed because the existing GitHub token lacks workflow scope.
 
-Use Search Console query data to prioritize the next location-specific improvements. The 112-market directory is a defined service-area footprint, not an exhaustive ranking of every U.S. STR market. Existing location bodies still share a common structure; add documented regional case studies and address-specific operating resources as they become available. Obtain actual client consent and supporting evidence before publishing results, testimonials, or savings examples.
+## Validation and maintenance
 
-Primary references consulted September 27, 2026:
-- https://www.irs.gov/publications/p946
-- https://www.irs.gov/publications/p925
-- https://www.irs.gov/publications/p527
-- https://developers.google.com/search/docs/essentials/spam-policies
+Run `python3 build_str_seo.py`, `python3 validate_str_seo.py`, `python3 audit_content.py --output content/similarity-after.json`, and `node build_static.mjs`. The validator covers all 256 canonical pages, assets, link fragments, unique metadata, schema, sitemap parity, homepage reachability, 122 blog cards and 114 complete sourced market records.
+
+All market pages pass the internal five-word similarity threshold of 0.65; the remaining flagged-market backlog is zero. This is an editorial heuristic, not a Google metric or a guarantee of indexing or ranking. Serving a market alone does not justify an interchangeable city page. Add markets only when there is useful original local material; do not pursue an arbitrary page quota.
+
+The most valuable next business evidence is an actual redacted sample report, verified preparer credentials and permissioned client case studies with documented results. Search Console access and search-performance data were unavailable. Measure indexing, nonbrand queries, qualified leads and the national comparison guide after launch; this work does not promise a particular ranking.
+
+References: [Google spam policies](https://developers.google.com/search/docs/essentials/spam-policies), [helpful content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content), [IRS Publication 946](https://www.irs.gov/publications/p946), [Publication 925](https://www.irs.gov/publications/p925), [Publication 544](https://www.irs.gov/publications/p544). Individual articles and markets carry their relevant sources.

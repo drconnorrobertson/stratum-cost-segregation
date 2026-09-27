@@ -766,5 +766,1925 @@
       "broken-bow-ok"
     ],
     "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "albuquerque-nm",
+    "city": "Albuquerque",
+    "state": "NM",
+    "angle": "Separate the casita from the rooms you occupy",
+    "source_url": "https://www.cabq.gov/planning/planning-faqs/short-term-rental-faq",
+    "source_label": "Albuquerque STR FAQ",
+    "local": "Albuquerque’s FAQ distinguishes entire homes, rooms, and accessory units such as casitas, subject to zoning approval. Match the floor plan in the operating file to the spaces actually offered to guests.",
+    "scope": "A detached casita can share a utility connection, driveway, or landscaped courtyard with the owner’s home. Mark exclusive guest space and shared facilities on a site sketch. Give the preparer the cost records for each structure and explain how the spaces are used; do not apply the rental unit’s furnishing list to the entire parcel.",
+    "records": [
+      "Casita and main-house floor plans",
+      "Utility extension invoices and courtyard work descriptions",
+      "Rental calendar with owner-use notes"
+    ],
+    "scenario": "An owner converts a workshop into a guest casita while continuing to live in the main house. The conversion invoice includes a service-panel upgrade serving both buildings. Identify that shared work separately from the kitchenette equipment so the provider can evaluate the allocation.",
+    "question": "Does a separate guest entrance establish a separate tax asset?",
+    "answer": "An entrance helps describe the layout but does not resolve ownership, basis, or allocation. Show the actual construction and use of the rooms, including connections to the main house.",
+    "topic": "str-renovation-phased-opening",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "anna-maria-island-fl",
+    "city": "Anna Maria Island",
+    "state": "FL",
+    "angle": "Match island jurisdiction and inspection work to the acquired property",
+    "source_url": "https://www.cityofannamaria.com/230/Vacation-Rentals",
+    "source_label": "City of Anna Maria vacation rentals",
+    "local": "The City of Anna Maria publishes registration and inspection procedures for vacation rentals. This city resource is not an island-wide approval: first identify the municipality responsible for the property.",
+    "scope": "For a furnished coastal home, distinguish assets acquired with the house from safety work completed for opening. A seller’s listing photographs may show items removed before closing. Record what was delivered, what failed inspection, and what you replaced. Keep pool equipment, alarms, and structural repairs in separate invoice lines for the study discussion.",
+    "records": [
+      "Closing inventory checked against possession-day photographs",
+      "Inspection findings and contractor completion records",
+      "Pool and safety-equipment receipts with installation details"
+    ],
+    "scenario": "A sale includes a pool heater, but it fails before the first booking and is replaced. Preserve evidence of the acquired heater and the new invoice rather than presenting both as two operating heaters in the current inventory.",
+    "question": "Can an inspection checklist replace a furnishing inventory?",
+    "answer": "No. An inspection addresses operating conditions. A room-by-room inventory identifies the assets you received and the evidence supporting their costs; both can belong in the file.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "destin-fl",
+      "30a-fl"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "aspen-co",
+    "city": "Aspen",
+    "state": "CO",
+    "angle": "Condo-hotel management does not establish ownership of every amenity",
+    "source_url": "https://www.aspen.gov/1407/Short-term-Rentals",
+    "source_label": "Aspen STR permit types and program guidance",
+    "local": "Aspen distinguishes lodging-exempt, owner-occupied, and classic STR permits. Its guidance explains that a condo-hotel manager and an individual unit owner can have different application paths.",
+    "scope": "Before studying a managed unit, separate the deeded interior from amenities controlled by the association or operator. Obtain the furnishing-package agreement, reserve statements, and any mandatory refurbishment charges. Ask the provider to identify costs attributable to your ownership interest rather than assigning a share of every facility advertised by the resort.",
+    "records": [
+      "Unit deed and condominium declaration",
+      "Operator furnishing schedule and replacement-reserve ledger",
+      "Refurbishment invoices distinguishing unit and common work"
+    ],
+    "scenario": "A manager deducts a reserve contribution each month and later replaces bedroom furniture. The contribution and the furniture purchase are not two separate acquisitions. Request the underlying purchase detail and the ownership arrangement before adding either to a study schedule.",
+    "question": "Does a lodge-wide permit tell me which assets my unit owns?",
+    "answer": "No. Permit coverage describes operations. Title documents and management agreements determine the property interests and contractual obligations the preparer needs to evaluate.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [
+      "breckenridge-co",
+      "denver-co"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "atlanta-ga",
+    "city": "Atlanta",
+    "state": "GA",
+    "angle": "Keep the primary residence and additional unit in separate study files",
+    "source_url": "https://www.atlantaga.gov/government/departments/city-planning/ordinances-regulations/short-term-rental",
+    "source_label": "Atlanta short-term rental program",
+    "local": "Atlanta’s program discusses a primary residence and an additional dwelling, and provides a city-boundary property lookup. Establish which addresses are within Atlanta before relying on its licensing process.",
+    "scope": "One operator account can conceal very different property histories. A residence used occasionally by guests, an acquired rental, and a tenant-furnished unit should not receive a single pooled basis calculation. Record ownership, exclusive rental areas, and improvements by address. Have the return preparer resolve owner-versus-tenant costs before requesting a provider estimate.",
+    "records": [
+      "Property-by-property title or lease record",
+      "Residence-use calendar and room measurements",
+      "Separate acquisition and improvement ledgers"
+    ],
+    "scenario": "An owner buys furniture for both a primary residence and a second rental on one invoice. Annotate delivery destinations and allocate delivery charges using a documented method. The total card charge alone cannot show which property received each item.",
+    "question": "Can I use one furnishing allowance for both addresses?",
+    "answer": "Only after reconciling the actual items and costs for each. A shared vendor or listing account does not make the buildings or ownership interests interchangeable.",
+    "topic": "str-cost-segregation-multiple-properties",
+    "related": [
+      "savannah-ga",
+      "blue-ridge-ga"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "baltimore-md",
+    "city": "Baltimore",
+    "state": "MD",
+    "angle": "Document hosted rooms without treating the whole rowhouse as guest space",
+    "source_url": "https://dhcd.baltimorecity.gov/sites/default/files/STR%20FAQ%20updated%20rev%20062923.pdf",
+    "source_label": "Baltimore short-term rental licensing FAQ",
+    "local": "Baltimore’s licensing FAQ discusses hosted short-term stays and permanent-residence requirements. Confirm the current license category with the city and retain the application’s description of the rented space.",
+    "scope": "For a rowhouse with guest bedrooms, map the rooms rented exclusively, common circulation, and owner-only areas. Renovations to stairs, plumbing, or the roof may serve the whole house, while particular furnishings serve the guest rooms. Present those differences explicitly instead of valuing everything visible in listing photographs as rental property.",
+    "records": [
+      "Floor plan identifying private and shared rooms",
+      "Guest-room inventory with purchase dates",
+      "Whole-house and room-specific renovation invoices"
+    ],
+    "scenario": "A host replaces a shared hallway floor and buys beds for two rental rooms. The beds have identifiable locations; the hallway serves both guests and occupants. Keep those facts distinct when the preparer evaluates the rental allocation.",
+    "question": "Does hosted status settle the deduction calculation?",
+    "answer": "No. Local license terminology does not establish federal depreciation or personal-use treatment. Supply actual room use, dates, and costs to the return preparer.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "deep-creek-md"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "bend-or",
+    "city": "Bend",
+    "state": "OR",
+    "angle": "Reconcile a change from year-round tenants to short stays",
+    "source_url": "https://bendoregon.gov/services/business/short-term-rentals/",
+    "source_label": "Bend STR permits and operating licenses",
+    "local": "Bend publishes separate information about short-term rental permits and operating licenses, including renewal documentation. Save the approvals applicable to your address and the dates of any operating change.",
+    "scope": "A previously leased home may already have an asset schedule before it is furnished for vacation guests. Start with that schedule and a transition timeline. Distinguish existing building components from newly purchased furniture and turnover projects. Ask how the provider will reconcile prior depreciation instead of treating the conversion as a new purchase of the house.",
+    "records": [
+      "Last long-term lease and transition calendar",
+      "Existing depreciation schedule and earlier improvements",
+      "Furnishing invoices and turnover-project cost detail"
+    ],
+    "scenario": "A twelve-month tenancy ends and the owner adds laundry equipment before accepting nightly reservations. The house acquisition date has not changed. Record the equipment addition separately and identify the interval when work prevented the property from being ready for guests.",
+    "question": "Is the operating-license date the purchase date for the study?",
+    "answer": "No. Licensing, acquisition, and readiness for use are different events. Give the preparer the evidence for each rather than selecting one date for every asset.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "cannon-beach-or",
+      "hood-river-or"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "boise-id",
+    "city": "Boise",
+    "state": "ID",
+    "angle": "Track furnishings across an accessory unit and the main house",
+    "source_url": "https://www.cityofboise.org/media/14298/revised-str-ord-2-8-2022-clean-copy.pdf",
+    "source_label": "Boise published STR licensing ordinance",
+    "local": "Boise publishes its STR licensing framework through the city. Check the current application and permitted use for the specific dwelling; a postal address alone does not describe which rooms are rented.",
+    "scope": "If an owner moves furniture from a personal residence into a guest unit, purchase price, transfer date, and condition become separate pieces of evidence. Mark transferred items rather than mixing them into a new retail furnishing package. Ask the preparer to address conversion treatment and any missing records before the provider builds its component schedule.",
+    "records": [
+      "Original receipts for transferred furniture where available",
+      "Dated guest-unit inventory and condition photographs",
+      "New purchases separated from personally used items"
+    ],
+    "scenario": "A sofa purchased years earlier moves into a guest suite while new bedroom furniture arrives from a retailer. A spreadsheet showing today’s replacement prices for both is not a record of what the owner paid or when each item entered rental use.",
+    "question": "Can a current online price support every furniture value?",
+    "answer": "It may provide context, but it is not proof of the historical transaction or conversion basis. Label estimates and missing evidence so the preparer can resolve the valuation approach.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "coeur-d-alene-id"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "broken-bow-ok",
+    "city": "Broken Bow",
+    "state": "OK",
+    "angle": "Identify cabin structures, land work, and the actual operating jurisdiction",
+    "source_url": "https://www.brokenbowok.gov/",
+    "source_label": "City of Broken Bow official website",
+    "local": "Use the City of Broken Bow’s official resources to establish the relevant city contact. A cabin marketed as a Broken Bow getaway may require a different jurisdictional inquiry; verify the parcel before selecting permit records.",
+    "scope": "A cabin project can include a steep access drive, utility runs, clearing, a detached game building, and the main residence. Request a site plan and contractor breakdown by physical improvement. Do not assign the entire site-preparation bill to the cabin shell or assume every outdoor expenditure has the same depreciation treatment.",
+    "records": [
+      "Parcel map and a labeled site plan",
+      "Earthwork and utility invoices with location descriptions",
+      "Main cabin and detached-building completion records"
+    ],
+    "scenario": "A builder invoices a driveway, buried electric service, and a game-room foundation as one exterior package. Ask for quantities or subcontractor detail. The study needs to distinguish what was constructed and what each element serves before classifications can be supported.",
+    "question": "Does the rental listing’s market name identify the permit authority?",
+    "answer": "No. Use the parcel location and governmental boundary, then confirm the applicable office directly. Marketing descriptions are useful for guests but are not jurisdiction evidence.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "cannon-beach-or",
+    "city": "Cannon Beach",
+    "state": "OR",
+    "angle": "Separate the rental calendar from seasonal property work",
+    "source_url": "https://www.ci.cannon-beach.or.us/planning/page/14-day-short-term-rental-information-and-permits",
+    "source_label": "Cannon Beach 14-day rental permit information",
+    "local": "Cannon Beach publishes a specific 14-day permit resource. Review the permit actually held rather than assuming all vacation homes operate under identical booking conditions.",
+    "scope": "For a home used by both owners and paying guests, preserve the calendar alongside maintenance and renovation dates. Explain which work made the property unavailable and which work occurred between reservations. A seasonal gap in bookings is not enough to determine how the property or each improvement was used.",
+    "records": [
+      "Permit category and booking history",
+      "Owner-use and maintenance calendar",
+      "Exterior work invoices and dated completion photographs"
+    ],
+    "scenario": "A cottage receives new window coverings during a spring owner stay and deck repairs before summer rentals. Keep separate descriptions, costs, and dates; the owner’s single seasonal spending total does not explain either project’s function or use.",
+    "question": "Can the rental permit determine my personal-use allocation?",
+    "answer": "No. Keep actual use records for the return preparer. Local limits on reservations and federal rules for a dwelling used as a home answer different questions.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "bend-or",
+      "hood-river-or"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "cape-cod-ma",
+    "city": "Cape Cod",
+    "state": "MA",
+    "angle": "Build a town-specific file for a seasonal cottage purchase",
+    "source_url": "https://townofbarnstable.us/departments/healthdivision/Rental-Registration.asp",
+    "source_label": "Barnstable rental registration",
+    "local": "Barnstable’s Health Division provides rental-registration information. Use it for a Barnstable property, then check the appropriate town for a cottage elsewhere on Cape Cod; the regional destination name is not a single permitting jurisdiction.",
+    "scope": "A seasonal cottage acquisition may include outbuildings, exterior showers, furnishings, and later winterization work. Prepare a closing inventory before contractors remove old items. Record the function and location of plumbing work rather than describing the entire project as a vacation-rental upgrade.",
+    "records": [
+      "Town and parcel identification with registration file",
+      "Closing inventory including exterior equipment",
+      "Winterization contract and plumbing scope by location"
+    ],
+    "scenario": "A buyer acquires a furnished summer cottage, replaces its outdoor shower, and adds year-round heating. Treat the acquired assets and the two later projects as distinct evidence groups. The provider can then reconcile costs without assuming every component was purchased at closing.",
+    "question": "Does regional tourism registration replace town records?",
+    "answer": "No. Identify the town responsible for the parcel and retain its applicable records. Use acquisition documents, not registration fees or tourism descriptions, to support the study’s cost reconciliation.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "boston-ma"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "charlotte-nc",
+    "city": "Charlotte",
+    "state": "NC",
+    "angle": "Reconcile county records with a renovated rental’s actual configuration",
+    "source_url": "https://tax.mecknc.gov/",
+    "source_label": "Mecklenburg County Office of Tax Administration",
+    "local": "Mecklenburg County’s Office of Tax Administration handles real and personal property valuation. Its records are a useful starting point for identifying the parcel behind a Charlotte rental purchase.",
+    "scope": "Compare the recorded building description with your survey, floor plan, and renovation history. A recently finished room or converted garage may not be apparent in an older property record. Give the provider the discrepancy and supporting documents instead of silently using whichever square footage creates a larger allocation.",
+    "records": [
+      "County property record and closing survey",
+      "Before-and-after plans for converted areas",
+      "Contractor ledger matched to each renovation phase"
+    ],
+    "scenario": "A purchased home is advertised with a finished garage studio, while an older record describes an unfinished garage. Supply plans and permits showing what existed at acquisition and distinguish the buyer’s later furnishing purchases from the seller’s construction.",
+    "question": "Is the assessed building value the cost segregation basis?",
+    "answer": "Not automatically. The preparer must reconcile the owner’s transaction and tax records. Assessment information can help describe the property but does not replace that calculation.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "asheville-nc",
+      "outer-banks-nc"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "chelan-wa",
+    "city": "Chelan",
+    "state": "WA",
+    "angle": "Tie a waterfront acquisition to the unit and improvements actually owned",
+    "source_url": "https://www.cityofchelan.gov/251/Short-Term-Rental-License",
+    "source_label": "City of Chelan STR license information",
+    "local": "Chelan’s city licensing page includes zoning, inspection, and ownership-change information. Determine whether the rental is within the city before applying that process to a lake-area address.",
+    "scope": "For a property sold with waterfront access, separate deeded improvements from shared facilities and use rights. A listing may advertise a dock, beach, or launch that the owner does not hold individually. Supply recorded agreements and explain any improvement payments before the provider assigns costs to those amenities.",
+    "records": [
+      "Deed and waterfront easement or shared-use agreement",
+      "Dock or shore-improvement invoices identifying ownership",
+      "Closing cost allocation and possession inventory"
+    ],
+    "scenario": "A townhouse purchase includes the right to use an association dock, and the new owner also buys patio furniture. The dock’s presence in the listing does not make it a separately acquired owner-controlled asset comparable to the patio set.",
+    "question": "Should I allocate a percentage of every shared amenity to my unit?",
+    "answer": "First establish the ownership and payment arrangement. Have the preparer evaluate the documents rather than applying a percentage derived from guest access or marketing photographs.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [
+      "leavenworth-wa",
+      "seattle-wa"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "chicago-il",
+    "city": "Chicago",
+    "state": "IL",
+    "angle": "Keep shared-housing registration and building ownership distinct",
+    "source_url": "https://codelibrary.amlegal.com/codes/chicago/latest/chicago_il/0-0-0-2611567",
+    "source_label": "Chicago shared-housing registration code",
+    "local": "Chicago’s shared-housing code addresses registration for each dwelling unit and zoning review. Use the registered unit identifier to align the operating file with the physical space in the study.",
+    "scope": "For a two-flat or small apartment building, separate unit interiors from a common boiler, stairs, roof, and laundry room. Identify which units are rented nightly, leased longer term, or owner occupied. The building’s systems should be traced to the areas served rather than copied into every unit inventory.",
+    "records": [
+      "Unit schedule showing rental and owner use",
+      "Common-system diagrams or contractor descriptions",
+      "Building acquisition file and unit-level furnishing lists"
+    ],
+    "scenario": "A landlord furnishes an upper unit for visitors while keeping a lower unit on an annual lease. The shared boiler replacement appears once in the building file; the new beds appear in the upper-unit file. This prevents a repeated whole-building cost in each rental schedule.",
+    "question": "Does each registration require a separate valuation of the entire building?",
+    "answer": "No. Ask the provider to define the reporting scope and reconcile shared costs. Multiple operating units should not cause the same acquired component to be counted repeatedly.",
+    "topic": "str-cost-segregation-multiple-properties",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "cincinnati-oh",
+    "city": "Cincinnati",
+    "state": "OH",
+    "angle": "Trace furnishings and common costs through a duplex turnover",
+    "source_url": "https://www.cincinnati-oh.gov/finance/short-term-rental/",
+    "source_label": "Cincinnati short-term rental registration",
+    "local": "Cincinnati’s Finance Department provides STR registration information and instructions for displaying the registration identifier. Align that identifier with the address and unit number in your acquisition records.",
+    "scope": "A duplex can transition one floor at a time. Keep the continuing tenant’s area, newly furnished rooms, and shared basement equipment identifiable. Give the provider a unit schedule showing which costs belong to a particular floor and which serve the entire building. Ask the preparer how prior depreciation connects to the new report.",
+    "records": [
+      "Unit-by-unit lease and guest-use timeline",
+      "Furniture delivery records with unit labels",
+      "Shared basement and utility-system invoices"
+    ],
+    "scenario": "An owner buys two identical washer-dryer sets, one for a rental unit and one for personal use at another address. A single supplier receipt needs delivery annotations before the study team can place either purchase in the property inventory.",
+    "question": "Can I use the platform payout statement as the property asset record?",
+    "answer": "No. It can help establish activity dates, but it does not describe acquisition costs, equipment ownership, or what each contractor installed.",
+    "topic": "str-cost-segregation-multiple-properties",
+    "related": [
+      "cleveland-oh",
+      "hocking-hills-oh"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "clearwater-fl",
+    "city": "Clearwater",
+    "state": "FL",
+    "angle": "Check residential use before underwriting an accessory rental",
+    "source_url": "https://www.myclearwater.com/My-Government/0-City-Departments/Planning-Development/Accessory-Dwelling-Units-ADUs",
+    "source_label": "Clearwater accessory dwelling unit guidance",
+    "local": "Clearwater’s ADU guidance states that short-term rentals are not permitted in residential zoning districts. Verify the address-specific use before treating a residential guest-unit project as a nightly rental investment.",
+    "scope": "If the intended operation changes to a longer lease, the construction records remain useful, but the study scope and owner’s tax assumptions need review. Identify the original dwelling, the accessory addition, and shared utility upgrades. Avoid combining an unapproved rental projection with an assumed accelerated deduction in the investment budget.",
+    "records": [
+      "Written zoning/use confirmation for the parcel",
+      "ADU construction contract and shared-service breakdown",
+      "Actual leasing plan and readiness timeline"
+    ],
+    "scenario": "A homeowner builds an accessory suite expecting nightly bookings, then arranges a longer-term tenancy. Preserve the suite’s construction evidence and give the preparer the actual lease and use dates instead of the original vacation-rental projection.",
+    "question": "Can cost segregation make an otherwise prohibited rental permissible?",
+    "answer": "No. A study analyzes property costs. Resolve lawful operation independently and use the actual rental arrangement when evaluating tax treatment and the value of commissioning a report.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "destin-fl",
+      "30a-fl"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "cleveland-oh",
+    "city": "Cleveland",
+    "state": "OH",
+    "angle": "Separate rehabilitation work from the purchase of an older rental",
+    "source_url": "https://www.clevelandohio.gov/city-hall/departments/building-housing/divisions/records-administration/rental-registration",
+    "source_label": "Cleveland rental registration",
+    "local": "Cleveland’s rental-registration page discusses the Certificate Approving Rental Occupancy and a separate registration path for vacant property. Keep those status records alongside the rehabilitation timeline.",
+    "scope": "For a vacant building prepared for guests or tenants, distinguish what was acquired from what the buyer removed, repaired, or installed. Inspection correction lists help locate work but do not show its final cost. Reconcile each contractor’s final invoice to the ledger, including credits for work deleted from the original scope.",
+    "records": [
+      "Acquisition photographs and initial inspection findings",
+      "Rehabilitation contracts with credits and change orders",
+      "Occupancy records and dates completed spaces became available"
+    ],
+    "scenario": "A contractor quotes replacement of every kitchen cabinet but ultimately repairs some and replaces others. Give the provider the revised scope and final photographs. The first estimate would describe assets that were never installed.",
+    "question": "Should I submit the renovation estimate or the final invoice?",
+    "answer": "Submit the final reconciled costs, with the estimate and change history when they explain scope. Identify unpaid, disputed, or cancelled work instead of assuming the quoted amount became property basis.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "cincinnati-oh",
+      "hocking-hills-oh"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "coeur-d-alene-id",
+    "city": "Coeur d’Alene",
+    "state": "ID",
+    "angle": "Verify the parcel behind a lake-access rental description",
+    "source_url": "https://www.kcgov.us/176/Assessor",
+    "source_label": "Kootenai County Assessor",
+    "local": "The Kootenai County Assessor offers parcel information and ownership mapping. Use the parcel identifier to connect a Coeur d’Alene property’s listing description with the real estate actually acquired.",
+    "scope": "A purchase described as lake-access may include a residence, another tax parcel, an easement, or an association membership. Provide the deed package and settlement allocation for all interests. Have the preparer resolve land and non-building interests before the provider inventories improvements; a marketing premium is not an itemized asset cost.",
+    "records": [
+      "Deeds and parcel numbers for every acquired interest",
+      "Access easements and association ownership documents",
+      "Settlement statement and supported land allocation"
+    ],
+    "scenario": "A buyer closes on a house and an adjoining vacant lot under one contract. The study should not treat the second parcel’s entire price as improvements merely because both parcels support the same guest listing.",
+    "question": "Can the parcel record confirm rental permission?",
+    "answer": "An assessor record is primarily a property identification and valuation resource. Confirm operating eligibility with the relevant planning authority and keep that answer separate from the ownership file.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [
+      "boise-id"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "colorado-springs-co",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "angle": "Keep the new owner’s approval and the seller’s property history separate",
+    "source_url": "https://coloradosprings.gov/str",
+    "source_label": "Colorado Springs short-term rentals",
+    "local": "Colorado Springs states that an STR permit is issued to a specific owner rather than running with the property. Confirm your own operating status when acquiring an existing rental.",
+    "scope": "A going-concern sale can include reservation history, furnishings, and recent seller improvements. For a property study, reconcile what the buyer acquired under the contract rather than simply importing the seller’s depreciation schedule. Preserve old records as descriptive evidence and clearly distinguish them from the buyer’s cost documentation.",
+    "records": [
+      "Buyer closing statement and executed asset schedule",
+      "Seller inventory verified at possession",
+      "New owner’s permit file and post-closing improvement receipts"
+    ],
+    "scenario": "A seller supplies a depreciation report from an earlier acquisition. The buyer pays a different price and excludes several furniture items from the sale. Give the provider both the historical report and the current contract, with the excluded items identified.",
+    "question": "Can I reuse the seller’s study without adjustment?",
+    "answer": "Ask the provider and return preparer to evaluate it. The prior report may help describe components, but it does not establish your transaction costs or automatically become your depreciation schedule.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "breckenridge-co",
+      "denver-co"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "dallas-tx",
+    "city": "Dallas",
+    "state": "TX",
+    "angle": "Resolve the operating plan before valuing a furnished conversion",
+    "source_url": "https://codelibrary.amlegal.com/codes/dallas/latest/dallas_tx/0-0-0-130601",
+    "source_label": "Dallas published STR registration provisions",
+    "local": "Dallas publishes STR registration provisions in its code. Because published code alone may not describe current enforcement or litigation effects, confirm the property’s current operating status directly before relying on a short-stay projection.",
+    "scope": "A furnished townhome may alternate between corporate leases and shorter stays. Keep the actual contracts and use calendar, and disclose any change in the intended operation. Study costs should be tied to property evidence, while the return preparer separately evaluates the rental activity and whether projected deductions can be used.",
+    "records": [
+      "Actual leases and booking durations",
+      "Written operating-status confirmation",
+      "Furnishing invoices separated from leasing and marketing costs"
+    ],
+    "scenario": "An investor furnishes a unit for visiting professionals but later uses six-month leases. The same furniture remains on site, yet the operating facts differ from the original proposal. Update the provider and preparer before treating a preliminary STR tax illustration as applicable.",
+    "question": "Does a short-term-rental label determine passive-activity treatment?",
+    "answer": "No. Supply the real rental periods, services, participation, and ownership facts to the preparer. A city category or marketing label does not resolve federal tax treatment.",
+    "topic": "str-property-manager-study-handoff",
+    "related": [
+      "austin-tx",
+      "fredericksburg-tx"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "deep-creek-md",
+    "city": "Deep Creek Lake",
+    "state": "MD",
+    "angle": "Describe lake-house amenities by ownership and installation",
+    "source_url": "https://www.garrettcountymd.gov/community-development/planning-land-management/transient-vacation-rental-units-tvrus",
+    "source_label": "Garrett County transient vacation rental units",
+    "local": "Garrett County publishes information for transient vacation rental units. Match the county operating file to the Deep Creek parcel and the specific structures included in the rental.",
+    "scope": "A lake house can include an indoor pool enclosure, mechanical equipment, a detached garage, and outdoor recreation areas. Ask contractors to distinguish equipment from the structure housing it and from general building systems. Show the provider how each element functions instead of applying one classification to the entire amenity package.",
+    "records": [
+      "Building plans identifying the pool enclosure and mechanical room",
+      "Equipment model numbers and installation invoices",
+      "Separate schedules for residence, garage, and exterior work"
+    ],
+    "scenario": "A pool project invoice combines the enclosure, circulation equipment, dehumidification, and furnishings. Request a scope breakdown with installation locations. The term indoor pool does not establish a single cost or classification for those different components.",
+    "question": "Will every guest amenity qualify for the same recovery period?",
+    "answer": "No. The provider must analyze the asset and its function. Give the preparer component evidence rather than assuming a classification from the amenity’s appeal to guests.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "baltimore-md"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "door-county-wi",
+    "city": "Door County",
+    "state": "WI",
+    "angle": "Keep cottage operating permits and furniture transfers traceable",
+    "source_url": "https://doorcountytourismzone.com/apply-for-a-permit/",
+    "source_label": "Door County Tourism Zone lodging permits",
+    "local": "The Door County Tourism Zone Commission provides a lodging-permit application for property owners. Confirm the municipality and other applicable approvals as well as the tourism-zone account.",
+    "scope": "For a small group of seasonal cottages, maintain an inventory for each cottage even when one manager purchases supplies. Furniture moved between buildings should have a transfer record rather than a second acquisition entry. Distinguish shared storage, grounds equipment, and guest furnishings when defining the study engagement.",
+    "records": [
+      "Cottage-by-cottage ownership and permit schedule",
+      "Furniture purchase and inter-cottage transfer log",
+      "Shared maintenance-equipment records and storage location"
+    ],
+    "scenario": "A manager moves dining furniture from Cottage A to Cottage B and replaces it in A. The transfer is not a new purchase for B. Keep the original asset identifier and new invoice so the two inventories reconcile to the total property records.",
+    "question": "Can one manager’s annual spending report support the entire study?",
+    "answer": "It is a starting point. Request underlying invoices and destinations so the provider can separate acquisitions, transfers, operating supplies, and work on common areas.",
+    "topic": "str-cost-segregation-multiple-properties",
+    "related": [
+      "lake-geneva-wi",
+      "milwaukee-wi"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "fredericksburg-tx",
+    "city": "Fredericksburg",
+    "state": "TX",
+    "angle": "Separate city-limit questions from a multi-building guest property",
+    "source_url": "https://fbgtx.org/1116/Short-Term-Rental-Permit---Frequently-As",
+    "source_label": "Fredericksburg STR permit FAQ",
+    "local": "Fredericksburg’s permit FAQ distinguishes city limits from its extra-territorial jurisdiction. Establish the parcel’s location before assuming the same permit process applies to every property with a Fredericksburg address.",
+    "scope": "A guest compound may contain an older residence, a later cottage, outdoor gathering space, and owner storage. Inventory each building by age, function, and cost source. Construction of a second guest unit should not overwrite the original home’s acquisition history or create a second entry for common utility work.",
+    "records": [
+      "Parcel location and labeled compound plan",
+      "Separate acquisition and cottage-construction records",
+      "Shared utility and outdoor-area invoice detail"
+    ],
+    "scenario": "An owner adds a guest cottage beside an existing rental. The cottage contract includes a new water line that also serves the original house. Identify both connections and the incremental construction scope for the provider’s allocation review.",
+    "question": "Does each guest building need an identical asset allocation?",
+    "answer": "No. Building age, construction, furnishings, and ownership can differ. Ask for a property-specific analysis using each structure’s evidence rather than copying a percentage across the compound.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "austin-tx",
+      "dallas-tx"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "fresno-ca",
+    "city": "Fresno",
+    "state": "CA",
+    "angle": "Reconcile a guest-room setup with the zoning-clearance file",
+    "source_url": "https://www.fresno.gov/finance/business-license-and-tax-certificate/",
+    "source_label": "Fresno business tax and STR permit information",
+    "local": "Fresno’s Finance Department provides STR permit information and applications. Its application materials direct owners to obtain zone clearance; retain that property-specific file when planning the operation.",
+    "scope": "If only part of a residence is rented, identify dedicated guest furnishings and shared household equipment. Mark personal purchases and items brought into rental use later. A whole-house retail estimate is a poor substitute for a documented inventory of the actual rented rooms.",
+    "records": [
+      "Zone-clearance and permit records for the address",
+      "Guest-room layout and shared-space description",
+      "Receipts identifying newly acquired and transferred furnishings"
+    ],
+    "scenario": "A host installs a guest-room mini refrigerator and also replaces the main kitchen refrigerator. Note whether the main kitchen remains shared with the owner. The two appliances should not be described as serving identical rental space without supporting facts.",
+    "question": "Can I claim the whole furnishing package if I rent one bedroom?",
+    "answer": "Have the preparer determine the appropriate treatment from actual use. Supply room measurements, access arrangements, and costs rather than applying a whole-property estimate to a partial rental.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "joshua-tree-ca",
+      "palm-springs-ca"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "galveston-tx",
+    "city": "Galveston",
+    "state": "TX",
+    "angle": "Reconcile ownership changes with city registration and elevated-home work",
+    "source_url": "https://www.galvestontx.gov/1433/Frequently-Asked-Questions",
+    "source_label": "Galveston STR registration FAQ",
+    "local": "Galveston’s FAQ explains the city-administered registration process following the transfer from the Park Board. Use the current property identifier and preserve earlier records when ownership or management changes.",
+    "scope": "For an elevated coastal home, describe the stairs, platforms, enclosed areas, and equipment separately. Contractor invoices often combine access work with storm repairs or replacements. Show which components existed at purchase and which were installed later, and provide insurance or reimbursement information to the return preparer when relevant.",
+    "records": [
+      "Closing photographs of elevated and ground-level areas",
+      "Access-structure and equipment repair invoices",
+      "Insurance settlement documents separated from construction cost detail"
+    ],
+    "scenario": "A buyer replaces damaged stairs and adds a new outdoor rinse station after closing. An invoice titled exterior repairs hides two different scopes. Ask for a breakdown and retain dated photos so the provider can identify the acquired and newly constructed elements.",
+    "question": "Can I use an insurance estimate as the final project cost?",
+    "answer": "It may help describe damage, but reconcile actual work, invoices, reimbursements, and payments with the preparer. Estimated replacement work may differ from what was completed.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "austin-tx",
+      "dallas-tx"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "hilton-head-sc",
+    "city": "Hilton Head Island",
+    "state": "SC",
+    "angle": "Separate driveway changes from rental furnishings and resort access",
+    "source_url": "https://content.govdelivery.com/accounts/SCHILTONHEAD/bulletins/41cb353",
+    "source_label": "Hilton Head Island town update, June 20, 2026",
+    "local": "The town’s June 2026 update discusses the revised STR ordinance and restrictions on expanding parking for rental guests. Check the current requirements before including proposed site changes in a property plan.",
+    "scope": "A villa or home may have association-controlled roads and recreation facilities alongside owner-funded parking or interior work. Identify who owns and pays for each improvement. Proposed construction should remain outside completed-cost schedules until the facts and costs are resolved; the provider needs the property as acquired and actually improved.",
+    "records": [
+      "Association declaration and exterior-work approvals",
+      "Completed parking or landscaping invoices",
+      "Villa inventory and manager-provided replacement records"
+    ],
+    "scenario": "An owner budgets a driveway expansion but instead purchases indoor storage after a permitting review. Give the provider the completed storage invoice and remove the unbuilt driveway from the project ledger. A budget line is not evidence of an installed improvement.",
+    "question": "Does an association assessment identify an asset automatically?",
+    "answer": "No. Obtain the purpose, underlying project detail, and ownership terms. The preparer must distinguish the payment from the particular property interest or work it supports.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [
+      "charleston-sc",
+      "myrtle-beach-sc"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "hocking-hills-oh",
+    "city": "Hocking Hills",
+    "state": "OH",
+    "angle": "Build a cost map for cabins sharing land and utilities",
+    "source_url": "https://www.hocking.oh.gov/LodgingTax",
+    "source_label": "Hocking County lodging tax resources",
+    "local": "Hocking County provides lodging-tax information for local STR operators, including county and township requirements. Identify the township and parcel for each cabin rather than treating Hocking Hills as one jurisdiction.",
+    "scope": "When several cabins share a well, septic system, access road, or maintenance building, prepare a site map with connections and construction dates. Trace shared invoices once and give the provider a documented allocation question. A per-cabin estimate should not multiply the same infrastructure cost by the number of listings.",
+    "records": [
+      "Parcel and township schedule for each cabin",
+      "Utility and access-road plans with contractor invoices",
+      "Cabin-specific furnishing lists and opening dates"
+    ],
+    "scenario": "Three cabins are completed in stages using one well. The initial construction ledger places the well in the first phase, while later proposals repeat a standard utility allowance. Reconcile the actual shared system before combining those phase budgets.",
+    "question": "Can separate booking listings be treated as separate complete properties?",
+    "answer": "Not without checking shared ownership and improvements. Define the reporting units and shared costs before the study so the total agrees with the owner’s records.",
+    "topic": "str-cost-segregation-multiple-properties",
+    "related": [
+      "cincinnati-oh",
+      "cleveland-oh"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "honolulu-hi",
+    "city": "Honolulu",
+    "state": "HI",
+    "angle": "Match the tax map key to the unit’s ownership and rental authorization",
+    "source_url": "https://www.honolulu.gov/dpp/home/faq/",
+    "source_label": "Honolulu Planning and Permitting STR FAQ",
+    "local": "Honolulu’s Planning and Permitting FAQ discusses STR registration or nonconforming-use identifiers and the tax map key used in advertising. Confirm the current status of the actual unit rather than relying on a neighboring rental.",
+    "scope": "For a condominium purchase, reconcile the unit description, deed, furnishings, and any separate parking or storage interest. A unit’s guest access to hotel-style services does not establish ownership of the building’s equipment. Give the preparer leasehold or other title terms when those apply.",
+    "records": [
+      "Tax map key and unit-specific title documents",
+      "Rental authorization records and operating timeline",
+      "Furniture package, parking, and storage acquisition detail"
+    ],
+    "scenario": "A buyer acquires a furnished unit with an assigned parking right. The sales brochure also advertises a pool and lobby. Separate the deeded or contractual interests from shared amenities before asking the provider to allocate the purchase price.",
+    "question": "Can the building’s rental reputation establish my unit’s status?",
+    "answer": "No. Confirm unit-specific permission with the authority and ownership with the documents. Neither the building name nor a seller’s advertised return supplies those answers.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [
+      "maui-hi",
+      "kauai-hi"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "hood-river-or",
+    "city": "Hood River",
+    "state": "OR",
+    "angle": "Distinguish a hosted homeshare from a whole-home operating history",
+    "source_url": "https://cityofhoodriver.gov/planning/short-term-rentals/",
+    "source_label": "Hood River STR licensing guidance",
+    "local": "Hood River’s planning page distinguishes hosted homeshares and vacation home rentals and describes annual licensing. Use the category applicable to the property’s actual arrangement when assembling operating records.",
+    "scope": "A home that shifts from hosted rooms to another rental arrangement needs a clear use timeline. Identify furnishings retained through the change, additions purchased later, and spaces that remain personal. Ask the preparer to resolve allocation before the provider extrapolates component costs across all square footage.",
+    "records": [
+      "License category and dated use changes",
+      "Room measurements and access descriptions",
+      "Inventory showing retained furnishings and new acquisitions"
+    ],
+    "scenario": "A host first rents a basement room and later moves out while keeping an upstairs room locked for personal storage. The guest listing may describe a whole home, but the study file should show the excluded room and how shared systems serve the building.",
+    "question": "Does whole-home advertising mean every room is in rental use?",
+    "answer": "No. Document actual access and use. Listing language can differ from the physical arrangement, especially where owners retain storage or private rooms.",
+    "topic": "str-property-manager-study-handoff",
+    "related": [
+      "bend-or",
+      "cannon-beach-or"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "houston-tx",
+    "city": "Houston",
+    "state": "TX",
+    "angle": "Keep registration identifiers consistent across a townhome portfolio",
+    "source_url": "https://www.houstontx.gov/ara/str.html",
+    "source_label": "Houston short-term rental registration",
+    "local": "Houston’s Administration and Regulatory Affairs page explains STR registration and the city-issued identifier used in listings. Match that identifier with the legal address in each property’s study file.",
+    "scope": "A townhome portfolio often contains similar floor plans purchased at different times and prices. Give each property its own closing reconciliation and improvement history. Similar construction may help organize an inspection, but it does not justify copying the same dollar allocation or furnishing inventory across every address.",
+    "records": [
+      "Address-to-registration crosswalk",
+      "Separate closing statements and land allocations",
+      "Townhome-specific inventory and later improvement ledger"
+    ],
+    "scenario": "Two neighboring units have identical layouts, but one was acquired furnished and the other was furnished by the owner. Separate seller-acquired items from retail purchases and record the different costs; a shared floor plan does not make those transactions equivalent.",
+    "question": "Can the provider inspect one unit and assume all others are identical?",
+    "answer": "Ask how differences will be verified and documented. Disclose remodels, finish variations, and furnishings so the engagement’s evidence plan fits the portfolio instead of relying on appearance alone.",
+    "topic": "str-cost-segregation-multiple-properties",
+    "related": [
+      "austin-tx",
+      "dallas-tx"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "indianapolis-in",
+    "city": "Indianapolis",
+    "state": "IN",
+    "angle": "Reconcile event-rental preparation with continuing residential use",
+    "source_url": "https://www.indy.gov/api/v1/indy_proposal_document?content_type=application%2Fpdf&id=18732&name=PROP24-205&type=1",
+    "source_label": "Indianapolis published STR permit-program document",
+    "local": "Indianapolis publishes documents addressing its short-term rental permit program. Check current administration and address-specific requirements with the city before relying on an occasional event-rental plan.",
+    "scope": "A home prepared for a few high-demand weekends can remain substantially personal property. Document the actual guest dates, owner occupancy, and equipment use before requesting a savings estimate. Improvements to the entire residence and temporary guest supplies should be distinguishable in the records given to the return preparer.",
+    "records": [
+      "Event and ordinary-use calendar",
+      "Inventory distinguishing household items from guest-only purchases",
+      "Improvement invoices with locations and purposes"
+    ],
+    "scenario": "An owner buys extra beds and rents the home during an event, then returns the rooms to family use. Provide the actual dates and subsequent use. A gross booking receipt does not establish that the whole residence became a year-round rental.",
+    "question": "Is a study worthwhile for a handful of rental dates?",
+    "answer": "Have the preparer evaluate the use pattern, applicable limitations, and expected benefit against the fee first. Limited rental activity can materially change the economics of commissioning a study.",
+    "topic": "str-property-manager-study-handoff",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "islamorada-fl",
+    "city": "Islamorada",
+    "state": "FL",
+    "angle": "Distinguish boat access and marine equipment from the dwelling",
+    "source_url": "https://islamorada.fl.us/315/Vacation-Rental-License-Annual-Registrat",
+    "source_label": "Islamorada vacation rental licensing",
+    "local": "Islamorada publishes vacation-rental licensing and annual-registration information. Confirm the status of the specific unit and retain the operating file independently of the property-cost analysis.",
+    "scope": "A waterfront rental may advertise a dock, lift, fish-cleaning station, or marina access. Establish whether each feature is owned, leased, shared, or excluded from the transaction. Identify construction materials, installation, and utility connections; a broad marine-amenity allowance cannot describe those differences.",
+    "records": [
+      "Title and dock or marina agreements",
+      "Lift and dock invoices with installation scope",
+      "Purchase inventory identifying included and excluded equipment"
+    ],
+    "scenario": "A home sale includes a privately owned boat lift but only a membership right to another marina facility. Record the different legal interests and provide the acquisition documents. Guest use of both facilities does not mean the owner acquired comparable physical assets.",
+    "question": "Does waterfront access make all related costs building improvements?",
+    "answer": "No. Ask the provider and preparer to evaluate ownership, function, and supporting costs. Water access is a marketing description, not a classification method.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [
+      "destin-fl",
+      "30a-fl"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "jackson-hole-wy",
+    "city": "Jackson Hole",
+    "state": "WY",
+    "angle": "Distinguish Jackson’s lodging overlay from the broader destination",
+    "source_url": "https://www.jacksonwy.gov/335/Short-Term-Rentals",
+    "source_label": "Town of Jackson short-term rentals",
+    "local": "The Town of Jackson explains different STR procedures inside and outside its lodging overlay. A Jackson Hole market description can include property beyond town boundaries, so identify the parcel and authority first.",
+    "scope": "A mountain residence used part-time by its owner needs records of owner stays, guest stays, and improvements made between seasons. If a manager controls reservations and maintenance, obtain detailed exports rather than only annual net income. That timeline helps the preparer evaluate use and the provider distinguish acquired assets from subsequent work.",
+    "records": [
+      "Parcel location and applicable operating approval",
+      "Manager calendar including owner blocks",
+      "Seasonal work orders with invoices and completion dates"
+    ],
+    "scenario": "A manager blocks several weeks for a kitchen project and separately blocks an owner holiday. Label those periods accurately; treating both as generic unavailable dates hides facts needed for the use analysis.",
+    "question": "Can the manager’s occupancy percentage establish the tax allocation?",
+    "answer": "Not by itself. Ask for the underlying dates and reasons for blocked periods. Marketing occupancy metrics may exclude owner time or maintenance in ways that do not answer tax questions.",
+    "topic": "str-property-manager-study-handoff",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "jacksonville-fl",
+    "city": "Jacksonville",
+    "state": "FL",
+    "angle": "Reconcile multiple parcels and improvements against Duval records",
+    "source_url": "https://www.jacksonville.gov/Departments/Property-Appraiser",
+    "source_label": "Duval County Property Appraiser",
+    "local": "The Duval County Property Appraiser provides real-estate and tangible-property searches. Use the records to identify the parcels and property descriptions associated with the rental acquisition.",
+    "scope": "A rental house and a separate garage parcel can be sold together, while the closing statement reports a single price. Give the preparer every deed and the available valuation support. The provider should know which parcel holds each improvement and whether the buyer later added or removed equipment.",
+    "records": [
+      "All deed and parcel references from the closing",
+      "Survey locating the residence and detached improvements",
+      "Purchase allocation and post-closing additions"
+    ],
+    "scenario": "A buyer receives a residence and an adjacent parcel containing a workshop. Only the residence is furnished for guests. Explain the workshop’s actual use and ownership rather than treating the whole combined price as the guest dwelling.",
+    "question": "Can property-search values be copied into the study as purchase costs?",
+    "answer": "Use them as contextual records, not an automatic substitute for the acquisition reconciliation. The preparer must determine the appropriate basis using the transaction and applicable tax rules.",
+    "topic": "str-cost-segregation-multiple-properties",
+    "related": [
+      "destin-fl",
+      "30a-fl"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "kansas-city-mo",
+    "city": "Kansas City",
+    "state": "MO",
+    "angle": "Separate occasional event use from a continuing rental business",
+    "source_url": "https://www.kcmo.gov/programs-initiatives/str",
+    "source_label": "Kansas City STR program",
+    "local": "Kansas City’s STR program provides registration information and a list of registered properties. Confirm the applicable registration category and operating period for the specific Missouri address.",
+    "scope": "An event-focused rental can have a very different use pattern from a continuously available investment property. Record when the home was available, rented, and personally occupied. Keep temporary staging, rented equipment, and acquired furnishings separate so the preparer can assess the facts before a component study is proposed.",
+    "records": [
+      "Registration category and actual operating dates",
+      "Staging rental agreements versus purchase receipts",
+      "Owner-use calendar and property readiness records"
+    ],
+    "scenario": "A household rents extra televisions for an event weekend and buys new mattresses it keeps afterward. The rented equipment is not an owned asset for a property inventory. Identify the contracts and what remained after the guests left.",
+    "question": "Will event revenue alone make a study economically attractive?",
+    "answer": "No. Compare the study fee and expected usable tax benefit using the actual ownership and use facts. High nightly revenue does not establish a large depreciable acquisition or an immediately usable deduction.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "branson-mo",
+      "st-louis-mo"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "key-west-fl",
+    "city": "Key West",
+    "state": "FL",
+    "angle": "Keep a transient license transaction separate from physical property costs",
+    "source_url": "https://www.cityofkeywest-fl.gov/1253/Regulatory-Licenses",
+    "source_label": "Key West regulatory licenses",
+    "local": "Key West describes transient rental medallions among its regulatory licenses. Confirm the unit’s current authorization and any transfer requirements through the city rather than assuming a sale transfers every operating right.",
+    "scope": "When a transaction separately values a license or other operating interest, flag it for the preparer. A cost segregation study of physical components should not silently treat that value as furniture or building improvements. Include the contract allocation and any separate transfer documents in the engagement file.",
+    "records": [
+      "Purchase agreement and asset allocation exhibits",
+      "Transient-license records and transfer documents",
+      "Physical inventory verified at closing"
+    ],
+    "scenario": "A contract lists real estate, furnishings, and a separately negotiated operating right. Present all three lines to the preparer. Combining them into one building-cost figure would conceal a classification question that should be resolved before the study.",
+    "question": "Can the study provider allocate every part of a going-concern price?",
+    "answer": "Clarify the engagement scope. Physical component analysis may not cover intangible rights or other transaction interests; the return preparer should coordinate those allocations.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "destin-fl",
+      "30a-fl"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "lake-geneva-wi",
+    "city": "Lake Geneva",
+    "state": "WI",
+    "angle": "Identify the rental category and the actual seasonal improvement scope",
+    "source_url": "https://www.cityoflakegeneva.gov/352/Short-Term-Rentals",
+    "source_label": "Lake Geneva short-term rentals",
+    "local": "Lake Geneva’s city page describes rental categories and provides a registration portal. Establish whether the property falls within the city and which category matches the operation.",
+    "scope": "A lake-area home may open seasonally and undergo exterior work during the off-season. Record completion and readiness dates for each project, especially if the dwelling remains available while a detached feature is unfinished. The booking calendar alone does not describe when every addition was installed.",
+    "records": [
+      "City category and rental calendar",
+      "Exterior project schedule with completion evidence",
+      "Separate dwelling and detached-amenity cost records"
+    ],
+    "scenario": "An owner finishes interior furnishing in spring but installs an outdoor kitchen later. Keep the later installation and utility work out of the original furnishing package, and explain when each area became ready for its intended use.",
+    "question": "Do all improvements take the first guest’s arrival date?",
+    "answer": "Not necessarily. Provide the preparer with each project’s completion and availability evidence. A single first-booking date may not describe additions completed months later.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "door-county-wi",
+      "milwaukee-wi"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "las-vegas-nv",
+    "city": "Las Vegas",
+    "state": "NV",
+    "angle": "Confirm city boundaries before preparing a home-sharing study",
+    "source_url": "https://www.lasvegasnevada.gov/Business/Planning-Zoning/Code-Enforcement/Short-Term-Rentals",
+    "source_label": "City of Las Vegas STR resources",
+    "local": "The City of Las Vegas provides license and location resources for short-term rentals. A Las Vegas mailing address does not by itself establish that city rules govern the property; confirm the actual jurisdiction.",
+    "scope": "For an owner-occupied arrangement, distinguish guest rooms from the owner’s rooms and shared entertainment areas. Identify whether pool equipment, security systems, and kitchen purchases serve the entire residence. A listing’s amenity count should not be converted into a full-property asset allocation without use evidence.",
+    "records": [
+      "Jurisdiction confirmation and operating approval",
+      "Guest and owner room map",
+      "Amenity invoices with locations and shared-use notes"
+    ],
+    "scenario": "A host installs smart locks on guest rooms and a security system covering the whole property. Document those different functions. A combined technology receipt does not demonstrate that every item serves the same rented area.",
+    "question": "Can a nearby licensed rental establish eligibility for my address?",
+    "answer": "No. Check your own parcel, ownership, and operating facts. The provider’s property analysis also requires your records rather than another home’s component percentages.",
+    "topic": "str-property-manager-study-handoff",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "leavenworth-wa",
+    "city": "Leavenworth",
+    "state": "WA",
+    "angle": "Separate city zoning from a cabin marketed to Leavenworth visitors",
+    "source_url": "https://cityofleavenworth.com/your-city-hall/departments/community-development/regulations-codes-and-ordinances/",
+    "source_label": "Leavenworth zoning maps and planning regulations",
+    "local": "Leavenworth’s Community Development resources include zoning and area maps. Use them to establish the city boundary; a cabin marketed to the Leavenworth destination may require a county inquiry instead.",
+    "scope": "For a cabin with a detached sauna or recreation shelter, show the structures and their utility connections on a simple site plan. Separate the purchased equipment from the enclosure and installation work. The provider needs to know whether a feature is movable equipment, part of a structure, or a shared system before evaluating classification.",
+    "records": [
+      "Parcel map and jurisdiction record",
+      "Sauna equipment invoice and enclosure construction scope",
+      "Site electrical and water-service descriptions"
+    ],
+    "scenario": "A contractor quotes a complete sauna package that includes the unit, platform, shelter, and electrical extension. Request an itemized final statement. A single amenity name does not explain the underlying assets or the portion serving other buildings.",
+    "question": "Does a detached structure automatically receive a short recovery period?",
+    "answer": "No. Its construction and function matter. Supply drawings and installation details and let the provider support the classification rather than assuming detachment determines tax treatment.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "chelan-wa",
+      "seattle-wa"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "los-angeles-ca",
+    "city": "Los Angeles",
+    "state": "CA",
+    "angle": "Build the study around actual home-sharing rooms and dates",
+    "source_url": "https://planning.lacity.gov/node/133667",
+    "source_label": "Los Angeles home-sharing resources",
+    "local": "Los Angeles City Planning provides a home-sharing records portal and renewal resources. Match the registered property and permitted operation with the rooms and dates in your own records.",
+    "scope": "A host may rent a bedroom, the main living area during travel, or different areas at different times. Record those changes instead of using one annual whole-house percentage without explanation. Separate personal décor from guest-only furnishings and identify any improvements made before the home-sharing activity began.",
+    "records": [
+      "Home-sharing registration and room-use history",
+      "Owner travel and guest booking calendar",
+      "Furnishing receipts labeled by room and actual use"
+    ],
+    "scenario": "A resident rents a spare room most months and the whole dwelling while traveling. A sofa serves the household throughout the year while a new bed serves the rented room. Present those differences to the preparer before applying any rental allocation.",
+    "question": "Does a home-sharing registration make the entire residence depreciable?",
+    "answer": "No. The preparer must evaluate actual rental and personal use. Registration is operating documentation, not a determination of the eligible basis or deduction.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "joshua-tree-ca",
+      "palm-springs-ca"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "louisville-ky",
+    "city": "Louisville",
+    "state": "KY",
+    "angle": "Distinguish a main dwelling from a separately improved carriage space",
+    "source_url": "https://louisvilleky.gov/government/office-planning/short-term-rental-information",
+    "source_label": "Louisville Metro short-term rental information",
+    "local": "Louisville Metro’s planning resources address STR registration and conditional-use processes. Confirm the approval applicable to the actual dwelling and retain supporting residence documentation when relevant.",
+    "scope": "A carriage-house or rear-unit project may combine preexisting structure, new living-space construction, and furnishings. Identify the areas changed and reconcile contractor work to the original acquisition. If the main house remains personally occupied, show which access and utility improvements serve both spaces.",
+    "records": [
+      "Main-house and rear-unit plans",
+      "Conversion invoices separating shell, systems, and furnishings",
+      "Shared access and utility-cost descriptions"
+    ],
+    "scenario": "An owner finishes a garage loft for guests while retaining the lower garage for personal storage. Supply section drawings or photographs showing the two uses. Applying the loft’s rental description to the entire garage could misstate the study scope.",
+    "question": "Is a separate listing enough to separate a rear unit’s costs?",
+    "answer": "No. Provide physical measurements, construction records, and shared-system details. The provider and preparer need a supported allocation, not simply separate marketing names.",
+    "topic": "str-renovation-phased-opening",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "mackinac-island-mi",
+    "city": "Mackinac Island",
+    "state": "MI",
+    "angle": "Capture delivery and installation costs in a seasonal furnishing project",
+    "source_url": "https://www.cityofmi.org/city-government/page/documents",
+    "source_label": "Mackinac Island city permits and license documents",
+    "local": "Mackinac Island’s city document library includes permits, license applications, and planning materials. Identify the applicable operating and construction records for the property before organizing the study file.",
+    "scope": "A seasonal lodging refurbishment can generate separate bills for goods, freight, handling, storage, and installation. Tie those bills to the assets delivered rather than keeping an unexplained logistics total. Identify items never installed, damaged in transit, or returned before reopening and reconcile credits with the purchasing ledger.",
+    "records": [
+      "Vendor invoices and delivery manifests",
+      "Freight, storage, and installation charges tied to purchases",
+      "Returned-item credits and final room inventory"
+    ],
+    "scenario": "A furnishings order arrives in several shipments, and damaged chairs are replaced under a vendor credit. Reconcile quantities received and the credit before allocating related freight. Counting every shipment as a new acquisition would overstate the installed inventory.",
+    "question": "Can transportation charges be left outside the study records?",
+    "answer": "Give them to the preparer with the related purchase documents. Their treatment depends on the facts; omitting them or allocating them twice can distort the cost reconciliation.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "traverse-city-mi"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "mammoth-lakes-ca",
+    "city": "Mammoth Lakes",
+    "state": "CA",
+    "angle": "Connect the certified unit to manager-controlled refurbishment records",
+    "source_url": "https://www.townofmammothlakes.ca.gov/672/Pay-Your-TOTTBID-Online",
+    "source_label": "Mammoth Lakes transient rental and certification information",
+    "local": "Mammoth Lakes provides information about Certified Property Authorization and business-tax administration. Keep the unit’s authorization separate from the manager’s business account when assembling ownership records.",
+    "scope": "A manager may pay for furniture replacements, deduct maintenance charges, and retain reserve funds before remitting income. Request the underlying invoices and authorization trail. Net remittances cannot show which assets the owner acquired, whether an item was repaired, or whether a charge was merely held for future work.",
+    "records": [
+      "Unit authorization and management agreement",
+      "Reserve activity reconciled to paid vendor invoices",
+      "Refurbishment inventory and dated installation photos"
+    ],
+    "scenario": "A manager withholds a refurbishment reserve in one year but completes the furniture purchase in another. Preserve both the reserve ledger and purchase documentation. The withholding date alone does not establish when an asset was acquired or ready for use.",
+    "question": "Is the manager’s annual expense summary enough for a component study?",
+    "answer": "Usually more detail is needed. Request descriptions, vendor documents, credits, and installed locations so the provider can distinguish property work from operating charges.",
+    "topic": "str-property-manager-study-handoff",
+    "related": [
+      "joshua-tree-ca",
+      "palm-springs-ca"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "marco-island-fl",
+    "city": "Marco Island",
+    "state": "FL",
+    "angle": "Keep city records separate from the county vacation-rental program",
+    "source_url": "https://www.collier.gov/Resident-Resources/Leisure-and-Community/Short-Term-Vacation-Rental-Registration",
+    "source_label": "Collier County vacation-rental registration scope",
+    "local": "Collier County’s registration page expressly excludes properties within Marco Island from that county ordinance. Check the applicable city process instead of assuming a county registration establishes the unit’s status.",
+    "scope": "For a condominium renovation, separate the owner’s interior project from association work on roofs, façades, and shared mechanical systems. Obtain assessment notices and supporting project descriptions. Ask the preparer to determine the treatment of association payments before the provider lists them as owner-installed components.",
+    "records": [
+      "Condominium declaration and owner responsibility schedule",
+      "Interior contractor invoices and appliance inventory",
+      "Assessment notices with association project detail"
+    ],
+    "scenario": "An owner pays a building-wide exterior assessment while replacing cabinets inside the unit. The payments have different ownership and scope evidence. Give the provider both files rather than combining them under a general renovation allowance.",
+    "question": "Does paying an assessment establish direct ownership of the completed work?",
+    "answer": "Not by itself. The governing documents and project arrangement matter. The preparer should resolve the owner’s interest and treatment using the underlying records.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [
+      "destin-fl",
+      "30a-fl"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "memphis-tn",
+    "city": "Memphis",
+    "state": "TN",
+    "angle": "Reconcile an older rental’s prior schedule before furnishing it for guests",
+    "source_url": "https://memphistn.gov/licenses-and-permits/",
+    "source_label": "Memphis licenses and permits",
+    "local": "Memphis’s licenses page directs STR operators to the registry maintained by the Memphis and Shelby County planning department. Align the registered address with the ownership and prior rental records.",
+    "scope": "If a previously unfurnished rental becomes a furnished guest property, distinguish the old building schedule from new acquisitions. Record removed fixtures and any replaced equipment instead of leaving both old and new items unexplained. The return preparer needs the prior schedule to coordinate implementation of a new study.",
+    "records": [
+      "Prior depreciation schedule and acquisition documents",
+      "Turnover inventory of retained and removed items",
+      "New furnishing and replacement-equipment invoices"
+    ],
+    "scenario": "A landlord replaces old appliances before switching to short stays. The accountant’s schedule still includes the previous appliance entries. Provide the removal date and new receipts so the preparer can reconcile the old records with the proposed study.",
+    "question": "Can a new report simply replace the old depreciation spreadsheet?",
+    "answer": "The preparer should reconcile the schedules and determine the implementation method. Preserve the historical file; unexplained replacement can lose accumulated depreciation and asset-history information.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "gatlinburg-tn",
+      "sevierville-tn"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "mesa-az",
+    "city": "Mesa",
+    "state": "AZ",
+    "angle": "Separate pool systems from outdoor entertainment purchases",
+    "source_url": "https://www.mesaaz.gov/Business-Development/Licensing/Short-Term-Rental-License",
+    "source_label": "Mesa short-term rental license",
+    "local": "Mesa’s licensing resource describes the local STR license and its relationship to Arizona transaction privilege tax documentation. Keep the city record and property identifier consistent with the study file.",
+    "scope": "An outdoor renovation may combine pool pumps, resurfacing, shade structures, movable seating, and lighting. Request descriptions of what each system serves and whether equipment is independently identifiable. A single backyard entertainment label does not support one classification for the entire project.",
+    "records": [
+      "Pool-system specifications and equipment receipts",
+      "Shade and lighting plans with installation locations",
+      "Outdoor furniture inventory and project invoice reconciliation"
+    ],
+    "scenario": "A pool contractor replaces the pump and resurfaces the basin, while another supplier delivers loungers. Keep the scopes separate, including labor and credits. The provider can then analyze the actual components rather than a blended backyard estimate.",
+    "question": "Will every outdoor item receive the same depreciation treatment?",
+    "answer": "No. Ownership, physical function, and installation matter. Ask for supported component conclusions and have the return preparer evaluate how the report applies to the owner.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "scottsdale-az",
+      "sedona-az"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "miami-fl",
+    "city": "Miami",
+    "state": "FL",
+    "angle": "Confirm lodging use before analyzing a residential conversion",
+    "source_url": "https://www.miami.gov/Permits-Construction/Short-Term-RentalLodging-Procedures",
+    "source_label": "City of Miami STR and lodging conversion procedures",
+    "local": "The City of Miami publishes procedures for converting property to lodging and identifies zoning restrictions. Distinguish the city from Miami Beach or unincorporated Miami-Dade; their operating processes are not interchangeable.",
+    "scope": "A conversion budget can contain permitting, architectural work, life-safety improvements, room buildouts, and furniture. Separate completed work from proposals and abandoned options. The study provider needs the actual physical scope, while the preparer addresses the treatment of costs that are not simply installed building components.",
+    "records": [
+      "Address-specific zoning and occupancy documents",
+      "Final conversion cost ledger by scope",
+      "Furniture acquisition records and abandoned-project costs separately identified"
+    ],
+    "scenario": "An investor plans a lodging conversion but revises the project to conventional leases after a zoning review. Give the provider the completed plans and actual operation, not the earlier hotel-style furniture budget.",
+    "question": "Can a city lodging designation determine a federal recovery period?",
+    "answer": "No. The return preparer must evaluate the property’s facts under applicable tax rules. Local land-use terminology and federal depreciation categories serve different purposes.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "destin-fl",
+      "30a-fl"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "milwaukee-wi",
+    "city": "Milwaukee",
+    "state": "WI",
+    "angle": "Use inspection corrections to locate costs, not to classify them",
+    "source_url": "https://city.milwaukee.gov/dns/directory/environmental/tourist-rooming-house",
+    "source_label": "Milwaukee tourist rooming house licensing",
+    "local": "Milwaukee’s Department of Neighborhood Services administers tourist-rooming-house licensing and inspections. Save the relevant checklist and correction notices with the property’s operating records.",
+    "scope": "Before a furnished rental opens, inspection work may include alarms, handrails, electrical corrections, or changes to guest facilities. Match each correction to the final invoice and identify what was actually installed. The inspection category does not itself determine whether a cost is a repair, equipment, or a building component.",
+    "records": [
+      "Inspection checklist with resolved correction items",
+      "Final contractor invoices tied to each correction",
+      "Opening inventory and photographs of completed work"
+    ],
+    "scenario": "An electrician’s invoice combines correction of existing wiring and installation of new guest-room equipment. Ask for the scope and locations of each task. One inspection sign-off cannot explain the cost and function of both.",
+    "question": "Does passing inspection prove that a study is complete?",
+    "answer": "No. Inspection addresses operating standards. A study still needs ownership, acquisition-cost reconciliation, component evidence, and a clear handoff to the return preparer.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "door-county-wi",
+      "lake-geneva-wi"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "minneapolis-mn",
+    "city": "Minneapolis",
+    "state": "MN",
+    "angle": "Identify the actual hosting unit within a mixed-use duplex",
+    "source_url": "https://www.minneapolismn.gov/business-services/licenses-permits-inspections/business-licenses/lodging/short-term/",
+    "source_label": "Minneapolis short-term rental hosting license",
+    "local": "Minneapolis provides a short-term rental hosting-license resource for properties offered through booking platforms. Match the hosting unit to the building’s legal address and physical layout.",
+    "scope": "If one unit is owner occupied and another hosts visitors, identify shared heating, laundry, and circulation areas. Separate unit-specific furnishings from building-wide improvements. Explain ownership and use of detached storage or garages rather than assuming the hosting unit includes the entire parcel.",
+    "records": [
+      "Unit layout with owner and guest areas labeled",
+      "Shared-system invoices and areas served",
+      "Guest-unit purchase inventory and exclusive-use notes"
+    ],
+    "scenario": "A duplex owner buys a new furnace serving both units and installs a dishwasher only in the guest unit. Record the different service areas. Applying the guest-unit allocation identically to both purchases would conceal material facts.",
+    "question": "Can the registered unit number replace a floor plan?",
+    "answer": "No. The identifier helps match records, but measurements and use descriptions show which assets and spaces the study should address.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "moab-ut",
+    "city": "Moab",
+    "state": "UT",
+    "angle": "Verify the approved lodging footprint before studying an expansion",
+    "source_url": "https://www.moabcity.gov/162/Planning-Zoning",
+    "source_label": "Moab Planning and Zoning",
+    "local": "Moab’s Planning and Zoning Department administers the city’s land-use rules. Confirm the approved use and footprint directly for a lodging property, including whether the parcel lies in the city or surrounding county.",
+    "scope": "For an existing guest property, distinguish approved rooms and completed improvements from a proposed expansion. Keep separate records for equipment serving the current operation and infrastructure installed for later phases. Do not include a conceptual additional unit as though it were an acquired or completed asset.",
+    "records": [
+      "Approved site plan and written use confirmation",
+      "Existing-building inventory and acquisition records",
+      "Expansion design, budget, and completed costs separately tracked"
+    ],
+    "scenario": "An owner buys an operating rental and plans a second guest building. Only a utility trench is completed before the project pauses. Tell the provider exactly what exists, what it serves, and what remains proposed rather than submitting the full expansion budget.",
+    "question": "Can a seller’s description establish expansion rights?",
+    "answer": "No. Confirm current permission with the relevant authority. The study should describe the property actually acquired and improved, with unfinished or uncertain costs clearly identified for the preparer.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "park-city-ut",
+      "salt-lake-city-ut"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "myrtle-beach-sc",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "angle": "Separate a resort unit’s interior from the building’s lodging operation",
+    "source_url": "https://library.municode.com/sc/myrtle_beach/codes/code_of_ordinances?nodeId=COOR_APXAZO_ART18OVZO",
+    "source_label": "Myrtle Beach published zoning overlay provisions",
+    "local": "Myrtle Beach publishes zoning overlay provisions that include rental-use considerations. Confirm the specific unit’s permitted operation and jurisdiction rather than treating all properties advertised to beach visitors alike.",
+    "scope": "A resort unit may participate in a rental pool while the operator controls common facilities and periodic furnishing replacements. Obtain the unit ownership documents and itemized replacement statements. Guest access to pools, corridors, or front-desk services does not mean those facilities should appear as separately owned unit assets.",
+    "records": [
+      "Unit deed and rental-pool agreement",
+      "Operator furnishing purchases and reserve accounting",
+      "Owner-funded interior renovation scope"
+    ],
+    "scenario": "A rental-pool statement deducts a furniture reserve and a common-area maintenance fee. Request the underlying documents before treating either line as an acquisition. One may fund future work and the other may cover operations rather than installed unit property.",
+    "question": "Is rental-pool income enough to value the furnishings?",
+    "answer": "No. Income reports describe performance. The study needs purchase and ownership evidence for the actual property interests, including what the operator rather than the owner provides.",
+    "topic": "str-property-manager-study-handoff",
+    "related": [
+      "charleston-sc",
+      "hilton-head-sc"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "new-orleans-la",
+    "city": "New Orleans",
+    "state": "LA",
+    "angle": "Align the permitted unit with the historic building’s physical scope",
+    "source_url": "https://czo.nola.gov/print.aspx?classname=nola.ordinance&printpath=%2FArticle-21%2F21-8%2F21-8-C%2F21-8-C-18",
+    "source_label": "New Orleans published STR zoning provisions",
+    "local": "New Orleans publishes STR provisions through its Comprehensive Zoning Ordinance. Confirm current permit status for the actual unit; published provisions and a property’s past rental history do not by themselves establish present authorization.",
+    "scope": "For an older house divided into multiple units, describe shared porches, stairs, and systems separately from each unit’s interior. Keep preservation or repair work tied to detailed contractor descriptions. Architectural character does not tell the provider how a particular component functions or what the owner paid.",
+    "records": [
+      "Unit plan and current operating-status records",
+      "Acquisition photographs and restoration scopes",
+      "Shared-system costs separated from unit furnishings"
+    ],
+    "scenario": "A renovation restores a common porch and adds guest-room appliances inside one unit. The work occurs under one general contract but serves different areas. Request invoice detail so the study can distinguish shared construction from unit-specific assets.",
+    "question": "Does historic character create an automatic cost segregation percentage?",
+    "answer": "No. The provider should analyze documented components and ownership. Any separate historic-property tax issues require their own review by the preparer.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "newport-ri",
+    "city": "Newport",
+    "state": "RI",
+    "angle": "Reconcile state registration with a seasonal owner-use calendar",
+    "source_url": "https://dbr.ri.gov/real-estate-and-commercial-licensing/short-term-rentals",
+    "source_label": "Rhode Island short-term rental registration",
+    "local": "Rhode Island’s Department of Business Regulation provides STR registration for properties listed through third-party hosting platforms. Confirm Newport’s separate local requirements and keep the property’s municipal records as well.",
+    "scope": "An owner-used coastal residence may have short rental seasons and substantial personal occupancy. Preserve the actual dates and identify spaces withheld from guests. For renovations, distinguish ordinary household choices from improvements and equipment used in the rented areas; let the preparer evaluate the allocation before estimating benefits.",
+    "records": [
+      "State and local registration records",
+      "Guest, owner, and maintenance calendar",
+      "Room-level furnishing and renovation invoices"
+    ],
+    "scenario": "A residence is rented for a summer period, while the owner retains a locked study and uses the house during the rest of the year. Show that room and the calendar explicitly. A listing described as an entire home may not reflect every use restriction.",
+    "question": "Does registering on a state portal establish year-round business use?",
+    "answer": "No. Registration and actual use are different evidence. The preparer needs the occupancy facts to evaluate the tax treatment and whether a study’s expected benefit supports its cost.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "omaha-ne",
+    "city": "Omaha",
+    "state": "NE",
+    "angle": "Reconcile a finished basement with the existing building record",
+    "source_url": "https://planning.omaha.gov/building-and-development-division/",
+    "source_label": "Omaha building, development, and rental-registration resources",
+    "local": "Omaha’s Planning Department lists rental-registration and building services within its Building and Development Division. Use the applicable property records to document the approved configuration before preparing a study scope.",
+    "scope": "A basement guest-space project can involve new rooms, egress work, shared mechanical systems, and movable furnishings. Give the provider before-and-after plans and final contractor detail. Distinguish the acquired shell from the later buildout, and explain which parts remain personal storage or serve the whole house.",
+    "records": [
+      "Existing and completed basement plans",
+      "Egress, plumbing, and mechanical invoices by scope",
+      "Guest-space inventory and retained personal-storage areas"
+    ],
+    "scenario": "An owner finishes two rooms but leaves the mechanical and storage areas unchanged. A contractor’s total basement square footage includes all four areas. Mark the work boundaries so the provider does not treat untouched space as newly constructed guest accommodation.",
+    "question": "Can finished square footage alone support the project allocation?",
+    "answer": "It helps describe scale, but costs, function, and actual work boundaries are also needed. Supply the construction details instead of relying only on a cost-per-square-foot estimate.",
+    "topic": "str-renovation-phased-opening",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "pensacola-fl",
+    "city": "Pensacola",
+    "state": "FL",
+    "angle": "Separate the city property file from beach-area marketing",
+    "source_url": "https://igsupport.cityofpensacola.com/Default.aspx?Build=SY.CSHome",
+    "source_label": "Pensacola Inspection Services portal",
+    "local": "Pensacola’s Inspection Services portal provides access to city property and permitting services. Establish whether the rental is in the city or another jurisdiction before selecting inspection records for a beach-area property.",
+    "scope": "After repairs or a change of ownership, reconcile the original acquisition, removed items, and completed replacements. Give the preparer insurance and reimbursement documents separately from contractor costs. A study of the remaining property needs an accurate current inventory as well as the history explaining how it changed.",
+    "records": [
+      "Jurisdiction and permit references",
+      "Acquisition inventory with removed assets marked",
+      "Final repair invoices and reimbursement records"
+    ],
+    "scenario": "A furnished home is purchased and later receives replacement flooring after water damage. The owner’s inventory still describes the acquired flooring. Show the affected rooms and replacement date so the provider and preparer can coordinate the old and new records.",
+    "question": "Should damaged items stay in the current inventory?",
+    "answer": "Identify whether they remain, were repaired, or were removed. Preserve historical records, but do not present disposed items as still installed without explanation.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "destin-fl",
+      "30a-fl"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "philadelphia-pa",
+    "city": "Philadelphia",
+    "state": "PA",
+    "angle": "Distinguish the licensed operator from the owner of improvements",
+    "source_url": "https://www.phila.gov/services/permits-violations-licenses/get-a-license/business-licenses/rental-and-property/get-a-limited-lodging-operator-license/",
+    "source_label": "Philadelphia limited lodging operator license",
+    "local": "Philadelphia’s limited-lodging resource explains the operator-license process and related business licensing. The operating entity named in a license should be reconciled with the person or entity that owns the property costs.",
+    "scope": "A tenant hosting guests may own furniture and pay for alterations without owning the building. Supply the lease, landlord approvals, reimbursement clauses, and actual invoices. Do not commission a whole-building allocation using the landlord’s purchase price for a tenant’s furnishing project.",
+    "records": [
+      "Lease and written alteration approvals",
+      "Ownership and reimbursement terms for installed items",
+      "Tenant-paid furniture and improvement invoices"
+    ],
+    "scenario": "A tenant installs shelving and buys beds, while the landlord pays for a new heating system. Mark who paid, who owns each item, and what happens at lease termination. The hosting license does not settle those property interests.",
+    "question": "Can an operator depreciate everything in the rented dwelling?",
+    "answer": "Ownership, costs, lease terms, and tax rules must be evaluated. Ask the preparer to define the eligible cost pool before engaging a provider for component analysis.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "poconos-pa",
+      "pittsburgh-pa"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "phoenix-az",
+    "city": "Phoenix",
+    "state": "AZ",
+    "angle": "Document the function of shade, cooling, and guest equipment",
+    "source_url": "https://www.phoenix.gov/administration/departments/pdd/registration-licensing/short-term-rental-registry.html",
+    "source_label": "Phoenix short-term rental permit program",
+    "local": "Phoenix’s program explains its transition from registration to a permit process. Use current city records for the address and retain the operating documents with the property file.",
+    "scope": "A rental upgrade may include a general cooling-system replacement, patio shade, outdoor fans, and dedicated guest equipment. Ask for invoices identifying the spaces and functions served. Climate-related usefulness does not establish a single tax classification for all of those purchases.",
+    "records": [
+      "Cooling-system scope and equipment specifications",
+      "Patio shade and electrical installation detail",
+      "Guest-equipment receipts and installed-location photographs"
+    ],
+    "scenario": "An HVAC contractor replaces the main system and adds a separate unit serving a converted room. Request the equipment and labor breakdown, plus the room’s actual use. The provider needs those distinctions rather than one total described as air conditioning.",
+    "question": "Are all cooling costs treated as short-life equipment?",
+    "answer": "No automatic conclusion follows from the equipment name. The provider must evaluate function and installation, and the preparer applies the resulting analysis to the owner’s tax facts.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "scottsdale-az",
+      "sedona-az"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "pigeon-forge-tn",
+    "city": "Pigeon Forge",
+    "state": "TN",
+    "angle": "Separate the cabin shell from themed entertainment installations",
+    "source_url": "https://www.cityofpigeonforgetn.gov/226/Building-Department",
+    "source_label": "Pigeon Forge Building Department and overnight-rental design resources",
+    "local": "Pigeon Forge’s Building Department provides overnight-rental design considerations alongside permitting and inspection resources. Identify the city boundary and retain the approved plans for the actual cabin.",
+    "scope": "A themed rental can combine built-in bunk structures, movable arcade equipment, theater seating, decorative finishes, and ordinary building systems. Request a scope that distinguishes these items rather than assigning the entire entertainment buildout to furniture. Keep designs and photographs showing attachment and function.",
+    "records": [
+      "Approved cabin plans and entertainment-room layout",
+      "Built-in construction invoices separate from purchased equipment",
+      "Delivery inventory and installation photographs"
+    ],
+    "scenario": "A cabin’s game-room invoice includes wall construction, specialty electrical work, and freestanding arcade machines. Ask the contractor and supplier for separate detail. A single entertainment package price does not explain which elements are part of the building.",
+    "question": "Does calling a room a theater determine how its costs depreciate?",
+    "answer": "No. Document the actual components, their use, and installation. The provider should support each classification instead of relying on the room’s marketing theme.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "gatlinburg-tn",
+      "sevierville-tn"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "pittsburgh-pa",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "angle": "Reconcile a converted house’s unit count and common systems",
+    "source_url": "https://www.pittsburghpa.gov/News-articles/Homepage/Residential-Housing-Rental-Permit-Program",
+    "source_label": "Pittsburgh residential rental permit program",
+    "local": "Pittsburgh describes its residential rental permit program through Permits, Licenses, and Inspections. Retain the applicable unit and building records, and separately confirm the permitted operating use for the property.",
+    "scope": "An older house converted into several rentals may have shared stairs, one boiler, multiple kitchens, and later unit-by-unit renovations. Reconcile the physical unit count to the closing documents and prior asset schedule. Label which work serves one apartment and which supports the entire structure.",
+    "records": [
+      "Current unit plan and acquisition description",
+      "Shared boiler and circulation-area invoices",
+      "Unit renovation dates and prior depreciation records"
+    ],
+    "scenario": "An owner updates one apartment for furnished stays while two other apartments retain annual tenants. The study should identify the new furniture and unit work without duplicating the building’s existing shared systems in all three units.",
+    "question": "Does one parcel number mean the units have identical study facts?",
+    "answer": "No. A parcel can contain different uses and improvement histories. Provide a unit schedule and explain shared components so the report reconciles to the whole property.",
+    "topic": "str-cost-segregation-multiple-properties",
+    "related": [
+      "poconos-pa",
+      "philadelphia-pa"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "portland-or",
+    "city": "Portland",
+    "state": "OR",
+    "angle": "Map the accessory rental area before allocating household improvements",
+    "source_url": "https://www.portland.gov/bds/astr-permits/before-you-apply",
+    "source_label": "Portland accessory STR guidance",
+    "local": "Portland’s accessory short-term rental guidance distinguishes permit and conditional-use paths. Keep the approved arrangement and actual room use in the property file rather than relying only on a platform listing.",
+    "scope": "For a basement suite or rented bedrooms, mark exclusive guest areas, shared laundry, access routes, and owner-only rooms. Give the preparer measurements and use dates. A whole-house project such as roof work cannot be described as serving only the rental suite simply because guests benefit from it.",
+    "records": [
+      "Approved room layout and permit category",
+      "Measurements of guest, shared, and personal areas",
+      "Whole-house versus suite-specific improvement invoices"
+    ],
+    "scenario": "A homeowner replaces the roof and installs a compact kitchenette in the guest suite during the same month. Record separate scopes and service areas. The timing of payment does not make the two projects equivalent for allocation purposes.",
+    "question": "Can I base the study only on the suite’s nightly rate?",
+    "answer": "No. Rental pricing does not establish component cost or the rental share of household assets. Use construction, acquisition, and actual-use evidence.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "bend-or",
+      "cannon-beach-or"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "put-in-bay-oh",
+    "city": "Put-in-Bay",
+    "state": "OH",
+    "angle": "Track island rental equipment separately from the dwelling",
+    "source_url": "https://www.pibtownship.com/",
+    "source_label": "Put-in-Bay Township zoning resources",
+    "local": "Put-in-Bay Township provides zoning contacts and information for owners receiving STR correspondence. Confirm whether the property falls under the township or village before selecting the applicable operating file.",
+    "scope": "A guest property may offer bicycles, carts, or other equipment alongside lodging. Identify whether equipment is owned, leased, separately rented, or provided by another business. Keep maintenance and operating charges distinct from acquisition records, and ask the preparer whether each activity belongs in the same reporting scope.",
+    "records": [
+      "Jurisdiction confirmation and property approval records",
+      "Equipment ownership or lease agreements",
+      "Separate equipment inventory and dwelling improvement ledger"
+    ],
+    "scenario": "A lodging operator advertises guest transportation supplied by an outside vendor. The vendor’s equipment should not appear as owner-acquired property in the home’s component inventory. Document the service agreement and separately list equipment the owner actually purchased.",
+    "question": "Does an advertised amenity belong in my study inventory?",
+    "answer": "Only after verifying the relevant ownership and cost facts. Guest access alone does not establish that you acquired the equipment or can include its value in the property basis.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "cincinnati-oh",
+      "cleveland-oh"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "raleigh-nc",
+    "city": "Raleigh",
+    "state": "NC",
+    "angle": "Match the zoning permit to a newly created guest unit",
+    "source_url": "https://raleighnc.gov/permits/services/short-term-rentals",
+    "source_label": "Raleigh short-term rental zoning permits",
+    "local": "Raleigh’s STR resource explains the zoning permit and use of its identifier in advertisements. Reconcile that identifier with the physical unit shown on plans and in the study engagement.",
+    "scope": "A guest unit created within an existing property can have dedicated appliances but shared electrical, drainage, or access work. Record the incremental construction and identify what existed before conversion. Give the preparer the original acquisition and any earlier depreciation records so the new project does not replace the whole property history.",
+    "records": [
+      "Zoning permit and guest-unit floor plan",
+      "Conversion contract with shared-service detail",
+      "Original acquisition file and new equipment invoices"
+    ],
+    "scenario": "A homeowner encloses a former recreation room as a guest suite and adds a kitchenette. The project includes work on a shared electrical panel. Identify the new room scope and the panel’s service area rather than treating the entire house as newly built rental space.",
+    "question": "Is a conversion budget enough to order the final report?",
+    "answer": "Use it for preliminary scoping, but supply final invoices, credits, and completion evidence for the finished analysis. Budgets can include work that changed or was never performed.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "asheville-nc",
+      "outer-banks-nc"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "sacramento-ca",
+    "city": "Sacramento",
+    "state": "CA",
+    "angle": "Keep city permits and county rules from being mixed in one file",
+    "source_url": "https://www.cityofsacramento.gov/finance/revenue/short-term-vacation-rentals",
+    "source_label": "City of Sacramento short-term vacation rentals",
+    "local": "The City of Sacramento provides its own STR permit and business-tax information. A property in unincorporated Sacramento County follows a different inquiry, so confirm jurisdiction before assembling operating records.",
+    "scope": "For a residence rented during owner travel, preserve actual personal and guest dates and describe which rooms are accessible. If furnishings are upgraded for both household and guest use, label that shared purpose. Ask the preparer to assess the rental allocation before using a whole-property study estimate.",
+    "records": [
+      "City or county jurisdiction confirmation",
+      "Owner-travel and guest-stay calendar",
+      "Room-access map and furnishing purchase history"
+    ],
+    "scenario": "An owner buys new living-room furniture and rents the home during several trips. The furniture continues in household use between bookings. Present that pattern rather than labeling the purchase exclusively as STR furniture because it appears in the listing.",
+    "question": "Does a short-term permit determine the allowable annual deduction?",
+    "answer": "No. The preparer evaluates actual use and applicable limitations. Local approval provides operating context but does not calculate federal depreciation.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "joshua-tree-ca",
+      "palm-springs-ca"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "salt-lake-city-ut",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "angle": "Verify zoning before treating a basement as nightly lodging",
+    "source_url": "https://www.slc.gov/planning/frequently-asked-questions/",
+    "source_label": "Salt Lake City Planning FAQ",
+    "local": "Salt Lake City’s Planning FAQ addresses short-term rentals and directs readers to zoning resources. Check the specific address and permitted use before assuming a basement apartment can operate as nightly lodging.",
+    "scope": "If the unit ultimately serves longer-term tenants, document that actual arrangement. Separate basement construction, dedicated appliances, and work on shared building systems. The provider should receive the completed scope and actual use rather than a short-stay business plan that never went into operation.",
+    "records": [
+      "Address-specific zoning response and unit plan",
+      "Executed lease or actual booking history",
+      "Basement construction and shared-mechanical invoices"
+    ],
+    "scenario": "An owner prepares a basement for guests but signs a residential lease after reviewing zoning. The appliances remain installed, while the operational assumptions change. Update the preparer before relying on any earlier nonpassive-loss or STR savings illustration.",
+    "question": "Can a cost segregation proposal confirm that nightly rental is legal?",
+    "answer": "No. Resolve land use with the appropriate authority. Then evaluate a study using the property’s actual ownership, costs, and rental activity.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "park-city-ut",
+      "moab-ut"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "san-antonio-tx",
+    "city": "San Antonio",
+    "state": "TX",
+    "angle": "Distinguish guesthouse construction from a purchased furnished residence",
+    "source_url": "https://www.sa.gov/Directory/Departments/DSD/STR/Permits",
+    "source_label": "San Antonio STR permit services",
+    "local": "San Antonio provides permit application, renewal, and cancellation services for STR operators. Match each permitted unit with the structure and ownership records used for the study.",
+    "scope": "A detached guesthouse added after purchase needs its own construction reconciliation. Separate site connections and access work from the guesthouse shell and owner-supplied furnishings. Show whether the main residence remains personal, rented separately, or included in the same guest arrangement.",
+    "records": [
+      "Main-house and guesthouse use plan",
+      "Guesthouse contract and owner-supplied item receipts",
+      "Site connection invoices and separate readiness dates"
+    ],
+    "scenario": "A construction contract includes a standard appliance allowance, but the owner supplies upgraded appliances directly. Obtain the builder’s credit and the actual purchase invoice so the same allowance is not retained in the shell cost and counted again as equipment.",
+    "question": "Should a new guesthouse use the main house’s acquisition date?",
+    "answer": "Provide separate acquisition and construction timelines. The preparer needs the facts for each addition rather than assigning the original closing date to later improvements.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "austin-tx",
+      "dallas-tx"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "san-francisco-ca",
+    "city": "San Francisco",
+    "state": "CA",
+    "angle": "Separate operator furnishings from a building owned by someone else",
+    "source_url": "https://sfplanning.org/fil/node/1994",
+    "source_label": "San Francisco Office of Short-Term Rentals",
+    "local": "San Francisco’s Office of Short-Term Rentals administers the city’s residential rental regulations. Verify the operator and dwelling records with that office and distinguish them from property ownership documents.",
+    "scope": "A resident host may own the dwelling or occupy it under a lease. Before a study is scoped, establish which improvements and furnishings the host owns and whether any costs were reimbursed. Building-wide values cannot simply be assigned to a resident who only purchased room furnishings.",
+    "records": [
+      "Deed or lease showing the host’s property interest",
+      "Landlord consent and reimbursement terms where applicable",
+      "Host-owned furnishing receipts and room-use records"
+    ],
+    "scenario": "A tenant buys beds and removable shelving while the building owner renovates the kitchen. The host’s inventory should distinguish those purchases from the landlord’s work. A shared mailing address does not establish a common owner of every asset.",
+    "question": "Does business registration establish a depreciable interest in the building?",
+    "answer": "No. Have the preparer evaluate ownership and the actual costs incurred. Registration supports operating compliance; it does not replace title or lease evidence.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "joshua-tree-ca",
+      "palm-springs-ca"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "san-jose-ca",
+    "city": "San Jose",
+    "state": "CA",
+    "angle": "Reconcile lodging receipts with the property’s mixed-use history",
+    "source_url": "https://www.sanjoseca.gov/your-government/departments-offices/finance/tax-forms-permits-resources/hotel-taxes",
+    "source_label": "San Jose hotel-tax resources",
+    "local": "San Jose’s Finance Department publishes lodging-tax forms and information. Use the records applicable to the activity, and separately confirm planning requirements for the dwelling and its rental arrangement.",
+    "scope": "A guest suite can shift between visiting family, paying guests, and longer-term occupancy. Keep actual calendars and identify shared kitchens, laundry, and utilities. Tax remittance records may corroborate activity but do not explain the purchase cost or rental-use allocation of the underlying components.",
+    "records": [
+      "Guest and personal-use calendar by room",
+      "Lodging records reconciled to booking history",
+      "Suite-specific purchases and shared-system invoices"
+    ],
+    "scenario": "An owner installs laundry equipment used by both the household and guests, while a separate guest-room refrigerator is restricted to visitors. Describe access and use for both. Reporting lodging receipts does not make their use patterns identical.",
+    "question": "Can lodging-tax payments serve as the depreciation schedule?",
+    "answer": "No. They concern operating receipts. The study and return preparation need separate evidence of ownership, acquisition costs, readiness, and actual use.",
+    "topic": "str-property-manager-study-handoff",
+    "related": [
+      "joshua-tree-ca",
+      "palm-springs-ca"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "sanibel-island-fl",
+    "city": "Sanibel Island",
+    "state": "FL",
+    "angle": "Reconcile restoration costs and the unit’s permitted rental use",
+    "source_url": "https://library.municode.com/fl/sanibel/codes/code_of_ordinances?nodeId=SPBLADECO_CH126ZO_ARTXIVSUDIRE_DIV7DWRE",
+    "source_label": "Sanibel dwelling-rental code",
+    "local": "Sanibel publishes dwelling-rental provisions in its land-development code. Confirm the applicable unit classification and operating requirements rather than assuming every island residence has the same rental permissions.",
+    "scope": "For a restored property, separate retained components, removed assets, replacement construction, and new furnishings. Provide insurance and reimbursement information to the preparer alongside the cost records. A restoration budget may describe a proposed replacement standard that differs from the final installed property.",
+    "records": [
+      "Pre-work photographs and retained/removed asset list",
+      "Final restoration invoices with change orders",
+      "Insurance records and new furnishing inventory"
+    ],
+    "scenario": "A unit is restored using different flooring and cabinets from the insurer’s initial estimate. Give the provider the final specifications and actual invoices, with reimbursements separately identified. The estimate alone would describe the wrong completed components.",
+    "question": "Can I study the restored unit without its earlier records?",
+    "answer": "Collect as much history as possible and identify gaps. The preparer needs to coordinate prior basis, losses, reimbursements, and replacements; a current inventory cannot resolve all of those issues by itself.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "destin-fl",
+      "30a-fl"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "seattle-wa",
+    "city": "Seattle",
+    "state": "WA",
+    "angle": "Keep the operator license separate from the building’s asset records",
+    "source_url": "https://seattle.gov/business-regulations/short-term-rentals",
+    "source_label": "Seattle short-term rental regulations",
+    "local": "Seattle distinguishes the STR operator license from the business license tax certificate. Keep both applicable records linked to the correct property and unit rather than treating one account as an asset register.",
+    "scope": "For a backyard cottage or attached apartment, document its ownership and construction independently from the main dwelling. Identify common access, utility connections, and equipment serving both. If the unit was previously leased long term, provide its existing depreciation history before adding new furnishings.",
+    "records": [
+      "Unit address and license cross-reference",
+      "Cottage or apartment construction and utility records",
+      "Prior rental schedule plus new guest-furnishing receipts"
+    ],
+    "scenario": "A detached cottage already used as a rental is furnished for shorter stays. The owner buys beds and kitchenware but makes no new building acquisition. Distinguish those additions from the existing structure so the provider can coordinate with the prior schedule.",
+    "question": "Does obtaining a new operator license restart the property’s basis?",
+    "answer": "No automatic reset follows. Give the preparer the acquisition, construction, and prior-use history, then have the study’s scope reconciled to those records.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "chelan-wa",
+      "leavenworth-wa"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "shenandoah-va",
+    "city": "Shenandoah",
+    "state": "VA",
+    "angle": "Identify the county before grouping cabins under a regional name",
+    "source_url": "https://www.shenandoahcountyva.gov/235/Applications",
+    "source_label": "Shenandoah County STR applications",
+    "local": "Shenandoah County publishes STR permit application resources. The broader Shenandoah destination includes other jurisdictions; use this source only for the county it covers and verify the cabin’s actual parcel location.",
+    "scope": "For a rural property with more than one cabin, identify the dwelling, barn or storage building, access improvements, and shared infrastructure. Explain which spaces guests use and which support maintenance or personal activities. The scenic acreage around a cabin should not be treated as depreciable construction merely because it is part of the guest experience.",
+    "records": [
+      "County and parcel schedule with site plan",
+      "Cabin and outbuilding use descriptions",
+      "Shared infrastructure invoices and supported land allocation"
+    ],
+    "scenario": "A buyer acquires a cabin, a maintenance barn, and undeveloped acreage under one agreement. The listing emphasizes hiking access across the land. Separate the acquired interests and actual improvements before the provider estimates any component costs.",
+    "question": "Can acreage advertised as an amenity enter the building allocation?",
+    "answer": "Land and improvements require separate analysis. Give the preparer the transaction and valuation support rather than allocating the whole purchase price to structures because guests enjoy the property.",
+    "topic": "str-cost-segregation-multiple-properties",
+    "related": [
+      "virginia-beach-va"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "south-padre-island-tx",
+    "city": "South Padre Island",
+    "state": "TX",
+    "angle": "Reconcile rental registration with a condo’s lock-off configuration",
+    "source_url": "https://portal.deckard.com/tx-cameron-town_of_south_padre_island-str-portal/",
+    "source_label": "South Padre Island STR registration and tax portal",
+    "local": "South Padre Island provides an STR registration and tax portal through its service provider. Keep the registered address and unit identifiers consistent with the condominium documents and booking records.",
+    "scope": "A lock-off condominium can be advertised as one accommodation or as separate guest spaces. Identify the legal ownership interest, shared entry, connecting doors, and equipment assigned to each side. Multiple listings should not multiply the acquisition cost or create duplicate inventories of shared furniture.",
+    "records": [
+      "Condominium deed and lock-off floor plan",
+      "Listing-to-unit identifier crosswalk",
+      "Furnishing inventory identifying shared and exclusive items"
+    ],
+    "scenario": "An owner lists a two-bedroom unit either whole or as two connected spaces. The same sofa appears in photographs for both listings. Record it once, with its physical location, rather than using listing exports as separate asset inventories.",
+    "question": "Does each listing need a separate allocation of the full purchase price?",
+    "answer": "No. Define the legal property and reporting scope first. The provider should reconcile any unit-level schedules to the owner’s total supported acquisition costs.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [
+      "austin-tx",
+      "dallas-tx"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "st-louis-mo",
+    "city": "St. Louis",
+    "state": "MO",
+    "angle": "Check current permit administration before converting a multi-unit building",
+    "source_url": "https://www.stlouis-mo.gov/government/departments/public-safety/building/permits/short-term-rental-permits/index.cfm",
+    "source_label": "St. Louis short-term rental permit information",
+    "local": "St. Louis maintains an STR permit page with program and enforcement updates. Review current notices directly before relying on a permit assumption for an acquisition or conversion.",
+    "scope": "For a small multi-unit property, map which units remain leased, become furnished rentals, or stay owner occupied. Reconcile shared improvements once and keep unit furnishing packages separate. A study engagement should state whether it covers the entire acquisition or only later additions.",
+    "records": [
+      "Unit use schedule and current permit correspondence",
+      "Building acquisition reconciliation and shared-system ledger",
+      "Unit-by-unit furniture deliveries and renovation costs"
+    ],
+    "scenario": "A four-unit owner furnishes one vacant apartment while replacing a common entry system. The provider needs the entry system’s building-wide function and the furniture’s unit location. Treating both as costs of every listing would duplicate the same expenditure.",
+    "question": "Can a planned conversion be treated as an operating STR for the estimate?",
+    "answer": "Clearly label projections and unresolved approvals. The preparer should evaluate the actual or supportable operating facts before the owner relies on any tax-benefit scenario.",
+    "topic": "str-cost-segregation-multiple-properties",
+    "related": [
+      "branson-mo",
+      "kansas-city-mo"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "steamboat-springs-co",
+    "city": "Steamboat Springs",
+    "state": "CO",
+    "angle": "Track ski-property renovations separately from temporary owner stays",
+    "source_url": "https://www.steamboatsprings.net/str",
+    "source_label": "Steamboat Springs STR licensing",
+    "local": "Steamboat Springs publishes licensing information for STR, hosted, and temporary arrangements. Match the property’s actual license and operation to the dates in the study file.",
+    "scope": "A ski-property refurbishment may span the interval between winter and summer reservations. Identify which rooms and amenities were ready at each stage, and distinguish owner stays from construction closures. Supply separate costs for unit interiors, equipment, and association projects rather than one seasonal spending total.",
+    "records": [
+      "License record and booking/owner calendar",
+      "Room-by-room renovation schedule",
+      "Final interior invoices and association project notices"
+    ],
+    "scenario": "A condo’s bedrooms reopen while kitchen work continues, but the property is not yet offered to guests. Keep evidence of both project completion and the property’s availability. The date the first contractor finished does not alone establish the use date for everything.",
+    "question": "Should off-season dates all be treated as construction downtime?",
+    "answer": "No. Identify the reason for each period. Owner use, ordinary vacancy, and unavailable construction periods can require different evaluation by the return preparer.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "breckenridge-co",
+      "denver-co"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "suncadia-wa",
+    "city": "Suncadia",
+    "state": "WA",
+    "angle": "Separate resort services from the assets in an individually owned home",
+    "source_url": "https://suncadia.com/stay/accommodations/vacation-rentals/vacation-rentals-rules-regulations/",
+    "source_label": "Suncadia vacation-rental rules",
+    "local": "Suncadia publishes rules for rentals handled through its resort operation. Those operator rules describe that program; they are not a substitute for association documents or governmental approval for a particular property.",
+    "scope": "For an individually owned resort home, distinguish guest access to resort facilities from ownership of those facilities. Obtain the management contract and identify owner-funded replacements, operating charges, and reserves. Ask the preparer to resolve membership or access payments separately from the home’s physical component costs.",
+    "records": [
+      "Home deed, association documents, and resort management agreement",
+      "Reserve and replacement-purchase ledger",
+      "Owner interior inventory and separately paid access charges"
+    ],
+    "scenario": "A manager deducts a resort-service charge and a furniture-replacement reserve from monthly revenue. Neither line alone identifies an acquired asset. Request the contract and purchase invoices before including amounts in the property study.",
+    "question": "Can resort amenities be valued as part of my home’s equipment?",
+    "answer": "First establish what you own and what you merely have permission to use. The provider should analyze the supported property interest rather than allocate the resort’s facilities from advertising.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [
+      "chelan-wa",
+      "leavenworth-wa"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "tampa-fl",
+    "city": "Tampa",
+    "state": "FL",
+    "angle": "Reconcile a furnished acquisition with the county property description",
+    "source_url": "https://www.hcpafl.org/",
+    "source_label": "Hillsborough County Property Appraiser",
+    "local": "The Hillsborough County Property Appraiser offers property searches for the county. Use the parcel record to match the legal property, then separately confirm the operating requirements for its actual jurisdiction.",
+    "scope": "For a purchase including furnishings, compare the deed and building description with the contract’s personal-property exhibit. Identify items installed after closing and anything the seller retained. The provider needs a reconciled acquisition total, not an added furnishing allowance that counts the same purchase consideration twice.",
+    "records": [
+      "Parcel record and buyer closing statement",
+      "Executed personal-property exhibit with retained items marked",
+      "Possession-day inventory and later purchase receipts"
+    ],
+    "scenario": "A contract includes furnishings within the total price, while a lender’s appraisal also mentions their estimated value. Present both documents and ask the preparer to reconcile them. Adding the appraisal’s furniture figure on top of the purchase price would not explain the actual transaction.",
+    "question": "Can a listing’s furnished value be used without checking the contract?",
+    "answer": "No. Verify what transferred and how the agreement treats it. Estimates may inform a review, but they do not replace evidence of the acquired items and supported allocation.",
+    "topic": "str-seller-furniture-allocation",
+    "related": [
+      "destin-fl",
+      "30a-fl"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "telluride-co",
+    "city": "Telluride",
+    "state": "CO",
+    "angle": "Keep town licensing and separate ownership interests aligned",
+    "source_url": "https://telluride.gov/740/Short-Term-Rental-Licenses",
+    "source_label": "Town of Telluride STR licensing",
+    "local": "Telluride publishes a town STR license resource. Confirm whether the property is in Telluride, Mountain Village, or another jurisdiction before using the town’s process for a mountain-area rental.",
+    "scope": "A unit may include a separately deeded parking space, ski-storage interest, and an interior furnishing package. Supply the title and contract exhibits for each interest. Distinguish personal storage from guest amenities, and ask the preparer how each interest should enter the cost reconciliation.",
+    "records": [
+      "Unit, parking, and storage title documents",
+      "Purchase agreement exhibits and furnishing inventory",
+      "Unit renovation invoices and use of retained storage"
+    ],
+    "scenario": "A buyer acquires a condominium and a separate parking interest under one closing statement. The study should not silently assign the parking price to bedroom furnishings or unit finishes. Identify each acquired interest before preparing component schedules.",
+    "question": "Does a single closing statement mean one uniform asset?",
+    "answer": "No. A transaction can include several property interests. The provider and preparer should reconcile those interests and explain the scope of the physical property analysis.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [
+      "breckenridge-co",
+      "denver-co"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "traverse-city-mi",
+    "city": "Traverse City",
+    "state": "MI",
+    "angle": "Distinguish city licensing from nearby vacation-home locations",
+    "source_url": "https://www.traversecitymi.gov/services/residential-and-short-term-rentals/",
+    "source_label": "Traverse City vacation home rental licensing",
+    "local": "Traverse City provides a vacation-home rental license application and renewal resource. A home marketed as a Traverse City getaway may lie outside city limits, so establish the parcel’s governing municipality first.",
+    "scope": "A seasonal home may have an original cottage, later additions, and furnishings assembled over many years. Identify each addition’s construction history and distinguish purchased furnishings from transferred household items. Bring older asset schedules when the property has already been rented rather than treating a refreshed listing as a new acquisition.",
+    "records": [
+      "Jurisdiction record and applicable license file",
+      "Addition plans and historical improvement invoices",
+      "Existing asset schedule and current furnishing inventory"
+    ],
+    "scenario": "An owner renovates a porch enclosure and introduces online bookings after years of seasonal leases. The booking platform is new, but the property history is not. Preserve the older rental and construction records when scoping the study.",
+    "question": "Does changing the booking channel start a new property timeline?",
+    "answer": "No. Explain the underlying acquisition and use history. The preparer needs actual changes in property and operation, not merely the date of a new online listing.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "mackinac-island-mi"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "tucson-az",
+    "city": "Tucson",
+    "state": "AZ",
+    "angle": "Distinguish tax licensing from the casita’s physical cost schedule",
+    "source_url": "https://azdor.gov/model-city-tax-code/city-profile/tucson",
+    "source_label": "Arizona Department of Revenue Tucson profile",
+    "local": "Arizona’s Department of Revenue publishes Tucson licensing and local tax information. Use that resource for the applicable account questions, and separately verify land use and property-specific requirements.",
+    "scope": "A casita renovation may include a small kitchen, cooling equipment, courtyard work, and utility connections shared with the main dwelling. Document which spaces each system serves. If the owner occupies the main house, identify that fact before the provider prepares a whole-parcel estimate.",
+    "records": [
+      "Casita layout and main-house use description",
+      "Kitchen and cooling installation invoices",
+      "Courtyard and shared-utility scope with cost detail"
+    ],
+    "scenario": "A contractor installs a cooling unit in the guest casita and modifies a shared electrical service. Provide the equipment invoice and electrical scope separately. The casita’s guest-only use does not establish that the entire service upgrade serves only guests.",
+    "question": "Does a city tax account determine the rental share of the property?",
+    "answer": "No. The account concerns operations. Give the preparer the layout, actual use, and supported costs to evaluate the property allocation.",
+    "topic": "str-contractor-invoice-breakdown",
+    "related": [
+      "scottsdale-az",
+      "sedona-az"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "vail-co",
+    "city": "Vail",
+    "state": "CO",
+    "angle": "Reconcile mandatory furnishing replacements with unit ownership",
+    "source_url": "https://www.vail.gov/government/departments/finance/short-term-rentals",
+    "source_label": "Vail short-term rental registration",
+    "local": "Vail’s Finance Department provides STR registration and application guidance. Keep the unit identifier, ownership information, and manager records aligned when requesting a study.",
+    "scope": "A managed ski unit may undergo periodic replacement of beds, window treatments, or kitchen equipment. Request itemized purchases and disposal records, not just a refurbishment fee. Distinguish unit-owned items from operator-supplied equipment and association improvements before adding costs to the owner’s schedule.",
+    "records": [
+      "Unit management agreement and refurbishment requirements",
+      "Itemized replacement invoices and reserve reconciliation",
+      "Removed-item log and installed-room inventory"
+    ],
+    "scenario": "A manager replaces mattresses under a required refurbishment program and also charges a design fee. Give the preparer the purchase and service detail rather than labeling the entire deduction from rental proceeds as furniture.",
+    "question": "Can mandatory replacement charges be treated as one new asset?",
+    "answer": "Ask for the underlying work and ownership detail. A fee can include goods, services, and reserves with different facts; the study should identify the actual installed components.",
+    "topic": "str-property-manager-study-handoff",
+    "related": [
+      "breckenridge-co",
+      "denver-co"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "virginia-beach-va",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "angle": "Use the approved occupancy layout to identify the study’s rooms",
+    "source_url": "https://eccs.virginiabeach.gov/vb311/short-term-rentals",
+    "source_label": "Virginia Beach STR getting-started resources",
+    "local": "Virginia Beach directs prospective operators to confirm eligibility and obtain necessary permits or inspections. Retain the approved layout and current address-specific operating records before relying on a rental projection.",
+    "scope": "A large beach house may include sleeping rooms, owner closets, recreation areas, and multiple laundry or kitchen installations. Match the inventory to actual room functions and access. Separate additions made to increase guest capacity from existing acquired components, and identify shared building systems.",
+    "records": [
+      "Approved floor plan and operating correspondence",
+      "Room-by-room furnishing and appliance inventory",
+      "Capacity-related renovation invoices and completion records"
+    ],
+    "scenario": "A loft is converted from storage to a furnished guest area. The project includes construction, a new bed, and electrical work. Show the prior use and final layout so the provider can distinguish the new work from the original building inventory.",
+    "question": "Does a higher advertised guest capacity establish a larger deduction?",
+    "answer": "No. Guest count is not a valuation method. The study needs actual acquisition costs, installed components, ownership, and use evidence.",
+    "topic": "str-renovation-phased-opening",
+    "related": [
+      "shenandoah-va"
+    ],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "washington-dc",
+    "city": "Washington, DC",
+    "state": "DC",
+    "angle": "Separate the host’s operating license from an English-basement allocation",
+    "source_url": "https://dlcp.dc.gov/page/housing-and-lodging-services",
+    "source_label": "DC housing and lodging licensing",
+    "local": "DC’s Department of Licensing and Consumer Protection provides housing and lodging license resources. Confirm the license appropriate to the dwelling and actual operating arrangement before preparing a study engagement.",
+    "scope": "An English-basement rental may share utilities and internal stairs with an owner-occupied rowhouse. Mark private and shared areas and retain records of any conversion work. If the host is a tenant rather than the building owner, supply the lease and ownership terms for improvements and furnishings.",
+    "records": [
+      "License and deed or lease for the operator’s interest",
+      "Basement plan with shared access and utility areas",
+      "Conversion invoices and guest-equipment receipts"
+    ],
+    "scenario": "An owner adds a kitchenette downstairs but retains an internal stairway and shared laundry for household use. Describe those connections instead of treating the suite as physically and financially independent in every respect.",
+    "question": "Can a separate exterior door establish the rental allocation?",
+    "answer": "No. Access is one fact. The preparer needs actual use and measurements, while the provider needs costs and system descriptions to support the property analysis.",
+    "topic": "str-condo-common-area-ownership",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "whitefish-mt",
+    "city": "Whitefish",
+    "state": "MT",
+    "angle": "Identify the city parcel and phased completion of a new rental",
+    "source_url": "https://www.cityofwhitefish.gov/187/Short-Term-Rental",
+    "source_label": "Whitefish short-term rental permits",
+    "local": "Whitefish’s STR page describes permit and business-registration requirements within the city. Check the parcel’s jurisdiction before applying those resources to a property marketed to Whitefish visitors.",
+    "scope": "For a newly completed rental, reconcile the builder’s final contract, owner-supplied equipment, and unfinished exterior work. Provide separate readiness evidence for the dwelling and later amenities. A certificate or first booking may not describe the completion of every item included in the original budget.",
+    "records": [
+      "City or county confirmation and occupancy records",
+      "Builder final statement with allowances and credits",
+      "Owner purchases and separate exterior completion dates"
+    ],
+    "scenario": "A home opens while landscaping and a detached storage structure remain unfinished. The study file should identify completed components and clearly label outstanding work. Submitting the full contract budget without that distinction can misdescribe the property at opening.",
+    "question": "Should unfinished improvements be shown as completed assets?",
+    "answer": "No. Report their status and costs accurately and let the preparer evaluate the appropriate timing. Update the provider when the work and supporting invoices are complete.",
+    "topic": "str-renovation-phased-opening",
+    "related": [],
+    "source_checked": "2026-09-27"
+  },
+  {
+    "slug": "wimberley-tx",
+    "city": "Wimberley",
+    "state": "TX",
+    "angle": "Check the revised zoning framework before studying a guest-cabin expansion",
+    "source_url": "https://www.cityofwimberley.com/324/Short-Term-Rental-Update---8202026",
+    "source_label": "Wimberley STR update dated August 20, 2026",
+    "local": "Wimberley published an August 2026 update addressing STR zoning changes and existing conditional-use permits. Review the current city guidance and your property’s approval before proceeding with expansion assumptions.",
+    "scope": "A rural guest property can mix an existing home, newly built cabins, common gathering space, and land retained for personal use. Map each structure and trace costs by project. Distinguish approved plans from installed improvements, and identify infrastructure that serves several buildings.",
+    "records": [
+      "Current approval and parcel site plan",
+      "Cabin construction ledgers with shared-infrastructure detail",
+      "Separate timelines for existing and new rental spaces"
+    ],
+    "scenario": "An owner plans two additional cabins but completes only one during the year. The infrastructure invoice serves both the completed cabin and the future site. Explain that scope and the unfinished phase rather than copying a standard per-cabin allocation.",
+    "question": "Can a preserved permit establish the cost or tax treatment of new work?",
+    "answer": "No. Operating approval and property-cost analysis are separate. Give the provider actual construction evidence and have the preparer evaluate ownership, timing, and use.",
+    "topic": "str-cost-segregation-multiple-properties",
+    "related": [
+      "austin-tx",
+      "dallas-tx"
+    ],
+    "source_checked": "2026-09-27"
   }
 ]

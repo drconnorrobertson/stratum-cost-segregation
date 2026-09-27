@@ -1457,3 +1457,11 @@ body {
 .footer-links a { overflow-wrap: anywhere; }
 @media (max-width: 1024px) { .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 768px) { .footer-grid { grid-template-columns: minmax(0, 1fr); } }
+
+.seo-faq { border-bottom: 1px solid var(--border, #344051); padding: 18px 0; }
+.seo-faq summary { cursor: pointer; color: var(--white, #fff); font-weight: 600; }
+.seo-faq summary:focus-visible { outline: 2px solid #c8a052; outline-offset: 5px; }
+.seo-faq p { margin: 14px 0 0; }
+.blog-card[hidden] { display: none !important; }
+#blog-search { display:block; width:100%; max-width:640px; margin-top:10px; padding:14px; border:1px solid #697387; border-radius:8px; background:#101a2b; color:#fff; font:inherit; }
+#blog-search:focus-visible { outline:2px solid #c8a052; outline-offset:3px; }

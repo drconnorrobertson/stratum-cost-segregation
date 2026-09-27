@@ -83,7 +83,7 @@ def update_blog_index(posts):
 
     cards = []
     for p in posts:
-        if f'href="{p["slug"]}/index.html"' in html:
+        if any(href in html for href in (f'href="{p["slug"]}/index.html"', f'href="/blog/{p["slug"]}/"')):
             continue  # already listed
         cards.append(
             f'      <a href="{p["slug"]}/index.html" class="blog-card" style="text-decoration:none;">\n'
