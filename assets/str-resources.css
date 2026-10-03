@@ -1,3 +1,19 @@
 .market-search{display:block;margin:2rem 0 1rem;font-weight:600;color:#f4f7fb}.market-search input{display:block;width:100%;padding:14px 16px;margin-top:10px;border:1px solid #7a889b;border-radius:8px;background:#111a29;color:#fff;font:inherit}.market-search input:focus-visible,.study-planner input:focus-visible{outline:3px solid #e9bd68;outline-offset:4px}.market-list{list-style:none;padding-left:0!important}.market-entry{padding:14px 0;border-bottom:1px solid #334052}.market-entry span{display:block;color:#b9c3d1;font-size:.95rem;margin-top:5px}.study-planner fieldset{border:1px solid #536178;border-radius:10px;padding:22px;margin:22px 0}.study-planner legend{padding:0 8px;color:#fff;font-weight:700}.study-planner label{display:flex;align-items:flex-start;gap:12px;padding:12px 0;color:#e6ebf2;cursor:pointer}.study-planner input{width:20px;height:20px;flex-shrink:0;margin-top:3px;accent-color:#e9bd68}.planner-actions{display:flex;gap:12px;flex-wrap:wrap}.planner-actions button{font:inherit;cursor:pointer}.article details{padding:20px;border:1px solid #536178;border-radius:8px;margin:28px 0}.article summary{cursor:pointer;color:#fff;font-weight:600}[hidden]{display:none!important}@media print{body{background:#fff!important;color:#111!important}.nav,.footer,.cta-banner,.planner-actions,details{display:none!important}.article{padding:0!important;max-width:none!important}.article h1,.article h2,.article h3,.article p,.article li,.article a,.study-planner label,.study-planner legend{color:#111!important}.article a{text-decoration:none}.study-planner fieldset{break-inside:avoid}}
 
 .table-wrap{max-width:100%;overflow-x:auto}.table-wrap table{width:100%;min-width:520px}.table-wrap caption{text-align:left;padding:12px 0;color:var(--text-secondary,#b9c0ca)}
+
+/* Visual refinement 2026-10: preserve the existing brand, layout and content. */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+h1, h2, h3 { text-wrap: balance; }
+p, blockquote { text-wrap: pretty; }
+:where(a, button, input, select, textarea):focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+:where(article, .content, .article-content) a { text-underline-offset: .2em; text-decoration-thickness: 1px; }
+:where(.hero-grid, .features-grid, .cards-grid, .grid, .footer-grid) > * { min-width: 0; }
+@media (max-width: 600px) { input, select, textarea { font-size: 16px; } :where(.hero-cta, .hero-actions, .cta-actions) { flex-wrap: wrap; row-gap: 12px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; animation-delay: 0ms !important; transition-duration: .01ms !important; } }
+
+.card, .blog-card { box-shadow: 0 1px 2px rgba(15,23,42,.035), 0 10px 30px rgba(15,23,42,.055); }
+
+.btn, .btn-outline, .btn-gold { transition: background-color .2s ease, color .2s ease, border-color .2s ease, box-shadow .2s ease, transform .2s ease; }
+
+h1, h2 { letter-spacing: -.02em; } .hero p { line-height: 1.75; }
