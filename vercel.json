@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "node decision-library-build.cjs",
+  "buildCommand": "node topical-depth-build.cjs",
   "outputDirectory": "public",
   "trailingSlash": true,
   "redirects": [
