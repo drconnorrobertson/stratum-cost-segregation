@@ -1,0 +1,372 @@
+{
+  "key": "stratum",
+  "domain": "www.stratumcostsegregation.com",
+  "date": "2026-10-09",
+  "baseline": 1000,
+  "target": 1200,
+  "route": "report-workbench",
+  "publisher": "Stratum Cost Segregation",
+  "service": "https://www.stratumcostsegregation.com/free-estimate/",
+  "topics": [
+    {
+      "title": "Cost segregation electrical component evidence",
+      "trigger": "A study identifies electrical costs but source documents do not explain the equipment or areas served.",
+      "principle": "Identify the function, location and relationship to the building or equipment before technical classification. The word electrical does not establish an asset class or recovery period.",
+      "example": "A warehouse has general lighting, tenant office wiring and a separate circuit serving production equipment.",
+      "checks": [
+        "Drawing circuit references",
+        "Equipment served identification",
+        "Panel and location inventory",
+        "Installation scope description",
+        "Shared wiring allocation",
+        "Direct invoice reconciliation",
+        "Retained system evidence",
+        "Technical classification question",
+        "Preparer schedule mapping"
+      ],
+      "tag": "equipment"
+    },
+    {
+      "title": "Cost segregation plumbing function records",
+      "trigger": "Plumbing invoices combine general building services and connections associated with particular equipment.",
+      "principle": "Separate the actual function and supported cost of each material component. Pipe location or vendor terminology alone does not decide the tax classification.",
+      "example": "A restaurant build-out includes restrooms, food preparation connections and equipment-specific plumbing on one contractor invoice.",
+      "checks": [
+        "Fixture location mapping",
+        "Equipment connection evidence",
+        "General service identification",
+        "Contractor line breakdown",
+        "Shared piping allocation",
+        "Quantity source verification",
+        "Original cost reconciliation",
+        "Technical review response",
+        "Final asset identifier"
+      ],
+      "tag": "equipment"
+    },
+    {
+      "title": "Cost segregation HVAC service boundaries",
+      "trigger": "A mechanical system serves spaces with different uses and ownership arrangements.",
+      "principle": "Document locations served and the system's actual purpose. A specialty use does not by itself make the entire mechanical system shorter-life property.",
+      "example": "A mixed-use building has a common system plus dedicated cooling for an equipment room.",
+      "checks": [
+        "System equipment inventory",
+        "Zone and floor mapping",
+        "Dedicated use evidence",
+        "Shared service allocation",
+        "Lease responsibility review",
+        "Installed cost support",
+        "Old component relationship",
+        "Technical classification review",
+        "Preparer asset linkage"
+      ],
+      "tag": "equipment"
+    },
+    {
+      "title": "Cost segregation flooring installation facts",
+      "trigger": "A report identifies floor coverings while installation and replacement records are incomplete.",
+      "principle": "Record material, attachment, location and actual cost. Different products and circumstances can require different analysis; do not infer classification from a generic flooring label.",
+      "example": "A furnished rental replaces carpeting in some rooms and installs a different hard surface in others.",
+      "checks": [
+        "Material specification evidence",
+        "Room location schedule",
+        "Attachment method detail",
+        "Original invoice breakdown",
+        "Replacement versus retained areas",
+        "Removal record reference",
+        "Quantity measurement support",
+        "Reviewer classification rationale",
+        "Final report row match"
+      ],
+      "tag": "equipment"
+    },
+    {
+      "title": "Cost segregation cabinetry function records",
+      "trigger": "A contractor invoice covers built-in storage and equipment-related fixtures.",
+      "principle": "Identify the actual use, installation and relationship to the building or business equipment. A custom-built item is not automatically classified in one category.",
+      "example": "A medical office build-out includes reception cabinets, general storage and cabinetry serving specialized treatment functions.",
+      "checks": [
+        "Cabinet location identifiers",
+        "Functional use descriptions",
+        "Attachment and installation evidence",
+        "Equipment integration detail",
+        "Contractor cost breakout",
+        "Shared package allocation",
+        "Photographic source match",
+        "Technical reviewer conclusion",
+        "Asset schedule references"
+      ],
+      "tag": "equipment"
+    },
+    {
+      "title": "Cost segregation signage source files",
+      "trigger": "Signage costs include multiple types of signs and installation work.",
+      "principle": "Separate sign components, supporting structures and actual use for technical review. One marketing label does not resolve classification or cost allocation.",
+      "example": "A property owner buys interior wayfinding signs, exterior tenant signage and an entrance monument under one contract.",
+      "checks": [
+        "Sign type inventory",
+        "Physical location mapping",
+        "Support structure description",
+        "Power connection detail",
+        "Installation invoice separation",
+        "Tenant ownership review",
+        "Replacement history match",
+        "Technical classification issue",
+        "Report cost reconciliation"
+      ],
+      "tag": "equipment"
+    },
+    {
+      "title": "Cost segregation site drainage mapping",
+      "trigger": "A property project includes drains serving buildings and exterior areas.",
+      "principle": "Document where water is collected and discharged and what each component serves. Site-related terminology alone does not establish the tax treatment of all costs.",
+      "example": "An industrial property has roof drainage, parking area drains and new exterior stormwater work on a shared plan.",
+      "checks": [
+        "Drainage drawing identifiers",
+        "Areas served mapping",
+        "Building connection detail",
+        "Exterior work boundary",
+        "Shared trench allocation",
+        "Contractor invoice tracing",
+        "Existing system overlap",
+        "Technical classification review",
+        "Final site cost tie-out"
+      ],
+      "tag": "improvement"
+    },
+    {
+      "title": "Cost segregation parking project reconciliation",
+      "trigger": "Parking work combines paving, grading, lighting and repairs.",
+      "principle": "Separate the project components and support the cost pool. A single parking contract may include items requiring different analysis and prior-history review.",
+      "example": "An owner repaves part of a lot, adds lighting and improves drainage while another part remains unchanged.",
+      "checks": [
+        "Existing lot condition",
+        "New work boundaries",
+        "Paving quantity evidence",
+        "Grading scope detail",
+        "Lighting invoice support",
+        "Drainage cost separation",
+        "Repair versus addition question",
+        "Prior schedule reference",
+        "Report total reconciliation"
+      ],
+      "tag": "improvement"
+    },
+    {
+      "title": "Cost segregation fencing and gate evidence",
+      "trigger": "A site has perimeter fencing, controlled entry and other barriers with different functions.",
+      "principle": "Identify physical components, location and use before technical classification. Security equipment and supporting structures need supported cost and ownership information.",
+      "example": "A self-storage site replaces some fencing and installs powered gates without a clean division in the vendor invoice.",
+      "checks": [
+        "Fence segment inventory",
+        "Gate equipment identifier",
+        "Support structure evidence",
+        "Power installation detail",
+        "Replacement section mapping",
+        "Tenant versus owner costs",
+        "Vendor cost breakout",
+        "Technical reviewer response",
+        "Asset register update"
+      ],
+      "tag": "equipment"
+    },
+    {
+      "title": "Cost segregation landscaping cost boundaries",
+      "trigger": "Exterior invoices combine plants, irrigation, grading and routine care.",
+      "principle": "Distinguish newly acquired or installed components from recurring services and unrelated work. Landscaping is a broad label rather than a complete cost classification.",
+      "example": "An owner pays one contractor to install new irrigation, reshape an area and provide monthly maintenance.",
+      "checks": [
+        "Plant installation record",
+        "Irrigation component inventory",
+        "Grading work description",
+        "Maintenance service separation",
+        "Site location mapping",
+        "Invoice payment trail",
+        "Existing feature comparison",
+        "Capitalization review question",
+        "Study cost inclusion decision"
+      ],
+      "tag": "improvement"
+    },
+    {
+      "title": "Cost segregation tenant improvement ownership",
+      "trigger": "An improvement project involves landlord contributions, tenant payments and lease obligations.",
+      "principle": "Identify the agreements and payer, owner and user facts. A construction invoice alone does not determine which taxpayer includes a component in a study.",
+      "example": "A commercial tenant receives an allowance, pays additional construction costs and installs its own equipment.",
+      "checks": [
+        "Lease improvement clause",
+        "Allowance payment evidence",
+        "Landlord invoice records",
+        "Tenant direct purchases",
+        "Equipment ownership terms",
+        "Reimbursement reconciliation",
+        "Project location mapping",
+        "Tax ownership review",
+        "Separate report scope approval"
+      ],
+      "tag": "basis"
+    },
+    {
+      "title": "Cost segregation contractor allowances",
+      "trigger": "A construction contract includes estimated allowances later adjusted by selections and change orders.",
+      "principle": "Reconcile final installed work and costs rather than relying on original allowances. Deposits, credits and direct purchases can change the source pool.",
+      "example": "A builder's contract contains fixture allowances but the owner selects more expensive items and buys some directly.",
+      "checks": [
+        "Original allowance schedule",
+        "Final selection evidence",
+        "Allowance credit detail",
+        "Change order approval",
+        "Owner direct purchase trail",
+        "Vendor invoice match",
+        "Contractor final reconciliation",
+        "Duplicate cost review",
+        "Accepted source pool version"
+      ],
+      "tag": "records"
+    },
+    {
+      "title": "Cost segregation demolition and retained structure",
+      "trigger": "A project removes part of a property while retaining other elements.",
+      "principle": "Map what was removed, retained and newly constructed. Demolition, disposition and new construction treatment require factual and tax review beyond a study estimate.",
+      "example": "A rental renovation removes interior work while retaining the structure and several existing systems.",
+      "checks": [
+        "Pre-work component inventory",
+        "Demolition scope evidence",
+        "Retained structure mapping",
+        "Removal date support",
+        "Old asset schedule links",
+        "New construction invoices",
+        "Shared cost allocation",
+        "Preparer disposition question",
+        "Updated study boundary"
+      ],
+      "tag": "improvement"
+    },
+    {
+      "title": "Cost segregation construction soft costs",
+      "trigger": "Project costs include design, permits, oversight and other indirect amounts.",
+      "principle": "Keep the source costs and allocation method visible. Indirect costs should not vanish from the total or be assigned solely to maximize a desired deduction.",
+      "example": "A new rental project has architect, permit and construction management invoices separate from the builder's contract.",
+      "checks": [
+        "Design invoice identification",
+        "Permit fee records",
+        "Management service detail",
+        "Financing cost separation",
+        "Cost pool inclusion rationale",
+        "Allocation basis evidence",
+        "Direct cost tie-out",
+        "Reviewer method acceptance",
+        "Final total reconciliation"
+      ],
+      "tag": "basis"
+    },
+    {
+      "title": "Cost segregation quantity estimate confidence",
+      "trigger": "A study relies on estimated quantities because complete plans are unavailable.",
+      "principle": "Record the source, measurement method and limitations of each material quantity. An estimate should not be presented as an exact observed measurement.",
+      "example": "A remote study uses photographs and partial drawings to estimate components in several areas that have not been measured.",
+      "checks": [
+        "Available drawing inventory",
+        "Photographic coverage map",
+        "Direct measurement evidence",
+        "Estimate method description",
+        "Unobserved area register",
+        "Quantity sensitivity note",
+        "Owner confirmation response",
+        "Technical review resolution",
+        "Final assumption disclosure"
+      ],
+      "tag": "records"
+    },
+    {
+      "title": "Cost segregation cost estimate source dates",
+      "trigger": "A report uses cost data that may reflect a different date or scope from the property project.",
+      "principle": "Identify the estimate source, date, location and adjustment method. Estimated replacement cost does not automatically equal the taxpayer's historical cost basis.",
+      "example": "An older rental has few invoices, and a provider develops an estimate using current cost information and documented adjustments.",
+      "checks": [
+        "Historical source inventory",
+        "Estimate source identification",
+        "Source date documentation",
+        "Location adjustment rationale",
+        "Scope adjustment detail",
+        "Historical basis bridge",
+        "Uncertainty disclosure",
+        "Reviewer acceptance record",
+        "Final report source legend"
+      ],
+      "tag": "records"
+    },
+    {
+      "title": "Cost segregation source pool exclusions",
+      "trigger": "Several items appear in the source file but may fall outside the study scope.",
+      "principle": "Identify excluded amounts and why they are excluded. The study total should reconcile to the accepted source pool rather than silently dropping unexplained amounts.",
+      "example": "A project source list includes land, financing charges, owner furnishings and unrelated operating expenses.",
+      "checks": [
+        "Total source cost record",
+        "Land exclusion evidence",
+        "Financing cost review",
+        "Operating expense separation",
+        "Owner asset schedule overlap",
+        "Out-of-scope location costs",
+        "Exclusion rationale register",
+        "Preparer approval response",
+        "Final source-to-report bridge"
+      ],
+      "tag": "basis"
+    },
+    {
+      "title": "Cost segregation component identifier continuity",
+      "trigger": "A property has report revisions, replacement purchases and several asset schedules.",
+      "principle": "Use stable component references or a documented mapping between versions. A renamed report row should not create a duplicate asset or erase its history.",
+      "example": "A provider revises room names while the preparer's asset software still uses identifiers from the first report.",
+      "checks": [
+        "Original report identifiers",
+        "Revised identifier map",
+        "Asset software references",
+        "Location name changes",
+        "Split component explanation",
+        "Combined row explanation",
+        "Replacement transaction links",
+        "Reviewer version approval",
+        "Final identifier archive"
+      ],
+      "tag": "depreciation"
+    },
+    {
+      "title": "Cost segregation report to return reconciliation",
+      "trigger": "A study is delivered but the owner does not know how it affected the tax return.",
+      "principle": "Document the preparer's accepted cost, classification and reporting treatment. Report delivery, asset software entry and filed return implementation are separate milestones.",
+      "example": "An owner receives a final PDF, while the preparer asks about prior elections and a possible accounting-method procedure.",
+      "checks": [
+        "Final report version",
+        "Accepted cost schedule",
+        "Prior treatment history",
+        "Procedure decision record",
+        "Asset software entry evidence",
+        "Federal return reconciliation",
+        "State treatment reconciliation",
+        "Preparer approval confirmation",
+        "Filed implementation archive"
+      ],
+      "tag": "depreciation"
+    },
+    {
+      "title": "Cost segregation replacement and sale archive",
+      "trigger": "A property changes after the original study and later may be sold.",
+      "principle": "Preserve additions, removals and report revisions together with the actual tax schedules. An initial estimate does not provide a complete later disposition analysis.",
+      "example": "An investor replaces appliances and a gate, then sells the property several years after receiving a study.",
+      "checks": [
+        "Original study archive",
+        "Filed asset schedule history",
+        "Replacement addition records",
+        "Removed component evidence",
+        "Report correction versions",
+        "Sale allocation documents",
+        "Selling cost references",
+        "Preparer disposition analysis",
+        "Closed asset register"
+      ],
+      "tag": "sale"
+    }
+  ]
+}
