@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Cost Seg Discovery Call | Stratum Cost Segregation</title>
+    <meta name="description" content="Discuss your property, study scope, and next steps for a cost segregation study.">
+    <link rel="canonical" href="https://www.stratumcostsegregation.com/cost-seg-discovery/">
+    <meta name="author" content="Stratum Cost Segregation Team">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta property="og:title" content="Book Your Cost Seg Discovery Call | Stratum Cost Segregation">
+    <meta property="og:description" content="Discuss your property, study scope, and next steps for a cost segregation study.">
+    <meta property="og:url" content="https://www.stratumcostsegregation.com/cost-seg-discovery/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Stratum Cost Segregation">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Book Your Cost Seg Discovery Call | Stratum Cost Segregation">
+    <meta name="twitter:description" content="Discuss your property, study scope, and next steps for a cost segregation study.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+<style>
+    /* Squeeze page: deliberately self-contained. No site header, footer,
+       navigation, stats bar or sticky CTA. The calendar is the page. */
+    :root {
+        --primary: #1B2A4A;
+        --accent: #C5A55A;
+        --dark: #1B2A4A;
+        --medium: #5A6472;
+        --white: #FFFFFF;
+        --line: #E6E8EC;
+        --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        --font-heading: 'Playfair Display', Georgia, serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+        font-family: var(--font-body);
+        background: var(--white);
+        color: var(--dark);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 32px 24px 56px; }
+
+    .brand { display: block; text-align: center; margin-bottom: 28px; }
+    .brand img { height: 46px; width: auto; object-fit: contain; }
+
+    .headline {
+        font-family: var(--font-heading);
+        font-size: clamp(30px, 4.2vw, 44px);
+        line-height: 1.15;
+        font-weight: 700;
+        text-align: center;
+        color: var(--primary);
+        margin-bottom: 12px;
+    }
+    .subhead {
+        text-align: center;
+        font-size: 17px;
+        color: var(--medium);
+        max-width: 660px;
+        margin: 0 auto 40px;
+    }
+
+    .cols {
+        display: grid;
+        grid-template-columns: 1fr 1.15fr;
+        gap: 56px;
+        align-items: start;
+    }
+
+    h2 {
+        font-family: var(--font-heading);
+        font-size: 27px;
+        font-weight: 700;
+        color: var(--primary);
+        margin-bottom: 22px;
+    }
+
+    .benefits { list-style: none; }
+    .benefits li {
+        position: relative;
+        padding-left: 38px;
+        margin-bottom: 26px;
+    }
+    .benefits li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 2px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: var(--accent);
+        /* Checkmark drawn as a mask so it needs no external asset. */
+        -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9.6 16.2 5.4 12l-1.4 1.4 5.6 5.6 12-12-1.4-1.4z'/%3E%3C/svg%3E") center / 20px 20px no-repeat,
+                 linear-gradient(#000 0 0);
+        -webkit-mask-composite: xor;
+        mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9.6 16.2 5.4 12l-1.4 1.4 5.6 5.6 12-12-1.4-1.4z'/%3E%3C/svg%3E") center / 20px 20px no-repeat,
+             linear-gradient(#000 0 0);
+        mask-composite: exclude;
+    }
+    .benefits strong { display: block; font-size: 17px; color: var(--primary); margin-bottom: 3px; }
+    .benefits span { color: var(--medium); font-size: 15.5px; }
+
+    .note {
+        border-left: 3px solid var(--accent);
+        padding: 16px 20px;
+        margin-top: 34px;
+        color: var(--medium);
+        font-size: 15.5px;
+        background: #FAFBFC;
+    }
+    .note strong { color: var(--primary); }
+
+    .cal-frame {
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 6px 22px rgba(27, 42, 74, 0.07);
+        background: var(--white);
+    }
+    .cal-frame iframe { display: block; width: 100%; height: 820px; border: 0; }
+
+    /* Left-aligned so it agrees with the "Schedule a Call" heading above it;
+       the two column headings stay aligned with each other. */
+    .fallback { text-align: left; margin-top: 18px; font-size: 15px; color: var(--medium); }
+    .fallback a { color: var(--primary); font-weight: 600; }
+
+    @media (max-width: 900px) {
+        .cols { grid-template-columns: 1fr; gap: 40px; }
+        .wrap { padding: 24px 18px 44px; }
+        .cal-frame iframe { height: 760px; }
+        .subhead { margin-bottom: 30px; }
+    }
+</style>
+
+
+</head>
+<body>
+    <main class="wrap">
+        <a href="/" class="brand" style="color:var(--primary);font-size:24px;font-weight:700;text-decoration:none">Stratum Cost Segregation</a>
+
+        <h1 class="headline">Book Your Cost Seg Discovery Call</h1>
+        <p class="subhead">Book with AE Tax Advisors, Stratum’s tax strategy partner. Explore whether a cost segregation study makes sense for your property. Discuss study scope, timing, pricing, and how to coordinate the results with your tax advisor.</p>
+
+        <div class="cols">
+            <section>
+                <h2>What You'll Get</h2>
+                <ul class="benefits"><li><strong>Review Your Property</strong><span>Discuss the property type, purchase or improvement costs, and when it was placed in service.</span></li><li><strong>Understand the Study</strong><span>Get clarity on study scope, documentation, pricing, and the next steps.</span></li><li><strong>Coordinate With Your Tax Advisor</strong><span>Discuss implementation and the facts your advisor needs to assess how depreciation applies to your situation.</span></li></ul>
+                <p class="note"><strong>No obligation.</strong> This is a conversation to explore
+                what's possible for your situation. No pressure, no sales pitch.</p>
+            </section>
+
+            <section>
+                <h2>Schedule a Call</h2>
+                <div class="cal-frame">
+                    <iframe
+                        src="https://api.leadconnectorhq.com/widget/booking/31bqciSJCSb2R44l0EML"
+                        title="Book a cost segregation discovery call with Stratum Cost Segregation"
+                        scrolling="no"
+                        id="31bqciSJCSb2R44l0EML_discovery"
+                        allow="payment" loading="eager"></iframe>
+                </div>
+                <p class="fallback">Calendar not loading?
+                <a href="https://api.leadconnectorhq.com/widget/booking/31bqciSJCSb2R44l0EML"
+                   target="_blank" rel="noopener">Open the booking page</a>
+                or call <a href="tel:+14122558888">(412) 255-8888</a>.</p>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://link.msgsndr.com/js/form_embed.js" defer></script>
+
+</body>
+</html>

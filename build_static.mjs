@@ -4,7 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root = path.dirname(fileURLToPath(import.meta.url));
 const output = path.join(root, 'public');
-const excluded = new Set(['.git', '.github', 'public', 'content', '__pycache__', 'node_modules']);
+const excluded = new Set(['.git', '.github', 'public', 'content', '__pycache__', 'node_modules', 'cost-seg-discovery']);
 const assets = new Set(['.css', '.js', '.csv', '.png', '.jpg', '.jpeg', '.webp', '.svg', '.ico', '.woff', '.woff2']);
 await rm(output, {recursive:true, force:true});
 let pages = 0;
