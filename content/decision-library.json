@@ -1,0 +1,266 @@
+{
+  "key": "stratum",
+  "repo": "stratum-cost-segregation",
+  "domain": "www.stratumcostsegregation.com",
+  "target": 1000,
+  "route": "report-workbench",
+  "title": "Cost Segregation Report Reconciliation Workbench",
+  "contexts": [
+    [
+      "Furnished rental acquisition",
+      "Listing photographs can include objects the seller retains. Match the final inventory to the items actually transferred and flag furnishings already recorded separately.",
+      "purchase agreement; seller inventory; closing statement; and post-closing purchases",
+      "A buyer acquires a furnished cabin and replaces its mattresses before the first guest arrives.",
+      "Specifically review the risk of double-counting the same furniture in both the building study and a separate asset schedule."
+    ],
+    [
+      "Gifted rental property",
+      "The current market value is not automatically the recipient's depreciation basis. The preparer needs the transfer details before the provider reconciles a study cost pool.",
+      "gift records; donor cost support; donor depreciation schedules; and use history",
+      "A parent gives an already-rented house to an adult child who requests a new study.",
+      "Specifically review the risk of substituting an appraisal for the transferred tax basis."
+    ],
+    [
+      "Inherited rental property",
+      "Inherited property can require a different basis starting point from a purchase. Identify the actual estate facts and separate later spending from inherited assets.",
+      "estate inventory; date-of-death valuation; deed; and subsequent improvement invoices",
+      "An heir inherits a duplex, retains one tenant, and renovates the vacant unit.",
+      "Specifically review the risk of combining inherited basis and later renovation costs without showing the transition."
+    ],
+    [
+      "Divorce property transfer",
+      "A divorce-related transfer is not automatically a new purchase for depreciation purposes. Explain what transferred and give the preparer the full history.",
+      "settlement agreement; deed; historical basis; and prior depreciation schedules",
+      "One former spouse takes a rental property and subsequently replaces all appliances.",
+      "Specifically review the risk of restarting depreciation from the settlement's stated value without review."
+    ],
+    [
+      "Related-party purchase",
+      "Related-party rules can affect bonus eligibility and other treatment. The study should document physical components without promising that every acquired asset receives bonus depreciation.",
+      "purchase contract; relationship description; prior ownership dates; and price allocation",
+      "A business owner buys a rental house from an entity controlled by a family member.",
+      "Specifically review the risk of assuming that an engineering classification proves bonus eligibility."
+    ],
+    [
+      "Personal residence converted to rental",
+      "Conversion can require comparison of adjusted basis and fair market value. Original purchase cost alone is not necessarily the depreciation starting point.",
+      "original closing; conversion-date valuation; improvement history; and rental availability records",
+      "An owner moves out, renovates two rooms, and lists the home for annual tenants.",
+      "Specifically review the risk of using a new appraisal as if the property had just been purchased."
+    ],
+    [
+      "Partial home rental",
+      "A component can serve both rental and personal areas. Explain the chosen allocation and have the preparer evaluate its tax treatment rather than studying the whole residence as fully rented.",
+      "floor plan; occupancy calendar; expense allocation; and improvement invoices",
+      "An owner rents a basement suite and shares a laundry room with guests.",
+      "Specifically review the risk of treating all house systems as exclusively rental assets."
+    ],
+    [
+      "STR with owner stays",
+      "Personal use can affect expense allocations and limitations. A booking platform's description does not settle the tax character of every day.",
+      "booking calendar; owner-use log; rental receipts; and improvement dates",
+      "A beach property is rented for part of the summer and used by the owner during holidays.",
+      "Specifically review the risk of estimating usable depreciation without considering personal use."
+    ],
+    [
+      "LTR converted to STR",
+      "The rental strategy change does not erase the existing asset history. Record new furnishings separately and ask the preparer whether any change in use affects the existing schedule.",
+      "prior returns; conversion timeline; furniture invoices; and guest-operation records",
+      "An unfurnished annual rental becomes a furnished weekend property after a remodel.",
+      "Specifically review the risk of applying a new acquisition date to the previously owned building."
+    ],
+    [
+      "STR converted to LTR",
+      "Existing depreciation records still matter after a booking strategy changes. Document what stays, what is sold, and what the tenant owns.",
+      "prior study; long-term lease; furniture disposition records; and existing asset schedule",
+      "A vacation rental owner signs an annual lease and sells most guest-room furniture.",
+      "Specifically review the risk of deleting old asset records without evaluating disposition consequences."
+    ],
+    [
+      "ADU added to a rental",
+      "An accessory unit may share services with an existing rental. Reconcile new construction and allocated shared costs without counting the same system in both buildings.",
+      "ADU plans; permits; contractor costs; utility routes; and completion records",
+      "A backyard unit connects to the main house's water and electrical service.",
+      "Specifically review the risk of duplicating shared utility costs across two studies."
+    ],
+    [
+      "Duplex with one owner-occupied unit",
+      "A two-unit property can combine personal and rental use. The provider needs a supported allocation for roof, structure, and other systems serving both units.",
+      "unit floor plan; ownership and occupancy records; shared-system invoices; and asset schedules",
+      "The owner renovates the leased apartment and replaces a boiler serving both units.",
+      "Specifically review the risk of assigning the full shared boiler cost exclusively to the rental unit."
+    ],
+    [
+      "Condo with special assessments",
+      "A payment to an association does not by itself establish an independently owned component. The preparer needs the governing documents and the nature of the expenditure.",
+      "deed; association documents; assessment notices; and project descriptions",
+      "A condo owner pays for common-roof work and separately renovates the unit kitchen.",
+      "Specifically review the risk of treating every assessment as an immediately deductible asset purchase."
+    ],
+    [
+      "Phased renovation",
+      "A single final invoice can hide different installation and service dates. Keep each phase's evidence so the preparer can determine when depreciation begins.",
+      "project schedule; phase invoices; completion records; and rental availability history",
+      "A cabin opens to guests before an outdoor kitchen project is complete.",
+      "Specifically review the risk of using one project-completion date for all assets without support."
+    ],
+    [
+      "Renovation with no invoices",
+      "Missing invoices do not justify inventing exact costs. Identify what alternative evidence supports an estimate and what remains unresolved.",
+      "bank statements; contractor correspondence; permits; photographs; and owner explanations",
+      "An owner has payment records and progress photographs but no itemized contractor bill.",
+      "Specifically review the risk of presenting reconstructed estimates as documented original invoices."
+    ],
+    [
+      "Existing rental with missing depreciation schedules",
+      "A new study cannot safely assume that no depreciation was claimed. Ask the preparer to reconstruct the history and identify elections or prior method choices.",
+      "prior returns; preparer workpapers; acquisition records; and asset export requests",
+      "A rental owner changes accountants after several years and cannot locate asset reports.",
+      "Specifically review the risk of claiming catch-up depreciation without reconciling prior deductions."
+    ],
+    [
+      "Previous cost segregation study",
+      "A second study should explain what new work it performs. Reclassification already implemented should not be duplicated, and disagreements require a documented technical review.",
+      "original report; asset schedules; later improvements; and prior filing records",
+      "An owner commissions another provider after adding a pool and replacing furniture.",
+      "Specifically review the risk of applying a new percentage to a basis already segregated."
+    ],
+    [
+      "Multiple properties in one closing",
+      "One purchase price and one loan do not eliminate property-level accounting. Keep each address and ownership interest separately traceable.",
+      "purchase agreement; address schedule; valuation support; and closing allocations",
+      "A buyer acquires three neighboring cabins under one contract.",
+      "Specifically review the risk of assigning the full closing price independently to each property."
+    ]
+  ],
+  "tasks": [
+    [
+      "Cost-pool reconciliation exercise",
+      "Reconcile a proposed study total with the source cost file.",
+      "Enter the supported starting pool, separately identified items and adjustments accepted for review. Calculate the difference against the draft report. The exercise checks arithmetic and record completeness, not whether an allocation is legally correct.",
+      "A source-to-report difference register.",
+      "The draft total exceeds or falls short of the reconciled source pool.",
+      "Which adjustments explain the report difference and who approves them?",
+      "starting cost pool; separate items; adjustments; report total; difference explanation"
+    ],
+    [
+      "Invoice overlap exercise",
+      "Check whether contractor packages and direct purchases count the same cost twice.",
+      "Match invoice identifiers, allowances, deposits and credits to the report's work packages. Flag duplicate references. A vendor invoice and an owner payment can refer to the same transaction, so preserve the source relationship.",
+      "An overlap and credit issue log.",
+      "The same work appears in the contractor package and an owner-direct line.",
+      "Which rows share a source transaction and how should the report reconcile them?",
+      "contractor package; direct purchase; allowance; credit; duplicate reference"
+    ],
+    [
+      "Quantity reconciliation exercise",
+      "Compare report quantities with the supported inventory.",
+      "Record the source quantity, unit, location and method of measurement for a material component. Distinguish direct measurement from estimation. A quantity mismatch is a review trigger and does not independently decide classification or cost.",
+      "A measured-versus-reported quantity bridge.",
+      "The report uses a total property area for a smaller component.",
+      "What measurement supports the reported quantity and what remains estimated?",
+      "component; measured quantity; unit; reported quantity; measurement source"
+    ],
+    [
+      "Location trace exercise",
+      "Trace every material entry to a property, building, unit or work area.",
+      "Use stable identifiers and record shared locations explicitly. Match drawings, photographs and invoices to report rows. A shared system should not be assigned to multiple properties without an explained allocation.",
+      "A report-row-to-location map.",
+      "One source record is mapped to several locations without support.",
+      "Which location or shared-system facts explain the row allocation?",
+      "report row; property identifier; building or unit; shared area; location source"
+    ],
+    [
+      "Owner-payer-user exercise",
+      "Identify whose report and tax schedule the evidence belongs to.",
+      "Record title, cost payer, operator and relevant agreements. Flag tenant-owned or shared property. The tool organizes facts for the provider and preparer; it does not determine tax ownership from one document.",
+      "An owner-payer-user exception register.",
+      "The report includes an item owned by another party.",
+      "What records establish the relevant ownership and reporting entity?",
+      "title holder; payer; user; agreement; report addressee"
+    ],
+    [
+      "Date sequence exercise",
+      "Check the timeline supplied to the report provider.",
+      "Separate acquisition, construction, installation and readiness evidence. List phased work with separate identifiers. Do not choose the most favorable service date solely because the final invoice uses it.",
+      "A component timeline with unresolved date questions.",
+      "The report's dates do not match the project evidence.",
+      "Which dates are factual, estimated or awaiting preparer review?",
+      "acquisition; installation; readiness source; report date; phase record"
+    ],
+    [
+      "Existing schedule tie-out",
+      "Connect the study entries to the asset history already maintained.",
+      "Compare source schedules, prior studies and later improvements with the new report. Identify entries already separately classified. A new study must not be assumed to create a second cost pool for the same property.",
+      "A prior-schedule-to-report crosswalk.",
+      "An existing asset is reintroduced without explaining the earlier entry.",
+      "Which prior rows and implemented positions does the new report replace or supplement?",
+      "prior row; prior treatment; new report row; later addition; tie-out issue"
+    ],
+    [
+      "Draft correction exercise",
+      "Track material report questions through dated corrections.",
+      "Record the original row, factual issue, provider response and final version. Preserve both drafts. Separate a factual correction from a disagreement requiring technical tax review, and route each to the right professional.",
+      "A versioned correction register.",
+      "An implementation file contains an obsolete draft.",
+      "Which issue was corrected and which version should the preparer implement?",
+      "draft version; affected row; issue; provider response; final version"
+    ],
+    [
+      "Removal-retention exercise",
+      "Reconcile removed, retained and new work across a project.",
+      "Use the old component record, removal evidence and new invoice separately. Identify retained portions explicitly. The exercise does not calculate a deductible disposition amount or infer original cost from a replacement price.",
+      "An old-retained-new work bridge.",
+      "New spending is used as proof of the removed item's historical basis.",
+      "Which historical and physical records support the removal analysis?",
+      "old component; removed portion; retained portion; new work; historical source"
+    ],
+    [
+      "Estimate disclosure exercise",
+      "Identify what is documented and what is reconstructed in the report inputs.",
+      "Tag costs and quantities by source type. Record the reason for an estimate, supporting alternatives and its sensitivity. Avoid presenting a reconstructed estimate as an original invoice or a verified measurement.",
+      "An estimate-and-source register.",
+      "Estimated inputs appear exact and unqualified.",
+      "Which material conclusions depend on estimates and what would improve the evidence?",
+      "input; source type; estimate reason; supporting evidence; uncertainty"
+    ],
+    [
+      "Preparer implementation exercise",
+      "Make the final report handoff and filing responsibility explicit.",
+      "Record the final report, issue log and preparer acceptance of the review task. Ask the preparer to determine the applicable procedure and reporting. A report delivery email is not proof that the return treatment was implemented.",
+      "A report-to-filing completion map.",
+      "A completed study is described as a completed tax-return result.",
+      "Who reviews and implements the report and what evidence records completion?",
+      "final report; preparer; procedure question; filing step; completion evidence"
+    ],
+    [
+      "Future disposition exercise",
+      "Preserve the report history for a later replacement or property sale.",
+      "Link component identifiers to the current schedule and future transaction file. Retain changes and corrections. Ask the preparer to evaluate the actual transaction rather than treating an initial study estimate as the whole lifetime tax effect.",
+      "A report-to-exit source map.",
+      "The final report is not reconciled to the schedule used at sale.",
+      "What report and schedule records must be retained for the planned disposition?",
+      "report identifier; schedule link; subsequent change; proposed event; preparer question"
+    ]
+  ],
+  "masters": [
+    [
+      "Report source reconciliation workspace",
+      "Trace a draft study's total to the source pool and explain unresolved differences.",
+      "source pool; draft total; accepted adjustments; difference; explanation"
+    ],
+    [
+      "Report version and implementation tracker",
+      "Preserve corrections, final report acceptance and return-preparer responsibilities.",
+      "report version; changed row; open question; implementation owner; completed evidence"
+    ]
+  ],
+  "service": "https://www.stratumcostsegregation.com/free-estimate/",
+  "sources": [
+    "https://www.irs.gov/pub/irs-pdf/p5653.pdf",
+    "https://www.irs.gov/publications/p551",
+    "https://www.irs.gov/instructions/i3115"
+  ],
+  "date": "2026-10-09",
+  "publisher": "Stratum Cost Segregation"
+}
