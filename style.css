@@ -688,6 +688,41 @@ img { max-width: 100%; height: auto; display: block; }
   font-size: 1.05rem;
 }
 
+/* Evidence libraries and practical worksheets. */
+.resource-article { max-width: 1120px; }
+.resource-article > section, .resource-article > p, .resource-article > h1,
+.resource-article > .content-disclosure, .resource-article > .guide-toc { max-width: 860px; }
+.resource-article a { color: var(--gold-light); text-underline-offset: .2em; }
+.resource-article section { margin-bottom: 34px; }
+.guide-summary { font-size: 1.15rem; }
+.guide-toc { padding: 22px 28px; border: 1px solid var(--glass-border, #34445d); border-radius: 12px; margin: 26px 0; }
+.guide-toc ul { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); margin-bottom: 0; gap: 6px 24px; }
+.table-scroll { width: 100%; overflow-x: auto; margin: 22px 0; }
+.table-scroll table { width: 100%; border-collapse: collapse; font-size: .98rem; line-height: 1.65; }
+.table-scroll th, .table-scroll td { text-align: left; vertical-align: top; padding: 16px; border: 1px solid #34445d; color: var(--text-muted); }
+.table-scroll thead th { color: var(--white); background: var(--glass-bg); }
+.table-scroll tbody th { width: 25%; color: var(--gold-light); }
+.source-panel { border: 1px solid #34445d; border-radius: 12px; padding: 0 24px 12px; }
+.guide-search { padding: 22px; background: var(--glass-bg); border: 1px solid #34445d; border-radius: 12px; margin: 24px 0; }
+.guide-search label { display: block; margin-bottom: 10px; font-weight: 600; }
+.guide-search input { width: 100%; min-height: 48px; border-radius: 8px; border: 1px solid #68758a; padding: 12px; background: #101d31; color: white; font: inherit; }
+.guide-search input:focus-visible, .resource-article a:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
+.guide-search p { margin: 12px 0 0; }
+.resource-article > section:has(.guide-grid) { max-width: none; }
+.guide-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; }
+.guide-card { padding: 24px; background: var(--glass-bg); border: 1px solid #34445d; border-radius: 12px; }
+.guide-card h2, .guide-card h3 { margin: 14px 0; font-size: 1.2rem; line-height: 1.5; }
+.guide-card p { margin-bottom: 0; font-size: .95rem; }
+.guide-card[hidden], [hidden] { display: none !important; }
+.guide-related { padding: 0 24px 8px; background: var(--glass-bg); border-radius: 12px; }
+@media (max-width: 640px) {
+  .guide-grid, .guide-toc ul { grid-template-columns: 1fr; }
+  .resource-article { padding-left: 18px; padding-right: 18px; }
+  .table-scroll th, .table-scroll td { padding: 12px; }
+  .table-scroll tbody th { width: 32%; }
+  .guide-card { padding: 20px; }
+}
+
 /* ============================================================
    CTA BANNER
    ============================================================ */

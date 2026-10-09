@@ -1,0 +1,2518 @@
+{
+  "guides": 500,
+  "category_counts": {
+    "Component evidence": 300,
+    "Ownership and project scenarios": 150,
+    "Buyer and CPA guides": 50
+  },
+  "main_content_word_count": {
+    "minimum": 502,
+    "median": 612.0,
+    "maximum": 673
+  },
+  "similarity_method": "Pairwise five-word Jaccard, excluding navigation, sources, related links, and CTA. 0.65 is an internal review flag, not a search engine policy or ranking threshold.",
+  "maximum_nearest_similarity": 0.6318,
+  "errors": [],
+  "nearest": [
+    {
+      "page": "resources/components/hot-tubs-classification",
+      "nearest": "resources/components/hot-tubs-photo-checklist",
+      "five_word_jaccard": 0.5258
+    },
+    {
+      "page": "resources/components/hot-tubs-acquisition-allocation",
+      "nearest": "resources/components/hot-tubs-photo-checklist",
+      "five_word_jaccard": 0.5252
+    },
+    {
+      "page": "resources/components/hot-tubs-renovation-costs",
+      "nearest": "resources/components/hot-tubs-photo-checklist",
+      "five_word_jaccard": 0.5317
+    },
+    {
+      "page": "resources/components/hot-tubs-photo-checklist",
+      "nearest": "resources/components/hot-tubs-report-review",
+      "five_word_jaccard": 0.5357
+    },
+    {
+      "page": "resources/components/hot-tubs-report-review",
+      "nearest": "resources/components/hot-tubs-photo-checklist",
+      "five_word_jaccard": 0.5357
+    },
+    {
+      "page": "resources/components/hot-tubs-replacement-disposition",
+      "nearest": "resources/components/hot-tubs-photo-checklist",
+      "five_word_jaccard": 0.5239
+    },
+    {
+      "page": "resources/components/swimming-pools-classification",
+      "nearest": "resources/components/swimming-pools-photo-checklist",
+      "five_word_jaccard": 0.5187
+    },
+    {
+      "page": "resources/components/swimming-pools-acquisition-allocation",
+      "nearest": "resources/components/driveways-acquisition-allocation",
+      "five_word_jaccard": 0.5181
+    },
+    {
+      "page": "resources/components/swimming-pools-renovation-costs",
+      "nearest": "resources/components/swimming-pools-photo-checklist",
+      "five_word_jaccard": 0.5246
+    },
+    {
+      "page": "resources/components/swimming-pools-photo-checklist",
+      "nearest": "resources/components/swimming-pools-report-review",
+      "five_word_jaccard": 0.5286
+    },
+    {
+      "page": "resources/components/swimming-pools-report-review",
+      "nearest": "resources/components/swimming-pools-photo-checklist",
+      "five_word_jaccard": 0.5286
+    },
+    {
+      "page": "resources/components/swimming-pools-replacement-disposition",
+      "nearest": "resources/components/swimming-pools-photo-checklist",
+      "five_word_jaccard": 0.5168
+    },
+    {
+      "page": "resources/components/pool-heaters-classification",
+      "nearest": "resources/components/pool-heaters-photo-checklist",
+      "five_word_jaccard": 0.5181
+    },
+    {
+      "page": "resources/components/pool-heaters-acquisition-allocation",
+      "nearest": "resources/components/pool-heaters-photo-checklist",
+      "five_word_jaccard": 0.5175
+    },
+    {
+      "page": "resources/components/pool-heaters-renovation-costs",
+      "nearest": "resources/components/pool-heaters-photo-checklist",
+      "five_word_jaccard": 0.524
+    },
+    {
+      "page": "resources/components/pool-heaters-photo-checklist",
+      "nearest": "resources/components/pool-heaters-report-review",
+      "five_word_jaccard": 0.528
+    },
+    {
+      "page": "resources/components/pool-heaters-report-review",
+      "nearest": "resources/components/pool-heaters-photo-checklist",
+      "five_word_jaccard": 0.528
+    },
+    {
+      "page": "resources/components/pool-heaters-replacement-disposition",
+      "nearest": "resources/components/pool-heaters-photo-checklist",
+      "five_word_jaccard": 0.5175
+    },
+    {
+      "page": "resources/components/saunas-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5208
+    },
+    {
+      "page": "resources/components/saunas-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5214
+    },
+    {
+      "page": "resources/components/saunas-renovation-costs",
+      "nearest": "resources/components/saunas-photo-checklist",
+      "five_word_jaccard": 0.5191
+    },
+    {
+      "page": "resources/components/saunas-photo-checklist",
+      "nearest": "resources/components/saunas-report-review",
+      "five_word_jaccard": 0.5231
+    },
+    {
+      "page": "resources/components/saunas-report-review",
+      "nearest": "resources/components/saunas-photo-checklist",
+      "five_word_jaccard": 0.5231
+    },
+    {
+      "page": "resources/components/saunas-replacement-disposition",
+      "nearest": "resources/components/saunas-photo-checklist",
+      "five_word_jaccard": 0.5132
+    },
+    {
+      "page": "resources/components/outdoor-showers-classification",
+      "nearest": "resources/components/outdoor-furniture-classification",
+      "five_word_jaccard": 0.5277
+    },
+    {
+      "page": "resources/components/outdoor-showers-acquisition-allocation",
+      "nearest": "resources/components/outdoor-furniture-acquisition-allocation",
+      "five_word_jaccard": 0.5283
+    },
+    {
+      "page": "resources/components/outdoor-showers-renovation-costs",
+      "nearest": "resources/components/outdoor-furniture-renovation-costs",
+      "five_word_jaccard": 0.5223
+    },
+    {
+      "page": "resources/components/outdoor-showers-photo-checklist",
+      "nearest": "resources/components/outdoor-showers-report-review",
+      "five_word_jaccard": 0.5244
+    },
+    {
+      "page": "resources/components/outdoor-showers-report-review",
+      "nearest": "resources/components/outdoor-showers-photo-checklist",
+      "five_word_jaccard": 0.5244
+    },
+    {
+      "page": "resources/components/outdoor-showers-replacement-disposition",
+      "nearest": "resources/components/outdoor-showers-photo-checklist",
+      "five_word_jaccard": 0.5093
+    },
+    {
+      "page": "resources/components/fire-pits-classification",
+      "nearest": "resources/components/landscaping-classification",
+      "five_word_jaccard": 0.5264
+    },
+    {
+      "page": "resources/components/fire-pits-acquisition-allocation",
+      "nearest": "resources/components/landscaping-acquisition-allocation",
+      "five_word_jaccard": 0.527
+    },
+    {
+      "page": "resources/components/fire-pits-renovation-costs",
+      "nearest": "resources/components/fire-pits-photo-checklist",
+      "five_word_jaccard": 0.5228
+    },
+    {
+      "page": "resources/components/fire-pits-photo-checklist",
+      "nearest": "resources/components/fire-pits-report-review",
+      "five_word_jaccard": 0.5268
+    },
+    {
+      "page": "resources/components/fire-pits-report-review",
+      "nearest": "resources/components/fire-pits-photo-checklist",
+      "five_word_jaccard": 0.5268
+    },
+    {
+      "page": "resources/components/fire-pits-replacement-disposition",
+      "nearest": "resources/components/fire-pits-photo-checklist",
+      "five_word_jaccard": 0.5162
+    },
+    {
+      "page": "resources/components/outdoor-kitchens-classification",
+      "nearest": "resources/components/outdoor-furniture-classification",
+      "five_word_jaccard": 0.5311
+    },
+    {
+      "page": "resources/components/outdoor-kitchens-acquisition-allocation",
+      "nearest": "resources/components/outdoor-furniture-acquisition-allocation",
+      "five_word_jaccard": 0.5316
+    },
+    {
+      "page": "resources/components/outdoor-kitchens-renovation-costs",
+      "nearest": "resources/components/outdoor-furniture-renovation-costs",
+      "five_word_jaccard": 0.5256
+    },
+    {
+      "page": "resources/components/outdoor-kitchens-photo-checklist",
+      "nearest": "resources/components/outdoor-furniture-photo-checklist",
+      "five_word_jaccard": 0.5213
+    },
+    {
+      "page": "resources/components/outdoor-kitchens-report-review",
+      "nearest": "resources/components/outdoor-furniture-report-review",
+      "five_word_jaccard": 0.522
+    },
+    {
+      "page": "resources/components/outdoor-kitchens-replacement-disposition",
+      "nearest": "resources/components/outdoor-kitchens-photo-checklist",
+      "five_word_jaccard": 0.5101
+    },
+    {
+      "page": "resources/components/pergolas-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5228
+    },
+    {
+      "page": "resources/components/pergolas-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5234
+    },
+    {
+      "page": "resources/components/pergolas-renovation-costs",
+      "nearest": "resources/components/bathroom-vanities-renovation-costs",
+      "five_word_jaccard": 0.5173
+    },
+    {
+      "page": "resources/components/pergolas-photo-checklist",
+      "nearest": "resources/components/pergolas-report-review",
+      "five_word_jaccard": 0.5213
+    },
+    {
+      "page": "resources/components/pergolas-report-review",
+      "nearest": "resources/components/pergolas-photo-checklist",
+      "five_word_jaccard": 0.5213
+    },
+    {
+      "page": "resources/components/pergolas-replacement-disposition",
+      "nearest": "resources/components/pergolas-photo-checklist",
+      "five_word_jaccard": 0.5107
+    },
+    {
+      "page": "resources/components/decks-classification",
+      "nearest": "resources/components/game-room-equipment-classification",
+      "five_word_jaccard": 0.5218
+    },
+    {
+      "page": "resources/components/decks-acquisition-allocation",
+      "nearest": "resources/components/game-room-equipment-acquisition-allocation",
+      "five_word_jaccard": 0.5224
+    },
+    {
+      "page": "resources/components/decks-renovation-costs",
+      "nearest": "resources/components/decks-photo-checklist",
+      "five_word_jaccard": 0.5216
+    },
+    {
+      "page": "resources/components/decks-photo-checklist",
+      "nearest": "resources/components/decks-report-review",
+      "five_word_jaccard": 0.5256
+    },
+    {
+      "page": "resources/components/decks-report-review",
+      "nearest": "resources/components/decks-photo-checklist",
+      "five_word_jaccard": 0.5256
+    },
+    {
+      "page": "resources/components/decks-replacement-disposition",
+      "nearest": "resources/components/decks-photo-checklist",
+      "five_word_jaccard": 0.5163
+    },
+    {
+      "page": "resources/components/patios-classification",
+      "nearest": "resources/components/carpeting-classification",
+      "five_word_jaccard": 0.5331
+    },
+    {
+      "page": "resources/components/patios-acquisition-allocation",
+      "nearest": "resources/components/carpeting-acquisition-allocation",
+      "five_word_jaccard": 0.5337
+    },
+    {
+      "page": "resources/components/patios-renovation-costs",
+      "nearest": "resources/components/carpeting-renovation-costs",
+      "five_word_jaccard": 0.5277
+    },
+    {
+      "page": "resources/components/patios-photo-checklist",
+      "nearest": "resources/components/carpeting-photo-checklist",
+      "five_word_jaccard": 0.5234
+    },
+    {
+      "page": "resources/components/patios-report-review",
+      "nearest": "resources/components/carpeting-report-review",
+      "five_word_jaccard": 0.524
+    },
+    {
+      "page": "resources/components/patios-replacement-disposition",
+      "nearest": "resources/components/carpeting-replacement-disposition",
+      "five_word_jaccard": 0.5088
+    },
+    {
+      "page": "resources/components/driveways-classification",
+      "nearest": "resources/components/landscaping-classification",
+      "five_word_jaccard": 0.528
+    },
+    {
+      "page": "resources/components/driveways-acquisition-allocation",
+      "nearest": "resources/components/landscaping-acquisition-allocation",
+      "five_word_jaccard": 0.5286
+    },
+    {
+      "page": "resources/components/driveways-renovation-costs",
+      "nearest": "resources/components/landscaping-renovation-costs",
+      "five_word_jaccard": 0.5225
+    },
+    {
+      "page": "resources/components/driveways-photo-checklist",
+      "nearest": "resources/components/landscaping-photo-checklist",
+      "five_word_jaccard": 0.5182
+    },
+    {
+      "page": "resources/components/driveways-report-review",
+      "nearest": "resources/components/landscaping-report-review",
+      "five_word_jaccard": 0.5188
+    },
+    {
+      "page": "resources/components/driveways-replacement-disposition",
+      "nearest": "resources/components/driveways-photo-checklist",
+      "five_word_jaccard": 0.5089
+    },
+    {
+      "page": "resources/components/walkways-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5241
+    },
+    {
+      "page": "resources/components/walkways-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5247
+    },
+    {
+      "page": "resources/components/walkways-renovation-costs",
+      "nearest": "resources/components/bathroom-vanities-renovation-costs",
+      "five_word_jaccard": 0.5186
+    },
+    {
+      "page": "resources/components/walkways-photo-checklist",
+      "nearest": "resources/components/walkways-report-review",
+      "five_word_jaccard": 0.5201
+    },
+    {
+      "page": "resources/components/walkways-report-review",
+      "nearest": "resources/components/walkways-photo-checklist",
+      "five_word_jaccard": 0.5201
+    },
+    {
+      "page": "resources/components/walkways-replacement-disposition",
+      "nearest": "resources/components/walkways-photo-checklist",
+      "five_word_jaccard": 0.5095
+    },
+    {
+      "page": "resources/components/fences-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5241
+    },
+    {
+      "page": "resources/components/fences-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5247
+    },
+    {
+      "page": "resources/components/fences-renovation-costs",
+      "nearest": "resources/components/bathroom-vanities-renovation-costs",
+      "five_word_jaccard": 0.5186
+    },
+    {
+      "page": "resources/components/fences-photo-checklist",
+      "nearest": "resources/components/fences-report-review",
+      "five_word_jaccard": 0.5201
+    },
+    {
+      "page": "resources/components/fences-report-review",
+      "nearest": "resources/components/fences-photo-checklist",
+      "five_word_jaccard": 0.5201
+    },
+    {
+      "page": "resources/components/fences-replacement-disposition",
+      "nearest": "resources/components/fences-photo-checklist",
+      "five_word_jaccard": 0.5102
+    },
+    {
+      "page": "resources/components/retaining-walls-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5169
+    },
+    {
+      "page": "resources/components/retaining-walls-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5175
+    },
+    {
+      "page": "resources/components/retaining-walls-renovation-costs",
+      "nearest": "resources/components/retaining-walls-photo-checklist",
+      "five_word_jaccard": 0.5228
+    },
+    {
+      "page": "resources/components/retaining-walls-photo-checklist",
+      "nearest": "resources/components/retaining-walls-report-review",
+      "five_word_jaccard": 0.5268
+    },
+    {
+      "page": "resources/components/retaining-walls-report-review",
+      "nearest": "resources/components/retaining-walls-photo-checklist",
+      "five_word_jaccard": 0.5268
+    },
+    {
+      "page": "resources/components/retaining-walls-replacement-disposition",
+      "nearest": "resources/components/retaining-walls-photo-checklist",
+      "five_word_jaccard": 0.5169
+    },
+    {
+      "page": "resources/components/landscaping-classification",
+      "nearest": "resources/components/driveways-classification",
+      "five_word_jaccard": 0.528
+    },
+    {
+      "page": "resources/components/landscaping-acquisition-allocation",
+      "nearest": "resources/components/driveways-acquisition-allocation",
+      "five_word_jaccard": 0.5286
+    },
+    {
+      "page": "resources/components/landscaping-renovation-costs",
+      "nearest": "resources/components/driveways-renovation-costs",
+      "five_word_jaccard": 0.5225
+    },
+    {
+      "page": "resources/components/landscaping-photo-checklist",
+      "nearest": "resources/components/landscaping-report-review",
+      "five_word_jaccard": 0.5188
+    },
+    {
+      "page": "resources/components/landscaping-report-review",
+      "nearest": "resources/components/landscaping-photo-checklist",
+      "five_word_jaccard": 0.5188
+    },
+    {
+      "page": "resources/components/landscaping-replacement-disposition",
+      "nearest": "resources/components/landscaping-photo-checklist",
+      "five_word_jaccard": 0.5089
+    },
+    {
+      "page": "resources/components/irrigation-systems-classification",
+      "nearest": "resources/components/security-cameras-classification",
+      "five_word_jaccard": 0.5233
+    },
+    {
+      "page": "resources/components/irrigation-systems-acquisition-allocation",
+      "nearest": "resources/components/security-cameras-acquisition-allocation",
+      "five_word_jaccard": 0.5239
+    },
+    {
+      "page": "resources/components/irrigation-systems-renovation-costs",
+      "nearest": "resources/components/irrigation-systems-photo-checklist",
+      "five_word_jaccard": 0.5185
+    },
+    {
+      "page": "resources/components/irrigation-systems-photo-checklist",
+      "nearest": "resources/components/irrigation-systems-report-review",
+      "five_word_jaccard": 0.5225
+    },
+    {
+      "page": "resources/components/irrigation-systems-report-review",
+      "nearest": "resources/components/irrigation-systems-photo-checklist",
+      "five_word_jaccard": 0.5225
+    },
+    {
+      "page": "resources/components/irrigation-systems-replacement-disposition",
+      "nearest": "resources/components/irrigation-systems-photo-checklist",
+      "five_word_jaccard": 0.5133
+    },
+    {
+      "page": "resources/components/landscape-lighting-classification",
+      "nearest": "resources/components/decorative-lighting-classification",
+      "five_word_jaccard": 0.527
+    },
+    {
+      "page": "resources/components/landscape-lighting-acquisition-allocation",
+      "nearest": "resources/components/decorative-lighting-acquisition-allocation",
+      "five_word_jaccard": 0.5276
+    },
+    {
+      "page": "resources/components/landscape-lighting-renovation-costs",
+      "nearest": "resources/components/decorative-lighting-renovation-costs",
+      "five_word_jaccard": 0.5216
+    },
+    {
+      "page": "resources/components/landscape-lighting-photo-checklist",
+      "nearest": "resources/components/landscape-lighting-report-review",
+      "five_word_jaccard": 0.5231
+    },
+    {
+      "page": "resources/components/landscape-lighting-report-review",
+      "nearest": "resources/components/landscape-lighting-photo-checklist",
+      "five_word_jaccard": 0.5231
+    },
+    {
+      "page": "resources/components/landscape-lighting-replacement-disposition",
+      "nearest": "resources/components/landscape-lighting-photo-checklist",
+      "five_word_jaccard": 0.5126
+    },
+    {
+      "page": "resources/components/septic-systems-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5202
+    },
+    {
+      "page": "resources/components/septic-systems-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5208
+    },
+    {
+      "page": "resources/components/septic-systems-renovation-costs",
+      "nearest": "resources/components/septic-systems-photo-checklist",
+      "five_word_jaccard": 0.5197
+    },
+    {
+      "page": "resources/components/septic-systems-photo-checklist",
+      "nearest": "resources/components/septic-systems-report-review",
+      "five_word_jaccard": 0.5237
+    },
+    {
+      "page": "resources/components/septic-systems-report-review",
+      "nearest": "resources/components/septic-systems-photo-checklist",
+      "five_word_jaccard": 0.5237
+    },
+    {
+      "page": "resources/components/septic-systems-replacement-disposition",
+      "nearest": "resources/components/septic-systems-photo-checklist",
+      "five_word_jaccard": 0.5132
+    },
+    {
+      "page": "resources/components/water-wells-classification",
+      "nearest": "resources/components/water-heaters-classification",
+      "five_word_jaccard": 0.5231
+    },
+    {
+      "page": "resources/components/water-wells-acquisition-allocation",
+      "nearest": "resources/components/water-heaters-acquisition-allocation",
+      "five_word_jaccard": 0.5237
+    },
+    {
+      "page": "resources/components/water-wells-renovation-costs",
+      "nearest": "resources/components/water-wells-photo-checklist",
+      "five_word_jaccard": 0.5197
+    },
+    {
+      "page": "resources/components/water-wells-photo-checklist",
+      "nearest": "resources/components/water-wells-report-review",
+      "five_word_jaccard": 0.5237
+    },
+    {
+      "page": "resources/components/water-wells-report-review",
+      "nearest": "resources/components/water-wells-photo-checklist",
+      "five_word_jaccard": 0.5237
+    },
+    {
+      "page": "resources/components/water-wells-replacement-disposition",
+      "nearest": "resources/components/water-wells-photo-checklist",
+      "five_word_jaccard": 0.5132
+    },
+    {
+      "page": "resources/components/stormwater-drainage-classification",
+      "nearest": "resources/components/driveways-classification",
+      "five_word_jaccard": 0.5278
+    },
+    {
+      "page": "resources/components/stormwater-drainage-acquisition-allocation",
+      "nearest": "resources/components/driveways-acquisition-allocation",
+      "five_word_jaccard": 0.5284
+    },
+    {
+      "page": "resources/components/stormwater-drainage-renovation-costs",
+      "nearest": "resources/components/driveways-renovation-costs",
+      "five_word_jaccard": 0.5224
+    },
+    {
+      "page": "resources/components/stormwater-drainage-photo-checklist",
+      "nearest": "resources/components/stormwater-drainage-report-review",
+      "five_word_jaccard": 0.5225
+    },
+    {
+      "page": "resources/components/stormwater-drainage-report-review",
+      "nearest": "resources/components/stormwater-drainage-photo-checklist",
+      "five_word_jaccard": 0.5225
+    },
+    {
+      "page": "resources/components/stormwater-drainage-replacement-disposition",
+      "nearest": "resources/components/stormwater-drainage-photo-checklist",
+      "five_word_jaccard": 0.5133
+    },
+    {
+      "page": "resources/components/ev-charging-equipment-classification",
+      "nearest": "resources/components/carpeting-classification",
+      "five_word_jaccard": 0.5283
+    },
+    {
+      "page": "resources/components/ev-charging-equipment-acquisition-allocation",
+      "nearest": "resources/components/carpeting-acquisition-allocation",
+      "five_word_jaccard": 0.5289
+    },
+    {
+      "page": "resources/components/ev-charging-equipment-renovation-costs",
+      "nearest": "resources/components/carpeting-renovation-costs",
+      "five_word_jaccard": 0.5229
+    },
+    {
+      "page": "resources/components/ev-charging-equipment-photo-checklist",
+      "nearest": "resources/components/ev-charging-equipment-report-review",
+      "five_word_jaccard": 0.5256
+    },
+    {
+      "page": "resources/components/ev-charging-equipment-report-review",
+      "nearest": "resources/components/ev-charging-equipment-photo-checklist",
+      "five_word_jaccard": 0.5256
+    },
+    {
+      "page": "resources/components/ev-charging-equipment-replacement-disposition",
+      "nearest": "resources/components/ev-charging-equipment-photo-checklist",
+      "five_word_jaccard": 0.5163
+    },
+    {
+      "page": "resources/components/solar-equipment-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5254
+    },
+    {
+      "page": "resources/components/solar-equipment-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.526
+    },
+    {
+      "page": "resources/components/solar-equipment-renovation-costs",
+      "nearest": "resources/components/bathroom-vanities-renovation-costs",
+      "five_word_jaccard": 0.5199
+    },
+    {
+      "page": "resources/components/solar-equipment-photo-checklist",
+      "nearest": "resources/components/solar-equipment-report-review",
+      "five_word_jaccard": 0.5188
+    },
+    {
+      "page": "resources/components/solar-equipment-report-review",
+      "nearest": "resources/components/solar-equipment-photo-checklist",
+      "five_word_jaccard": 0.5188
+    },
+    {
+      "page": "resources/components/solar-equipment-replacement-disposition",
+      "nearest": "resources/components/solar-equipment-photo-checklist",
+      "five_word_jaccard": 0.5089
+    },
+    {
+      "page": "resources/components/backup-generators-classification",
+      "nearest": "resources/components/solar-equipment-classification",
+      "five_word_jaccard": 0.5214
+    },
+    {
+      "page": "resources/components/backup-generators-acquisition-allocation",
+      "nearest": "resources/components/solar-equipment-acquisition-allocation",
+      "five_word_jaccard": 0.522
+    },
+    {
+      "page": "resources/components/backup-generators-renovation-costs",
+      "nearest": "resources/components/backup-generators-photo-checklist",
+      "five_word_jaccard": 0.5204
+    },
+    {
+      "page": "resources/components/backup-generators-photo-checklist",
+      "nearest": "resources/components/backup-generators-report-review",
+      "five_word_jaccard": 0.5244
+    },
+    {
+      "page": "resources/components/backup-generators-report-review",
+      "nearest": "resources/components/backup-generators-photo-checklist",
+      "five_word_jaccard": 0.5244
+    },
+    {
+      "page": "resources/components/backup-generators-replacement-disposition",
+      "nearest": "resources/components/backup-generators-photo-checklist",
+      "five_word_jaccard": 0.5132
+    },
+    {
+      "page": "resources/components/battery-storage-classification",
+      "nearest": "resources/components/battery-storage-photo-checklist",
+      "five_word_jaccard": 0.5181
+    },
+    {
+      "page": "resources/components/battery-storage-acquisition-allocation",
+      "nearest": "resources/components/battery-storage-photo-checklist",
+      "five_word_jaccard": 0.5175
+    },
+    {
+      "page": "resources/components/battery-storage-renovation-costs",
+      "nearest": "resources/components/battery-storage-photo-checklist",
+      "five_word_jaccard": 0.524
+    },
+    {
+      "page": "resources/components/battery-storage-photo-checklist",
+      "nearest": "resources/components/battery-storage-report-review",
+      "five_word_jaccard": 0.528
+    },
+    {
+      "page": "resources/components/battery-storage-report-review",
+      "nearest": "resources/components/battery-storage-photo-checklist",
+      "five_word_jaccard": 0.528
+    },
+    {
+      "page": "resources/components/battery-storage-replacement-disposition",
+      "nearest": "resources/components/battery-storage-photo-checklist",
+      "five_word_jaccard": 0.5181
+    },
+    {
+      "page": "resources/components/refrigerators-classification",
+      "nearest": "resources/components/driveways-classification",
+      "five_word_jaccard": 0.5247
+    },
+    {
+      "page": "resources/components/refrigerators-acquisition-allocation",
+      "nearest": "resources/components/driveways-acquisition-allocation",
+      "five_word_jaccard": 0.5253
+    },
+    {
+      "page": "resources/components/refrigerators-renovation-costs",
+      "nearest": "resources/components/driveways-renovation-costs",
+      "five_word_jaccard": 0.5192
+    },
+    {
+      "page": "resources/components/refrigerators-photo-checklist",
+      "nearest": "resources/components/refrigerators-report-review",
+      "five_word_jaccard": 0.5219
+    },
+    {
+      "page": "resources/components/refrigerators-report-review",
+      "nearest": "resources/components/refrigerators-photo-checklist",
+      "five_word_jaccard": 0.5219
+    },
+    {
+      "page": "resources/components/refrigerators-replacement-disposition",
+      "nearest": "resources/components/refrigerators-photo-checklist",
+      "five_word_jaccard": 0.512
+    },
+    {
+      "page": "resources/components/dishwashers-classification",
+      "nearest": "resources/components/televisions-classification",
+      "five_word_jaccard": 0.5299
+    },
+    {
+      "page": "resources/components/dishwashers-acquisition-allocation",
+      "nearest": "resources/components/televisions-acquisition-allocation",
+      "five_word_jaccard": 0.5305
+    },
+    {
+      "page": "resources/components/dishwashers-renovation-costs",
+      "nearest": "resources/components/televisions-renovation-costs",
+      "five_word_jaccard": 0.5244
+    },
+    {
+      "page": "resources/components/dishwashers-photo-checklist",
+      "nearest": "resources/components/televisions-photo-checklist",
+      "five_word_jaccard": 0.5201
+    },
+    {
+      "page": "resources/components/dishwashers-report-review",
+      "nearest": "resources/components/televisions-report-review",
+      "five_word_jaccard": 0.5207
+    },
+    {
+      "page": "resources/components/dishwashers-replacement-disposition",
+      "nearest": "resources/components/dishwashers-photo-checklist",
+      "five_word_jaccard": 0.5108
+    },
+    {
+      "page": "resources/components/ranges-and-ovens-classification",
+      "nearest": "resources/components/driveways-classification",
+      "five_word_jaccard": 0.5213
+    },
+    {
+      "page": "resources/components/ranges-and-ovens-acquisition-allocation",
+      "nearest": "resources/components/driveways-acquisition-allocation",
+      "five_word_jaccard": 0.5219
+    },
+    {
+      "page": "resources/components/ranges-and-ovens-renovation-costs",
+      "nearest": "resources/components/ranges-and-ovens-photo-checklist",
+      "five_word_jaccard": 0.5228
+    },
+    {
+      "page": "resources/components/ranges-and-ovens-photo-checklist",
+      "nearest": "resources/components/ranges-and-ovens-report-review",
+      "five_word_jaccard": 0.5268
+    },
+    {
+      "page": "resources/components/ranges-and-ovens-report-review",
+      "nearest": "resources/components/ranges-and-ovens-photo-checklist",
+      "five_word_jaccard": 0.5268
+    },
+    {
+      "page": "resources/components/ranges-and-ovens-replacement-disposition",
+      "nearest": "resources/components/ranges-and-ovens-photo-checklist",
+      "five_word_jaccard": 0.5156
+    },
+    {
+      "page": "resources/components/washers-and-dryers-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5169
+    },
+    {
+      "page": "resources/components/washers-and-dryers-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5175
+    },
+    {
+      "page": "resources/components/washers-and-dryers-renovation-costs",
+      "nearest": "resources/components/washers-and-dryers-photo-checklist",
+      "five_word_jaccard": 0.5228
+    },
+    {
+      "page": "resources/components/washers-and-dryers-photo-checklist",
+      "nearest": "resources/components/washers-and-dryers-report-review",
+      "five_word_jaccard": 0.5268
+    },
+    {
+      "page": "resources/components/washers-and-dryers-report-review",
+      "nearest": "resources/components/washers-and-dryers-photo-checklist",
+      "five_word_jaccard": 0.5268
+    },
+    {
+      "page": "resources/components/washers-and-dryers-replacement-disposition",
+      "nearest": "resources/components/washers-and-dryers-photo-checklist",
+      "five_word_jaccard": 0.5162
+    },
+    {
+      "page": "resources/components/hvac-systems-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5175
+    },
+    {
+      "page": "resources/components/hvac-systems-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5181
+    },
+    {
+      "page": "resources/components/hvac-systems-renovation-costs",
+      "nearest": "resources/components/hvac-systems-photo-checklist",
+      "five_word_jaccard": 0.5222
+    },
+    {
+      "page": "resources/components/hvac-systems-photo-checklist",
+      "nearest": "resources/components/hvac-systems-report-review",
+      "five_word_jaccard": 0.5262
+    },
+    {
+      "page": "resources/components/hvac-systems-report-review",
+      "nearest": "resources/components/hvac-systems-photo-checklist",
+      "five_word_jaccard": 0.5262
+    },
+    {
+      "page": "resources/components/hvac-systems-replacement-disposition",
+      "nearest": "resources/components/hvac-systems-photo-checklist",
+      "five_word_jaccard": 0.515
+    },
+    {
+      "page": "resources/components/mini-split-systems-classification",
+      "nearest": "resources/components/patios-classification",
+      "five_word_jaccard": 0.527
+    },
+    {
+      "page": "resources/components/mini-split-systems-acquisition-allocation",
+      "nearest": "resources/components/patios-acquisition-allocation",
+      "five_word_jaccard": 0.5276
+    },
+    {
+      "page": "resources/components/mini-split-systems-renovation-costs",
+      "nearest": "resources/components/mini-split-systems-photo-checklist",
+      "five_word_jaccard": 0.5234
+    },
+    {
+      "page": "resources/components/mini-split-systems-photo-checklist",
+      "nearest": "resources/components/mini-split-systems-report-review",
+      "five_word_jaccard": 0.5274
+    },
+    {
+      "page": "resources/components/mini-split-systems-report-review",
+      "nearest": "resources/components/mini-split-systems-photo-checklist",
+      "five_word_jaccard": 0.5274
+    },
+    {
+      "page": "resources/components/mini-split-systems-replacement-disposition",
+      "nearest": "resources/components/mini-split-systems-photo-checklist",
+      "five_word_jaccard": 0.5162
+    },
+    {
+      "page": "resources/components/water-heaters-classification",
+      "nearest": "resources/components/water-wells-classification",
+      "five_word_jaccard": 0.5231
+    },
+    {
+      "page": "resources/components/water-heaters-acquisition-allocation",
+      "nearest": "resources/components/water-wells-acquisition-allocation",
+      "five_word_jaccard": 0.5237
+    },
+    {
+      "page": "resources/components/water-heaters-renovation-costs",
+      "nearest": "resources/components/water-heaters-photo-checklist",
+      "five_word_jaccard": 0.521
+    },
+    {
+      "page": "resources/components/water-heaters-photo-checklist",
+      "nearest": "resources/components/water-heaters-report-review",
+      "five_word_jaccard": 0.525
+    },
+    {
+      "page": "resources/components/water-heaters-report-review",
+      "nearest": "resources/components/water-heaters-photo-checklist",
+      "five_word_jaccard": 0.525
+    },
+    {
+      "page": "resources/components/water-heaters-replacement-disposition",
+      "nearest": "resources/components/water-heaters-photo-checklist",
+      "five_word_jaccard": 0.5157
+    },
+    {
+      "page": "resources/components/kitchen-cabinetry-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5221
+    },
+    {
+      "page": "resources/components/kitchen-cabinetry-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5227
+    },
+    {
+      "page": "resources/components/kitchen-cabinetry-renovation-costs",
+      "nearest": "resources/components/kitchen-cabinetry-photo-checklist",
+      "five_word_jaccard": 0.5179
+    },
+    {
+      "page": "resources/components/kitchen-cabinetry-photo-checklist",
+      "nearest": "resources/components/kitchen-cabinetry-report-review",
+      "five_word_jaccard": 0.5219
+    },
+    {
+      "page": "resources/components/kitchen-cabinetry-report-review",
+      "nearest": "resources/components/kitchen-cabinetry-photo-checklist",
+      "five_word_jaccard": 0.5219
+    },
+    {
+      "page": "resources/components/kitchen-cabinetry-replacement-disposition",
+      "nearest": "resources/components/kitchen-cabinetry-photo-checklist",
+      "five_word_jaccard": 0.5127
+    },
+    {
+      "page": "resources/components/bathroom-vanities-classification",
+      "nearest": "resources/components/dishwashers-classification",
+      "five_word_jaccard": 0.528
+    },
+    {
+      "page": "resources/components/bathroom-vanities-acquisition-allocation",
+      "nearest": "resources/components/dishwashers-acquisition-allocation",
+      "five_word_jaccard": 0.5286
+    },
+    {
+      "page": "resources/components/bathroom-vanities-renovation-costs",
+      "nearest": "resources/components/dishwashers-renovation-costs",
+      "five_word_jaccard": 0.5225
+    },
+    {
+      "page": "resources/components/bathroom-vanities-photo-checklist",
+      "nearest": "resources/components/dishwashers-photo-checklist",
+      "five_word_jaccard": 0.5182
+    },
+    {
+      "page": "resources/components/bathroom-vanities-report-review",
+      "nearest": "resources/components/dishwashers-report-review",
+      "five_word_jaccard": 0.5188
+    },
+    {
+      "page": "resources/components/bathroom-vanities-replacement-disposition",
+      "nearest": "resources/components/televisions-replacement-disposition",
+      "five_word_jaccard": 0.5101
+    },
+    {
+      "page": "resources/components/carpeting-classification",
+      "nearest": "resources/components/patios-classification",
+      "five_word_jaccard": 0.5331
+    },
+    {
+      "page": "resources/components/carpeting-acquisition-allocation",
+      "nearest": "resources/components/patios-acquisition-allocation",
+      "five_word_jaccard": 0.5337
+    },
+    {
+      "page": "resources/components/carpeting-renovation-costs",
+      "nearest": "resources/components/patios-renovation-costs",
+      "five_word_jaccard": 0.5277
+    },
+    {
+      "page": "resources/components/carpeting-photo-checklist",
+      "nearest": "resources/components/patios-photo-checklist",
+      "five_word_jaccard": 0.5234
+    },
+    {
+      "page": "resources/components/carpeting-report-review",
+      "nearest": "resources/components/patios-report-review",
+      "five_word_jaccard": 0.524
+    },
+    {
+      "page": "resources/components/carpeting-replacement-disposition",
+      "nearest": "resources/components/carpeting-photo-checklist",
+      "five_word_jaccard": 0.5102
+    },
+    {
+      "page": "resources/components/luxury-vinyl-flooring-classification",
+      "nearest": "resources/components/window-treatments-classification",
+      "five_word_jaccard": 0.522
+    },
+    {
+      "page": "resources/components/luxury-vinyl-flooring-acquisition-allocation",
+      "nearest": "resources/components/window-treatments-acquisition-allocation",
+      "five_word_jaccard": 0.5226
+    },
+    {
+      "page": "resources/components/luxury-vinyl-flooring-renovation-costs",
+      "nearest": "resources/components/luxury-vinyl-flooring-photo-checklist",
+      "five_word_jaccard": 0.521
+    },
+    {
+      "page": "resources/components/luxury-vinyl-flooring-photo-checklist",
+      "nearest": "resources/components/luxury-vinyl-flooring-report-review",
+      "five_word_jaccard": 0.525
+    },
+    {
+      "page": "resources/components/luxury-vinyl-flooring-report-review",
+      "nearest": "resources/components/luxury-vinyl-flooring-photo-checklist",
+      "five_word_jaccard": 0.525
+    },
+    {
+      "page": "resources/components/luxury-vinyl-flooring-replacement-disposition",
+      "nearest": "resources/components/luxury-vinyl-flooring-photo-checklist",
+      "five_word_jaccard": 0.5151
+    },
+    {
+      "page": "resources/components/tile-flooring-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5241
+    },
+    {
+      "page": "resources/components/tile-flooring-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5247
+    },
+    {
+      "page": "resources/components/tile-flooring-renovation-costs",
+      "nearest": "resources/components/bathroom-vanities-renovation-costs",
+      "five_word_jaccard": 0.5186
+    },
+    {
+      "page": "resources/components/tile-flooring-photo-checklist",
+      "nearest": "resources/components/tile-flooring-report-review",
+      "five_word_jaccard": 0.5201
+    },
+    {
+      "page": "resources/components/tile-flooring-report-review",
+      "nearest": "resources/components/tile-flooring-photo-checklist",
+      "five_word_jaccard": 0.5201
+    },
+    {
+      "page": "resources/components/tile-flooring-replacement-disposition",
+      "nearest": "resources/components/tile-flooring-photo-checklist",
+      "five_word_jaccard": 0.5108
+    },
+    {
+      "page": "resources/components/window-treatments-classification",
+      "nearest": "resources/components/televisions-classification",
+      "five_word_jaccard": 0.5287
+    },
+    {
+      "page": "resources/components/window-treatments-acquisition-allocation",
+      "nearest": "resources/components/televisions-acquisition-allocation",
+      "five_word_jaccard": 0.5293
+    },
+    {
+      "page": "resources/components/window-treatments-renovation-costs",
+      "nearest": "resources/components/televisions-renovation-costs",
+      "five_word_jaccard": 0.5232
+    },
+    {
+      "page": "resources/components/window-treatments-photo-checklist",
+      "nearest": "resources/components/televisions-photo-checklist",
+      "five_word_jaccard": 0.5189
+    },
+    {
+      "page": "resources/components/window-treatments-report-review",
+      "nearest": "resources/components/televisions-report-review",
+      "five_word_jaccard": 0.5195
+    },
+    {
+      "page": "resources/components/window-treatments-replacement-disposition",
+      "nearest": "resources/components/televisions-replacement-disposition",
+      "five_word_jaccard": 0.5101
+    },
+    {
+      "page": "resources/components/decorative-lighting-classification",
+      "nearest": "resources/components/landscape-lighting-classification",
+      "five_word_jaccard": 0.527
+    },
+    {
+      "page": "resources/components/decorative-lighting-acquisition-allocation",
+      "nearest": "resources/components/landscape-lighting-acquisition-allocation",
+      "five_word_jaccard": 0.5276
+    },
+    {
+      "page": "resources/components/decorative-lighting-renovation-costs",
+      "nearest": "resources/components/landscape-lighting-renovation-costs",
+      "five_word_jaccard": 0.5216
+    },
+    {
+      "page": "resources/components/decorative-lighting-photo-checklist",
+      "nearest": "resources/components/decorative-lighting-report-review",
+      "five_word_jaccard": 0.5219
+    },
+    {
+      "page": "resources/components/decorative-lighting-report-review",
+      "nearest": "resources/components/decorative-lighting-photo-checklist",
+      "five_word_jaccard": 0.5219
+    },
+    {
+      "page": "resources/components/decorative-lighting-replacement-disposition",
+      "nearest": "resources/components/decorative-lighting-photo-checklist",
+      "five_word_jaccard": 0.5133
+    },
+    {
+      "page": "resources/components/security-cameras-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5254
+    },
+    {
+      "page": "resources/components/security-cameras-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.526
+    },
+    {
+      "page": "resources/components/security-cameras-renovation-costs",
+      "nearest": "resources/components/bathroom-vanities-renovation-costs",
+      "five_word_jaccard": 0.5199
+    },
+    {
+      "page": "resources/components/security-cameras-photo-checklist",
+      "nearest": "resources/components/security-cameras-report-review",
+      "five_word_jaccard": 0.5188
+    },
+    {
+      "page": "resources/components/security-cameras-report-review",
+      "nearest": "resources/components/security-cameras-photo-checklist",
+      "five_word_jaccard": 0.5188
+    },
+    {
+      "page": "resources/components/security-cameras-replacement-disposition",
+      "nearest": "resources/components/security-cameras-photo-checklist",
+      "five_word_jaccard": 0.5076
+    },
+    {
+      "page": "resources/components/smart-locks-classification",
+      "nearest": "resources/components/bathroom-vanities-classification",
+      "five_word_jaccard": 0.5248
+    },
+    {
+      "page": "resources/components/smart-locks-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5254
+    },
+    {
+      "page": "resources/components/smart-locks-renovation-costs",
+      "nearest": "resources/components/bathroom-vanities-renovation-costs",
+      "five_word_jaccard": 0.5193
+    },
+    {
+      "page": "resources/components/smart-locks-photo-checklist",
+      "nearest": "resources/components/smart-locks-report-review",
+      "five_word_jaccard": 0.5194
+    },
+    {
+      "page": "resources/components/smart-locks-report-review",
+      "nearest": "resources/components/smart-locks-photo-checklist",
+      "five_word_jaccard": 0.5194
+    },
+    {
+      "page": "resources/components/smart-locks-replacement-disposition",
+      "nearest": "resources/components/smart-locks-photo-checklist",
+      "five_word_jaccard": 0.5089
+    },
+    {
+      "page": "resources/components/network-equipment-classification",
+      "nearest": "resources/components/solar-equipment-classification",
+      "five_word_jaccard": 0.5253
+    },
+    {
+      "page": "resources/components/network-equipment-acquisition-allocation",
+      "nearest": "resources/components/solar-equipment-acquisition-allocation",
+      "five_word_jaccard": 0.5259
+    },
+    {
+      "page": "resources/components/network-equipment-renovation-costs",
+      "nearest": "resources/components/solar-equipment-renovation-costs",
+      "five_word_jaccard": 0.5198
+    },
+    {
+      "page": "resources/components/network-equipment-photo-checklist",
+      "nearest": "resources/components/network-equipment-report-review",
+      "five_word_jaccard": 0.5207
+    },
+    {
+      "page": "resources/components/network-equipment-report-review",
+      "nearest": "resources/components/network-equipment-photo-checklist",
+      "five_word_jaccard": 0.5207
+    },
+    {
+      "page": "resources/components/network-equipment-replacement-disposition",
+      "nearest": "resources/components/network-equipment-photo-checklist",
+      "five_word_jaccard": 0.5121
+    },
+    {
+      "page": "resources/components/televisions-classification",
+      "nearest": "resources/components/dishwashers-classification",
+      "five_word_jaccard": 0.5299
+    },
+    {
+      "page": "resources/components/televisions-acquisition-allocation",
+      "nearest": "resources/components/dishwashers-acquisition-allocation",
+      "five_word_jaccard": 0.5305
+    },
+    {
+      "page": "resources/components/televisions-renovation-costs",
+      "nearest": "resources/components/dishwashers-renovation-costs",
+      "five_word_jaccard": 0.5244
+    },
+    {
+      "page": "resources/components/televisions-photo-checklist",
+      "nearest": "resources/components/dishwashers-photo-checklist",
+      "five_word_jaccard": 0.5201
+    },
+    {
+      "page": "resources/components/televisions-report-review",
+      "nearest": "resources/components/dishwashers-report-review",
+      "five_word_jaccard": 0.5207
+    },
+    {
+      "page": "resources/components/televisions-replacement-disposition",
+      "nearest": "resources/components/window-treatments-replacement-disposition",
+      "five_word_jaccard": 0.5101
+    },
+    {
+      "page": "resources/components/game-room-equipment-classification",
+      "nearest": "resources/components/solar-equipment-classification",
+      "five_word_jaccard": 0.5233
+    },
+    {
+      "page": "resources/components/game-room-equipment-acquisition-allocation",
+      "nearest": "resources/components/solar-equipment-acquisition-allocation",
+      "five_word_jaccard": 0.5239
+    },
+    {
+      "page": "resources/components/game-room-equipment-renovation-costs",
+      "nearest": "resources/components/game-room-equipment-photo-checklist",
+      "five_word_jaccard": 0.5204
+    },
+    {
+      "page": "resources/components/game-room-equipment-photo-checklist",
+      "nearest": "resources/components/game-room-equipment-report-review",
+      "five_word_jaccard": 0.5244
+    },
+    {
+      "page": "resources/components/game-room-equipment-report-review",
+      "nearest": "resources/components/game-room-equipment-photo-checklist",
+      "five_word_jaccard": 0.5244
+    },
+    {
+      "page": "resources/components/game-room-equipment-replacement-disposition",
+      "nearest": "resources/components/game-room-equipment-photo-checklist",
+      "five_word_jaccard": 0.5138
+    },
+    {
+      "page": "resources/components/beds-and-mattresses-classification",
+      "nearest": "resources/components/beds-and-mattresses-photo-checklist",
+      "five_word_jaccard": 0.5223
+    },
+    {
+      "page": "resources/components/beds-and-mattresses-acquisition-allocation",
+      "nearest": "resources/components/beds-and-mattresses-photo-checklist",
+      "five_word_jaccard": 0.5216
+    },
+    {
+      "page": "resources/components/beds-and-mattresses-renovation-costs",
+      "nearest": "resources/components/beds-and-mattresses-photo-checklist",
+      "five_word_jaccard": 0.5282
+    },
+    {
+      "page": "resources/components/beds-and-mattresses-photo-checklist",
+      "nearest": "resources/components/beds-and-mattresses-report-review",
+      "five_word_jaccard": 0.5322
+    },
+    {
+      "page": "resources/components/beds-and-mattresses-report-review",
+      "nearest": "resources/components/beds-and-mattresses-photo-checklist",
+      "five_word_jaccard": 0.5322
+    },
+    {
+      "page": "resources/components/beds-and-mattresses-replacement-disposition",
+      "nearest": "resources/components/beds-and-mattresses-photo-checklist",
+      "five_word_jaccard": 0.5229
+    },
+    {
+      "page": "resources/components/sofas-and-seating-classification",
+      "nearest": "resources/components/sofas-and-seating-photo-checklist",
+      "five_word_jaccard": 0.5169
+    },
+    {
+      "page": "resources/components/sofas-and-seating-acquisition-allocation",
+      "nearest": "resources/components/bathroom-vanities-acquisition-allocation",
+      "five_word_jaccard": 0.5175
+    },
+    {
+      "page": "resources/components/sofas-and-seating-renovation-costs",
+      "nearest": "resources/components/sofas-and-seating-photo-checklist",
+      "five_word_jaccard": 0.5228
+    },
+    {
+      "page": "resources/components/sofas-and-seating-photo-checklist",
+      "nearest": "resources/components/sofas-and-seating-report-review",
+      "five_word_jaccard": 0.5268
+    },
+    {
+      "page": "resources/components/sofas-and-seating-report-review",
+      "nearest": "resources/components/sofas-and-seating-photo-checklist",
+      "five_word_jaccard": 0.5268
+    },
+    {
+      "page": "resources/components/sofas-and-seating-replacement-disposition",
+      "nearest": "resources/components/sofas-and-seating-photo-checklist",
+      "five_word_jaccard": 0.5169
+    },
+    {
+      "page": "resources/components/dining-furniture-classification",
+      "nearest": "resources/components/driveways-classification",
+      "five_word_jaccard": 0.522
+    },
+    {
+      "page": "resources/components/dining-furniture-acquisition-allocation",
+      "nearest": "resources/components/driveways-acquisition-allocation",
+      "five_word_jaccard": 0.5226
+    },
+    {
+      "page": "resources/components/dining-furniture-renovation-costs",
+      "nearest": "resources/components/dining-furniture-photo-checklist",
+      "five_word_jaccard": 0.5222
+    },
+    {
+      "page": "resources/components/dining-furniture-photo-checklist",
+      "nearest": "resources/components/dining-furniture-report-review",
+      "five_word_jaccard": 0.5262
+    },
+    {
+      "page": "resources/components/dining-furniture-report-review",
+      "nearest": "resources/components/dining-furniture-photo-checklist",
+      "five_word_jaccard": 0.5262
+    },
+    {
+      "page": "resources/components/dining-furniture-replacement-disposition",
+      "nearest": "resources/components/dining-furniture-photo-checklist",
+      "five_word_jaccard": 0.5156
+    },
+    {
+      "page": "resources/components/outdoor-furniture-classification",
+      "nearest": "resources/components/outdoor-kitchens-classification",
+      "five_word_jaccard": 0.5311
+    },
+    {
+      "page": "resources/components/outdoor-furniture-acquisition-allocation",
+      "nearest": "resources/components/outdoor-kitchens-acquisition-allocation",
+      "five_word_jaccard": 0.5316
+    },
+    {
+      "page": "resources/components/outdoor-furniture-renovation-costs",
+      "nearest": "resources/components/outdoor-kitchens-renovation-costs",
+      "five_word_jaccard": 0.5256
+    },
+    {
+      "page": "resources/components/outdoor-furniture-photo-checklist",
+      "nearest": "resources/components/outdoor-kitchens-photo-checklist",
+      "five_word_jaccard": 0.5213
+    },
+    {
+      "page": "resources/components/outdoor-furniture-report-review",
+      "nearest": "resources/components/outdoor-kitchens-report-review",
+      "five_word_jaccard": 0.522
+    },
+    {
+      "page": "resources/components/outdoor-furniture-replacement-disposition",
+      "nearest": "resources/components/outdoor-furniture-photo-checklist",
+      "five_word_jaccard": 0.5108
+    },
+    {
+      "page": "resources/components/sheds-and-storage-buildings-classification",
+      "nearest": "resources/components/sheds-and-storage-buildings-photo-checklist",
+      "five_word_jaccard": 0.5205
+    },
+    {
+      "page": "resources/components/sheds-and-storage-buildings-acquisition-allocation",
+      "nearest": "resources/components/driveways-acquisition-allocation",
+      "five_word_jaccard": 0.5199
+    },
+    {
+      "page": "resources/components/sheds-and-storage-buildings-renovation-costs",
+      "nearest": "resources/components/sheds-and-storage-buildings-photo-checklist",
+      "five_word_jaccard": 0.5264
+    },
+    {
+      "page": "resources/components/sheds-and-storage-buildings-photo-checklist",
+      "nearest": "resources/components/sheds-and-storage-buildings-report-review",
+      "five_word_jaccard": 0.5304
+    },
+    {
+      "page": "resources/components/sheds-and-storage-buildings-report-review",
+      "nearest": "resources/components/sheds-and-storage-buildings-photo-checklist",
+      "five_word_jaccard": 0.5304
+    },
+    {
+      "page": "resources/components/sheds-and-storage-buildings-replacement-disposition",
+      "nearest": "resources/components/sheds-and-storage-buildings-photo-checklist",
+      "five_word_jaccard": 0.5199
+    },
+    {
+      "page": "resources/components/garage-doors-and-openers-classification",
+      "nearest": "resources/components/garage-doors-and-openers-photo-checklist",
+      "five_word_jaccard": 0.5193
+    },
+    {
+      "page": "resources/components/garage-doors-and-openers-acquisition-allocation",
+      "nearest": "resources/components/garage-doors-and-openers-photo-checklist",
+      "five_word_jaccard": 0.5187
+    },
+    {
+      "page": "resources/components/garage-doors-and-openers-renovation-costs",
+      "nearest": "resources/components/garage-doors-and-openers-photo-checklist",
+      "five_word_jaccard": 0.5252
+    },
+    {
+      "page": "resources/components/garage-doors-and-openers-photo-checklist",
+      "nearest": "resources/components/garage-doors-and-openers-report-review",
+      "five_word_jaccard": 0.5292
+    },
+    {
+      "page": "resources/components/garage-doors-and-openers-report-review",
+      "nearest": "resources/components/garage-doors-and-openers-photo-checklist",
+      "five_word_jaccard": 0.5292
+    },
+    {
+      "page": "resources/components/garage-doors-and-openers-replacement-disposition",
+      "nearest": "resources/components/garage-doors-and-openers-photo-checklist",
+      "five_word_jaccard": 0.5193
+    },
+    {
+      "page": "resources/components/appliance-dedicated-electrical-circuits-classification",
+      "nearest": "resources/components/appliance-dedicated-electrical-circuits-photo-checklist",
+      "five_word_jaccard": 0.5223
+    },
+    {
+      "page": "resources/components/appliance-dedicated-electrical-circuits-acquisition-allocation",
+      "nearest": "resources/components/appliance-dedicated-electrical-circuits-photo-checklist",
+      "five_word_jaccard": 0.5216
+    },
+    {
+      "page": "resources/components/appliance-dedicated-electrical-circuits-renovation-costs",
+      "nearest": "resources/components/appliance-dedicated-electrical-circuits-photo-checklist",
+      "five_word_jaccard": 0.5282
+    },
+    {
+      "page": "resources/components/appliance-dedicated-electrical-circuits-photo-checklist",
+      "nearest": "resources/components/appliance-dedicated-electrical-circuits-report-review",
+      "five_word_jaccard": 0.5322
+    },
+    {
+      "page": "resources/components/appliance-dedicated-electrical-circuits-report-review",
+      "nearest": "resources/components/appliance-dedicated-electrical-circuits-photo-checklist",
+      "five_word_jaccard": 0.5322
+    },
+    {
+      "page": "resources/components/appliance-dedicated-electrical-circuits-replacement-disposition",
+      "nearest": "resources/components/appliance-dedicated-electrical-circuits-photo-checklist",
+      "five_word_jaccard": 0.5223
+    },
+    {
+      "page": "resources/scenarios/furnished-rental-acquisition-study-scope",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "five_word_jaccard": 0.6223
+    },
+    {
+      "page": "resources/scenarios/furnished-rental-acquisition-basis-review",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "five_word_jaccard": 0.623
+    },
+    {
+      "page": "resources/scenarios/furnished-rental-acquisition-document-checklist",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "five_word_jaccard": 0.6266
+    },
+    {
+      "page": "resources/scenarios/furnished-rental-acquisition-report-reconciliation",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "five_word_jaccard": 0.6242
+    },
+    {
+      "page": "resources/scenarios/furnished-rental-acquisition-tax-preparer-handoff",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "five_word_jaccard": 0.6217
+    },
+    {
+      "page": "resources/scenarios/gifted-rental-property-study-scope",
+      "nearest": "resources/scenarios/tenant-funded-improvements-study-scope",
+      "five_word_jaccard": 0.6244
+    },
+    {
+      "page": "resources/scenarios/gifted-rental-property-basis-review",
+      "nearest": "resources/scenarios/tenant-funded-improvements-basis-review",
+      "five_word_jaccard": 0.625
+    },
+    {
+      "page": "resources/scenarios/gifted-rental-property-document-checklist",
+      "nearest": "resources/scenarios/tenant-funded-improvements-document-checklist",
+      "five_word_jaccard": 0.6287
+    },
+    {
+      "page": "resources/scenarios/gifted-rental-property-report-reconciliation",
+      "nearest": "resources/scenarios/tenant-funded-improvements-report-reconciliation",
+      "five_word_jaccard": 0.6262
+    },
+    {
+      "page": "resources/scenarios/gifted-rental-property-tax-preparer-handoff",
+      "nearest": "resources/scenarios/tenant-funded-improvements-tax-preparer-handoff",
+      "five_word_jaccard": 0.6238
+    },
+    {
+      "page": "resources/scenarios/inherited-rental-property-study-scope",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-study-scope",
+      "five_word_jaccard": 0.6188
+    },
+    {
+      "page": "resources/scenarios/inherited-rental-property-basis-review",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-basis-review",
+      "five_word_jaccard": 0.6194
+    },
+    {
+      "page": "resources/scenarios/inherited-rental-property-document-checklist",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-document-checklist",
+      "five_word_jaccard": 0.6232
+    },
+    {
+      "page": "resources/scenarios/inherited-rental-property-report-reconciliation",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-report-reconciliation",
+      "five_word_jaccard": 0.6207
+    },
+    {
+      "page": "resources/scenarios/inherited-rental-property-tax-preparer-handoff",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-tax-preparer-handoff",
+      "five_word_jaccard": 0.6182
+    },
+    {
+      "page": "resources/scenarios/divorce-property-transfer-study-scope",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "five_word_jaccard": 0.6182
+    },
+    {
+      "page": "resources/scenarios/divorce-property-transfer-basis-review",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "five_word_jaccard": 0.6188
+    },
+    {
+      "page": "resources/scenarios/divorce-property-transfer-document-checklist",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "five_word_jaccard": 0.6225
+    },
+    {
+      "page": "resources/scenarios/divorce-property-transfer-report-reconciliation",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "five_word_jaccard": 0.6201
+    },
+    {
+      "page": "resources/scenarios/divorce-property-transfer-tax-preparer-handoff",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "five_word_jaccard": 0.6175
+    },
+    {
+      "page": "resources/scenarios/related-party-purchase-study-scope",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "five_word_jaccard": 0.6205
+    },
+    {
+      "page": "resources/scenarios/related-party-purchase-basis-review",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "five_word_jaccard": 0.6211
+    },
+    {
+      "page": "resources/scenarios/related-party-purchase-document-checklist",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "five_word_jaccard": 0.6248
+    },
+    {
+      "page": "resources/scenarios/related-party-purchase-report-reconciliation",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "five_word_jaccard": 0.6223
+    },
+    {
+      "page": "resources/scenarios/related-party-purchase-tax-preparer-handoff",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "five_word_jaccard": 0.6198
+    },
+    {
+      "page": "resources/scenarios/personal-residence-converted-to-rental-study-scope",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-study-scope",
+      "five_word_jaccard": 0.6164
+    },
+    {
+      "page": "resources/scenarios/personal-residence-converted-to-rental-basis-review",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-basis-review",
+      "five_word_jaccard": 0.617
+    },
+    {
+      "page": "resources/scenarios/personal-residence-converted-to-rental-document-checklist",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-document-checklist",
+      "five_word_jaccard": 0.6207
+    },
+    {
+      "page": "resources/scenarios/personal-residence-converted-to-rental-report-reconciliation",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-report-reconciliation",
+      "five_word_jaccard": 0.6183
+    },
+    {
+      "page": "resources/scenarios/personal-residence-converted-to-rental-tax-preparer-handoff",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-tax-preparer-handoff",
+      "five_word_jaccard": 0.6158
+    },
+    {
+      "page": "resources/scenarios/partial-home-rental-study-scope",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-study-scope",
+      "five_word_jaccard": 0.6184
+    },
+    {
+      "page": "resources/scenarios/partial-home-rental-basis-review",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-basis-review",
+      "five_word_jaccard": 0.619
+    },
+    {
+      "page": "resources/scenarios/partial-home-rental-document-checklist",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-document-checklist",
+      "five_word_jaccard": 0.6228
+    },
+    {
+      "page": "resources/scenarios/partial-home-rental-report-reconciliation",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-report-reconciliation",
+      "five_word_jaccard": 0.6203
+    },
+    {
+      "page": "resources/scenarios/partial-home-rental-tax-preparer-handoff",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-tax-preparer-handoff",
+      "five_word_jaccard": 0.6178
+    },
+    {
+      "page": "resources/scenarios/str-with-owner-stays-study-scope",
+      "nearest": "resources/scenarios/casualty-repairs-study-scope",
+      "five_word_jaccard": 0.6217
+    },
+    {
+      "page": "resources/scenarios/str-with-owner-stays-basis-review",
+      "nearest": "resources/scenarios/casualty-repairs-basis-review",
+      "five_word_jaccard": 0.6223
+    },
+    {
+      "page": "resources/scenarios/str-with-owner-stays-document-checklist",
+      "nearest": "resources/scenarios/casualty-repairs-document-checklist",
+      "five_word_jaccard": 0.626
+    },
+    {
+      "page": "resources/scenarios/str-with-owner-stays-report-reconciliation",
+      "nearest": "resources/scenarios/casualty-repairs-report-reconciliation",
+      "five_word_jaccard": 0.6236
+    },
+    {
+      "page": "resources/scenarios/str-with-owner-stays-tax-preparer-handoff",
+      "nearest": "resources/scenarios/casualty-repairs-tax-preparer-handoff",
+      "five_word_jaccard": 0.6211
+    },
+    {
+      "page": "resources/scenarios/ltr-converted-to-str-study-scope",
+      "nearest": "resources/scenarios/previous-cost-segregation-study-study-scope",
+      "five_word_jaccard": 0.6225
+    },
+    {
+      "page": "resources/scenarios/ltr-converted-to-str-basis-review",
+      "nearest": "resources/scenarios/previous-cost-segregation-study-basis-review",
+      "five_word_jaccard": 0.6232
+    },
+    {
+      "page": "resources/scenarios/ltr-converted-to-str-document-checklist",
+      "nearest": "resources/scenarios/previous-cost-segregation-study-document-checklist",
+      "five_word_jaccard": 0.6268
+    },
+    {
+      "page": "resources/scenarios/ltr-converted-to-str-report-reconciliation",
+      "nearest": "resources/scenarios/previous-cost-segregation-study-report-reconciliation",
+      "five_word_jaccard": 0.6244
+    },
+    {
+      "page": "resources/scenarios/ltr-converted-to-str-tax-preparer-handoff",
+      "nearest": "resources/scenarios/previous-cost-segregation-study-tax-preparer-handoff",
+      "five_word_jaccard": 0.6219
+    },
+    {
+      "page": "resources/scenarios/str-converted-to-ltr-study-scope",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "five_word_jaccard": 0.6188
+    },
+    {
+      "page": "resources/scenarios/str-converted-to-ltr-basis-review",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "five_word_jaccard": 0.6194
+    },
+    {
+      "page": "resources/scenarios/str-converted-to-ltr-document-checklist",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "five_word_jaccard": 0.6232
+    },
+    {
+      "page": "resources/scenarios/str-converted-to-ltr-report-reconciliation",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "five_word_jaccard": 0.6207
+    },
+    {
+      "page": "resources/scenarios/str-converted-to-ltr-tax-preparer-handoff",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "five_word_jaccard": 0.6182
+    },
+    {
+      "page": "resources/scenarios/adu-added-to-a-rental-study-scope",
+      "nearest": "resources/scenarios/casualty-repairs-study-scope",
+      "five_word_jaccard": 0.6217
+    },
+    {
+      "page": "resources/scenarios/adu-added-to-a-rental-basis-review",
+      "nearest": "resources/scenarios/casualty-repairs-basis-review",
+      "five_word_jaccard": 0.6223
+    },
+    {
+      "page": "resources/scenarios/adu-added-to-a-rental-document-checklist",
+      "nearest": "resources/scenarios/casualty-repairs-document-checklist",
+      "five_word_jaccard": 0.626
+    },
+    {
+      "page": "resources/scenarios/adu-added-to-a-rental-report-reconciliation",
+      "nearest": "resources/scenarios/casualty-repairs-report-reconciliation",
+      "five_word_jaccard": 0.6236
+    },
+    {
+      "page": "resources/scenarios/adu-added-to-a-rental-tax-preparer-handoff",
+      "nearest": "resources/scenarios/casualty-repairs-tax-preparer-handoff",
+      "five_word_jaccard": 0.6211
+    },
+    {
+      "page": "resources/scenarios/duplex-with-one-owner-occupied-unit-study-scope",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "five_word_jaccard": 0.6197
+    },
+    {
+      "page": "resources/scenarios/duplex-with-one-owner-occupied-unit-basis-review",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "five_word_jaccard": 0.6203
+    },
+    {
+      "page": "resources/scenarios/duplex-with-one-owner-occupied-unit-document-checklist",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "five_word_jaccard": 0.624
+    },
+    {
+      "page": "resources/scenarios/duplex-with-one-owner-occupied-unit-report-reconciliation",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "five_word_jaccard": 0.6215
+    },
+    {
+      "page": "resources/scenarios/duplex-with-one-owner-occupied-unit-tax-preparer-handoff",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "five_word_jaccard": 0.619
+    },
+    {
+      "page": "resources/scenarios/condo-with-special-assessments-study-scope",
+      "nearest": "resources/scenarios/property-held-in-a-trust-study-scope",
+      "five_word_jaccard": 0.6268
+    },
+    {
+      "page": "resources/scenarios/condo-with-special-assessments-basis-review",
+      "nearest": "resources/scenarios/property-held-in-a-trust-basis-review",
+      "five_word_jaccard": 0.6275
+    },
+    {
+      "page": "resources/scenarios/condo-with-special-assessments-document-checklist",
+      "nearest": "resources/scenarios/property-held-in-a-trust-document-checklist",
+      "five_word_jaccard": 0.6311
+    },
+    {
+      "page": "resources/scenarios/condo-with-special-assessments-report-reconciliation",
+      "nearest": "resources/scenarios/property-held-in-a-trust-report-reconciliation",
+      "five_word_jaccard": 0.6287
+    },
+    {
+      "page": "resources/scenarios/condo-with-special-assessments-tax-preparer-handoff",
+      "nearest": "resources/scenarios/property-held-in-a-trust-tax-preparer-handoff",
+      "five_word_jaccard": 0.6262
+    },
+    {
+      "page": "resources/scenarios/phased-renovation-study-scope",
+      "nearest": "resources/scenarios/portfolio-across-states-study-scope",
+      "five_word_jaccard": 0.6223
+    },
+    {
+      "page": "resources/scenarios/phased-renovation-basis-review",
+      "nearest": "resources/scenarios/portfolio-across-states-basis-review",
+      "five_word_jaccard": 0.623
+    },
+    {
+      "page": "resources/scenarios/phased-renovation-document-checklist",
+      "nearest": "resources/scenarios/portfolio-across-states-document-checklist",
+      "five_word_jaccard": 0.6266
+    },
+    {
+      "page": "resources/scenarios/phased-renovation-report-reconciliation",
+      "nearest": "resources/scenarios/portfolio-across-states-report-reconciliation",
+      "five_word_jaccard": 0.6242
+    },
+    {
+      "page": "resources/scenarios/phased-renovation-tax-preparer-handoff",
+      "nearest": "resources/scenarios/portfolio-across-states-tax-preparer-handoff",
+      "five_word_jaccard": 0.6217
+    },
+    {
+      "page": "resources/scenarios/renovation-with-no-invoices-study-scope",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "five_word_jaccard": 0.6275
+    },
+    {
+      "page": "resources/scenarios/renovation-with-no-invoices-basis-review",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "five_word_jaccard": 0.6281
+    },
+    {
+      "page": "resources/scenarios/renovation-with-no-invoices-document-checklist",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "five_word_jaccard": 0.6318
+    },
+    {
+      "page": "resources/scenarios/renovation-with-no-invoices-report-reconciliation",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "five_word_jaccard": 0.6294
+    },
+    {
+      "page": "resources/scenarios/renovation-with-no-invoices-tax-preparer-handoff",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "five_word_jaccard": 0.6269
+    },
+    {
+      "page": "resources/scenarios/existing-rental-with-missing-depreciation-schedules-study-scope",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "five_word_jaccard": 0.6188
+    },
+    {
+      "page": "resources/scenarios/existing-rental-with-missing-depreciation-schedules-basis-review",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "five_word_jaccard": 0.6194
+    },
+    {
+      "page": "resources/scenarios/existing-rental-with-missing-depreciation-schedules-document-checklist",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "five_word_jaccard": 0.6232
+    },
+    {
+      "page": "resources/scenarios/existing-rental-with-missing-depreciation-schedules-report-reconciliation",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "five_word_jaccard": 0.6207
+    },
+    {
+      "page": "resources/scenarios/existing-rental-with-missing-depreciation-schedules-tax-preparer-handoff",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "five_word_jaccard": 0.6182
+    },
+    {
+      "page": "resources/scenarios/previous-cost-segregation-study-study-scope",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-study-scope",
+      "five_word_jaccard": 0.6235
+    },
+    {
+      "page": "resources/scenarios/previous-cost-segregation-study-basis-review",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-basis-review",
+      "five_word_jaccard": 0.6242
+    },
+    {
+      "page": "resources/scenarios/previous-cost-segregation-study-document-checklist",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-document-checklist",
+      "five_word_jaccard": 0.6279
+    },
+    {
+      "page": "resources/scenarios/previous-cost-segregation-study-report-reconciliation",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-report-reconciliation",
+      "five_word_jaccard": 0.6254
+    },
+    {
+      "page": "resources/scenarios/previous-cost-segregation-study-tax-preparer-handoff",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-tax-preparer-handoff",
+      "five_word_jaccard": 0.6229
+    },
+    {
+      "page": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-study-scope",
+      "five_word_jaccard": 0.6275
+    },
+    {
+      "page": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-basis-review",
+      "five_word_jaccard": 0.6281
+    },
+    {
+      "page": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-document-checklist",
+      "five_word_jaccard": 0.6318
+    },
+    {
+      "page": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-report-reconciliation",
+      "five_word_jaccard": 0.6294
+    },
+    {
+      "page": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-tax-preparer-handoff",
+      "five_word_jaccard": 0.6269
+    },
+    {
+      "page": "resources/scenarios/portfolio-across-states-study-scope",
+      "nearest": "resources/scenarios/phased-renovation-study-scope",
+      "five_word_jaccard": 0.6223
+    },
+    {
+      "page": "resources/scenarios/portfolio-across-states-basis-review",
+      "nearest": "resources/scenarios/phased-renovation-basis-review",
+      "five_word_jaccard": 0.623
+    },
+    {
+      "page": "resources/scenarios/portfolio-across-states-document-checklist",
+      "nearest": "resources/scenarios/phased-renovation-document-checklist",
+      "five_word_jaccard": 0.6266
+    },
+    {
+      "page": "resources/scenarios/portfolio-across-states-report-reconciliation",
+      "nearest": "resources/scenarios/phased-renovation-report-reconciliation",
+      "five_word_jaccard": 0.6242
+    },
+    {
+      "page": "resources/scenarios/portfolio-across-states-tax-preparer-handoff",
+      "nearest": "resources/scenarios/phased-renovation-tax-preparer-handoff",
+      "five_word_jaccard": 0.6217
+    },
+    {
+      "page": "resources/scenarios/partnership-owned-rental-study-scope",
+      "nearest": "resources/scenarios/condo-with-special-assessments-study-scope",
+      "five_word_jaccard": 0.6185
+    },
+    {
+      "page": "resources/scenarios/partnership-owned-rental-basis-review",
+      "nearest": "resources/scenarios/condo-with-special-assessments-basis-review",
+      "five_word_jaccard": 0.6191
+    },
+    {
+      "page": "resources/scenarios/partnership-owned-rental-document-checklist",
+      "nearest": "resources/scenarios/condo-with-special-assessments-document-checklist",
+      "five_word_jaccard": 0.6228
+    },
+    {
+      "page": "resources/scenarios/partnership-owned-rental-report-reconciliation",
+      "nearest": "resources/scenarios/condo-with-special-assessments-report-reconciliation",
+      "five_word_jaccard": 0.6204
+    },
+    {
+      "page": "resources/scenarios/partnership-owned-rental-tax-preparer-handoff",
+      "nearest": "resources/scenarios/condo-with-special-assessments-tax-preparer-handoff",
+      "five_word_jaccard": 0.6179
+    },
+    {
+      "page": "resources/scenarios/property-held-in-a-trust-study-scope",
+      "nearest": "resources/scenarios/condo-with-special-assessments-study-scope",
+      "five_word_jaccard": 0.6268
+    },
+    {
+      "page": "resources/scenarios/property-held-in-a-trust-basis-review",
+      "nearest": "resources/scenarios/condo-with-special-assessments-basis-review",
+      "five_word_jaccard": 0.6275
+    },
+    {
+      "page": "resources/scenarios/property-held-in-a-trust-document-checklist",
+      "nearest": "resources/scenarios/condo-with-special-assessments-document-checklist",
+      "five_word_jaccard": 0.6311
+    },
+    {
+      "page": "resources/scenarios/property-held-in-a-trust-report-reconciliation",
+      "nearest": "resources/scenarios/condo-with-special-assessments-report-reconciliation",
+      "five_word_jaccard": 0.6287
+    },
+    {
+      "page": "resources/scenarios/property-held-in-a-trust-tax-preparer-handoff",
+      "nearest": "resources/scenarios/condo-with-special-assessments-tax-preparer-handoff",
+      "five_word_jaccard": 0.6262
+    },
+    {
+      "page": "resources/scenarios/rental-refinance-study-scope",
+      "nearest": "resources/scenarios/casualty-repairs-study-scope",
+      "five_word_jaccard": 0.6275
+    },
+    {
+      "page": "resources/scenarios/rental-refinance-basis-review",
+      "nearest": "resources/scenarios/casualty-repairs-basis-review",
+      "five_word_jaccard": 0.6281
+    },
+    {
+      "page": "resources/scenarios/rental-refinance-document-checklist",
+      "nearest": "resources/scenarios/casualty-repairs-document-checklist",
+      "five_word_jaccard": 0.6318
+    },
+    {
+      "page": "resources/scenarios/rental-refinance-report-reconciliation",
+      "nearest": "resources/scenarios/casualty-repairs-report-reconciliation",
+      "five_word_jaccard": 0.6293
+    },
+    {
+      "page": "resources/scenarios/rental-refinance-tax-preparer-handoff",
+      "nearest": "resources/scenarios/casualty-repairs-tax-preparer-handoff",
+      "five_word_jaccard": 0.6269
+    },
+    {
+      "page": "resources/scenarios/pre-sale-study-review-study-scope",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-study-scope",
+      "five_word_jaccard": 0.6134
+    },
+    {
+      "page": "resources/scenarios/pre-sale-study-review-basis-review",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-basis-review",
+      "five_word_jaccard": 0.614
+    },
+    {
+      "page": "resources/scenarios/pre-sale-study-review-document-checklist",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-document-checklist",
+      "five_word_jaccard": 0.6177
+    },
+    {
+      "page": "resources/scenarios/pre-sale-study-review-report-reconciliation",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-report-reconciliation",
+      "five_word_jaccard": 0.6153
+    },
+    {
+      "page": "resources/scenarios/pre-sale-study-review-tax-preparer-handoff",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-tax-preparer-handoff",
+      "five_word_jaccard": 0.6127
+    },
+    {
+      "page": "resources/scenarios/1031-replacement-property-study-scope",
+      "nearest": "resources/scenarios/portfolio-across-states-study-scope",
+      "five_word_jaccard": 0.6203
+    },
+    {
+      "page": "resources/scenarios/1031-replacement-property-basis-review",
+      "nearest": "resources/scenarios/portfolio-across-states-basis-review",
+      "five_word_jaccard": 0.6209
+    },
+    {
+      "page": "resources/scenarios/1031-replacement-property-document-checklist",
+      "nearest": "resources/scenarios/portfolio-across-states-document-checklist",
+      "five_word_jaccard": 0.6246
+    },
+    {
+      "page": "resources/scenarios/1031-replacement-property-report-reconciliation",
+      "nearest": "resources/scenarios/portfolio-across-states-report-reconciliation",
+      "five_word_jaccard": 0.6221
+    },
+    {
+      "page": "resources/scenarios/1031-replacement-property-tax-preparer-handoff",
+      "nearest": "resources/scenarios/portfolio-across-states-tax-preparer-handoff",
+      "five_word_jaccard": 0.6197
+    },
+    {
+      "page": "resources/scenarios/casualty-repairs-study-scope",
+      "nearest": "resources/scenarios/rental-refinance-study-scope",
+      "five_word_jaccard": 0.6275
+    },
+    {
+      "page": "resources/scenarios/casualty-repairs-basis-review",
+      "nearest": "resources/scenarios/rental-refinance-basis-review",
+      "five_word_jaccard": 0.6281
+    },
+    {
+      "page": "resources/scenarios/casualty-repairs-document-checklist",
+      "nearest": "resources/scenarios/rental-refinance-document-checklist",
+      "five_word_jaccard": 0.6318
+    },
+    {
+      "page": "resources/scenarios/casualty-repairs-report-reconciliation",
+      "nearest": "resources/scenarios/rental-refinance-report-reconciliation",
+      "five_word_jaccard": 0.6293
+    },
+    {
+      "page": "resources/scenarios/casualty-repairs-tax-preparer-handoff",
+      "nearest": "resources/scenarios/rental-refinance-tax-preparer-handoff",
+      "five_word_jaccard": 0.6269
+    },
+    {
+      "page": "resources/scenarios/tenant-funded-improvements-study-scope",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "five_word_jaccard": 0.6271
+    },
+    {
+      "page": "resources/scenarios/tenant-funded-improvements-basis-review",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "five_word_jaccard": 0.6277
+    },
+    {
+      "page": "resources/scenarios/tenant-funded-improvements-document-checklist",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "five_word_jaccard": 0.6314
+    },
+    {
+      "page": "resources/scenarios/tenant-funded-improvements-report-reconciliation",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "five_word_jaccard": 0.629
+    },
+    {
+      "page": "resources/scenarios/tenant-funded-improvements-tax-preparer-handoff",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "five_word_jaccard": 0.6265
+    },
+    {
+      "page": "resources/scenarios/new-rental-awaiting-guests-study-scope",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "five_word_jaccard": 0.6209
+    },
+    {
+      "page": "resources/scenarios/new-rental-awaiting-guests-basis-review",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "five_word_jaccard": 0.6215
+    },
+    {
+      "page": "resources/scenarios/new-rental-awaiting-guests-document-checklist",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "five_word_jaccard": 0.6252
+    },
+    {
+      "page": "resources/scenarios/new-rental-awaiting-guests-report-reconciliation",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "five_word_jaccard": 0.6227
+    },
+    {
+      "page": "resources/scenarios/new-rental-awaiting-guests-tax-preparer-handoff",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "five_word_jaccard": 0.6202
+    },
+    {
+      "page": "resources/scenarios/inherited-property-later-renovated-study-scope",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-study-scope",
+      "five_word_jaccard": 0.6209
+    },
+    {
+      "page": "resources/scenarios/inherited-property-later-renovated-basis-review",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-basis-review",
+      "five_word_jaccard": 0.6215
+    },
+    {
+      "page": "resources/scenarios/inherited-property-later-renovated-document-checklist",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-document-checklist",
+      "five_word_jaccard": 0.6252
+    },
+    {
+      "page": "resources/scenarios/inherited-property-later-renovated-report-reconciliation",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-report-reconciliation",
+      "five_word_jaccard": 0.6227
+    },
+    {
+      "page": "resources/scenarios/inherited-property-later-renovated-tax-preparer-handoff",
+      "nearest": "resources/scenarios/renovation-with-no-invoices-tax-preparer-handoff",
+      "five_word_jaccard": 0.6202
+    },
+    {
+      "page": "resources/scenarios/rental-sold-with-furnishings-study-scope",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "five_word_jaccard": 0.6188
+    },
+    {
+      "page": "resources/scenarios/rental-sold-with-furnishings-basis-review",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "five_word_jaccard": 0.6194
+    },
+    {
+      "page": "resources/scenarios/rental-sold-with-furnishings-document-checklist",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "five_word_jaccard": 0.6232
+    },
+    {
+      "page": "resources/scenarios/rental-sold-with-furnishings-report-reconciliation",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "five_word_jaccard": 0.6207
+    },
+    {
+      "page": "resources/scenarios/rental-sold-with-furnishings-tax-preparer-handoff",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "five_word_jaccard": 0.6182
+    },
+    {
+      "page": "resources/scenarios/property-manager-document-handoff-study-scope",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-study-scope",
+      "five_word_jaccard": 0.6229
+    },
+    {
+      "page": "resources/scenarios/property-manager-document-handoff-basis-review",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-basis-review",
+      "five_word_jaccard": 0.6235
+    },
+    {
+      "page": "resources/scenarios/property-manager-document-handoff-document-checklist",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-document-checklist",
+      "five_word_jaccard": 0.6273
+    },
+    {
+      "page": "resources/scenarios/property-manager-document-handoff-report-reconciliation",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-report-reconciliation",
+      "five_word_jaccard": 0.6248
+    },
+    {
+      "page": "resources/scenarios/property-manager-document-handoff-tax-preparer-handoff",
+      "nearest": "resources/scenarios/multiple-properties-in-one-closing-tax-preparer-handoff",
+      "five_word_jaccard": 0.6223
+    },
+    {
+      "page": "resources/buyers/sample-cost-segregation-report-walkthrough",
+      "nearest": "resources/buyers/cpa-referral-engagement-boundaries",
+      "five_word_jaccard": 0.5347
+    },
+    {
+      "page": "resources/buyers/engineering-study-versus-desktop-analysis",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5372
+    },
+    {
+      "page": "resources/buyers/cost-segregation-software-versus-professional-study",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5423
+    },
+    {
+      "page": "resources/buyers/fixed-fee-versus-percentage-fee",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5467
+    },
+    {
+      "page": "resources/buyers/cost-segregation-engagement-exclusions",
+      "nearest": "resources/buyers/cost-segregation-records-retention-plan",
+      "five_word_jaccard": 0.5525
+    },
+    {
+      "page": "resources/buyers/verifying-the-study-preparer-s-credentials",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5519
+    },
+    {
+      "page": "resources/buyers/what-audit-support-actually-includes",
+      "nearest": "resources/buyers/property-manager-referral-checklist",
+      "five_word_jaccard": 0.5497
+    },
+    {
+      "page": "resources/buyers/reading-a-basis-reconciliation",
+      "nearest": "resources/buyers/study-review-meeting-agenda",
+      "five_word_jaccard": 0.5519
+    },
+    {
+      "page": "resources/buyers/reading-the-component-asset-schedule",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5483
+    },
+    {
+      "page": "resources/buyers/understanding-estimated-replacement-costs",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5488
+    },
+    {
+      "page": "resources/buyers/indirect-construction-costs-in-a-study",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.549
+    },
+    {
+      "page": "resources/buyers/land-allocation-evidence",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5607
+    },
+    {
+      "page": "resources/buyers/purchase-closing-costs-and-basis",
+      "nearest": "resources/buyers/repair-versus-improvement-handoff",
+      "five_word_jaccard": 0.5473
+    },
+    {
+      "page": "resources/buyers/furnishings-inventory-template",
+      "nearest": "resources/buyers/cost-segregation-classification-issue-log",
+      "five_word_jaccard": 0.5551
+    },
+    {
+      "page": "resources/buyers/contractor-invoice-request-template",
+      "nearest": "resources/buyers/repair-versus-improvement-handoff",
+      "five_word_jaccard": 0.5503
+    },
+    {
+      "page": "resources/buyers/photograph-submission-checklist",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5506
+    },
+    {
+      "page": "resources/buyers/floor-plan-submission-checklist",
+      "nearest": "resources/buyers/study-review-meeting-agenda",
+      "five_word_jaccard": 0.5534
+    },
+    {
+      "page": "resources/buyers/placed-in-service-evidence-checklist",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5591
+    },
+    {
+      "page": "resources/buyers/prior-depreciation-request-template",
+      "nearest": "resources/buyers/property-manager-referral-checklist",
+      "five_word_jaccard": 0.549
+    },
+    {
+      "page": "resources/buyers/cpa-implementation-responsibility-checklist",
+      "nearest": "resources/buyers/cpa-referral-engagement-boundaries",
+      "five_word_jaccard": 0.5482
+    },
+    {
+      "page": "resources/buyers/form-3115-scope-questions",
+      "nearest": "resources/buyers/study-review-meeting-agenda",
+      "five_word_jaccard": 0.5483
+    },
+    {
+      "page": "resources/buyers/federal-versus-state-depreciation-schedules",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5559
+    },
+    {
+      "page": "resources/buyers/current-deduction-versus-suspended-loss",
+      "nearest": "resources/buyers/property-manager-referral-checklist",
+      "five_word_jaccard": 0.5512
+    },
+    {
+      "page": "resources/buyers/holding-period-feasibility-worksheet",
+      "nearest": "resources/buyers/federal-versus-state-depreciation-schedules",
+      "five_word_jaccard": 0.5452
+    },
+    {
+      "page": "resources/buyers/incremental-depreciation-comparison",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5542
+    },
+    {
+      "page": "resources/buyers/study-fee-break-even-analysis",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5563
+    },
+    {
+      "page": "resources/buyers/comparing-two-study-proposals",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5552
+    },
+    {
+      "page": "resources/buyers/how-to-challenge-a-report-assumption",
+      "nearest": "resources/buyers/repair-versus-improvement-handoff",
+      "five_word_jaccard": 0.5467
+    },
+    {
+      "page": "resources/buyers/version-control-for-cost-segregation-reports",
+      "nearest": "resources/buyers/cpa-referral-engagement-boundaries",
+      "five_word_jaccard": 0.5512
+    },
+    {
+      "page": "resources/buyers/cost-segregation-records-retention-plan",
+      "nearest": "resources/buyers/federal-versus-state-depreciation-schedules",
+      "five_word_jaccard": 0.5556
+    },
+    {
+      "page": "resources/buyers/secure-document-sharing-with-a-provider",
+      "nearest": "resources/buyers/property-manager-referral-checklist",
+      "five_word_jaccard": 0.5535
+    },
+    {
+      "page": "resources/buyers/new-construction-cost-ledger",
+      "nearest": "resources/buyers/study-review-meeting-agenda",
+      "five_word_jaccard": 0.5542
+    },
+    {
+      "page": "resources/buyers/change-order-reconciliation",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5529
+    },
+    {
+      "page": "resources/buyers/demolition-and-removal-records",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5535
+    },
+    {
+      "page": "resources/buyers/partial-disposition-evidence-package",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.558
+    },
+    {
+      "page": "resources/buyers/repair-versus-improvement-handoff",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5552
+    },
+    {
+      "page": "resources/buyers/ownership-evidence-before-a-study",
+      "nearest": "resources/buyers/federal-versus-state-depreciation-schedules",
+      "five_word_jaccard": 0.5548
+    },
+    {
+      "page": "resources/buyers/multi-building-report-structure",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5559
+    },
+    {
+      "page": "resources/buyers/report-to-books-reconciliation",
+      "nearest": "resources/buyers/cost-segregation-records-retention-plan",
+      "five_word_jaccard": 0.5503
+    },
+    {
+      "page": "resources/buyers/cpa-referral-engagement-boundaries",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5618
+    },
+    {
+      "page": "resources/buyers/property-manager-referral-checklist",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5568
+    },
+    {
+      "page": "resources/buyers/cost-segregation-for-a-small-rental-decision",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5503
+    },
+    {
+      "page": "resources/buyers/rush-study-delivery-questions",
+      "nearest": "resources/buyers/cpa-referral-engagement-boundaries",
+      "five_word_jaccard": 0.5533
+    },
+    {
+      "page": "resources/buyers/how-a-feasibility-estimate-differs-from-a-study",
+      "nearest": "resources/buyers/repair-versus-improvement-handoff",
+      "five_word_jaccard": 0.554
+    },
+    {
+      "page": "resources/buyers/how-to-read-a-study-limitations-section",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5499
+    },
+    {
+      "page": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "nearest": "resources/buyers/cpa-referral-engagement-boundaries",
+      "five_word_jaccard": 0.5618
+    },
+    {
+      "page": "resources/buyers/study-review-meeting-agenda",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5582
+    },
+    {
+      "page": "resources/buyers/what-a-documented-client-case-study-should-show",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5503
+    },
+    {
+      "page": "resources/buyers/cost-segregation-classification-issue-log",
+      "nearest": "resources/buyers/furnishings-inventory-template",
+      "five_word_jaccard": 0.5551
+    },
+    {
+      "page": "resources/buyers/second-opinion-study-review",
+      "nearest": "resources/buyers/organizing-a-rental-asset-sale-file",
+      "five_word_jaccard": 0.5421
+    }
+  ]
+}

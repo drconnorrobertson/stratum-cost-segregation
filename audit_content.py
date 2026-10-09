@@ -14,7 +14,7 @@ def body(path):
     return re.findall(r'[a-z0-9]+',text)
 
 def audit():
-    files=[p for p in ROOT.glob('cost-segregation-*/index.html') if p.parent.name!='cost-segregation-calculator']
+    files=[p for p in ROOT.glob('cost-segregation-*/index.html') if p.parent.name not in {'cost-segregation-calculator','cost-segregation-resources'}]
     shingles={p.parent.name:set(zip(*(body(p)[i:] for i in range(5)))) for p in files}
     rows=[]
     for name,a in shingles.items():

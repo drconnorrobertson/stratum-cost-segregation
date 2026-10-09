@@ -86,7 +86,7 @@ def main():
     card_urls=[urljoin(BASE_URL+'/blog/',u) for u in cards]
     if set(card_urls)!=expected_cards or len(cards)!=len(expected_cards):errors.append('Blog index must list every article exactly once')
     markets=json.loads((ROOT/'content/markets-researched.json').read_text())
-    expected_markets={p.parent.name.removeprefix('cost-segregation-') for p in ROOT.glob('cost-segregation-*/index.html') if p.parent.name!='cost-segregation-calculator'}
+    expected_markets={p.parent.name.removeprefix('cost-segregation-') for p in ROOT.glob('cost-segregation-*/index.html') if p.parent.name not in {'cost-segregation-calculator','cost-segregation-resources'}}
     if {m['slug'] for m in markets}!=expected_markets or len(markets)!=len(expected_markets):errors.append('Every market requires one researched record')
     fields=['angle','local','scope','scenario','question','answer','source_url','source_label','source_checked']
     for m in markets:
