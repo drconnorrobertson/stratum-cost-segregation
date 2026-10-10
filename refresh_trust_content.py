@@ -202,7 +202,7 @@ def update_json_ld(text: str) -> str:
         nodes = data.get("@graph", [data]) if isinstance(data, dict) else []
         for node in nodes:
             if isinstance(node, dict) and node.get("@type") in ("BlogPosting", "Article"):
-                node["author"] = {"@type":"Organization","name":"AE Tax Advisors","url":"https://www.drconnorrobertson.com/"}
+                node["author"] = {"@type":"Organization","name":"AE Tax Advisors","url":"https://www.aetaxadvisors.com/"}
                 node["reviewedBy"] = {"@type":"Organization","name":"AE Tax Advisors Tax Team","url":"https://www.aetaxadvisors.com/"}
                 node["dateModified"] = "2026-09-22"
             if isinstance(node, dict):

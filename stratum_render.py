@@ -244,7 +244,7 @@ def render_post(post):
             "description": desc,
             "datePublished": iso,
             "dateModified": iso,
-            "author": {"@type": "Organization", "name": "AE Tax Advisors", "url": "https://www.drconnorrobertson.com/"},
+            "author": {"@type": "Organization", "name": "AE Tax Advisors", "url": "https://www.aetaxadvisors.com/"},
             "publisher": {"@id": f"{BASE_URL}/#organization"},
             "mainEntityOfPage": {"@type": "WebPage", "@id": url},
             "url": url,
