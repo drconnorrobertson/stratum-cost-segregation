@@ -1,0 +1,129 @@
+[
+  {
+    "slug": "cost-segregation-apartment-buildings",
+    "title": "Apartment Cost Segregation: Components, Costs & Records",
+    "description": "Explore apartment cost segregation, component evidence, renovation records, passive-loss questions, and the information needed for a property-specific study.",
+    "sections": [
+      [
+        "What apartment cost segregation actually answers",
+        "An apartment study separates supported component costs from the building's remaining basis. It should explain what was examined, which records support the costs, and why the proposed classifications fit the installation. A percentage quoted for another building cannot answer those questions for yours. Residential rental buildings generally use a 27.5-year GDS recovery period; land is not depreciable. Confirm the applicable depreciation system before comparing a study with your current schedule."
+      ],
+      [
+        "Compare components by function, not by their names",
+        "Prepare a room-by-room inventory of appliances, floor finishes, window treatments, common-area equipment, and site improvements. Supply photographs and invoices where available. Do not assume that every fixture, cabinet, utility line, pool, or paved surface has the same recovery period. Ask the provider to explain permanent attachment, actual function, ownership, and the distinction between building systems and equipment-specific installations. The IRS audit guide describes how examiners evaluate study methodology and supporting classifications; it is not an approval of a provider."
+      ],
+      [
+        "Separate the acquisition from each renovation",
+        "For a value-add property, create a project file for each unit turn and common-area renovation. Record the original component, retained work, removed work, new installation, final invoice, credits, and service date. Reconcile those files to the fixed-asset schedule. Ask your preparer whether removed components, repair-versus-improvement treatment, or a method change require separate action. A renovation budget and the purchase-price allocation are different cost pools."
+      ],
+      [
+        "A useful basis example without a savings promise",
+        "Suppose an illustrative purchase price is $6,200,000 and the supported allocation to land is $900,000. Before reviewing other basis adjustments, the remaining amount is $5,300,000. The next step is a supported component analysis, not an assumed reclassification percentage. Ask for a reconciliation showing excluded costs, each classified asset group, and the remaining building amount. This example demonstrates the cost bridge only; it does not calculate first-year depreciation or claim a client result."
+      ],
+      [
+        "Will a deduction reduce your current tax?",
+        "Have the preparer review basis, at-risk exposure, passive activity limitations, relevant elections, and state treatment before describing an estimated deduction as cash savings. Rental losses are generally passive, but exceptions and allowances may apply. Real estate professional status and material participation require separate review. A new report also does not change an older asset's acquisition history. Bonus eligibility depends on the applicable dates and property requirements."
+      ],
+      [
+        "What to bring to an apartment study discussion",
+        "Bring the executed purchase agreement, closing statement, land allocation support, prior depreciation schedules, unit inventory, renovation ledger, plans, and photographs. Identify who owns the property and which entity paid for each project. Request a written scope, fee, missing-record list, and CPA handoff plan. Compare the study's cost with a preparer-reviewed projection that includes implementation costs and anticipated sale consequences."
+      ]
+    ],
+    "related": [
+      "cost-segregation-duplexes-multifamily",
+      "real-estate-professional-status-cost-segregation",
+      "partial-asset-disposition-cost-segregation"
+    ],
+    "sources": [
+      "atg",
+      "rental",
+      "passive",
+      "bonus",
+      "method"
+    ]
+  },
+  {
+    "slug": "cost-segregation-medical-office-buildings",
+    "title": "Medical Office Cost Segregation: Buildouts & Ownership",
+    "description": "Review medical office cost segregation with a focus on equipment connections, tenant improvements, ownership, project costs, and CPA coordination.",
+    "sections": [
+      [
+        "Start with the owner and the building's use",
+        "A medical practice and the owner of its office can be different taxpayers. Identify the legal owner, tenant, equipment owner, and party paying for each improvement before assembling a study. Nonresidential real property generally has a 39-year GDS recovery period. That starting point does not make all costs in a medical office building structural, nor does a clinical use automatically make them short-lived."
+      ],
+      [
+        "Distinguish equipment support from general building systems",
+        "Map examination rooms, imaging rooms, laboratories, sterilization areas, reception space, and shared circulation. For each specialty installation, record what it serves and what would remain if the equipment were removed. Dedicated equipment connections can require a different analysis from the building's general electrical, plumbing, or HVAC systems. Supply drawings and contractor detail; a description such as medical plumbing does not establish a tax classification."
+      ],
+      [
+        "Reconcile tenant improvements and landlord allowances",
+        "Keep the lease, work letter, allowance agreement, change orders, invoices, and payment records together. Create separate columns for the party contracting for work, the payer, reimbursement, and the person treated as owner for tax purposes. Ask the preparer to resolve those facts. Do not count the same buildout in both the landlord's and tenant's cost schedules simply because both have records of it."
+      ],
+      [
+        "Review qualified improvement property separately",
+        "Some interior improvements to an existing nonresidential building may meet the qualified improvement property definition. The rules exclude specified categories and have timing requirements. Ask the preparer to distinguish eligible interior work from original construction, enlargement, structural framework, and elevator or escalator work. Keep acquisition and construction dates separate from the date the practice opened."
+      ],
+      [
+        "Use a project map before a tax projection",
+        "Consider an illustrative practice that pays one contractor for exam rooms and reception, and another vendor for imaging equipment. Begin with the final invoices and supported ownership. Ask whether the first invoice can be separated into actual scopes and whether the equipment installation overlaps with those charges. Resolve duplicate costs and allowance reimbursements before applying any depreciation assumptions. This is a documentation example, not a deduction estimate."
+      ],
+      [
+        "Coordinate the property and practice tax reviews",
+        "If a related entity rents the office to the practice, flag that relationship for the preparer. A cost segregation study alone does not establish whether a loss can offset practice earnings. Ask for a written analysis of the relevant activity rules, basis, elections, and state adjustments. For a study proposal, request the component methodology, excluded costs, supporting evidence, delivery schedule, and responsibilities for implementing the final report."
+      ]
+    ],
+    "related": [
+      "cost-segregation-dental-offices",
+      "cost-segregation-leasehold-improvements",
+      "qualified-improvement-property-cost-segregation"
+    ],
+    "sources": [
+      "atg",
+      "depreciation",
+      "passive",
+      "bonus"
+    ]
+  },
+  {
+    "slug": "cost-segregation-shopping-centers-strip-malls",
+    "title": "Retail Center Cost Segregation: Leases, Site Work & Costs",
+    "description": "Prepare a retail-center cost segregation review with lease records, tenant buildouts, site-work evidence, purchase allocations, and a clear CPA handoff.",
+    "sections": [
+      [
+        "One retail center can contain several different cost histories",
+        "A shopping center may combine an acquired shell, later tenant buildouts, parking work, signs, landscaping, and equipment. Begin by separating those histories. A single reclassification percentage obscures differences between what was purchased, what was installed later, and what belongs to tenants. Ask the study provider to define the analyzed cost pool and reconcile it with the owner's records."
+      ],
+      [
+        "Document site work without assuming one classification",
+        "Create a site plan identifying parking areas, sidewalks, drainage, lighting, signs, retaining features, utilities, and landscaping. Record each item's purpose, location, installation, and supported cost. The tax treatment of a site component can depend on its function and relationship to the building. Do not treat every outdoor item as 15-year property or include nondepreciable land in a depreciable cost pool."
+      ],
+      [
+        "Read leases before counting tenant assets",
+        "For every unit, record the tenant, lease period, work letter, landlord allowance, buildout scope, and supporting invoices. Distinguish landlord-owned assets from tenant-owned assets and items whose ownership is unresolved. A reimbursement does not by itself settle the tax ownership question. Ask the preparer to resolve allowance treatment and ensure the same work is not counted in two different cost pools."
+      ],
+      [
+        "Keep tenant turnover and replacements visible",
+        "When a tenant leaves, compare the prior buildout schedule with demolition plans, invoices, and replacement work. Mark what was removed, retained, or reused. Ask the preparer whether a disposition election or other adjustment is appropriate. A vacant suite does not prove every asset in it was retired. Retain the record supporting the actual removal and the relationship to the existing depreciation schedule."
+      ],
+      [
+        "Build an acquisition-to-report bridge",
+        "For an illustrative center with a new parking project, keep the acquisition allocation and the later paving invoice separate. List purchase basis, land allocation, other supported adjustments, excluded assets, and each later addition. Reconcile deposits, credits, and final payments to avoid duplicating the project cost. Ask for unresolved items to remain in an exception list rather than being silently assigned to a preferred recovery period."
+      ],
+      [
+        "Decide whether the engagement fits your plans",
+        "Discuss the expected holding period, future tenant turnover, prior studies, current depreciation, and likely filing work with your preparer. Obtain a written scope and fee before commissioning a full report. A preparer-reviewed comparison should address deduction timing, owner-level limitations, state treatment, and sale consequences. Use the component evidence to support the decision rather than treating a general industry percentage as a property-specific result."
+      ]
+    ],
+    "related": [
+      "cost-segregation-retail-properties",
+      "cost-segregation-leasehold-improvements",
+      "partial-asset-disposition-cost-segregation"
+    ],
+    "sources": [
+      "atg",
+      "depreciation",
+      "method",
+      "bonus"
+    ]
+  }
+]

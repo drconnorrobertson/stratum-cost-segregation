@@ -39,6 +39,8 @@ const home=path.join(out,'index.html');let h=fs.readFileSync(home,'utf8');if(!h.
 let xml=source.replace(/<url>\s*<loc>(.*?)<\/loc>([\s\S]*?)<\/url>/g,(all,url,tail)=>changed.has(url)?`<url><loc>${url}</loc>${/<lastmod>/.test(tail)?tail.replace(/<lastmod>.*?<\/lastmod>/,`<lastmod>${D.date}</lastmod>`):tail+`<lastmod>${D.date}</lastmod>`}</url>`:all);xml=xml.replace(/<\/urlset>/,newUrls.map(u=>`<url><loc>${u}</loc><lastmod>${D.date}</lastmod></url>`).join('\n')+'\n</urlset>');fs.writeFileSync(sitemapFile,xml);
 if(newUrls.length!==200||existing.length+newUrls.length!==D.target)throw Error('Page count mismatch');
 console.log(JSON.stringify({site:D.domain,existing:existing.length,added:newUrls.length,total:D.target,existingPagesLinked:injections}));
+// Apply curated retained-page content last so future rebuilds preserve it.
+require('./search-guide-refresh.cjs')(out);
 
 fs.mkdirSync(path.join(out,'cost-seg-discovery'),{recursive:true});
 fs.copyFileSync(path.join(root,'cost-seg-discovery/index.html'),path.join(out,'cost-seg-discovery/index.html'));
