@@ -2,6 +2,7 @@
 const fs=require('fs'),path=require('path');
 const regex=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 module.exports=function(out){
+ fs.copyFileSync(path.join(__dirname,"df96e877fd4023ffc463bfe1ffbc9a1b.txt"),path.join(out,"df96e877fd4023ffc463bfe1ffbc9a1b.txt"));
  const overrides=JSON.parse(fs.readFileSync(path.join(__dirname,'content/search-guide-overrides.json'),'utf8'));
  for(const item of overrides){
   const file=path.join(out,item.path),url='https://www.stratumcostsegregation.com/'+item.path.replace(/index.html$/,'');
