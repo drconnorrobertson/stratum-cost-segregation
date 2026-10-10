@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "node topical-depth-build.cjs",
+  "buildCommand": "node topical-depth-build.cjs && node scripts/brand-check.mjs public",
   "outputDirectory": "public",
   "trailingSlash": true,
   "redirects": [
