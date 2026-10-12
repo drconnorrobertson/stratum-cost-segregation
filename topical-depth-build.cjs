@@ -46,3 +46,5 @@ fs.mkdirSync(path.join(out,'cost-seg-discovery'),{recursive:true});
 fs.copyFileSync(path.join(root,'cost-seg-discovery/index.html'),path.join(out,'cost-seg-discovery/index.html'));
 require('./cost-seg-routing.cjs')(out, true);
 require('./competitor-comparisons.cjs')(out);
+
+require('./scripts/social-preview.cjs');
