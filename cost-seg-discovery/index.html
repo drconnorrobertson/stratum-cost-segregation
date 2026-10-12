@@ -161,7 +161,7 @@
                 <div class="cal-frame">
                     <iframe
                         src="https://api.leadconnectorhq.com/widget/booking/31bqciSJCSb2R44l0EML"
-                        title="Book a cost segregation discovery call with Stratum Cost Segregation"
+                        title="Book a cost segregation discovery call with AE Tax Advisors, Stratum’s tax strategy partner"
                         scrolling="no"
                         id="31bqciSJCSb2R44l0EML_discovery"
                         allow="payment" loading="eager"></iframe>
@@ -175,6 +175,21 @@
     </main>
 
     <script src="https://link.msgsndr.com/js/form_embed.js" defer></script>
+    <script>
+    // Carry campaign attribution to the existing AE-hosted booking calendar.
+    // Pass only campaign fields, never arbitrary URL parameters or tax details.
+    (function(){
+      var incoming=new URLSearchParams(location.search);
+      var frame=document.querySelector('.cal-frame iframe');
+      var url=new URL(frame.src);
+      ['utm_source','utm_medium','utm_campaign','utm_content'].forEach(function(key){
+        var value=incoming.get(key);
+        if(value)url.searchParams.set(key,value.slice(0,200));
+      });
+      if(url.href!==frame.src)frame.src=url.href;
+      document.querySelector('.fallback a').href=url.href;
+    })();
+    </script>
 
 </body>
 </html>
