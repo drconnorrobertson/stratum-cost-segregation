@@ -47,4 +47,5 @@ fs.copyFileSync(path.join(root,'cost-seg-discovery/index.html'),path.join(out,'c
 require('./cost-seg-routing.cjs')(out, true);
 require('./competitor-comparisons.cjs')(out);
 
+require('./property-segments.cjs')(out);
 require('./scripts/social-preview.cjs');
