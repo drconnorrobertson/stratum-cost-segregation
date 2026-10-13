@@ -1,0 +1,9 @@
+const fs=require('fs'),path=require('path'),assert=require('assert');
+const root=path.join(__dirname,'../public'),base='https://www.stratumcostsegregation.com';
+const routes=['/commercial-cost-segregation/','/small-property-cost-segregation/','/multifamily-cost-segregation/','/compare/commercial-cost-segregation-companies/','/compare/small-property-cost-segregation-companies/','/compare/str-cost-segregation-companies/'];
+const sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');
+for(const route of routes){const h=fs.readFileSync(path.join(root,route,'index.html'),'utf8');assert(h.includes('rel="canonical" href="'+base+route+'"'));assert.equal((h.match(/<h1>/g)||[]).length,1);assert(h.includes('/cost-seg-discovery/?'));assert.equal(sitemap.split('<loc>'+base+route+'</loc>').length-1,1);for(const m of h.matchAll(/href="(\/[^"?#]*)(?:\?[^"#]*)?"/g))assert(fs.existsSync(path.join(root,m[1],m[1].endsWith('/')?'index.html':'')),route+' broken '+m[1]);for(const m of h.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g))JSON.parse(m[1]);}
+const home=fs.readFileSync(path.join(root,'index.html'),'utf8');assert(!home.includes('Commercial articles are educational resources'));assert(home.includes('Cost Segregation for Commercial Buildings & Rentals'));for(const route of routes.slice(0,3))assert(home.includes('href="'+route+'"'));
+const urls=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);assert.equal(new Set(urls).size,urls.length);
+for(const url of urls){const route=new URL(url).pathname;const h=fs.readFileSync(path.join(root,route,'index.html'),'utf8');assert(h.includes('rel="canonical" href="'+url+'"'),'canonical '+route);}
+console.log(JSON.stringify({newPages:routes.length,siteCanonicals:urls.length,internalLinks:true,booking:true,schema:true,segmentEntrypoints:true}));
