@@ -15,8 +15,9 @@ function walk(dir){if(!fs.existsSync(dir))return;for(const e of fs.readdirSync(d
  const raw=fs.readFileSync(p,'utf8'),s=normalize(raw),lower=s.toLowerCase();files++;
  const name=/(?:\b(?:dr\.?\s*)?connor[\s\u00a0_-]*robertson\b|drconnor+robertson|connorrobertson)/i.test(s.replace(/<[^>]+>/g,' '));
  const domain=blocked.find(d=>lower.includes(d));
- // Connor Davis is a different person; named references to him remain valid.
- const unqualified=/\bconnor\b/i.test(s.replace(/connor(?:[\s_-]+)davis/gi,''));
+ // Connor Davis is a different person; O’Connor is the commercial cost segregation firm.
+ // Preserve the bare-name and personal-identity checks while allowing these exact names.
+ const unqualified=/\bconnor\b/i.test(s.replace(/connor(?:[\s_-]+)davis/gi,'').replace(/\bO(?:’|'|&#39;)Connor\b/g,'OConnor'));
  if(name||domain||unqualified)failures.push({file:p,reason:name?'personal identity':domain?'personal domain '+domain:'unqualified personal name'});
  }}
 for(const root of roots)walk(path.resolve(root));
