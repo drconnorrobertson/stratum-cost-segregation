@@ -51,3 +51,5 @@ require('./property-segments.cjs')(out);
 require('./scripts/social-preview.cjs');
 
 cp.execFileSync(process.execPath,['scripts/search-intent.mjs','--write','--public'],{cwd:root,stdio:'inherit'});
+
+if(process.env.VERCEL==='1')cp.execFileSync(process.execPath,['scripts/verify-published-search.cjs'],{cwd:root,stdio:'inherit'});
