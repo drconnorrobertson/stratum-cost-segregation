@@ -61,5 +61,26 @@
     "reviewQuestion": "Identify whether a testimonial concerns a pre-closing planning estimate or an implemented post-closing study.",
     "priceLabel": "$99 per property for the published planning-study offer.",
     "model": "Technology-assisted planning output; final facts and professional review require clarification."
+  },
+  "quickseg": {
+    "price": "Basic Study $595; Study + Audit Support $744 on the researched pricing page.",
+    "priceSource": "https://www.quickseg.com/pricing/",
+    "priceDate": "2026-10-13",
+    "priceQuestion": "Does the selected package include the support you need, and who verifies property inputs before filing?",
+    "priceLabel": "Basic Study $595; Study + Audit Support $744 on the researched pricing page."
+  },
+  "segwize": {
+    "price": "The researched homepage advertises a flat $550 report fee.",
+    "priceSource": "https://segwize.com/",
+    "priceDate": "2026-10-13",
+    "priceQuestion": "Confirm property eligibility, professional review and the support terms included in the advertised report fee.",
+    "priceLabel": "The researched homepage advertises a flat $550 report fee."
+  },
+  "diy-cost-seg": {
+    "price": "Published residential reports range from $495 to $1,795; commercial reports from $1,295 to $3,695. The researched homepage separately lists $49 report corrections.",
+    "priceSource": "https://diycostseg.com/",
+    "priceDate": "2026-10-13",
+    "priceQuestion": "Which product and fee apply to the unit count, and are corrections, concierge work and audit support separate?",
+    "priceLabel": "Published residential reports range from $495 to $1,795; commercial reports from $1,295 to $3,695. The researched homepage separately lists $49 report corrections."
   }
 }
