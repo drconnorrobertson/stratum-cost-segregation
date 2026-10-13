@@ -1,0 +1,20 @@
+{
+  "blog/cost-segregation-retail-properties/index.html": {
+    "title": "Retail Center Cost Segregation Studies | Stratum",
+    "description": "Review a retail-center cost segregation study: tenant improvements, shared systems, property records, commercial study scope and a written proposal.",
+    "heading": "Request a retail-center study scope",
+    "body": "<p>Bring the property address, rent roll or use map, closing records, improvement history and existing depreciation schedule. Confirm how tenant-funded improvements and shared systems will be documented and reconciled before commissioning the study.</p><p>Review <a href=\"/commercial-cost-segregation/\">commercial building study services</a> and compare the proposed inspection, technical review, asset schedules and preparer handoff.</p><p><a href=\"/cost-seg-discovery/\">Discuss My Retail Property</a></p>"
+  },
+  "blog/cost-segregation-apartment-buildings/index.html": {
+    "title": "Apartment Cost Segregation: Study Scope | Stratum",
+    "description": "Evaluate apartment and multifamily cost segregation: unit variations, common areas, renovation history, documentation and a property-specific study quote.",
+    "heading": "Prepare an apartment-building study review",
+    "body": "<p>Provide unit counts and layouts, renovation dates, common-area inventories and existing asset schedules. Ask how any representative-unit sampling will account for differences across the property.</p><p><a href=\"/multifamily-cost-segregation/\">Review multifamily and apartment study services</a>, then <a href=\"/cost-seg-discovery/\">discuss your building and proposed scope</a>.</p>"
+  },
+  "blog/cost-segregation-medical-office-buildings/index.html": {
+    "title": "Medical Office Cost Segregation Studies | Stratum",
+    "description": "Review medical-office cost segregation, specialized systems, ownership of improvements, property documentation and the scope of a commercial study.",
+    "heading": "Define your medical-office study scope",
+    "body": "<p>Identify who owns the building, equipment and tenant improvements. Bring plans, improvement invoices, purchase records and existing depreciation schedules so the study team can distinguish shared building systems from property-specific components.</p><p>Review <a href=\"/commercial-cost-segregation/\">commercial study services</a> and <a href=\"/cost-seg-discovery/\">request a property-specific scope discussion</a>. Confirm return implementation and any separately engaged tax work.</p>"
+  }
+}

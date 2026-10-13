@@ -49,3 +49,5 @@ require('./competitor-comparisons.cjs')(out);
 
 require('./property-segments.cjs')(out);
 require('./scripts/social-preview.cjs');
+
+cp.execFileSync(process.execPath,['scripts/search-intent.mjs','--write','--public'],{cwd:root,stdio:'inherit'});
