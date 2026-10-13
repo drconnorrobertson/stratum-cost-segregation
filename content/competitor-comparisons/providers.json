@@ -82,12 +82,12 @@
     "name": "RE Cost Seg",
     "source": "https://www.recostseg.com/",
     "category": "costseg",
-    "summary": "Its public materials describe cost segregation studies and a digital property-information workflow.",
+    "summary": "R.E. Cost Seg distinguishes Rapid Reports without a site visit from a Fully Engineered service with a virtual visit, and describes a report plus fixed asset schedule for the CPA.",
     "fit": "Rental owners comparing specialist study services",
     "scenario": "You want to understand how a remote information-gathering process handles property-specific details.",
-    "decision": "Ask how photographs, plans, renovation invoices, and unusual assets are evaluated.",
+    "decision": "Identify the exact report product, property eligibility, review professional and included site evidence before comparing fees.",
     "question": "Which records are needed beyond square footage and purchase price?",
-    "note": "R.E. Cost Seg distinguishes Rapid Reports from Fully Engineered Studies. Its published Rapid eligibility includes residential properties up to four units, basis under $1.2 million and improvements under $50,000. Confirm the product before comparing inspection and support terms.",
+    "note": "A Rapid Report and a Fully Engineered engagement are different workflows. Ask which product the quote covers and how acquired furnishings or later renovations are handled.",
     "reviewed": "2026-10-13"
   },
   {
@@ -238,13 +238,13 @@
     "name": "Maven Cost Segregation",
     "source": "https://mavencostseg.com/",
     "category": "costseg",
-    "summary": "Its public materials describe engineering-oriented cost segregation, Form 3115, and related specialty services.",
+    "summary": "Maven describes engineering professionals physically inspecting properties, report delivery within 30 days of the site visit and coordination with the existing CPA.",
     "fit": "Owners comparing detailed study and reporting-support options",
     "scenario": "Your existing property has a long depreciation history that must be reconciled before implementation.",
-    "decision": "Ask how the study team and preparer review prior schedules and determine the reporting steps.",
+    "decision": "Confirm property access, the evidence collected, delivery dependencies and the written support terms.",
     "question": "Who validates the old schedules before applying the study results?",
-    "note": "Maven\u2019s public service menu includes detailed engineering studies, Form 3115, and R&D tax credits. It should not be described as offering only a study or as lacking Form 3115 services. Ask which technical project fits the property and which professional coordinates the report with the existing return preparer. AE\u2019s wider owner advisory can be evaluated separately. An owner with older depreciation schedules should request a documented reconciliation and reporting assignment, rather than infer the full filing scope from either provider\u2019s service menu.",
-    "reviewed": "2026-10-08"
+    "note": "The 30-day period is Maven\u2019s published target after the site visit, not an independently measured delivery result. Compare the date the clock starts and what missing records do to the schedule.",
+    "reviewed": "2026-10-13"
   },
   {
     "slug": "mcguire-sponsel",
@@ -301,14 +301,14 @@
   {
     "slug": "seneca-cost-segregation",
     "name": "Seneca Cost Segregation",
-    "source": "https://www.senecacostseg.com/about-us",
+    "source": "https://www.senecacostseg.com/",
     "category": "costseg",
-    "summary": "Describes cost segregation studies with virtual or on-site property tours.",
-    "fit": "Owners evaluating inspection options with a dedicated cost segregation provider",
-    "scenario": "Your property is geographically remote, but some improvements are difficult to document over a video call.",
-    "decision": "Ask which inspection approach fits the building and how inaccessible or undocumented areas are handled.",
-    "question": "What changes in the work plan when a virtual tour is insufficient?",
-    "note": "Review the written support and refund conditions; marketing language is not the full engagement agreement.",
+    "summary": "Seneca describes engineering-based studies, virtual site visits, a PDF report and a fixed asset schedule for the owner\u2019s CPA.",
+    "fit": "Rental and commercial owners comparing a study, CPA handoff and conditional audit-support terms",
+    "scenario": "Your furnished rental needs a supported component analysis and a clear agreement about what happens if a study conclusion is questioned.",
+    "decision": "Compare technical review, fixed asset delivery and the exact examination-support obligations before choosing.",
+    "question": "What does AuditDefense cover, and which conditions apply to the study-fee refund?",
+    "note": "Seneca\u2019s advertised refund is conditional, including a greater-than-5% depreciation adjustment caused by Seneca. A refund of study fees is different from coverage of tax, penalties or all representation expenses.",
     "reviewed": "2026-10-13"
   },
   {
