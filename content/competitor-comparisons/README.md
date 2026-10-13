@@ -21,3 +21,13 @@ A downloadable CSV maps every provider to both destinations and the official sou
 Primary research includes provider services/about pages listed in providers.json. Bedford's source is the Source Advisors merger announcement; BDO's source is its own calculator/team description. No third-party provider rankings, unverified fee estimates, client outcomes or claims about IRS endorsement are introduced.
 
 Validation: node topical-depth-build.cjs; node scripts/validate-alternatives.cjs; node scripts/validate-comparisons.cjs; node scripts/validate-property-segments.cjs; node scripts/brand-check.mjs public. Browser verification covers directory rendering and filtering to Seneca. Output has 1,273 unique sitemap canonicals. Further expansion should add source-backed differences and distinct buyer decisions; do not generate arbitrary pairwise permutations.
+
+### Deeper branded research in the same release
+
+The final expansion adds 58 canonical pages beyond PR #9, not 42: ten direct comparisons, 31 alternatives guides, an alternatives hub, 14 selected competitor-versus-competitor guides, and two pricing/review research guides. With the retained property-segment comparison pages, /compare/ now contains 85 pages.
+
+All 31 provider-versus-Stratum pages include addressable pricing and review-evaluation sections. Seven primary pricing offers were checked: RE Cost Seg, Cost Seg Smart, RentalWriteOff, My Cost Segregation, Cost Seg EZ, Cost Seg Atlas and CostSeg Express. Unverified numeric fees are explicitly treated as research gaps, not claims that a firm lacks public prices. Review sections do not invent customer experiences, star ratings or report-quality scores.
+
+The 14 pair comparisons are selected for different buyer decisions, not generated as all possible name permutations. Each has an original scenario, three concrete proposal questions, source links and reciprocal entry links from both brands' existing pages. They cover standard rental products, property tiers, professional review, remote evidence, accounting relationships, specialty projects and planning-versus-final deliverables.
+
+Run node scripts/validate-comparison-library.cjs in addition to prior validators. It checks every comparison URL and internal fragment, distinct titles, source-backed pricing sections, review disclosures, reciprocal links and absence of fabricated review schema. Current search volume and brand-query rankings remain unverified; this is an editorial coverage expansion rather than a measured ranking claim.

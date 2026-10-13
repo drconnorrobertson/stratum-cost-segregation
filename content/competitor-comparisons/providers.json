@@ -113,8 +113,8 @@
     "scenario": "You are evaluating a tool that expressly distinguishes an educational analysis from a signed technical study.",
     "decision": "Ask what document you receive, what review upgrades are available, and whether your CPA will accept the deliverable.",
     "question": "Am I buying an educational analysis or an implementation-ready study?",
-    "note": "Cost Seg Atlas distinguishes downloadable output from an optional licensed review and describes a completeness threshold for that review. Ask which version you are purchasing and what additional work resolves incomplete evidence. A professional signature does not itself establish that an owner can use a projected deduction. Before choosing a product, have the filing professional review the input records and reporting requirements. Compare AE's separately scoped study and advisory services with the complete workflow, including any review upgrade.",
-    "reviewed": "2026-10-08"
+    "note": "The pricing page expressly describes educational analyses, not signed studies, and labels professional review as paused. Confirm the independent completion and review work needed for the intended filing use.",
+    "reviewed": "2026-10-13"
   },
   {
     "slug": "cost-segregation-authority",
@@ -152,8 +152,8 @@
     "scenario": "You want a quick report but have not yet established how rental-activity rules affect your tax position.",
     "decision": "Ask how the report is reviewed and arrange a separate facts-based eligibility analysis before relying on projected savings.",
     "question": "Who evaluates participation and deduction usability before I rely on the estimate?",
-    "note": "CostSeg Express describes an instant PDF and identifies its studies as planning documents. For a pre-closing estimate, keep projected numbers separate from the final settlement and service-date evidence. Ask who corrects the report after closing and whether the filing professional will accept the finished deliverable. AE's role can be evaluating the wider acquisition and reporting position. A fast output is useful only if the eventual tax-return records are supported; neither delivery speed nor a marketing guarantee establishes the buyer's final result.",
-    "reviewed": "2026-10-08"
+    "note": "The public offer is described as a technology-assisted planning study. Clarify who updates final acquisition facts and performs the professional review before a filing position is taken.",
+    "reviewed": "2026-10-13"
   },
   {
     "slug": "costsegez",
@@ -178,8 +178,8 @@
     "scenario": "Your land allocation and existing depreciation records need attention before a study can be implemented.",
     "decision": "Ask which basis inputs you must supply and which analyses are outside the study's stated scope.",
     "question": "Who is responsible for reviewing the land allocation?",
-    "note": "CostSegRx's public material lists study work with CPA-ready deliverables and reporting support. Support language should be translated into a named task: explaining a report, preparing a calculation, or preparing and filing a form are different responsibilities. Request a handoff meeting with the existing preparer and reconcile the report to the owner's basis records. AE can be compared on the wider plan and separately priced implementation. Keep engineering documentation and owner-level analysis visible as two related workstreams.",
-    "reviewed": "2026-10-08"
+    "note": "Its FAQ says the provider does not determine the owner\u2019s land allocation or real-estate cost basis. Resolve those inputs with the appropriate professional before comparing projected results.",
+    "reviewed": "2026-10-13"
   },
   {
     "slug": "costsegregation-com",
