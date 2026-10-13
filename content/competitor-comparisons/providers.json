@@ -30,13 +30,13 @@
     "name": "Cost Seg Smart",
     "source": "https://costsegsmart.com/",
     "category": "software",
-    "summary": "Its public materials describe online cost segregation reports marketed to rental-property owners.",
+    "summary": "Publishes property-specific cost segregation reports with CPA coordination and written support.",
     "fit": "Owners considering a digital study workflow",
     "scenario": "You want a convenient report but need to understand the inputs, review process, and reporting support before purchase.",
     "decision": "Ask how unusual property features, renovations, and incomplete records are handled.",
     "question": "Who reviews the property facts behind the generated report?",
-    "note": "",
-    "reviewed": "2026-10-08"
+    "note": "Cost Seg Smart markets a complete service, not just software. Its published materials distinguish residential, STR and commercial offerings and separately available Form 3115 preparation. Compare the actual property tier, review process and filing responsibilities rather than assuming an online order is an unreviewed report.",
+    "reviewed": "2026-10-13"
   },
   {
     "slug": "engineered-tax-services",
@@ -54,15 +54,15 @@
   {
     "slug": "kbkg",
     "name": "KBKG",
-    "source": "https://www.kbkg.com/",
+    "source": "https://www.kbkg.com/costsegregation",
     "category": "costseg",
     "summary": "Its public materials describe tax-credit and incentive consulting, including cost segregation.",
     "fit": "Businesses and property owners seeking technical specialty tax support",
     "scenario": "You want to compare a specialty-tax engagement with a household or business-wide planning engagement.",
     "decision": "Ask what technical deliverables the quote includes and whether broader planning is separately available.",
     "question": "Where does the specialty engagement end and broader tax planning begin?",
-    "note": "",
-    "reviewed": "2026-10-08"
+    "note": "KBKG publishes specialist cost segregation services and links to residential software at CostSegregation.com. Compare the actual product and team rather than treating a software subscription and a specialist engagement as interchangeable.",
+    "reviewed": "2026-10-13"
   },
   {
     "slug": "madison-specs",
@@ -87,8 +87,8 @@
     "scenario": "You want to understand how a remote information-gathering process handles property-specific details.",
     "decision": "Ask how photographs, plans, renovation invoices, and unusual assets are evaluated.",
     "question": "Which records are needed beyond square footage and purchase price?",
-    "note": "",
-    "reviewed": "2026-10-08"
+    "note": "R.E. Cost Seg distinguishes Rapid Reports from Fully Engineered Studies. Its published Rapid eligibility includes residential properties up to four units, basis under $1.2 million and improvements under $50,000. Confirm the product before comparing inspection and support terms.",
+    "reviewed": "2026-10-13"
   },
   {
     "slug": "basis-cost-segregation",
@@ -113,8 +113,8 @@
     "scenario": "You are evaluating a tool that expressly distinguishes an educational analysis from a signed technical study.",
     "decision": "Ask what document you receive, what review upgrades are available, and whether your CPA will accept the deliverable.",
     "question": "Am I buying an educational analysis or an implementation-ready study?",
-    "note": "Cost Seg Atlas distinguishes downloadable output from an optional licensed review and describes a completeness threshold for that review. Ask which version you are purchasing and what additional work resolves incomplete evidence. A professional signature does not itself establish that an owner can use a projected deduction. Before choosing a product, have the filing professional review the input records and reporting requirements. Compare AE's separately scoped study and advisory services with the complete workflow, including any review upgrade.",
-    "reviewed": "2026-10-08"
+    "note": "The pricing page expressly describes educational analyses, not signed studies, and labels professional review as paused. Confirm the independent completion and review work needed for the intended filing use.",
+    "reviewed": "2026-10-13"
   },
   {
     "slug": "cost-segregation-authority",
@@ -152,8 +152,8 @@
     "scenario": "You want a quick report but have not yet established how rental-activity rules affect your tax position.",
     "decision": "Ask how the report is reviewed and arrange a separate facts-based eligibility analysis before relying on projected savings.",
     "question": "Who evaluates participation and deduction usability before I rely on the estimate?",
-    "note": "CostSeg Express describes an instant PDF and identifies its studies as planning documents. For a pre-closing estimate, keep projected numbers separate from the final settlement and service-date evidence. Ask who corrects the report after closing and whether the filing professional will accept the finished deliverable. AE's role can be evaluating the wider acquisition and reporting position. A fast output is useful only if the eventual tax-return records are supported; neither delivery speed nor a marketing guarantee establishes the buyer's final result.",
-    "reviewed": "2026-10-08"
+    "note": "The public offer is described as a technology-assisted planning study. Clarify who updates final acquisition facts and performs the professional review before a filing position is taken.",
+    "reviewed": "2026-10-13"
   },
   {
     "slug": "costsegez",
@@ -178,8 +178,8 @@
     "scenario": "Your land allocation and existing depreciation records need attention before a study can be implemented.",
     "decision": "Ask which basis inputs you must supply and which analyses are outside the study's stated scope.",
     "question": "Who is responsible for reviewing the land allocation?",
-    "note": "CostSegRx's public material lists study work with CPA-ready deliverables and reporting support. Support language should be translated into a named task: explaining a report, preparing a calculation, or preparing and filing a form are different responsibilities. Request a handoff meeting with the existing preparer and reconcile the report to the owner's basis records. AE can be compared on the wider plan and separately priced implementation. Keep engineering documentation and owner-level analysis visible as two related workstreams.",
-    "reviewed": "2026-10-08"
+    "note": "Its FAQ says the provider does not determine the owner\u2019s land allocation or real-estate cost basis. Resolve those inputs with the appropriate professional before comparing projected results.",
+    "reviewed": "2026-10-13"
   },
   {
     "slug": "costsegregation-com",
@@ -191,7 +191,7 @@
     "scenario": "You have a straightforward property but want your CPA to evaluate whether the software output suits the project.",
     "decision": "Ask about supported property types, input requirements, professional review, and CPA handoff.",
     "question": "Will my CPA review the proposed output before I purchase?",
-    "note": "CostSegregation.com describes self-guided software, a CPA invitation workflow, and a building-basis limit for its standard product. Check the current threshold on the official site; larger properties are directed to professional-service quoting. The important comparison is whether your property fits the software workflow and who approves the inputs. AE's advisory proposal should address the owner facts and reporting responsibilities separately from the software purchase. Inviting a CPA into a platform does not establish that filing is included in its price.",
+    "note": "KBKG links to CostSegregation.com as residential software. Confirm current product ownership and support; these are related research paths, not necessarily independent provider choices.",
     "reviewed": "2026-10-08"
   },
   {
@@ -271,5 +271,135 @@
     "question": "Which deliverables and support terms are covered by the study price?",
     "note": "My Cost Segregation describes several study tiers with different review and support terms. Identify the property value and complexity before comparing its published product options. Ask which tier handles exceptions, who signs the report, and what conditions govern support. AE should quote study work separately from broader advice. A lower-priced self-service option and a professionally reviewed project are different purchases; the right comparison includes the client's input work, the preparer's acceptance, and the extra help needed after the initial delivery.",
     "reviewed": "2026-10-08"
+  },
+  {
+    "slug": "source-advisors",
+    "name": "Source Advisors",
+    "source": "https://sourceadvisors.com/cost-segregation/",
+    "category": "costseg",
+    "summary": "Publishes cost segregation services alongside other specialty tax offerings.",
+    "fit": "Commercial owners comparing property analysis and additional incentive work",
+    "scenario": "You own several commercial buildings and need to decide whether depreciation analysis and other incentive studies belong in one coordinated engagement.",
+    "decision": "Separate each project\u2019s scope, evidence, fee and report before comparing a combined proposal.",
+    "question": "Which team owns the fixed-asset handoff across the different specialty projects?",
+    "note": "Bedford joined Source Advisors; compare current engagement teams rather than assuming the brands are unrelated.",
+    "reviewed": "2026-10-13"
+  },
+  {
+    "slug": "bedford-cost-segregation",
+    "name": "Bedford Cost Segregation",
+    "source": "https://sourceadvisors.com/news/source-advisors-grows-cost-segregation-and-energy-solution-divisions-with-recent-merger/",
+    "category": "costseg",
+    "summary": "Source Advisors announced its combination with Bedford in May 2021.",
+    "fit": "Owners researching a legacy Bedford referral or proposal",
+    "scenario": "Your CPA referred you to Bedford, but the current engagement may be offered through Source Advisors.",
+    "decision": "Confirm the current contracting entity, team and support responsibility before comparing an older brochure.",
+    "question": "Who contracts for, signs and supports a current Bedford-related study?",
+    "note": "This is a legacy-brand research path. Bedford and Source Advisors are not presented as two independent alternatives.",
+    "reviewed": "2026-10-13"
+  },
+  {
+    "slug": "seneca-cost-segregation",
+    "name": "Seneca Cost Segregation",
+    "source": "https://www.senecacostseg.com/about-us",
+    "category": "costseg",
+    "summary": "Describes cost segregation studies with virtual or on-site property tours.",
+    "fit": "Owners evaluating inspection options with a dedicated cost segregation provider",
+    "scenario": "Your property is geographically remote, but some improvements are difficult to document over a video call.",
+    "decision": "Ask which inspection approach fits the building and how inaccessible or undocumented areas are handled.",
+    "question": "What changes in the work plan when a virtual tour is insufficient?",
+    "note": "Review the written support and refund conditions; marketing language is not the full engagement agreement.",
+    "reviewed": "2026-10-13"
+  },
+  {
+    "slug": "rentalwriteoff",
+    "name": "RentalWriteOff",
+    "source": "https://www.rentalwriteoff.com/aboutus",
+    "category": "software",
+    "summary": "Describes rental-property studies with asset CSVs, methodology files and photo documentation.",
+    "fit": "Rental owners comparing final report formats and digital records",
+    "scenario": "Your CPA needs an itemized asset file and photographs that reconcile to the final report.",
+    "decision": "Compare the delivered files and correction process using your preparer\u2019s actual import requirements.",
+    "question": "Can my preparer reconcile the CSV, photographs and final report without re-entering every asset?",
+    "note": "Ask to see a sample deliverable and confirm eligibility for the actual property.",
+    "reviewed": "2026-10-13"
+  },
+  {
+    "slug": "remote-cost-seg",
+    "name": "Remote Cost Seg",
+    "source": "https://remotecostseg.com/",
+    "category": "costseg",
+    "summary": "Publishes a remote cost segregation service workflow.",
+    "fit": "Owners considering a study without a conventional travel-based intake",
+    "scenario": "You manage rentals in multiple states and need to compare remote evidence collection with site access arrangements.",
+    "decision": "Clarify the owner\u2019s responsibilities for images, measurements and access before accepting a delivery target.",
+    "question": "Who supplies missing physical evidence, and how does that affect timing?",
+    "note": "Confirm current inspection requirements directly; remote delivery does not establish the review scope.",
+    "reviewed": "2026-10-13"
+  },
+  {
+    "slug": "unlevered",
+    "name": "Unlevered",
+    "source": "https://unlevered.io/cost-segregation-companies",
+    "category": "software",
+    "summary": "Describes rental-home and STR studies and makes a sample study available.",
+    "fit": "Owners who want to examine a report before selecting a rental study",
+    "scenario": "You have two provider proposals but want your CPA to review a sample report before committing.",
+    "decision": "Compare reconciliation, cost detail, reviewer identification and supporting files in actual samples.",
+    "question": "How closely will my report follow the sample and what changes for unusual property facts?",
+    "note": "A sample report illustrates format; it does not establish the eventual result for your building.",
+    "reviewed": "2026-10-13"
+  },
+  {
+    "slug": "bdo",
+    "name": "BDO USA",
+    "source": "https://www.bdo.com/cost-segregation-calculator",
+    "category": "costseg",
+    "summary": "Publishes a cost segregation calculator and describes an engineering, construction and CPA team.",
+    "fit": "Owners considering a commercial project within a broader accounting relationship",
+    "scenario": "Your company already uses an accounting firm and needs a property study to fit its fixed-asset and tax-reporting process.",
+    "decision": "Distinguish an illustrative calculator result from the contracted study and implementation deliverables.",
+    "question": "Which professionals perform the final property analysis after the preliminary estimate?",
+    "note": "A calculator is a feasibility tool, not the final study or a quote.",
+    "reviewed": "2026-10-13"
+  },
+  {
+    "slug": "cherry-bekaert",
+    "name": "Cherry Bekaert",
+    "source": "https://www.cbh.com/services/tax/tax-credits-incentives-advisory/cost-segregation-services/",
+    "category": "costseg",
+    "summary": "Describes combined engineering and tax services, including property inspection and report delivery.",
+    "fit": "Commercial and residential owners comparing engineering and tax coordination",
+    "scenario": "Your acquisition and renovation overlap, so the study and tax team need an agreed cost boundary before work starts.",
+    "decision": "Ask how acquisition costs, subsequent work and any prior-year implementation are separately documented.",
+    "question": "Does the proposal identify inspection, study review and accounting-method responsibilities separately?",
+    "note": "Confirm whether accounting-method preparation and filing are included in your actual engagement.",
+    "reviewed": "2026-10-13"
+  },
+  {
+    "slug": "baker-tilly",
+    "name": "Baker Tilly",
+    "source": "https://www.bakertilly.com/services/cost-segregation",
+    "category": "costseg",
+    "summary": "Describes cost segregation alongside fixed-asset, repair and related incentive services.",
+    "fit": "Owners whose property analysis intersects with repairs, disposals or other incentives",
+    "scenario": "Your business has a renovation ledger, removed equipment and an existing fixed-asset register that need coordinated review.",
+    "decision": "Compare the study boundary with repair, disposal and fixed-asset projects before combining fees.",
+    "question": "Which analyses are separate deliverables, and how are overlapping costs reconciled?",
+    "note": "Confirm the current assigned team and relevant property experience rather than relying on the broad service menu.",
+    "reviewed": "2026-10-13"
+  },
+  {
+    "slug": "cliftonlarsonallen",
+    "name": "CLA (CliftonLarsonAllen)",
+    "source": "https://www.claconnect.com/en/services/tax/cost-segregation-studies",
+    "category": "costseg",
+    "summary": "Describes cost segregation with tax and engineering perspectives across multiple building types.",
+    "fit": "Owners comparing property studies within a broader tax and accounting engagement",
+    "scenario": "You operate a specialized building and need the study team to distinguish ordinary building systems from business equipment.",
+    "decision": "Request experience with the relevant building use and a clear map of technical and filing responsibilities.",
+    "question": "How will the team document business-specific functions and shared systems?",
+    "note": "Request a property-specific scope; a published industry list does not confirm staffing for your engagement.",
+    "reviewed": "2026-10-13"
   }
 ]

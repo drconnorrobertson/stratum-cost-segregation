@@ -1,0 +1,65 @@
+{
+  "re-cost-seg": {
+    "price": "Rapid Report from $950; Fully Engineered from $2,320 residential and $2,730 commercial.",
+    "priceSource": "https://www.recostseg.com/services",
+    "priceDate": "2026-10-13",
+    "priceQuestion": "Which study product fits the property, and does the written fee include the chosen inspection method?",
+    "reviewQuestion": "Look for the actual study product in feedback: a Rapid Report experience should not be assumed to describe the Fully Engineered workflow.",
+    "priceLabel": "Rapid from $950; engineered from $2,320 residential / $2,730 commercial.",
+    "model": "Rapid uses an owner questionnaire; Fully Engineered adds virtual or in-person inspection."
+  },
+  "cost-seg-smart": {
+    "price": "Residential starts at $495; standard commercial starts at $995. Property-type and purchase-price bands change the fee.",
+    "priceSource": "https://costsegsmart.com/pricing/",
+    "priceDate": "2026-10-13",
+    "priceQuestion": "Which property matrix and price band apply, and which add-ons or custom scoping are required?",
+    "reviewQuestion": "Check the property tier and whether feedback discusses the actual technical review, CPA handoff or only ordering speed.",
+    "priceLabel": "Residential from $495; standard commercial from $995.",
+    "model": "Property-type and price matrices; publishes CPA coordination, revisions and written support."
+  },
+  "rentalwriteoff": {
+    "price": "$899 per property for the published residential offer covering up to four units.",
+    "priceSource": "https://www.rentalwriteoff.com/pricing",
+    "priceDate": "2026-10-13",
+    "priceQuestion": "Does the property fit the residential offer, and what exactly is included for any eligible look-back work?",
+    "reviewQuestion": "Separate a CPA testimonial about report format from a client's account of a completed study and implementation.",
+    "priceLabel": "$899 for the published residential offer, up to four units.",
+    "model": "Remote residential offer with expert review and asset documentation."
+  },
+  "my-cost-segregation": {
+    "price": "Residential Self-Serve from $497 and Expert Reviewed from $2,500; commercial from $1,497 and $3,500 respectively.",
+    "priceSource": "https://mycostsegregation.com/pricing/",
+    "priceDate": "2026-10-13",
+    "priceQuestion": "Which property-value band and review path apply, and are site visits or catch-up work extra?",
+    "reviewQuestion": "Identify whether the feedback concerns Self-Serve or a reviewed engagement; compare the applicable correction window and deliverables.",
+    "priceLabel": "Residential from $497 / $2,500; commercial from $1,497 / $3,500.",
+    "model": "Separate self-serve and reviewed paths; the required tier depends on property value."
+  },
+  "costsegez": {
+    "price": "DIY $595; Engineer Reviewed $895; Fully Engineered from $2,500. Eligibility and support differ by tier.",
+    "priceSource": "https://costsegez.com/",
+    "priceDate": "2026-10-13",
+    "priceQuestion": "Which tier fits the acquisition and renovation facts, and is the advertised audit protection included or an add-on?",
+    "reviewQuestion": "Distinguish the DIY, Engineer Reviewed and Fully Engineered product, and check whether a testimonial references the related MVO brand.",
+    "priceLabel": "DIY $595; reviewed $895; fully engineered from $2,500.",
+    "model": "DIY, Engineer Reviewed and Fully Engineered tiers; eligibility and support differ."
+  },
+  "cost-seg-atlas": {
+    "price": "$395 for the published AI analysis; the pricing page labels professional review as paused.",
+    "priceSource": "https://costseg.2911tech.com/pricing",
+    "priceDate": "2026-10-13",
+    "priceQuestion": "Who will complete the technical review and sign-off needed for your intended use while the optional review offering is paused?",
+    "reviewQuestion": "Confirm whether feedback concerns an educational analysis or a professionally reviewed final work product.",
+    "priceLabel": "$395 educational analysis; professional review listed as paused.",
+    "model": "Educational analyses rather than signed studies; professional review listed as paused."
+  },
+  "costseg-express": {
+    "price": "$99 per property for the published technology-assisted planning-study offer.",
+    "priceSource": "https://www.costseg.express/",
+    "priceDate": "2026-10-13",
+    "priceQuestion": "What must be updated or professionally reviewed before the planning output supports your actual tax filing?",
+    "reviewQuestion": "Identify whether a testimonial concerns a pre-closing planning estimate or an implemented post-closing study.",
+    "priceLabel": "$99 per property for the published planning-study offer.",
+    "model": "Technology-assisted planning output; final facts and professional review require clarification."
+  }
+}

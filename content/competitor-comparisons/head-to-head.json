@@ -1,0 +1,184 @@
+[
+  {
+    "a": "re-cost-seg",
+    "b": "cost-seg-smart",
+    "focus": "Study products and property-price bands",
+    "intro": "An owner comparing these two providers should identify the exact product before comparing entry prices. A questionnaire-based rental report, a measured engineering engagement and a property-tier service can involve different owner responsibilities.",
+    "scenario": "You own a furnished vacation rental with a later addition and have been quoted two different study fees. Before choosing, separate acquisition costs, the addition and independently purchased furniture. Ask both teams whether those facts change product eligibility or the required review.",
+    "questions": [
+      "Which exact product is quoted for these facts?",
+      "Who measures and verifies the addition and furnishings?",
+      "How will your CPA receive the component schedule and any later corrections?"
+    ],
+    "property": "small-property"
+  },
+  {
+    "a": "re-cost-seg",
+    "b": "rentalwriteoff",
+    "focus": "Small residential study eligibility",
+    "intro": "For a small rental, a lower advertised price is useful only after both offers cover the same property and deliverables. Match the unit count, acquisition records and renovation history before comparing fees.",
+    "scenario": "You own a duplex and your preparer wants an itemized asset file. One proposal may fit a standard residential product while another requires a more detailed study. Send both providers the same existing schedule and ask which final files are included.",
+    "questions": [
+      "Do both offers cover this unit count and improvement history?",
+      "Can the preparer review a sample asset file before purchase?",
+      "Who resolves a mismatch between the old schedule and new report?"
+    ],
+    "property": "small-property"
+  },
+  {
+    "a": "cost-seg-smart",
+    "b": "rentalwriteoff",
+    "focus": "Flat residential offers and property-tier pricing",
+    "intro": "Compare the actual property fee with the scope behind it. A published residential flat-fee offer and a matrix that changes with property type and price can produce different totals for the same buyer.",
+    "scenario": "You are evaluating a single-family STR and a separate fourplex. Request a quote for each property rather than applying the lowest single-home headline to both. Ask how furnishings and common-area assets will appear in the report.",
+    "questions": [
+      "What is the final price for each property separately?",
+      "Which costs are included and which require another analysis?",
+      "Will the CPA receive both an asset file and supporting methodology?"
+    ],
+    "property": "small-property"
+  },
+  {
+    "a": "re-cost-seg",
+    "b": "costsegez",
+    "focus": "Comparing streamlined and fully engineered tiers",
+    "intro": "These providers publish more than one study path. Compare the review and inspection level appropriate to the property before comparing the cheapest product on each site.",
+    "scenario": "A rental purchase includes substantial renovations and incomplete invoices. You need a written decision on whether the standard product fits, what additional evidence must be gathered and which professional reviews reconstructed costs.",
+    "questions": [
+      "Do renovation amounts change the eligible tier?",
+      "What physical inspection is included in this proposal?",
+      "Does support include written technical answers, and what is excluded?"
+    ],
+    "property": "small-property"
+  },
+  {
+    "a": "my-cost-segregation",
+    "b": "cost-seg-smart",
+    "focus": "Review paths, price bands and corrections",
+    "intro": "Identify the chosen review path, property tier and correction terms. An online ordering process does not establish who reviews the property evidence or whether every revision is included.",
+    "scenario": "You expect new improvement invoices after the initial report is delivered. Compare when each provider considers intake complete, how the report is revised and whether the later information changes the quoted scope.",
+    "questions": [
+      "Which review path is mandatory for this property?",
+      "How long can new evidence be submitted for a correction?",
+      "Which revision and implementation charges are outside the base fee?"
+    ],
+    "property": "commercial"
+  },
+  {
+    "a": "cssi",
+    "b": "madison-specs",
+    "focus": "Feasibility, inspection and CPA handoff",
+    "intro": "For a property-study specialist, the central comparison is the agreed work plan: feasibility, physical verification, final report and support to the tax preparer. Request those commitments using identical property facts.",
+    "scenario": "You acquired an apartment building with several renovation vintages. Before engagement, ask each team how it will verify unit differences and common areas and reconcile the result to acquisition and improvement costs.",
+    "questions": [
+      "How are representative units selected and exceptions documented?",
+      "Which reconciliation and asset schedules reach the CPA?",
+      "Who handles an accounting-method or historical schedule question?"
+    ],
+    "property": "multifamily"
+  },
+  {
+    "a": "kbkg",
+    "b": "madison-specs",
+    "focus": "Specialty-tax scope and a dedicated property study",
+    "intro": "Separate the building study from any other specialty-tax work. Evaluate the scope your property needs rather than assuming a wider firm service menu is automatically part of the quote.",
+    "scenario": "Your company needs a commercial acquisition study and has separate questions about later improvements. Ask which work is part of cost segregation, which requires another engagement and who coordinates the final fixed-asset treatment.",
+    "questions": [
+      "What analyses are included in this proposal?",
+      "Who reviews the component evidence and cost allocations?",
+      "Which team coordinates the final handoff to the filing professional?"
+    ],
+    "property": "commercial"
+  },
+  {
+    "a": "engineered-tax-services",
+    "b": "capstan-tax-strategies",
+    "focus": "Cost segregation alongside other property incentives",
+    "intro": "When a project may involve depreciation and additional incentives, list each analysis separately. Compare responsible teams, evidence requirements and deliverables before treating two broad proposals as equivalent.",
+    "scenario": "You are renovating a commercial building and have both construction costs and energy-related project questions. Ask each firm for a scope map showing which records support each analysis and how overlapping costs are reconciled.",
+    "questions": [
+      "Which incentive analyses are separately contracted?",
+      "Who prevents duplicate use of the same project costs?",
+      "What report and filing support is delivered for each service?"
+    ],
+    "property": "commercial"
+  },
+  {
+    "a": "source-advisors",
+    "b": "kbkg",
+    "focus": "Coordinating multiple specialty projects",
+    "intro": "For a business comparing specialty-tax firms, the useful unit of comparison is the project team and contracted deliverable. Match the building scope and any adjacent services before comparing total fees.",
+    "scenario": "Your business has several locations, an acquisition ledger and separate repair projects. Request a property-by-property responsibility map instead of a single undifferentiated estimate for all services.",
+    "questions": [
+      "Does every property have an agreed basis and study boundary?",
+      "Which professional coordinates the specialty reports?",
+      "Can the final asset schedule be reconciled to the company register?"
+    ],
+    "property": "commercial"
+  },
+  {
+    "a": "seneca-cost-segregation",
+    "b": "remote-cost-seg",
+    "focus": "Virtual evidence collection and support terms",
+    "intro": "A remote process should be judged by the evidence collected, the reviewer assigned and the support commitment. Compare the owner's access responsibilities before relying on a quick delivery expectation.",
+    "scenario": "You live outside the state where your rental is located. A manager can provide access but does not have renovation records. Ask how the team will combine site observations with invoices and who resolves the remaining gaps.",
+    "questions": [
+      "Who conducts and documents the property walkthrough?",
+      "What happens when the manager cannot identify an asset?",
+      "What precisely do guarantee and examination-support terms cover?"
+    ],
+    "property": "small-property"
+  },
+  {
+    "a": "bdo",
+    "b": "cliftonlarsonallen",
+    "focus": "Cost segregation inside an accounting relationship",
+    "intro": "For owners considering a broader accounting firm, confirm the property-study team and implementation responsibilities separately. Existing familiarity with your company does not replace a building-specific scope.",
+    "scenario": "Your accounting team maintains the fixed-asset register across several entities. Ask each proposal to identify the tax owner, property reviewer, schedule format and process for updating the company's register after report delivery.",
+    "questions": [
+      "Which engineering and tax professionals are assigned?",
+      "How are entity and property schedules kept distinct?",
+      "Who approves and records the final depreciation changes?"
+    ],
+    "property": "commercial"
+  },
+  {
+    "a": "baker-tilly",
+    "b": "cherry-bekaert",
+    "focus": "Acquisition studies, renovation costs and implementation",
+    "intro": "A commercial property project can include acquisition analysis, later construction and old asset records. Compare how each proposed team separates those workstreams and delivers the implementation handoff.",
+    "scenario": "Your company acquired a building and replaced several systems before the next filing deadline. Ask both firms to distinguish acquisition, improvement and removed-component records, and confirm which professional evaluates filing procedures.",
+    "questions": [
+      "Which cost periods and assets are inside the study?",
+      "How are removed and new components tracked separately?",
+      "Which accounting-method and filing tasks are included?"
+    ],
+    "property": "commercial"
+  },
+  {
+    "a": "cost-seg-atlas",
+    "b": "cost-seg-smart",
+    "focus": "Educational analysis and the final reviewed deliverable",
+    "intro": "Before comparing prices, identify the work product being purchased. An educational analysis and a contracted property-study service can leave different review responsibilities with the owner and preparer.",
+    "scenario": "You want a preliminary analysis before closing but also need a final report after acquisition. Ask each proposal to identify which facts will be provisional, what gets updated and who is responsible for technical completion and review.",
+    "questions": [
+      "Is the output a preliminary analysis or the final contracted study?",
+      "Which review and sign-off steps remain with another professional?",
+      "What is the total cost from initial analysis through the final preparer handoff?"
+    ],
+    "property": "small-property"
+  },
+  {
+    "a": "costseg-express",
+    "b": "re-cost-seg",
+    "focus": "Pre-closing planning versus the contracted study product",
+    "intro": "A planning output can help frame an acquisition decision, while a contracted study needs an agreed evidence and review scope. Identify the intended use before comparing an instant planning price with a professional study quote.",
+    "scenario": "You have signed a purchase contract but the final closing costs and renovation scope are not settled. Ask what the preliminary output assumes and which records must be reconciled after closing before your preparer can use it.",
+    "questions": [
+      "Which acquisition and cost facts are still estimated?",
+      "Who updates the output after closing and documents the changes?",
+      "Which professional reviews the final component analysis and answers the preparer?"
+    ],
+    "property": "small-property"
+  }
+]

@@ -9,3 +9,25 @@ Stratum GSC September 12–October 9 showed very limited query-level clicks. Lar
 Connection: Stratum prepares the study; AE hosts discovery and broader strategy discussion; the filing professional confirms implementation. All new CTAs use Stratum's existing cost-seg-discovery page, which embeds the same calendar ID used on AE. Only allowlisted UTM fields are passed to the calendar and fallback link. No private tax data is collected by this change.
 
 Verification: run node topical-depth-build.cjs, node scripts/validate-comparisons.cjs, and node scripts/brand-check.mjs public. Tests cover unique titles, canonical URLs, all new internal links, sitemap membership, source disclosures, AE role copy, UTM tags, calendar identity and retained-page entry links.
+
+## October 13 alternatives expansion
+
+Coverage now includes 31 provider/legacy-brand entries: 31 direct comparisons and 31 multi-provider alternatives guides, plus a searchable alternatives directory. Ten new research entries add Source Advisors, legacy Bedford, Seneca, RentalWriteOff, Remote Cost Seg, Unlevered, BDO, Cherry Bekaert, Baker Tilly and CLA. This adds 42 canonical pages to the merged property-segments release. Bedford is disclosed as related to Source Advisors; it is not treated as an independent alternative in shortlists.
+
+The two page families have distinct intent: direct comparisons evaluate one provider against Stratum; alternatives guides explain the provider-specific decision and introduce four other researched candidates. Bidirectional links connect the families. Candidate selection is an editorial service-model shortlist, not a ranking, market-share estimate, report-quality judgment or confirmation of property eligibility. Sources retain their actual research dates; new research and refreshed RE/Cost Seg Smart/KBKG notes are dated October 13. Do not automatically advance research dates on future rebuilds.
+
+A downloadable CSV maps every provider to both destinations and the official source. All alternatives pages are linked from the new directory, and the main comparison hub links to it. The release retains existing routes and commercial/STR/small-property buyer guides.
+
+Primary research includes provider services/about pages listed in providers.json. Bedford's source is the Source Advisors merger announcement; BDO's source is its own calculator/team description. No third-party provider rankings, unverified fee estimates, client outcomes or claims about IRS endorsement are introduced.
+
+Validation: node topical-depth-build.cjs; node scripts/validate-alternatives.cjs; node scripts/validate-comparisons.cjs; node scripts/validate-property-segments.cjs; node scripts/brand-check.mjs public. Browser verification covers directory rendering and filtering to Seneca. Output has 1,273 unique sitemap canonicals. Further expansion should add source-backed differences and distinct buyer decisions; do not generate arbitrary pairwise permutations.
+
+### Deeper branded research in the same release
+
+The final expansion adds 58 canonical pages beyond PR #9, not 42: ten direct comparisons, 31 alternatives guides, an alternatives hub, 14 selected competitor-versus-competitor guides, and two pricing/review research guides. With the retained property-segment comparison pages, /compare/ now contains 85 pages.
+
+All 31 provider-versus-Stratum pages include addressable pricing and review-evaluation sections. Seven primary pricing offers were checked: RE Cost Seg, Cost Seg Smart, RentalWriteOff, My Cost Segregation, Cost Seg EZ, Cost Seg Atlas and CostSeg Express. Unverified numeric fees are explicitly treated as research gaps, not claims that a firm lacks public prices. Review sections do not invent customer experiences, star ratings or report-quality scores.
+
+The 14 pair comparisons are selected for different buyer decisions, not generated as all possible name permutations. Each has an original scenario, three concrete proposal questions, source links and reciprocal entry links from both brands' existing pages. They cover standard rental products, property tiers, professional review, remote evidence, accounting relationships, specialty projects and planning-versus-final deliverables.
+
+Run node scripts/validate-comparison-library.cjs in addition to prior validators. It checks every comparison URL and internal fragment, distinct titles, source-backed pricing sections, review disclosures, reciprocal links and absence of fabricated review schema. Current search volume and brand-query rankings remain unverified; this is an editorial coverage expansion rather than a measured ranking claim.
