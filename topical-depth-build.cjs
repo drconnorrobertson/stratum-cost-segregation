@@ -52,4 +52,6 @@ require('./scripts/social-preview.cjs');
 
 cp.execFileSync(process.execPath,['scripts/search-intent.mjs','--write','--public'],{cwd:root,stdio:'inherit'});
 
+require('./scripts/clean-internal-campaigns.cjs').apply(out);
+
 if(process.env.VERCEL==='1')cp.execFileSync(process.execPath,['scripts/verify-published-search.cjs'],{cwd:root,stdio:'inherit'});
