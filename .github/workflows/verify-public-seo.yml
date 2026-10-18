@@ -1,0 +1,49 @@
+name: Verify public Stratum SEO from remote runner
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: stratum-public-seo
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check public pages, booking links, robots and sitemap
+        shell: python
+        run: |
+          import urllib.request, json, re, time, os
+          base = 'https://www.stratumcostsegregation.com'
+          checks = [('/', 'Cost Segregation Built Around Your Property'), ('/cost-seg-discovery/', 'Book Your Cost Seg Discovery Call'), ('/robots.txt', 'Sitemap:'), ('/sitemap.xml', '<loc>'), ('/blog/cost-segregation-retail-properties/', 'Discuss My Retail Property')]
+          report = []
+          for route, marker in checks:
+              result = {'url': base + route, 'passed': False}
+              for attempt in range(5):
+                  try:
+                      response = urllib.request.urlopen(urllib.request.Request(base + route, headers={'User-Agent': 'Stratum-public-SEO-check/1.0'}), timeout=20)
+                      body = response.read().decode('utf-8')
+                      result = {'url': base + route, 'status': response.status, 'final_url': response.url, 'bytes': len(body.encode()), 'passed': response.status == 200 and marker in body}
+                      if route == '/':
+                          links = re.findall(r'href="([^"]+)"', body)
+                          bad = [u for u in links if (u.startswith('/') or u.startswith(base)) and 'utm_' in u]
+                          result['clean_internal_campaign_links'] = not bad
+                          result['booking_link_present'] = '/cost-seg-discovery/' in links
+                          result['passed'] &= not bad and result['booking_link_present']
+                          result['canonical_matches'] = 'rel="canonical" href="' + base + '/"' in body
+                          result['passed'] &= result['canonical_matches']
+                      if result['passed']:
+                          break
+                  except Exception as error:
+                      result = {'url': base + route, 'passed': False, 'error': str(error)}
+                  if attempt < 4:
+                      time.sleep(10)
+              report.append(result)
+              print(json.dumps(result), flush=True)
+          passed = all(row['passed'] for row in report)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'w') as summary:
+              summary.write('# Remote public Stratum verification\n\n' + ('PASS' if passed else 'FAIL') + '\n\n```json\n' + json.dumps(report, indent=2) + '\n```\n')
+          if not passed:
+              raise SystemExit(1)
