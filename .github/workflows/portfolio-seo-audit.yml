@@ -40,6 +40,10 @@ jobs:
               r['og_image']='og:image' in b;r['viewport']='name="viewport"' in b or "name='viewport'" in b
               body=re.sub(r'<(script|style)\b[^>]*>.*?</\1>',' ',b,flags=re.S|re.I);r['visible_words']=len(re.sub('<[^>]+>',' ',body).split())
               links=[html.unescape(u) for u in re.findall(r'href=["\']([^"\']+)',b)]
+              from urllib.parse import urlsplit
+              r['outbound_domains']=sorted(set(urlsplit(u).netloc.lower() for u in links if u.startswith(('https://','http://'))))
+              r['identity_domains']=sorted(set(re.findall(r'https?://([^/\s"]+)', ' '.join(blocks))))
+              r['connor_mentions']=len(re.findall(r'connor.{0,15}robertson', body, re.I))
               r['internal_utm_links']=sum(u.startswith('/') and 'utm_' in u for u in links)
               candidates=[u for u in links if u.startswith('/') and not u.startswith('//') and any(s in u for s in ['/services/','/blog/','/news/','/library/','/guides/','/firms/','/owners/']) and not any(c in u for c in ['?','#','.css','.js'])]
               r['_sample']=candidates[0] if candidates else None
