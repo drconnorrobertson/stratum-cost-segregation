@@ -1,0 +1,27 @@
+name: Notify IndexNow of Stratum SEO updates
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/notify-indexnow.yml']
+  workflow_dispatch:
+permissions: {}
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Verify public ownership key and notify changed pages
+        shell: python
+        run: |
+          import urllib.request, json
+          host='www.stratumcostsegregation.com'
+          key='69c31f304cca19db01f82e3f51f4091e'
+          key_url='https://'+host+'/'+key+'.txt'
+          r=urllib.request.urlopen(key_url,timeout=30)
+          assert r.status==200 and r.read().decode().strip()==key
+          urls=['https://'+host+p for p in ['/', '/cost-seg-discovery/', '/blog/cost-segregation-retail-properties/']]
+          payload={'host':host,'key':key,'keyLocation':key_url,'urlList':urls}
+          req=urllib.request.Request('https://api.indexnow.org/indexnow',data=json.dumps(payload).encode(),headers={'Content-Type':'application/json; charset=utf-8'},method='POST')
+          result=urllib.request.urlopen(req,timeout=30)
+          print('INDEXNOW_RESULT '+json.dumps({'host':host,'status':result.status,'urls':urls,'accepted':result.status in [200,202]}))
+          assert result.status in [200,202]
