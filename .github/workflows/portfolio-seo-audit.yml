@@ -1,0 +1,68 @@
+name: Audit public Vercel portfolio from remote runner
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/portfolio-seo-audit.yml']
+  workflow_dispatch:
+permissions: {}
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check public portfolio assets
+        shell: python
+        run: |
+          targets = [{'name': 'stratum-cost-segregation', 'domains': ['www.stratumcostsegregation.com', 'stratumcostseg.com', 'www.stratumcostseg.com', 'stratumcostsegregation.com']}, {'name': 'pittsburghwire', 'domains': ['www.thepittsburghwire.com', 'thepittsburghwire.com']}, {'name': 'grant-finder', 'domains': ['www.thegrantfinder.org', 'thegrantfinder.org']}, {'name': 'business-owner-index', 'domains': ['businessownerindex.com', 'www.businessownerindex.com']}, {'name': 'craft-collective-sample', 'domains': ['www.craftcollectivesalongroup.com', 'craftcollectivesalongroup.com']}, {'name': 'cost-seg-book', 'domains': ['costsegbook.com', 'www.costsegbook.com']}, {'name': 'ae-tax-advisors-static', 'domains': ['www.aetaxadvisors.com', 'aetaxadvisors.com']}, {'name': 'tax-strategist-directory', 'domains': ['taxstrategistdirectory.com', 'www.taxstrategistdirectory.com']}, {'name': 'bnb-accelerator-site', 'domains': ['www.bnbaccelerator.com', 'bnbaccelerator.com']}, {'name': 'ae-entity-economics', 'domains': ['entityeconomics.com', 'www.entityeconomics.com']}, {'name': 'ae-owner-occupied', 'domains': ['owneroccupiedjournal.com', 'www.owneroccupiedjournal.com']}, {'name': 'mybnbdesign', 'domains': ['www.mybnbdesign.com', 'mybnbdesign.com']}, {'name': 'ae-the-exit-ledger', 'domains': ['theexitledger.com', 'www.theexitledger.com']}, {'name': 'ae-owner-pay-review', 'domains': ['ownerpayreview.co', 'www.ownerpayreview.co']}, {'name': 'ae-profit-planning-journal', 'domains': ['profitplanningjournal.com', 'www.profitplanningjournal.com']}, {'name': '7-minute-phone-call-book', 'domains': ['www.7minutephonecallbook.com', '7minutephonecallbook.com']}, {'name': 'partnershiptaxbook', 'domains': ['www.partnershiptaxbook.com', 'partnershiptaxbook.com']}, {'name': 'connor-robertson-books', 'domains': ['www.drconnorrobertsonbooks.com', 'drconnorrobertsonbooks.com']}, {'name': 'the-prospecting-show', 'domains': ['theprospectingshow.com', 'www.prospectingshow.com', 'prospectingshow.com']}, {'name': 'ccorptaxbook', 'domains': ['www.ccorptaxbook.com', 'ccorptaxbook.com']}, {'name': 'thescorptaxbook', 'domains': ['www.thescorptaxbook.com', 'thescorptaxbook.com']}, {'name': 'elixir-consulting-group', 'domains': ['www.elixirconsultinggroup.com', 'elixirconsultinggroup.com']}, {'name': 'shorttermrentalforsale-site', 'domains': ['www.shorttermrentalforsale.com', 'shorttermrentalforsale.com']}, {'name': 'therealestatetaxbook', 'domains': ['www.therealestatetaxbook.com', 'therealestatetaxbook.com']}, {'name': 'creative-acquisitions-book', 'domains': ['www.creativeacquisitionsbook.com', 'creativeacquisitionsbook.com']}, {'name': 'ae-tax-reviews', 'domains': ['aetaxadvisorsreviews.com', 'www.aetaxadvisorsreviews.com']}, {'name': 'buy-the-building-book', 'domains': ['www.buythebuildingbook.com', 'buythebuildingbook.com']}, {'name': 'investinshorttermrentals-site', 'domains': ['www.investinshorttermrentals.com', 'investinshorttermrentals.com']}, {'name': 'ae-tax-case-studies', 'domains': ['aetaxadvisorscasestudies.com', 'www.aetaxadvisorscasestudies.com']}, {'name': 'dr-connor-robertson-static', 'domains': ['www.drconnorrobertson.com', 'drconnorrobertson.com']}, {'name': 'buying-wealth-book', 'domains': ['www.buyingwealthbook.com', 'buyingwealthbook.com']}, {'name': 'seymour-maison', 'domains': ['www.seymourmaison.com', 'seymourmaison.com']}, {'name': 'ae-tax-business-owners', 'domains': ['aetaxadvisorsforbusinessowners.com', 'www.aetaxadvisorsforbusinessowners.com']}, {'name': 'padsplit-playbook', 'domains': ['www.padsplitplaybookbook.com', 'padsplitplaybookbook.com']}, {'name': 'connorrobertson-wiki', 'domains': ['www.drconnorobertson.wiki', 'drconnorobertson.wiki']}, {'name': 'christinanortman', 'domains': ['www.christinanortmancpa.com', 'christinanortmancpa.com']}, {'name': 'ae-tax-real-estate', 'domains': ['aetaxadvisorsforrealestate.com', 'www.aetaxadvisorsforrealestate.com']}, {'name': 'derek-piekarski', 'domains': ['derekpiekarski.com', 'www.derekpiekarski.com']}, {'name': 'marksimonsen', 'domains': ['www.marksimonsencpa.com', 'marksimonsencpa.com']}, {'name': 'bnbacceleratorreviews', 'domains': ['www.bnbacceleratorreviews.co', 'bnbacceleratorreviews.co', 'bnbacceleratorreviews.com', 'www.bnbacceleratorreviews.com']}, {'name': 'lumascapes-pgh', 'domains': ['www.lumascapespittsburgh.com', 'lumascapespittsburgh.com']}, {'name': 'tax-free-investors', 'domains': ['taxfreeinvestors.com', 'www.taxfreeinvestors.com']}, {'name': 'marksimonsen-wiki', 'domains': ['www.marksimonsen.wiki', 'wiki.marksimonsencpa.com', 'marksimonsen.wiki']}, {'name': 'christinanortman-wiki', 'domains': ['www.christinanortman.wiki', 'wiki.christinanortmancpa.com', 'christinanortman.wiki']}, {'name': 'short-term-rental-secrets', 'domains': ['shorttermrentalsecrets.io', 'www.shorttermrentalsecrets.io']}, {'name': 'theshorttermrentalblog', 'domains': ['theshorttermrentalblog.com', 'www.theshorttermrentalblog.com']}, {'name': 'short-term-rental-vendors', 'domains': ['shorttermrentalvendors.com', 'www.shorttermrentalvendors.com']}, {'name': 'centurion-tax-strategist', 'domains': ['www.centuriontaxstrategists.com', 'centuriontaxstrategists.com']}, {'name': 'should-i-get-a-cost-segregation-study', 'domains': ['shouldigetacostsegregationstudy.com', 'www.shouldigetacostsegregationstudy.com']}, {'name': 'nickkorom-wiki', 'domains': ['www.nickkorom.wiki', 'nickkorom.wiki']}, {'name': 'loris-lending', 'domains': ['lorislending.ca', 'www.lorislending.ca']}, {'name': 'agencyandentities-site', 'domains': ['agencyandentities.com', 'www.agencyandentities.com']}, {'name': 'built-to-run-book', 'domains': ['www.builttorunbook.com', 'www.builttorunbook.net', 'builttorunbook.com', 'builttorunbook.net']}]
+          import urllib.request, concurrent.futures, json, re, html, os
+
+          def fetch(url):
+              try:
+                  r=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Public-portfolio-SEO-audit/1.0'}),timeout=15)
+                  body=r.read().decode('utf-8',errors='replace')
+                  return {'url':url,'final':r.url,'status':r.status,'body':body,'bytes':len(body.encode())}
+              except Exception as e:return {'url':url,'error':str(e)}
+
+          def inspect(r):
+              if 'body' not in r:return r
+              b=r.pop('body');r['title']=[html.unescape(s.strip()) for s in re.findall(r'<title[^>]*>(.*?)</title>',b,re.S|re.I)]
+              r['h1']=len(re.findall(r'<h1\b',b,re.I));r['description']=[];r['canonical']=[]
+              for tag in re.findall(r'<(?:meta|link)\b[^>]*>',b,re.I):
+                  attrs=dict(re.findall(r'([\w:-]+)\s*=\s*["\']([^"\']*)',tag))
+                  if attrs.get('name')=='description':r['description'].append(attrs.get('content',''))
+                  if attrs.get('rel')=='canonical':r['canonical'].append(attrs.get('href',''))
+                  if attrs.get('name','').lower() in ['robots','googlebot'] and 'noindex' in attrs.get('content','').lower():r['noindex']=True
+              blocks=re.findall(r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',b,re.S|re.I)
+              r['jsonld_blocks']=len(blocks);r['jsonld_errors']=0
+              for block in blocks:
+                  try:json.loads(block)
+                  except:r['jsonld_errors']+=1
+              r['og_image']='og:image' in b;r['viewport']='name="viewport"' in b or "name='viewport'" in b
+              body=re.sub(r'<(script|style)\b[^>]*>.*?</\1>',' ',b,flags=re.S|re.I);r['visible_words']=len(re.sub('<[^>]+>',' ',body).split())
+              links=[html.unescape(u) for u in re.findall(r'href=["\']([^"\']+)',b)]
+              r['internal_utm_links']=sum(u.startswith('/') and 'utm_' in u for u in links)
+              candidates=[u for u in links if u.startswith('/') and not u.startswith('//') and any(s in u for s in ['/services/','/blog/','/news/','/library/','/guides/','/firms/','/owners/']) and not any(c in u for c in ['?','#','.css','.js'])]
+              r['_sample']=candidates[0] if candidates else None
+              return r
+
+          def audit(t):
+              home=inspect(fetch('https://'+t['domains'][0]+'/'));result={'project':t['name'],'home':home,'hosts':[]}
+              from urllib.parse import urlsplit,urljoin
+              origin='https://'+urlsplit(home.get('final',home['url'])).netloc
+              sample=home.pop('_sample',None)
+              if sample:
+                  page=inspect(fetch(urljoin(origin,sample)));page.pop('_sample',None);result['sample_page']=page
+              for route in ['/robots.txt','/sitemap.xml']:
+                  r=fetch(origin+route);b=r.pop('body','');r['loc_entries']=b.count('<loc>');r['sitemap_index']='<sitemapindex' in b;r['blocks_all']=bool(re.search(r'Disallow:\s*/\s*(?:$|\n)',b));result[route.strip('/')]=r
+              for domain in t['domains']:
+                  r=fetch('https://'+domain+'/');r.pop('body',None);result['hosts'].append(r)
+              print('AUDIT_ROW '+json.dumps(result),flush=True)
+              return result
+          with concurrent.futures.ThreadPoolExecutor(max_workers=12) as executor:
+              results=list(executor.map(audit,targets))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'w') as summary:
+              summary.write('# Portfolio public SEO baseline\n\n'+str(len(results))+' custom-domain projects checked.\n\n')
+              summary.write('| Project | Home HTTP | Canonical | H1 | JSON-LD errors |\n|---|---|---|---|---|\n')
+              for r in results:
+                  h=r['home'];summary.write('|'+r['project']+'|'+str(h.get('status',h.get('error')))+'|'+str(h.get('canonical'))+'|'+str(h.get('h1'))+'|'+str(h.get('jsonld_errors'))+'|\n')
+          print('AUDIT_COMPLETE '+str(len(results)),flush=True)
