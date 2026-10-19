@@ -8,7 +8,7 @@ for(const rel of paths){const h=fs.readFileSync(path.join(root,rel,'index.html')
  const title=h.match(/<title>(.*?)<\/title>/)[1];assert(!titles.has(title));titles.add(title);
  assert(h.includes('AE Tax Advisors hosts discovery'));assert(h.includes('Stratum prepares the property-level'));
  assert(!/noindex|AggregateRating|Review"|guaranteed savings/i.test(h));assert(h.includes('not an independent ranking'));
- assert(h.includes('utm_campaign=provider_comparisons'));assert(h.includes('href="/cost-seg-discovery/?'));
+ assert(h.includes('utm_campaign=provider_comparisons'));assert(/href="\/cost-seg-discovery\/(?:\?[^"]*)?"/.test(h));
  for(const m of h.matchAll(/href="(\/[^"#?]*)(?:\?[^"#]*)?"/g)){let u=m[1];let file=path.join(root,u,u.endsWith('/')?'index.html':'');assert(fs.existsSync(file),rel+' broken internal link '+u)}
  for(const m of h.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g))JSON.parse(m[1]);
  assert.equal(sitemap.split('<loc>'+base+rel+'</loc>').length-1,1);

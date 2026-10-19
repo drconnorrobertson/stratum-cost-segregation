@@ -54,4 +54,7 @@ cp.execFileSync(process.execPath,['scripts/search-intent.mjs','--write','--publi
 
 require('./scripts/clean-internal-campaigns.cjs').apply(out);
 
+require('./pricing-conversion.cjs')(out);
+cp.execFileSync(process.execPath,['scripts/validate-study-pricing.cjs'],{cwd:root,stdio:'inherit'});
+
 if(process.env.VERCEL==='1')cp.execFileSync(process.execPath,['scripts/verify-published-search.cjs'],{cwd:root,stdio:'inherit'});
