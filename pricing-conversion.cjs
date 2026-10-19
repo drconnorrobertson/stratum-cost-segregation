@@ -53,7 +53,10 @@ module.exports = function(out) {
    h=h.replace(/<section data-topic-depth>[\s\S]*?<\/section>/g,'');
    h=h.replace(/<h2>Resolve the details behind your property study<\/h2>/,'<h2>Find answers for your property study</h2>').replace(/Explore 500 new practical guides/,'Explore practical guides');
   }
-  if(priority.has(rel)) {
+  if(rel==='cost-seg-discovery/index.html') {
+   h=h.replace('<h2>Schedule a Call</h2>',`<h2>Schedule a Call</h2><p>${statement} <a href="/pricing/">Calculate your study fee</a> before choosing a time.</p>`);
+  }
+  if(priority.has(rel)&&rel!=='cost-seg-discovery/index.html') {
    const block = rel==='pricing/index.html'||rel==='cost-segregation-calculator/index.html'?estimator:`<section class="study-fee-strip"><div><h2>Know the study fee before you book.</h2><p>${statement}</p><p><a href="/pricing/">Calculate your study fee</a> · <a href="/cost-segregation-calculator/">Estimate potential accelerated depreciation</a></p></div><div>${cta}<p>Discuss your property, study scope and next steps with AE Tax Advisors.</p></div></section>`;
    if(rel==='pricing/index.html')h=h.replace(/<p class="guide-summary">[\s\S]*?<\/p>/,match=>match+block);
    else if(rel==='cost-segregation-calculator/index.html')h=h.replace('</section>',match=>match+block);
