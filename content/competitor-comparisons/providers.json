@@ -4,13 +4,18 @@
     "name": "CSSI",
     "source": "https://cssiservices.com/services/",
     "category": "costseg",
-    "summary": "Its public materials describe cost segregation and specialty property-tax services.",
+    "summary": "CSSI describes engineering-based cost segregation alongside R&D tax-credit and Section 179D services.",
     "fit": "Property owners seeking a specialist for the study portion of a tax project",
     "scenario": "You have a candidate property and a CPA, but need to clarify who prepares the study and who implements the tax reporting.",
     "decision": "Ask for the study methodology, required property records, and the precise handoff to your CPA.",
     "question": "What deliverables will my return preparer receive?",
     "note": "",
-    "reviewed": "2026-10-08"
+    "reviewed": "2026-10-19",
+    "segments": [
+      "commercial",
+      "small",
+      "str"
+    ]
   },
   {
     "slug": "capstan-tax-strategies",
@@ -62,7 +67,10 @@
     "decision": "Ask what technical deliverables the quote includes and whether broader planning is separately available.",
     "question": "Where does the specialty engagement end and broader tax planning begin?",
     "note": "KBKG publishes specialist cost segregation services and links to residential software at CostSegregation.com. Compare the actual product and team rather than treating a software subscription and a specialist engagement as interchangeable.",
-    "reviewed": "2026-10-13"
+    "reviewed": "2026-10-19",
+    "segments": [
+      "commercial"
+    ]
   },
   {
     "slug": "madison-specs",
@@ -88,7 +96,12 @@
     "decision": "Identify the exact report product, property eligibility, review professional and included site evidence before comparing fees.",
     "question": "Which records are needed beyond square footage and purchase price?",
     "note": "A Rapid Report and a Fully Engineered engagement are different workflows. Ask which product the quote covers and how acquired furnishings or later renovations are handled.",
-    "reviewed": "2026-10-13"
+    "reviewed": "2026-10-19",
+    "segments": [
+      "commercial",
+      "small",
+      "str"
+    ]
   },
   {
     "slug": "basis-cost-segregation",
@@ -139,7 +152,7 @@
     "scenario": "Your property was acquired in an earlier year and the implementation question may differ from a current acquisition.",
     "decision": "Ask how older-property studies and any accounting-method work are coordinated with the return preparer.",
     "question": "Who is responsible for determining and preparing the reporting method?",
-    "note": "Cost Segregation Guys describes virtual or in-person study options and a report with a fixed-asset schedule for the client\u2019s CPA. Its resource menu also includes Form 3115 information. Ask which reporting tasks are actually contracted, instead of treating a resource link as either proof of inclusion or proof of exclusion. For a property owner retaining a preparer, make report acceptance and correction support explicit. Compare AE on the separately scoped owner analysis and implementation; the engineering project and wider tax engagement need different deliverables.",
+    "note": "Cost Segregation Guys describes virtual or in-person study options and a report with a fixed-asset schedule for the client’s CPA. Its resource menu also includes Form 3115 information. Ask which reporting tasks are actually contracted, instead of treating a resource link as either proof of inclusion or proof of exclusion. For a property owner retaining a preparer, make report acceptance and correction support explicit. Compare AE on the separately scoped owner analysis and implementation; the engineering project and wider tax engagement need different deliverables.",
     "reviewed": "2026-10-08"
   },
   {
@@ -178,7 +191,7 @@
     "scenario": "Your land allocation and existing depreciation records need attention before a study can be implemented.",
     "decision": "Ask which basis inputs you must supply and which analyses are outside the study's stated scope.",
     "question": "Who is responsible for reviewing the land allocation?",
-    "note": "Its FAQ says the provider does not determine the owner\u2019s land allocation or real-estate cost basis. Resolve those inputs with the appropriate professional before comparing projected results.",
+    "note": "Its FAQ says the provider does not determine the owner’s land allocation or real-estate cost basis. Resolve those inputs with the appropriate professional before comparing projected results.",
     "reviewed": "2026-10-13"
   },
   {
@@ -243,8 +256,13 @@
     "scenario": "Your existing property has a long depreciation history that must be reconciled before implementation.",
     "decision": "Confirm property access, the evidence collected, delivery dependencies and the written support terms.",
     "question": "Who validates the old schedules before applying the study results?",
-    "note": "The 30-day period is Maven\u2019s published target after the site visit, not an independently measured delivery result. Compare the date the clock starts and what missing records do to the schedule.",
-    "reviewed": "2026-10-13"
+    "note": "The 30-day period is Maven’s published target after the site visit, not an independently measured delivery result. Compare the date the clock starts and what missing records do to the schedule.",
+    "reviewed": "2026-10-19",
+    "segments": [
+      "commercial",
+      "small",
+      "str"
+    ]
   },
   {
     "slug": "mcguire-sponsel",
@@ -280,7 +298,7 @@
     "summary": "Publishes cost segregation services alongside other specialty tax offerings.",
     "fit": "Commercial owners comparing property analysis and additional incentive work",
     "scenario": "You own several commercial buildings and need to decide whether depreciation analysis and other incentive studies belong in one coordinated engagement.",
-    "decision": "Separate each project\u2019s scope, evidence, fee and report before comparing a combined proposal.",
+    "decision": "Separate each project’s scope, evidence, fee and report before comparing a combined proposal.",
     "question": "Which team owns the fixed-asset handoff across the different specialty projects?",
     "note": "Bedford joined Source Advisors; compare current engagement teams rather than assuming the brands are unrelated.",
     "reviewed": "2026-10-13"
@@ -303,13 +321,18 @@
     "name": "Seneca Cost Segregation",
     "source": "https://www.senecacostseg.com/",
     "category": "costseg",
-    "summary": "Seneca describes engineering-based studies, virtual site visits, a PDF report and a fixed asset schedule for the owner\u2019s CPA.",
-    "fit": "Rental and commercial owners comparing a study, CPA handoff and conditional audit-support terms",
+    "summary": "Seneca describes engineering-based studies, virtual site visits, a PDF report and a fixed asset schedule for the owner’s CPA.",
+    "fit": "Rental and commercial owners comparing engineering scope, CPA handoff and written support terms",
     "scenario": "Your furnished rental needs a supported component analysis and a clear agreement about what happens if a study conclusion is questioned.",
     "decision": "Compare technical review, fixed asset delivery and the exact examination-support obligations before choosing.",
-    "question": "What does AuditDefense cover, and which conditions apply to the study-fee refund?",
-    "note": "Seneca\u2019s advertised refund is conditional, including a greater-than-5% depreciation adjustment caused by Seneca. A refund of study fees is different from coverage of tax, penalties or all representation expenses.",
-    "reviewed": "2026-10-13"
+    "question": "What examination-support work and any refund conditions are included in the signed agreement?",
+    "note": "Ask for the current examination-support agreement and any refund conditions. Report support, a fee refund and representation expenses are different commitments; compare the written terms.",
+    "reviewed": "2026-10-19",
+    "segments": [
+      "commercial",
+      "small",
+      "str"
+    ]
   },
   {
     "slug": "rentalwriteoff",
@@ -319,7 +342,7 @@
     "summary": "Describes rental-property studies with asset CSVs, methodology files and photo documentation.",
     "fit": "Rental owners comparing final report formats and digital records",
     "scenario": "Your CPA needs an itemized asset file and photographs that reconcile to the final report.",
-    "decision": "Compare the delivered files and correction process using your preparer\u2019s actual import requirements.",
+    "decision": "Compare the delivered files and correction process using your preparer’s actual import requirements.",
     "question": "Can my preparer reconcile the CSV, photographs and final report without re-entering every asset?",
     "note": "Ask to see a sample deliverable and confirm eligibility for the actual property.",
     "reviewed": "2026-10-13"
@@ -332,7 +355,7 @@
     "summary": "Publishes a remote cost segregation service workflow.",
     "fit": "Owners considering a study without a conventional travel-based intake",
     "scenario": "You manage rentals in multiple states and need to compare remote evidence collection with site access arrangements.",
-    "decision": "Clarify the owner\u2019s responsibilities for images, measurements and access before accepting a delivery target.",
+    "decision": "Clarify the owner’s responsibilities for images, measurements and access before accepting a delivery target.",
     "question": "Who supplies missing physical evidence, and how does that affect timing?",
     "note": "Confirm current inspection requirements directly; remote delivery does not establish the review scope.",
     "reviewed": "2026-10-13"
@@ -449,7 +472,7 @@
     "scenario": "You expect to sell a commercial property soon and want to compare a study fee with its timing benefit.",
     "decision": "Ask your preparer to evaluate the holding period and owner-specific assumptions behind the estimate.",
     "question": "Which assumptions drive the preliminary net present value estimate?",
-    "note": "Separate the provider\u2019s preliminary property estimate from your adviser\u2019s evaluation of deduction usability and disposition effects.",
+    "note": "Separate the provider’s preliminary property estimate from your adviser’s evaluation of deduction usability and disposition effects.",
     "reviewed": "2026-10-13"
   },
   {
@@ -621,7 +644,7 @@
   },
   {
     "slug": "oconnor",
-    "name": "O\u2019Connor",
+    "name": "O’Connor",
     "source": "https://www.expertcostseg.com/",
     "category": "costseg",
     "segments": [
@@ -747,6 +770,55 @@
     "segments": [
       "commercial",
       "small"
+    ]
+  },
+  {
+    "slug": "elb-consulting",
+    "name": "ELB Consulting",
+    "source": "https://elbcostseg.com/",
+    "category": "costseg",
+    "summary": "ELB describes fully engineered property studies and a separate DIY route for smaller projects.",
+    "fit": "Owners comparing an individually engineered engagement with a smaller-project tool",
+    "scenario": "You are deciding whether a smaller acquisition needs asset-level engineering detail or whether the proposed tool meets your CPA’s requirements.",
+    "decision": "Ask ELB to identify which product is quoted and what asset detail the final report includes.",
+    "question": "Does the proposed product include the component detail and professional review my CPA expects?",
+    "note": "ELB’s homepage distinguishes its fully engineered service from a DIY tool. Compare the actual product rather than treating every ELB offering as the same engagement.",
+    "reviewed": "2026-10-19",
+    "segments": [
+      "commercial",
+      "small"
+    ]
+  },
+  {
+    "slug": "principal-cost-segregation-associates",
+    "name": "Principal Cost Segregation Associates",
+    "source": "https://costsegassociates.com/contact/",
+    "category": "costseg",
+    "summary": "Principal describes a consultation, a consultant property survey and report delivery, with personalized pricing.",
+    "fit": "Owners who want to discuss an on-property survey before commissioning a study",
+    "scenario": "A survey visit is part of the proposed workflow, and you need to clarify access to tenant spaces and the evidence the consultant will collect.",
+    "decision": "Ask who performs the survey, which spaces are covered and who turns the observations into the final classifications.",
+    "question": "What property access and survey documentation are included in my written proposal?",
+    "note": "The contact-page FAQ says the fee depends on property size and complexity. Obtain a written property-specific quote.",
+    "reviewed": "2026-10-19",
+    "segments": [
+      "commercial"
+    ]
+  },
+  {
+    "slug": "cost-segregation-initiatives",
+    "name": "Cost Segregation Initiatives",
+    "source": "https://costseganalysts.com/",
+    "category": "costseg",
+    "summary": "Cost Segregation Initiatives describes commercial property studies and coordination with owners’ existing advisors.",
+    "fit": "Developers and commercial owners comparing study work with pre- and post-development planning needs",
+    "scenario": "The property has acquisition, development and later operating phases, and you want the study scope to distinguish those cost periods.",
+    "decision": "Ask how the engagement separates existing asset basis, new development costs and later improvements.",
+    "question": "Which development phases and cost periods will the study reconcile to my existing schedules?",
+    "note": "The published service description addresses commercial real estate and advisor coordination. Confirm the responsible team and the scope for your building.",
+    "reviewed": "2026-10-19",
+    "segments": [
+      "commercial"
     ]
   }
 ]

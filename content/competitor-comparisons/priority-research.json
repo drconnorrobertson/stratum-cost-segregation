@@ -1,0 +1,97 @@
+{
+  "seneca-cost-segregation": {
+    "reviewed": "2026-10-19",
+    "decision": "Compare the actual inspection, review and fee commitments behind two engineering-based proposals.",
+    "facts": [
+      ["Property evidence", "Seneca’s homepage describes a virtual property visit followed by a PDF report and fixed-asset schedule.", "https://www.senecacostseg.com/"],
+      ["Fee approach", "Its FAQ describes a free proposal and fees based on property size, type and complexity.", "https://www.senecacostseg.com/help/"]
+    ],
+    "direct": [
+      ["Compare the two engineering scopes", "An engineering label is the start of the comparison. Give both teams the same closing statement, improvement history and existing asset schedule. Ask how each will document inaccessible spaces, distinguish acquired furnishings from building components, and explain estimated costs. For a renovated rental, identify the original purchase and later projects separately so neither proposal leaves you guessing which cost periods are included."],
+      ["Turn the proposal into a usable deadline", "Ask both teams for the date intake is considered complete, the inspection appointment, the draft-review window and the final delivery target. Have your CPA identify when the asset file is needed. If one proposal promises a shorter timeline, confirm that it includes the same evidence work and a chance to resolve questions before final delivery. Stratum’s timing and assigned reviewer should be confirmed in its engagement."],
+      ["Put the fee beside the work", "At 1,500 square feet, Stratum’s study fee is $2,000 because the minimum applies. At 3,500 square feet, it is $3,500. Compare the actual Seneca proposal for that same building, including inspection, revisions, report support and any separate filing work. A difference in price is meaningful only after you know which responsibilities each quote covers."]
+    ],
+    "alternatives": [
+      ["If you are comparing Seneca proposals", "First write down the reason you want a second proposal: fee, inspection access, deadline, reviewer availability or report format. That reason determines which alternative is worth contacting. If your property is difficult to access, request an evidence plan. If your CPA needs a particular import format, request a sample asset file. Send the same requirements to each candidate so your comparison produces an answer rather than another marketing estimate."],
+      ["Keep existing work useful", "If Seneca has already completed a study, identify the unresolved question before paying for another one. A correction, analysis of later improvements and an entirely new property study are different projects. Provide the prior report and depreciation schedule to the new team, and ask your CPA which work can be reused. An alternative provider should explain how it will avoid duplicating costs already on the asset schedule."]
+    ],
+    "checks": ["Document how inaccessible rooms and later improvements will be verified.", "Confirm the CPA draft-review window and final asset-file format.", "Compare both signed proposals using the same property square footage."],
+    "alternativesFirst": ["re-cost-seg", "maven-cost-segregation", "cssi", "capstan-tax-strategies"]
+  },
+  "re-cost-seg": {
+    "reviewed": "2026-10-19",
+    "decision": "Choose the study product before comparing the price: Rapid Report and Fully Engineered are different workflows.",
+    "facts": [
+      ["Two study routes", "R.E. describes a Rapid Report without a site visit and a Fully Engineered service with a virtual inspection.", "https://www.recostseg.com/"],
+      ["CPA delivery", "The homepage describes delivery of a final PDF and an Excel fixed-asset schedule.", "https://www.recostseg.com/"]
+    ],
+    "direct": [
+      ["Start with the R.E. product on the quote", "Put the exact product name at the top of the comparison. For a property with extensive renovations, mixed uses or unclear original records, ask both providers how those facts affect evidence collection and review. A lower entry price for a different deliverable does not establish the cost of an equivalent engagement. Compare Stratum against the R.E. proposal your CPA actually intends to use."],
+      ["Plan the property walkthrough", "If a walkthrough is part of your quote, identify who can access the building, whether tenants must be notified and how outbuildings or shared systems will be covered. Ask what happens when a room cannot be entered or an improvement is no longer visible. For Stratum, confirm the evidence collection method in writing rather than assuming that another provider’s inspection process applies."],
+      ["Test the handoff before ordering", "Ask your CPA to review a sample asset schedule and identify the fields needed for tax software. Clarify whether a catch-up calculation, an accounting-method change and the preparation of a filing are separate deliverables. Put the study fee and implementation charges in different rows. Stratum’s published study rate is $1 per square foot, with a $2,000 minimum per property; the agreed scope determines the responsibilities around the report."]
+    ],
+    "alternatives": [
+      ["Replacing a product or changing the service model?", "If your objection is to a questionnaire-based product, shortlist providers willing to scope additional evidence work. If you prefer a remote process, ask alternatives how they document the building without an on-site engineer. If the problem is an impending tax deadline, ask when complete records must arrive. These are different selection criteria, so identify the one that actually matters for your property."],
+      ["Use two separate comparison columns", "Keep one column for the property study and another for filing support. Record the inspection method, technical review, report format, corrections and support terms under the study. Record Form 3115 work, return preparation and state adjustments under implementation. This prevents a low study-only fee from being compared with a broader tax engagement as though they bought the same work."]
+    ],
+    "checks": ["Identify Rapid Report or Fully Engineered on the actual proposal.", "Confirm walkthrough access, excluded spaces and correction terms.", "Ask the CPA to approve the asset-schedule format before purchase."],
+    "alternativesFirst": ["seneca-cost-segregation", "remote-cost-seg", "maven-cost-segregation", "cssi"]
+  },
+  "kbkg": {
+    "reviewed": "2026-10-19",
+    "decision": "Separate KBKG’s specialist engagement from its CostSegregation.com software route before comparing either with Stratum.",
+    "facts": [
+      ["Service and software", "KBKG’s cost segregation page links to professional study services and CostSegregation.com.", "https://www.kbkg.com/costsegregation"],
+      ["Related technical work", "The page also lists repair-versus-capitalization and fixed-asset depreciation review services.", "https://www.kbkg.com/costsegregation"]
+    ],
+    "direct": [
+      ["Compare the service you are actually buying", "Ask whether the proposal is for software access, a specialist property study or a package with additional technical work. A property with a complicated acquisition history may require a different assignment from a straightforward rental purchase. Send your CPA the proposed deliverables before comparing prices. Stratum’s scope should identify its property analysis and explain which advisory or filing work requires a separate agreement."],
+      ["For a commercial building, map the adjacent work", "A building project can raise questions about old assets, replaced systems and multiple improvement periods. Create a list of required analyses and put a responsible professional beside each. Ask both providers which items they will perform and which they will refer to the CPA. That makes it possible to compare a focused cost segregation study with a broader specialty engagement without leaving a necessary task unassigned."],
+      ["Do the fee comparison at the right scale", "Stratum charges $1 per square foot with a $2,000 minimum per property. A 10,000-square-foot property therefore has a $10,000 study fee. Compare that number with KBKG’s written quote for the same work; do not assume Stratum is less expensive at every building size. Include additional projects and implementation fees separately so the comparison reflects the entire decision."]
+    ],
+    "alternatives": [
+      ["Choose a specialist or a software alternative", "If you need a professional to investigate uncertain costs, shortlist engagements that explicitly assign that work. If your records are complete and your CPA is evaluating software, compare the review and correction responsibilities for the selected product. Moving between those categories changes who supplies evidence and who resolves missing facts. Ask each candidate to describe the final work product rather than relying on the brand name."],
+      ["Avoid a gap between specialty projects", "When several property analyses are involved, ask who reconciles their outputs to one asset schedule. Separate reports can use different cost periods or assumptions. Give the CPA a list of deliverables and dependencies, then obtain a written handoff plan. A focused alternative can still be useful, provided the wider project has a named coordinator and all required work is assigned."]
+    ],
+    "checks": ["Identify software access versus a professional study engagement.", "List adjacent technical projects separately from the property study.", "Reconcile all proposed reports to the same property cost periods."],
+    "alternativesFirst": ["engineered-tax-services", "capstan-tax-strategies", "source-advisors", "maven-cost-segregation"]
+  },
+  "maven-cost-segregation": {
+    "reviewed": "2026-10-19",
+    "decision": "Compare inspection access, report accountability and the property-specific fee for two scoped study engagements.",
+    "facts": [
+      ["Published study method", "Maven’s detailed-study page describes an in-house engineering and tax team, physical inspection and CPA coordination.", "https://www.mavencostseg.com/our-services/detailed-engineering-cost-segregation-studies/"],
+      ["Published price ranges", "The page lists general ranges of $2,500–$4,000 for smaller properties and $5,000–$10,000+ for larger or complex properties and portfolios.", "https://www.mavencostseg.com/our-services/detailed-engineering-cost-segregation-studies/"]
+    ],
+    "direct": [
+      ["Write the inspection requirement first", "For a building with inaccessible tenant areas or work completed in stages, ask how each team will close the evidence gaps. Identify the spaces and systems that need documentation, available drawings and the people who can explain past improvements. Request Stratum’s inspection and technical review plan for your building. Compare the proposed work with Maven’s written engagement rather than assuming the two evidence processes are identical."],
+      ["Compare the actual fee, not the advertised range", "Stratum’s fee is $2,000 for a 1,500-square-foot property and $3,500 for a 3,500-square-foot property. Ask Maven which price and scope apply to those same facts. Location, building complexity, missing records and additional projects may affect what is quoted. Keep any separately engaged filing or tax-planning work outside the study-fee row so you can see the difference clearly."],
+      ["Assign responsibility after report delivery", "Have each proposal identify who handles a CPA question, a factual correction and a disputed classification. Ask how changes in records affect revision timing and cost. Review examination-support language with the actual scope in front of you. The useful commitment is the work the provider agrees to perform and the person responsible, rather than a broad label that leaves later questions unanswered."]
+    ],
+    "alternatives": [
+      ["If inspection logistics are the reason to compare", "Write down the practical constraint: occupied units, remote ownership, limited property access or an imminent filing date. Ask each alternative to explain how it will collect adequate evidence under that constraint. The answer may involve different schedules or scopes. Do not assume that changing the inspection method leaves every other part of the engagement unchanged."],
+      ["If the fee is the reason to compare", "Request the same property list and cost periods in every proposal. For a portfolio, compare the total fee and each building’s deliverables, not just an average price. Ask whether repeat floor plans, earlier reports or complete construction records affect the proposed work. Stratum applies its published rate and $2,000 minimum separately to each property; compare that total with the other written offers."]
+    ],
+    "checks": ["Identify the proposed inspection plan and access dependencies.", "Request a property-specific fee against the published general range.", "Name the person handling CPA questions and factual corrections."],
+    "alternativesFirst": ["seneca-cost-segregation", "re-cost-seg", "cssi", "capstan-tax-strategies"]
+  },
+  "cssi": {
+    "reviewed": "2026-10-19",
+    "decision": "Compare the property study, inspection requirements and any additional incentive projects as separate assignments.",
+    "facts": [
+      ["Property evidence", "CSSI’s cost segregation FAQ requests depreciation schedules, building costs, applicable plans and property access for an on-site walkthrough.", "https://cssiservices.com/services/cost-segregation/"],
+      ["Fee information", "Its FAQ publishes a general $2,000–$15,000 range and separately describes commercial fees generally starting at $2,500; obtain the actual proposal.", "https://cssiservices.com/services/cost-segregation/"]
+    ],
+    "direct": [
+      ["Scope the property and the wider project separately", "Start by identifying whether you need only a cost segregation study or additional technical incentive work. Put each assignment in its own proposal row. For an owner-occupied commercial building, ask which records can be shared between projects and who reconciles the final asset data. Stratum’s discovery discussion should identify its study responsibilities and any separately engaged advisory work."],
+      ["Plan access to occupied property", "For a leased building or apartment property, confirm which areas can be inspected, whether tenant notice is needed and how shared systems will be documented. Ask both providers how the proposal changes if access is delayed. Link the delivery target to complete intake and the agreed inspection plan, then have your CPA work backward from the filing deadline."],
+      ["Use a property-specific comparison", "A provider’s broad fee range does not establish the price of your building. Stratum’s study rate is $1 per square foot with a $2,000 minimum per property. Obtain CSSI’s quote for the same building and confirm the included report, revisions, CPA support and inspection. For a large property, compare the full scope and total fee without assuming that a square-foot rate will always be lower."]
+    ],
+    "alternatives": [
+      ["Decide which capability you need to replace", "If you are comparing alternatives for only the depreciation study, focus the shortlist on that deliverable. If you also need other technical incentive work, ask candidates which assignments they will perform and which require another firm. The goal is a complete property project with clear responsibility for every necessary analysis."],
+      ["Keep the site visit connected to the cost records", "A building walkthrough and a cost ledger answer different questions. Ask the new provider how observed components will be matched to acquisition or improvement costs and reconciled to existing depreciation schedules. For missing invoices or old renovations, request a written reconstruction approach. That gives your preparer a concrete basis for comparing the proposed studies."]
+    ],
+    "checks": ["Separate the cost segregation study from other incentive assignments.", "Confirm occupied-area access and the inspection dependencies.", "Compare the actual CSSI quote with Stratum’s square-foot fee."],
+    "alternativesFirst": ["engineered-tax-services", "capstan-tax-strategies", "maven-cost-segregation", "seneca-cost-segregation"]
+  }
+}

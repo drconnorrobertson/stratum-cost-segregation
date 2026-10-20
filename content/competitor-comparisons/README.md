@@ -1,5 +1,17 @@
 # Stratum provider comparisons — October 11, 2026
 
+## October 19 buyer-comparison release
+
+The current library covers 55 provider/brand entries: 55 direct Stratum comparisons and 55 alternatives guides. After grouping the three documented related-brand pairs, the directory has 52 groups; this is not a comprehensive corporate-ownership audit. ELB Consulting, Principal Cost Segregation Associates and Cost Segregation Initiatives add six new URLs. All retained provider URLs are preserved.
+
+Ten priority pages for Seneca, R.E. Cost Seg, KBKG, Maven and CSSI now include separately written decision guidance. Direct pages attribute freshly checked provider facts to official sources; alternatives pages address the reasons to switch and the work to obtain in writing. Maven, CSSI and Seneca fee research was refreshed on October 19. R.E. numeric pricing retains its actual October 13 research date. Other retained research dates are not advanced automatically.
+
+Every provider pair has a clear Stratum price, buyer questions, reciprocal links and a provider-specific downloadable proposal worksheet. Stratum's $1/square-foot rate and $2,000 minimum per property are shown without a universal cheapest-provider claim. Alternatives shortlists use documented property/service fit and priority editorial selections, exclude related brands, and include a reason to compare each candidate. The two directory pages surface all five priority firms. Search filters count only their own directory results.
+
+Sources added or refreshed: official provider pages in providers.json and priority-research.json; specific pricing sources and dates are in buyer-evidence.json. Provider claims remain attributed; no report testing, credentials, client outcomes, customer ratings, or rankings are invented. Page publication and sitemap inclusion do not establish Google rankings.
+
+Validation: build, brand check, validate-study-pricing, validate-comparison-buyers, validate-comparisons, validate-alternatives, validate-property-segments, and validate-comparison-library. The builder runs both pricing and buyer-coverage guards before publication. Browser checks cover directory filtering, priority-page rendering, fee visibility and the booking route.
+
 Builds 21 provider comparisons, a searchable hub, a proposal checklist and an explicit Stratum/AE responsibility guide. Existing site baseline remains intact; the production builder adds these pages after retained content and booking routing.
 
 Research: provider facts are carried from the AE provider research dated October 8 in providers.json. Competitor pages link to their official sources and disclose the original research date. No competitor fees, quality ratings or guaranteed outcomes are invented. Reddit discussions informed discovery, not factual claims or measured keyword volumes. Names in this batch are service-fit candidates, not a global search-volume ranking. Nth Degree is a respected option and is not targeted in this batch.
