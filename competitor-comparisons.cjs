@@ -88,6 +88,7 @@ module.exports=function(out){
  for(const rel of ['index.html','services/index.html','pricing/index.html','about/index.html','cost-segregation-resources/index.html']){
   const file=path.join(out,rel);let h=fs.readFileSync(file,'utf8');h=h.replace(/<\/main>|<footer\b/i,match=>`<section class="section"><div class="container"><h2>Compare study providers and coordinate with AE</h2><p>Review <a href="/compare/">cost segregation provider comparisons</a> and <a href="/compare/stratum-and-ae-tax-advisors/">how Stratum works with AE Tax Advisors</a> before choosing a written scope.</p></div></section>${match}`);fs.writeFileSync(file,h);
  }
+ require('./competitor-editorial.cjs')({page,providers,out});
  const sm=path.join(out,'sitemap.xml');let xml=fs.readFileSync(sm,'utf8');for(const u of urls){if(xml.includes('<loc>'+u+'</loc>'))throw Error('Duplicate comparison URL');xml=xml.replace('</urlset>',`<url><loc>${u}</loc><lastmod>2026-10-19</lastmod></url></urlset>`)}fs.writeFileSync(sm,xml);
  console.log(`Built ${urls.length} comparison and coordination pages for ${providers.length} providers.`);
  return urls;

@@ -1,0 +1,166 @@
+{
+  "seneca-cost-segregation": {
+    "name": "Seneca Cost Segregation",
+    "short": "Seneca",
+    "checked": "2026-10-19",
+    "source": "https://www.senecacostseg.com/help/",
+    "reviewSource": "https://www.senecacostseg.com/",
+    "facts": [
+      [
+        "Fee",
+        "Property-specific proposal; size, type and complexity affect cost."
+      ],
+      [
+        "Timing",
+        "FAQ describes most studies taking 2\u20134 weeks."
+      ],
+      [
+        "CPA review",
+        "FAQ describes a draft shared before finalization."
+      ]
+    ],
+    "pricing": "Seneca\u2019s main FAQ does not give one universal study fee. It describes a free proposal based on the building. Use that proposal rather than treating a broad industry range as a Seneca quote.",
+    "review": "Seneca\u2019s published workflow makes the draft-review stage a useful point to investigate. A buyer should ask whether the owner and CPA will receive the same draft, who collects their questions, and when corrections become final. That conversation tests how the proposed service will work for this property without guessing from an engineering label.",
+    "evidence": "The homepage is a provider-controlled source. Read its descriptions as Seneca\u2019s own account of its work. This review does not establish an independently sampled customer-satisfaction score, a complaint rate or the outcome of any particular client engagement.",
+    "decision": "A buyer who needs a defined review window should compare the proposed draft process with the CPA\u2019s filing calendar. A buyer mainly concerned about price should obtain the actual fee before deciding whether another provider is cheaper.",
+    "questions": [
+      "Does the quoted deadline include owner and CPA draft review?",
+      "Which building areas, improvements and cost periods are covered?",
+      "Who handles a correction raised after the final report?"
+    ],
+    "pricingAnalysis": "For a furnished rental with a later renovation, ask whether the quote includes both the original acquisition and the later project. List furniture purchased separately from building work. Ask whether each period will be reconciled to the existing schedule. The same building can produce different proposal scopes if one provider is pricing only the acquisition while another includes later improvements.",
+    "reviewTitle": "Seneca Cost Segregation Reviews: Process & Buyer Checks"
+  },
+  "re-cost-seg": {
+    "name": "R.E. Cost Seg",
+    "short": "RE Cost Seg",
+    "checked": "2026-10-19",
+    "source": "https://www.recostseg.com/services",
+    "reviewSource": "https://www.recostseg.com/reviews",
+    "facts": [
+      [
+        "Rapid Report",
+        "Advertised from $950."
+      ],
+      [
+        "Fully Engineered",
+        "Advertised from $2,320 residential or $2,730 commercial."
+      ],
+      [
+        "Timing",
+        "Published targets: 5 business days Rapid; 15\u201320 Fully Engineered."
+      ],
+      [
+        "Support",
+        "Study support excludes IRS representation under the published terms."
+      ]
+    ],
+    "pricing": "R.E. publishes different starting fees for Rapid Report and Fully Engineered. These are entry prices for different services, not interchangeable quotes. Confirm product eligibility, records and the final fee directly.",
+    "review": "The first question when reading an R.E. review is which product the customer bought. An owner describing a questionnaire-led Rapid Report is not necessarily describing the inspection and intake experience of a Fully Engineered engagement. Keep the product name alongside each useful comment before drawing a conclusion about fit.",
+    "evidence": "R.E.\u2019s own review page hosts testimonials and links to Google reviews. It also presents a customer survey. Those are different evidence types: a provider-hosted selection, a separate review platform and a provider-reported survey. This article does not combine them into a new star score or independently verify the survey respondents.",
+    "decision": "The useful comparison is product-to-scope. Ask the CPA which deliverable and evidence process the property requires, then compare written proposals for that work. A low entry price alone cannot answer that question.",
+    "questions": [
+      "Is this a Rapid Report or Fully Engineered engagement?",
+      "When is intake complete for the delivery clock?",
+      "What written study support is included, and what representation is excluded?"
+    ],
+    "pricingAnalysis": "A rental with extensive construction costs needs a clear intake plan. Identify who organizes the cost ledger and resolves mixed invoices before comparing the fee. If an inspection is required, confirm how access will be provided and whether an in-person option adds cost. Keep rush fees and filing work separate from the study fee, and do not compare the two product names as if only the price changes.",
+    "reviewTitle": "RE Cost Seg Reviews: Rapid vs Engineered Buyer Guide"
+  },
+  "kbkg": {
+    "name": "KBKG",
+    "short": "KBKG",
+    "checked": "2026-10-19",
+    "source": "https://www.kbkg.com/costsegregation",
+    "reviewSource": "https://www.kbkg.com/customer-testimonials",
+    "facts": [
+      [
+        "Offering",
+        "Professional cost segregation services and a linked software route."
+      ],
+      [
+        "Related work",
+        "Repair/capitalization and fixed-asset reviews are listed."
+      ],
+      [
+        "Fee",
+        "The reviewed service page does not establish a universal engagement price."
+      ]
+    ],
+    "pricing": "Request a KBKG professional-services proposal for the actual building. Its linked CostSegregation.com software is a separate purchasing route; a software price should not be presented as the price of KBKG\u2019s full professional engagement.",
+    "review": "KBKG\u2019s testimonial page covers more than one specialty-tax service. When researching a cost segregation engagement, identify comments that actually concern property studies. A comment about another incentive or a training event may be useful for that subject, but it does not establish the experience of commissioning a building study.",
+    "evidence": "The customer-testimonial page is hosted by KBKG and includes named client statements. It is a provider-selected source, not an independent census of customers. This article does not convert those statements into a satisfaction percentage or assume that outcomes on one building predict another.",
+    "decision": "A commercial owner considering several technical assignments should compare responsibility for each one. A rental owner considering software should first confirm who reviews the inputs and resolves questions. Those are separate buying decisions.",
+    "questions": [
+      "Is the proposal for a professional study or the linked software?",
+      "Are repair review and fixed-asset work included or separate?",
+      "Who reconciles the final report with the existing depreciation file?"
+    ],
+    "pricingAnalysis": "For a commercial property, make a separate proposal row for each assignment: acquisition study, later construction, removal analysis and existing-schedule reconciliation. Ask which are included and which are optional. If another provider offers only the property study, remove unrelated assignments before comparing total fees. A broader technical engagement can be useful, but its invoice is not automatically a like-for-like study price.",
+    "reviewTitle": "KBKG Cost Segregation Reviews: Services & Buyer Checks"
+  },
+  "maven-cost-segregation": {
+    "name": "Maven Cost Segregation",
+    "short": "Maven",
+    "checked": "2026-10-19",
+    "source": "https://www.mavencostseg.com/our-services/detailed-engineering-cost-segregation-studies/",
+    "reviewSource": "https://www.mavencostseg.com/",
+    "facts": [
+      [
+        "Fee guidance",
+        "Detailed-study page gives $2,500\u2013$4,000 for smaller properties; $5,000\u2013$10,000+ for larger or complex projects."
+      ],
+      [
+        "Inspection",
+        "Detailed-study page describes an on-site engineering inspection."
+      ],
+      [
+        "Scope",
+        "Published ranges are not fixed property quotes."
+      ]
+    ],
+    "pricing": "Maven\u2019s detailed-engineering page publishes general ranges of $2,500\u2013$4,000 for smaller properties and $5,000\u2013$10,000+ for larger or complex properties and portfolios. It labels them as general guidance. Obtain the property-specific scope and fee before comparing proposals.",
+    "review": "Maven\u2019s homepage displays selected client comments under a Google Reviews heading. It also describes its inspection and delivery process. The productive next step is to connect those service descriptions to the proposal: identify the property-access plan, the responsible reviewer and the point from which the delivery target runs.",
+    "evidence": "The comments are displayed on Maven\u2019s own website. This article does not independently verify a current platform rating or count. A displayed testimonial can describe one person\u2019s experience; it is not a guarantee that every property, product or deadline will be handled identically.",
+    "decision": "Owners of occupied properties should resolve site access before comparing delivery targets. If a different study option is proposed, ask Maven to identify its inspection method and deliverables in writing instead of assuming the homepage describes every available option.",
+    "questions": [
+      "Which inspection method is included in this proposal?",
+      "Does the target run from site visit, complete records or another milestone?",
+      "Which reviewer handles questions from my existing CPA?"
+    ],
+    "pricingAnalysis": "If tenants, a property manager or a local representative must provide access, identify that person before ordering. Record how inaccessible spaces will be documented and who pays for a repeat visit if access fails. Put inspection logistics beside the fee and delivery milestone. For a portfolio, ask whether every building needs its own visit and how shared records are reconciled across properties.",
+    "reviewTitle": "Maven Cost Segregation Reviews: Inspection & Pricing Checks"
+  },
+  "cssi": {
+    "name": "CSSI",
+    "short": "CSSI",
+    "checked": "2026-10-19",
+    "source": "https://cssiservices.com/services/cost-segregation/",
+    "reviewSource": "https://cssiservices.com/services/cost-segregation/",
+    "facts": [
+      [
+        "Fee guidance",
+        "FAQ gives $2,000\u2013$15,000 generally and commercial fees from $2,500."
+      ],
+      [
+        "Evidence",
+        "On-site walkthrough and property cost records are described."
+      ],
+      [
+        "Timing",
+        "FAQ describes about 3\u20136 weeks after appropriate documentation."
+      ]
+    ],
+    "pricing": "CSSI publishes broad guidance rather than a guaranteed fee for your building. The general range and commercial starting figure describe different levels of detail; obtain the actual scope and price instead of treating either as a fixed quote.",
+    "review": "CSSI\u2019s service page includes property case studies. Treat these as examples selected by the provider, not a sample of customer reviews. A case study can help identify the kind of property being discussed, but its projected or reported tax figures do not determine the usable benefit for your building.",
+    "evidence": "The source checked here establishes service descriptions, fee guidance and selected case studies. It does not establish a current independently verified star rating or complaint rate. We therefore make no numeric customer-satisfaction claim on this page.",
+    "decision": "Commercial owners should connect access and cost records before comparing timelines. If the project includes another incentive assignment, request its own scope and price so the cost segregation study remains identifiable.",
+    "questions": [
+      "Which parts of the building must be accessible for the walkthrough?",
+      "When will the required documentation be considered complete?",
+      "Which report revisions, CPA support and additional services are included?"
+    ],
+    "pricingAnalysis": "For an occupied commercial building, separate the walkthrough from the cost-reconciliation work. Assign responsibility for tenant access, common areas, drawings and improvement ledgers. An observed component still needs a supported cost allocation. If older invoices are missing, ask how assumptions will be documented and reviewed. Compare the resulting scope with the other proposal before deciding whether the study fee is competitive.",
+    "reviewTitle": "CSSI Cost Segregation Reviews: Fees, Scope & Buyer Checks"
+  }
+}

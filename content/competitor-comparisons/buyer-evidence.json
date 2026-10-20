@@ -2,7 +2,7 @@
   "re-cost-seg": {
     "price": "Rapid Report from $950; Fully Engineered from $2,320 residential and $2,730 commercial.",
     "priceSource": "https://www.recostseg.com/services",
-    "priceDate": "2026-10-13",
+    "priceDate": "2026-10-19",
     "priceQuestion": "Which study product fits the property, and does the written fee include the chosen inspection method?",
     "reviewQuestion": "Look for the actual study product in feedback: a Rapid Report experience should not be assumed to describe the Fully Engineered workflow.",
     "priceLabel": "Rapid from $950; engineered from $2,320 residential / $2,730 commercial.",
@@ -84,11 +84,11 @@
     "priceLabel": "Published residential reports range from $495 to $1,795; commercial reports from $1,295 to $3,695. The researched homepage separately lists $49 report corrections."
   },
   "maven-cost-segregation": {
-    "price": "Published general ranges: $2,500–$4,000 for smaller properties; $5,000–$10,000+ for larger or complex properties and portfolios. These are not fixed quotes.",
+    "price": "Published general ranges: $2,500\u2013$4,000 for smaller properties; $5,000\u2013$10,000+ for larger or complex properties and portfolios. These are not fixed quotes.",
     "priceSource": "https://www.mavencostseg.com/our-services/detailed-engineering-cost-segregation-studies/",
     "priceDate": "2026-10-19",
     "priceQuestion": "Which published range and inspection scope apply to this building, and what could change the final fee?",
-    "priceLabel": "Smaller properties $2,500–$4,000; large/complex $5,000–$10,000+ (general ranges).",
+    "priceLabel": "Smaller properties $2,500\u2013$4,000; large/complex $5,000\u2013$10,000+ (general ranges).",
     "model": "Maven describes detailed engineering with physical inspection and an in-house engineering and tax team."
   },
   "seneca-cost-segregation": {
@@ -100,11 +100,11 @@
     "model": "Seneca describes an engineering-based study, virtual visit, PDF report and fixed-asset schedule."
   },
   "cssi": {
-    "price": "The cost segregation FAQ publishes a general $2,000–$15,000 range and separately describes commercial fees generally starting at $2,500. Confirm a property-specific quote.",
+    "price": "The cost segregation FAQ publishes a general $2,000\u2013$15,000 range and separately describes commercial fees generally starting at $2,500. Confirm a property-specific quote.",
     "priceSource": "https://cssiservices.com/services/cost-segregation/",
     "priceDate": "2026-10-19",
     "priceQuestion": "Which stated range applies to my building, and what inspection, revision and support work is included?",
-    "priceLabel": "General FAQ range $2,000–$15,000; commercial fees generally from $2,500.",
+    "priceLabel": "General FAQ range $2,000\u2013$15,000; commercial fees generally from $2,500.",
     "model": "CSSI describes an engineering-based property study and an on-site walkthrough."
   }
 }
