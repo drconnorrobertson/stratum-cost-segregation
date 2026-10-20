@@ -1,0 +1,11 @@
+const fs=require('fs'),path=require('path'),assert=require('node:assert/strict');
+const root=path.join(__dirname,'../public');let pages=0;
+function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){
+ const file=path.join(dir,e.name);if(e.isDirectory()){walk(file);continue;}if(!file.endsWith('.html'))continue;const h=fs.readFileSync(file,'utf8');if(!h.includes('class="comparison-page'))continue;
+ pages++;assert(h.includes('/style.css?v=20261019'));assert(h.includes('/assets/shared-site-shell.css'));assert(h.includes('/assets/shared-site-navigation.js'));assert(!h.includes('href="/assets/provider-comparisons.css"'));assert.equal((h.match(/id="main-nav"/g)||[]).length,1);assert.equal((h.match(/<footer class="footer"/g)||[]).length,1);assert.equal((h.match(/<h1\b/g)||[]).length,1);assert(h.includes('$1 per square foot'));assert(h.includes('$2,000 minimum per property'));
+ for(const m of h.matchAll(/href="(\/[^"<>]*)"/g)){const u=new URL(m[1].replaceAll('&amp;','&'),'https://www.stratumcostsegregation.com');if(u.pathname.startsWith('/_vercel/'))continue;const target=path.join(root,u.pathname,u.pathname.endsWith('/')?'index.html':'');assert(fs.existsSync(target),file+' broken '+u.pathname);if(u.hash&&target.endsWith('.html'))assert(fs.readFileSync(target,'utf8').includes('id="'+u.hash.slice(1)+'"'));}
+}}
+walk(root);assert(pages>=134);
+const booking=fs.readFileSync(path.join(root,'cost-seg-discovery/index.html'),'utf8');assert(booking.includes('id="schedule"'));assert(booking.includes('href="#schedule"'));assert(booking.includes('31bqciSJCSb2R44l0EML'));assert(booking.includes('scrolling="yes"'));assert(booking.includes("['utm_source','utm_medium','utm_campaign','utm_content']"));assert(booking.includes('https://link.msgsndr.com/js/form_embed.js'));
+const pricing=fs.readFileSync(path.join(root,'compare/cost-segregation-company-pricing/index.html'),'utf8');assert(pricing.includes('class="stratum-price-row"'));assert(pricing.includes('56 provider entries'));assert(pricing.includes('aria-label="Scrollable comparison table"'));
+console.log(JSON.stringify({pagesUsingHomepageShell:pages,sharedNavigation:true,sharedFooter:true,pricingCorrect:true,calendarPreserved:true,internalLinks:true}));
