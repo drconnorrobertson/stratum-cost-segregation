@@ -56,6 +56,8 @@ require('./scripts/clean-internal-campaigns.cjs').apply(out);
 
 require('./pricing-conversion.cjs')(out);
 require('./shared-site-shell.cjs')(out);
+require('./sitewide-consistency.cjs')(out);
+cp.execFileSync(process.execPath,['scripts/validate-sitewide-consistency.cjs'],{cwd:root,stdio:'inherit'});
 cp.execFileSync(process.execPath,['scripts/validate-shared-site-shell.cjs'],{cwd:root,stdio:'inherit'});
 cp.execFileSync(process.execPath,['scripts/validate-study-pricing.cjs'],{cwd:root,stdio:'inherit'});
 cp.execFileSync(process.execPath,['scripts/validate-comparison-buyers.cjs'],{cwd:root,stdio:'inherit'});
