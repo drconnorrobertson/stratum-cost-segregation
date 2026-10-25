@@ -17,7 +17,7 @@ jobs:
         run: |
           import urllib.request, json, re, time, os
           base = 'https://www.stratumcostsegregation.com'
-          checks = [('/', 'Cost Segregation Built Around Your Property'), ('/cost-seg-discovery/', 'Book Your Cost Seg Discovery Call'), ('/robots.txt', 'Sitemap:'), ('/sitemap.xml', '<loc>'), ('/blog/cost-segregation-retail-properties/', 'Discuss My Retail Property')]
+          checks = [('/', 'Cost Segregation Studies.'), ('/cost-seg-discovery/', 'Book Your Cost Seg Discovery Call'), ('/robots.txt', 'Sitemap:'), ('/sitemap.xml', '<loc>'), ('/blog/cost-segregation-retail-properties/', 'Discuss My Retail Property')]
           report = []
           for route, marker in checks:
               result = {'url': base + route, 'passed': False}
