@@ -1,0 +1,775 @@
+{
+  "date": "2026-10-25",
+  "pages": [
+    {
+      "slug": "one-rental-home",
+      "title": "Is Cost Segregation Worth It for One Rental Home?",
+      "description": "Compare the cost of a study with deductions you can actually use before ordering a study for a single rental house.",
+      "group": "Owner decisions",
+      "sections": [
+        [
+          "One property is enough to ask the question",
+          "You do not need an apartment portfolio to evaluate a study. For a rental house, the decision starts with the building basis, what is already on the depreciation schedule, the study fee and the timing of usable deductions. A home used entirely for personal purposes is a different situation: ordinary personal residential use does not create depreciable rental property. If you rent part of your home or recently converted it to a rental, establish the income-producing portion first."
+        ],
+        [
+          "Put the minimum fee in the calculation",
+          "At Stratum, a 1,400-square-foot house and a 2,000-square-foot house each reach the $2,000 minimum. A 2,700-square-foot house has a $2,700 study fee under the published rate. These are study-fee calculations, not estimates of savings. Include any separately engaged tax implementation and record-reconstruction costs before comparing proposals."
+        ],
+        [
+          "Ask for two depreciation schedules",
+          "Have your preparer compare the property with and without the proposed study over the same period. The relevant increase is the difference between those schedules, not every dollar classified into shorter lives. Then ask how much of that difference can reduce tax now, after applicable limitations. A deduction carried forward can have a different timing value from one usable this year."
+        ],
+        [
+          "Use a go, wait or resolve decision",
+          "Proceed to a scoped proposal when the basis is supported and the preparer can explain the economics. Wait if the main benefit is years away and the cost would be paid now. Resolve missing records or an anticipated sale before committing. No universal purchase-price cutoff can replace these steps. Bring your closing statement, land allocation, rental start date and existing schedule to discovery."
+        ]
+      ],
+      "related": [
+        "tools/fee-benefit",
+        "examples/one-small-rental",
+        "cpa/owner-preparer-agenda"
+      ]
+    },
+    {
+      "slug": "primary-home-and-rental-use",
+      "title": "Can You Cost Segregate Your Home or Former Residence?",
+      "description": "Understand the difference between a personal home, a home converted to rental use, and renting part of a residence.",
+      "group": "Owner decisions",
+      "sections": [
+        [
+          "Start with how the home is used",
+          "Owning a home alone does not make it a cost segregation candidate. Depreciation generally concerns business or income-producing use. A purely personal residence, a fully rented former residence, and a house with one rented room need different facts. Describe the actual use rather than treating every homeowner as a rental investor."
+        ],
+        [
+          "For a conversion, establish the starting basis",
+          "A former personal residence can require a depreciation basis using the lower of adjusted basis or fair market value at conversion. Give the preparer purchase and improvement records plus support for conversion-date value. Refinancing proceeds and today\u2019s listing price are not substitutes for that analysis. Separate land and keep the conversion calculation with the study file."
+        ],
+        [
+          "For shared use, map the rental portion",
+          "Document which rooms or units are rented, which spaces are shared, and the dates of each use. A duplex owner living in one unit should not assume the whole building has the same tax treatment. The allocation needs to reflect the facts, and furnishings or improvements serving only one portion should be identified separately."
+        ],
+        [
+          "For a vacation home, record personal stays",
+          "Collect the rental calendar and owner-use history before estimating a usable deduction. Personal-use rules can limit deductions, and a short booking duration does not by itself establish the owner\u2019s tax treatment. Ask the preparer to settle the use and basis questions before the study provider applies component analysis to an agreed cost pool."
+        ]
+      ],
+      "related": [
+        "tools/readiness-checklist",
+        "examples/converted-home",
+        "one-rental-home"
+      ]
+    },
+    {
+      "slug": "cpa-says-no",
+      "title": "My CPA Says Cost Segregation Is Not Worth It: What Should I Ask?",
+      "description": "Use a short owner-and-CPA discussion to separate study cost, suspended losses, missing records, and sale timing.",
+      "group": "Owner decisions",
+      "sections": [
+        [
+          "Ask what makes the economics unattractive",
+          "A no can be a useful conclusion. Ask whether the issue is the fee, low remaining basis, deductions you cannot use soon, missing documentation, the implementation burden or a planned sale. Each has a different next step. Do not assume the preparer opposes engineering studies in general when the concern may be specific to this property."
+        ],
+        [
+          "Request the comparison behind the answer",
+          "Bring the quoted study fee and ask for a with-study versus without-study comparison. Identify the tax year, incremental deduction, expected usable portion and separately billed work. If the main issue is passive losses, ask what facts would change when those deductions become usable. A study does not establish participation status or automatically create a W-2 offset."
+        ],
+        [
+          "Clarify who will do the work",
+          "Ask whether the existing preparer will implement the report, what schedules are needed, and whether an accounting-method change needs separate work. Stratum analyzes the property; a tax professional evaluates implementation. AE Tax Advisors can discuss a separately defined advisory engagement, but the study should not imply that return preparation or representation is included."
+        ],
+        [
+          "Leave with a concrete next step",
+          "Record one conclusion: request a proposal, resolve a named fact, reconsider at a later date, or decline. If a second opinion is useful, share the same records and the original concern so the new adviser evaluates the actual issue. Avoid shopping for a promised deduction without resolving the underlying limitations."
+        ]
+      ],
+      "related": [
+        "cpa/owner-preparer-agenda",
+        "tools/fee-benefit",
+        "already-depreciating"
+      ]
+    },
+    {
+      "slug": "selling-soon",
+      "title": "Should You Get a Cost Segregation Study Before Selling a Rental?",
+      "description": "Compare a study\u2019s timing benefit with the sale-year consequences, fees, and implementation work before selling a rental.",
+      "group": "Owner decisions",
+      "sections": [
+        [
+          "Give the preparer the expected exit date",
+          "A planned sale changes the comparison. Bring an estimated sale date, price range, selling costs, existing depreciation schedule and any proposed allocation among assets. Ask the preparer to consider both the period before sale and the disposition. A large current deduction alone does not answer whether the total transaction improves your position."
+        ],
+        [
+          "Compare the whole holding period",
+          "Model the study fee and implementation cost alongside earlier deductions, reduced future deductions and sale consequences. Different asset classes can have different recapture treatment. Depreciation also affects adjusted basis; the owner should not assume a larger deduction means a permanent tax reduction. Ask how the conclusion changes if the sale happens earlier or later than expected."
+        ],
+        [
+          "Keep the sales allocation connected to the report",
+          "If furniture, equipment and real estate are sold together, collect the contract and proposed allocation. The study\u2019s asset schedule is relevant evidence, but it is not an automatic allocation of sale proceeds. Ask who will reconcile remaining basis, depreciation and disposition reporting for each affected asset."
+        ],
+        [
+          "Avoid a last-minute deadline assumption",
+          "A pending closing can leave little time to reconstruct records or evaluate an accounting-method change. Confirm the applicable procedure and deadlines with the preparer before ordering. Use the fee-benefit worksheet only for its stated early-period calculation; it does not model the sale. A short-hold conclusion needs a separate disposition analysis."
+        ]
+      ],
+      "related": [
+        "examples/near-term-sale",
+        "tools/fee-benefit",
+        "cpa/implementation-handoff"
+      ]
+    },
+    {
+      "slug": "already-depreciating",
+      "title": "Can You Do Cost Segregation on a Rental You Already Own?",
+      "description": "Prepare an existing rental for a look-back study without losing prior depreciation history or assuming amended returns are required.",
+      "group": "Owner decisions",
+      "sections": [
+        [
+          "Begin with the filed history",
+          "An existing property needs more than the original closing statement. Obtain the depreciation detail from the actual returns, placed-in-service date, additions, dispositions and any prior accounting-method changes. A bookkeeping asset list may differ from the tax schedule. Identify the differences before anyone calculates a catch-up adjustment."
+        ],
+        [
+          "Do not restart the building at today\u2019s value",
+          "A look-back analysis does not create a fresh purchase or erase depreciation already taken or allowable. The study and implementation need to connect the original basis, component treatment and historical deductions. Retain the old schedule so the preparer can trace the transition and prevent assets from remaining on both schedules."
+        ],
+        [
+          "Ask the preparer to select the procedure",
+          "Form 3115 may be relevant to changing an accounting method, but the correct route depends on the actual facts and applicable procedures. Do not assume every prior-year issue is fixed by an amended return, or that every study uses the same filing process. Ask which year is affected, who prepares the work and what deadlines apply."
+        ],
+        [
+          "Order the evidence before the estimate",
+          "If a former preparer has the only tax depreciation file, request it first. Provide acquisition support and each later project as separate cost periods. The most useful discovery conversation identifies whether the history can be reconciled and what implementation will cost, rather than promising a catch-up deduction from the property\u2019s current market value."
+        ]
+      ],
+      "related": [
+        "cpa/implementation-handoff",
+        "tools/readiness-checklist",
+        "examples/long-held-duplex"
+      ]
+    },
+    {
+      "slug": "furnished-str-owner",
+      "title": "Buying a Furnished Airbnb: What Goes Into the Study?",
+      "description": "Separate the rental building, seller furnishings, later purchases and personal-use facts before commissioning an STR cost segregation study.",
+      "group": "Owner decisions",
+      "sections": [
+        [
+          "Build three lists rather than one total",
+          "For a furnished purchase, list the real estate acquired, personal property transferred by the seller, and items you bought later. Match the purchase agreement and seller inventory with what actually remained at closing. Listing photos can include objects the seller removed. Keep replacements separate from retained items."
+        ],
+        [
+          "Avoid counting the same furniture twice",
+          "An appliance included in an acquisition allocation should not quietly appear again as a new purchase. Give the study team and preparer one asset register with source references. For mixed invoices, preserve the invoice total and show how the pieces reconcile. Furniture purchased after closing can have a different placed-in-service date from the building."
+        ],
+        [
+          "Separate the study from participation conclusions",
+          "A component report establishes neither material participation nor automatic deductibility against wages. Provide the tax professional average guest-stay facts, services provided, owner-use days, participation records and ownership details. A property manager\u2019s involvement is a fact to analyze; a marketing label such as Airbnb does not determine the tax result."
+        ],
+        [
+          "Prepare access and records",
+          "Collect floor plans, room-by-room photos, site improvements, furnishing receipts and renovation invoices. Identify who can provide access without disrupting guests. Ask how missing inventory will be handled and how the final report will connect to your existing asset list. Confirm the written inspection and review scope before comparing fees."
+        ]
+      ],
+      "related": [
+        "examples/furnished-cabin",
+        "cpa/asset-reconciliation",
+        "tools/readiness-checklist"
+      ]
+    },
+    {
+      "slug": "condo-and-duplex",
+      "title": "Cost Segregation for Condos and Duplexes: Owner Buying Guide",
+      "description": "Define what you own, what you rent, and which costs belong in a condo or duplex study before comparing proposals.",
+      "group": "Owner decisions",
+      "sections": [
+        [
+          "For a condo, identify the ownership boundary",
+          "Collect the deed, association documents, unit description and special-assessment records. A photograph of a pool or elevator does not prove the unit owner owns depreciable basis in that asset. Ask the preparer and study team to establish what costs and ownership interests are actually included."
+        ],
+        [
+          "Keep assessments and unit work distinct",
+          "A special assessment, an association expense and a direct renovation invoice are not interchangeable evidence. Obtain a description of the project and the owner\u2019s obligation. List unit-level flooring, appliances and later improvements separately. Avoid adding the same underlying project through both an assessment and another cost schedule."
+        ],
+        [
+          "For a duplex, separate uses and vintages",
+          "Identify whether both units are rented, one is personal, or a unit changes use. Shared roofs and site work may need allocation, while an appliance can serve one unit. If one unit was renovated years after purchase, preserve the dates and source costs separately rather than averaging the entire property into one assumed condition."
+        ],
+        [
+          "Use fee economics after scope is clear",
+          "The published minimum can matter on a small unit, but a low fee cannot solve an ownership or basis error. Compare proposals for the same property boundaries, evidence and deliverables. A small unit with clear records may be straightforward; one with uncertain common-area interests needs those questions resolved before estimating deductions."
+        ]
+      ],
+      "related": [
+        "examples/condo",
+        "tools/fee-benefit",
+        "cpa/asset-reconciliation"
+      ]
+    },
+    {
+      "slug": "choose-first-property",
+      "title": "Which Rental Should You Study First in a Small Portfolio?",
+      "description": "Compare records, usable deductions, study fees and near-term plans across rental properties before choosing a study sequence.",
+      "group": "Owner decisions",
+      "sections": [
+        [
+          "Put each property on its own row",
+          "Separate legal owner, address label, square footage, basis, land allocation, first rental date, improvements and existing depreciation. Calculate the study fee for each property independently. Three small homes do not share one $2,000 minimum; the minimum applies per property."
+        ],
+        [
+          "Resolve blockers before chasing the largest basis",
+          "A high-value home with missing schedules and an imminent sale may need more work than a smaller property with complete records. Identify whether the preparer has reviewed deduction usability, whether costs reconcile, and whether a transfer or conversion affects basis. The largest potential allocation is not automatically the best first engagement."
+        ],
+        [
+          "Sequence the work around evidence and review",
+          "Use the portfolio tool to group properties into ready for a proposal, preparer review needed, or records needed. These labels describe workflow, not eligibility or expected returns. Ask the tax adviser to prioritize the economics separately and confirm who can meet the filing calendar."
+        ],
+        [
+          "Keep a repeatable handoff",
+          "Once one study is complete, retain the source register, report version and implementation confirmation. Reuse the intake method for the next property while preserving its separate facts. A consistent portfolio process reduces lost records without pretending the same component percentage applies to every building."
+        ]
+      ],
+      "related": [
+        "tools/portfolio-prioritizer",
+        "cpa/referral-workflow",
+        "examples/one-small-rental"
+      ]
+    },
+    {
+      "slug": "examples/one-small-rental",
+      "title": "A 1,500-Square-Foot Rental: Fee and Usable-Deduction Example",
+      "description": "A fictional worked example with explicit study fees, incremental deduction assumptions, usable amounts and limits.",
+      "group": "Worked examples",
+      "sections": [
+        [
+          "The fictional situation",
+          "The fictional owner has one fully rented house with supported basis and no separate furnishings in the proposed study pool."
+        ],
+        [
+          "Read the numbers correctly",
+          "The example assumes 1,500 square feet, a $2,000 Stratum study fee, and $500 of separately engaged implementation work. It assumes $24,000 of additional depreciation compared with the no-study baseline, a 32% marginal rate, and 100% usability in the modeled period. None of these deduction or implementation inputs is a quote or a completed study result."
+        ],
+        [
+          "Calculate the early-period comparison",
+          "Assumed tax reduction = $24,000 \u00d7 100% \u00d7 32% = $7,680. Combined assumed cost = $2,000 + $500 = $2,500. The arithmetic difference is $5,180. This is an undiscounted early-period comparison; it is not a lifetime return, permanent savings estimate or recommendation."
+        ],
+        [
+          "Change the assumption that matters",
+          "If the preparer instead expects none of the additional deduction to be usable in the modeled period, the modeled tax reduction becomes $0 while the $2,500 combined cost remains. The study\u2019s value then depends on later use and the longer-term model."
+        ],
+        [
+          "What the example leaves for review",
+          "The preparer must establish the depreciation difference, when deductions can be used, the relevant marginal rates, state treatment, later-year depreciation and sale consequences. This example does not calculate bonus eligibility or assign asset lives. Use the fee-benefit tool to substitute adviser-supported inputs, then retain the complete multi-year analysis before commissioning the work."
+        ]
+      ],
+      "related": [
+        "one-rental-home",
+        "tools/fee-benefit"
+      ],
+      "illustrative": true,
+      "example": {
+        "squareFeet": 1500,
+        "incremental": 24000,
+        "rate": 32,
+        "usable": 100,
+        "implementation": 500,
+        "fee": 2000,
+        "taxReduction": 7680.0,
+        "net": 5180.0
+      }
+    },
+    {
+      "slug": "examples/converted-home",
+      "title": "Former Home Converted to Rental: Basis Before Benefit",
+      "description": "A fictional worked example with explicit study fees, incremental deduction assumptions, usable amounts and limits.",
+      "group": "Worked examples",
+      "sections": [
+        [
+          "The fictional situation",
+          "The fictional owner moves out and begins renting the entire home. The $18,000 incremental deduction is an assumed preparer input after a separate conversion-basis review; it is not derived from the home\u2019s market value."
+        ],
+        [
+          "Read the numbers correctly",
+          "The example assumes 2,200 square feet, a $2,200 Stratum study fee, and $700 of separately engaged implementation work. It assumes $18,000 of additional depreciation compared with the no-study baseline, a 24% marginal rate, and 100% usability in the modeled period. None of these deduction or implementation inputs is a quote or a completed study result."
+        ],
+        [
+          "Calculate the early-period comparison",
+          "Assumed tax reduction = $18,000 \u00d7 100% \u00d7 24% = $4,320. Combined assumed cost = $2,200 + $700 = $2,900. The arithmetic difference is $1,420. This is an undiscounted early-period comparison; it is not a lifetime return, permanent savings estimate or recommendation."
+        ],
+        [
+          "Change the assumption that matters",
+          "If conversion basis is lower than the owner expected, the incremental deduction estimate must be rebuilt. A refinance appraisal and mortgage balance cannot establish the study cost pool."
+        ],
+        [
+          "What the example leaves for review",
+          "The preparer must establish the depreciation difference, when deductions can be used, the relevant marginal rates, state treatment, later-year depreciation and sale consequences. This example does not calculate bonus eligibility or assign asset lives. Use the fee-benefit tool to substitute adviser-supported inputs, then retain the complete multi-year analysis before commissioning the work."
+        ]
+      ],
+      "related": [
+        "primary-home-and-rental-use",
+        "tools/fee-benefit"
+      ],
+      "illustrative": true,
+      "example": {
+        "squareFeet": 2200,
+        "incremental": 18000,
+        "rate": 24,
+        "usable": 100,
+        "implementation": 700,
+        "fee": 2200,
+        "taxReduction": 4320.0,
+        "net": 1420.0
+      }
+    },
+    {
+      "slug": "examples/long-held-duplex",
+      "title": "A Long-Held Duplex: Separate the Study From Catch-Up Work",
+      "description": "A fictional worked example with explicit study fees, incremental deduction assumptions, usable amounts and limits.",
+      "group": "Worked examples",
+      "sections": [
+        [
+          "The fictional situation",
+          "The fictional duplex has prior depreciation schedules. The preparer supplies a $40,000 incremental deduction assumption and expects half to be usable in the modeled period. The $1,200 implementation assumption is hypothetical, not an AE quote."
+        ],
+        [
+          "Read the numbers correctly",
+          "The example assumes 3,000 square feet, a $3,000 Stratum study fee, and $1,200 of separately engaged implementation work. It assumes $40,000 of additional depreciation compared with the no-study baseline, a 24% marginal rate, and 50% usability in the modeled period. None of these deduction or implementation inputs is a quote or a completed study result."
+        ],
+        [
+          "Calculate the early-period comparison",
+          "Assumed tax reduction = $40,000 \u00d7 50% \u00d7 24% = $4,800. Combined assumed cost = $3,000 + $1,200 = $4,200. The arithmetic difference is $600. This is an undiscounted early-period comparison; it is not a lifetime return, permanent savings estimate or recommendation."
+        ],
+        [
+          "Change the assumption that matters",
+          "If only 25% is usable, the modeled tax reduction falls to $2,400 and is below the $4,200 combined cost. A catch-up figure needs a verified historical calculation and an appropriate filing procedure."
+        ],
+        [
+          "What the example leaves for review",
+          "The preparer must establish the depreciation difference, when deductions can be used, the relevant marginal rates, state treatment, later-year depreciation and sale consequences. This example does not calculate bonus eligibility or assign asset lives. Use the fee-benefit tool to substitute adviser-supported inputs, then retain the complete multi-year analysis before commissioning the work."
+        ]
+      ],
+      "related": [
+        "already-depreciating",
+        "tools/fee-benefit"
+      ],
+      "illustrative": true,
+      "example": {
+        "squareFeet": 3000,
+        "incremental": 40000,
+        "rate": 24,
+        "usable": 50,
+        "implementation": 1200,
+        "fee": 3000,
+        "taxReduction": 4800.0,
+        "net": 600.0
+      }
+    },
+    {
+      "slug": "examples/furnished-cabin",
+      "title": "A Furnished Cabin: Keep Furniture Out of the Pool Twice",
+      "description": "A fictional worked example with explicit study fees, incremental deduction assumptions, usable amounts and limits.",
+      "group": "Worked examples",
+      "sections": [
+        [
+          "The fictional situation",
+          "The fictional STR owner reconciles the seller inventory with separately purchased furniture. The assumed $35,000 is incremental depreciation versus the no-study baseline, not the entire furnishings cost or a promised allocation."
+        ],
+        [
+          "Read the numbers correctly",
+          "The example assumes 2,800 square feet, a $2,800 Stratum study fee, and $900 of separately engaged implementation work. It assumes $35,000 of additional depreciation compared with the no-study baseline, a 32% marginal rate, and 100% usability in the modeled period. None of these deduction or implementation inputs is a quote or a completed study result."
+        ],
+        [
+          "Calculate the early-period comparison",
+          "Assumed tax reduction = $35,000 \u00d7 100% \u00d7 32% = $11,200. Combined assumed cost = $2,800 + $900 = $3,700. The arithmetic difference is $7,500. This is an undiscounted early-period comparison; it is not a lifetime return, permanent savings estimate or recommendation."
+        ],
+        [
+          "Change the assumption that matters",
+          "If the $35,000 estimate accidentally includes items already on a separate schedule, it overstates the incremental result. Correct the asset register before using the calculation; participation and personal-use facts also remain separate review questions."
+        ],
+        [
+          "What the example leaves for review",
+          "The preparer must establish the depreciation difference, when deductions can be used, the relevant marginal rates, state treatment, later-year depreciation and sale consequences. This example does not calculate bonus eligibility or assign asset lives. Use the fee-benefit tool to substitute adviser-supported inputs, then retain the complete multi-year analysis before commissioning the work."
+        ]
+      ],
+      "related": [
+        "furnished-str-owner",
+        "tools/fee-benefit"
+      ],
+      "illustrative": true,
+      "example": {
+        "squareFeet": 2800,
+        "incremental": 35000,
+        "rate": 32,
+        "usable": 100,
+        "implementation": 900,
+        "fee": 2800,
+        "taxReduction": 11200.0,
+        "net": 7500.0
+      }
+    },
+    {
+      "slug": "examples/condo",
+      "title": "A Small Rental Condo: Why the Minimum Fee Matters",
+      "description": "A fictional worked example with explicit study fees, incremental deduction assumptions, usable amounts and limits.",
+      "group": "Worked examples",
+      "sections": [
+        [
+          "The fictional situation",
+          "The fictional unit owner has a 900-square-foot rental. Only the agreed unit-related basis is considered; the example assigns no assumed basis to association-owned amenities."
+        ],
+        [
+          "Read the numbers correctly",
+          "The example assumes 900 square feet, a $2,000 Stratum study fee, and $500 of separately engaged implementation work. It assumes $10,000 of additional depreciation compared with the no-study baseline, a 24% marginal rate, and 100% usability in the modeled period. None of these deduction or implementation inputs is a quote or a completed study result."
+        ],
+        [
+          "Calculate the early-period comparison",
+          "Assumed tax reduction = $10,000 \u00d7 100% \u00d7 24% = $2,400. Combined assumed cost = $2,000 + $500 = $2,500. The arithmetic difference is $-100. This is an undiscounted early-period comparison; it is not a lifetime return, permanent savings estimate or recommendation."
+        ],
+        [
+          "Change the assumption that matters",
+          "Under these assumptions, the modeled tax reduction is $100 below combined costs. A positive reclassification amount can coexist with unattractive short-term economics. Later deductions, future use and sale treatment still require a full model."
+        ],
+        [
+          "What the example leaves for review",
+          "The preparer must establish the depreciation difference, when deductions can be used, the relevant marginal rates, state treatment, later-year depreciation and sale consequences. This example does not calculate bonus eligibility or assign asset lives. Use the fee-benefit tool to substitute adviser-supported inputs, then retain the complete multi-year analysis before commissioning the work."
+        ]
+      ],
+      "related": [
+        "condo-and-duplex",
+        "tools/fee-benefit"
+      ],
+      "illustrative": true,
+      "example": {
+        "squareFeet": 900,
+        "incremental": 10000,
+        "rate": 24,
+        "usable": 100,
+        "implementation": 500,
+        "fee": 2000,
+        "taxReduction": 2400.0,
+        "net": -100.0
+      }
+    },
+    {
+      "slug": "examples/near-term-sale",
+      "title": "A Rental With a Planned Sale: An Incomplete Positive Result",
+      "description": "A fictional worked example with explicit study fees, incremental deduction assumptions, usable amounts and limits.",
+      "group": "Worked examples",
+      "sections": [
+        [
+          "The fictional situation",
+          "The fictional owner expects to sell next year. The inputs show a possible early-period reduction before modeling the sale; they deliberately do not answer whether the study improves the total transaction."
+        ],
+        [
+          "Read the numbers correctly",
+          "The example assumes 2,400 square feet, a $2,400 Stratum study fee, and $800 of separately engaged implementation work. It assumes $30,000 of additional depreciation compared with the no-study baseline, a 32% marginal rate, and 100% usability in the modeled period. None of these deduction or implementation inputs is a quote or a completed study result."
+        ],
+        [
+          "Calculate the early-period comparison",
+          "Assumed tax reduction = $30,000 \u00d7 100% \u00d7 32% = $9,600. Combined assumed cost = $2,400 + $800 = $3,200. The arithmetic difference is $6,400. This is an undiscounted early-period comparison; it is not a lifetime return, permanent savings estimate or recommendation."
+        ],
+        [
+          "Change the assumption that matters",
+          "The positive arithmetic shown here excludes sale-year tax, recapture, reduced future deductions and timing effects. Ask the preparer for a with-study and without-study disposition model before using this number to order a study."
+        ],
+        [
+          "What the example leaves for review",
+          "The preparer must establish the depreciation difference, when deductions can be used, the relevant marginal rates, state treatment, later-year depreciation and sale consequences. This example does not calculate bonus eligibility or assign asset lives. Use the fee-benefit tool to substitute adviser-supported inputs, then retain the complete multi-year analysis before commissioning the work."
+        ]
+      ],
+      "related": [
+        "selling-soon",
+        "tools/fee-benefit"
+      ],
+      "illustrative": true,
+      "example": {
+        "squareFeet": 2400,
+        "incremental": 30000,
+        "rate": 32,
+        "usable": 100,
+        "implementation": 800,
+        "fee": 2400,
+        "taxReduction": 9600.0,
+        "net": 6400.0
+      }
+    },
+    {
+      "slug": "cpa/owner-preparer-agenda",
+      "title": "The Rental Owner and CPA Cost Segregation Meeting Agenda",
+      "description": "Use a practical agenda to decide whether to request a study proposal, resolve records, or wait.",
+      "group": "CPA resources",
+      "sections": [
+        [
+          "Before the meeting",
+          "The owner brings the closing statement, improvement totals, first rental date, current use, property size and existing depreciation schedule. Add expected income changes, personal-use history and any planned sale. Use source references instead of copying sensitive identifiers into a shared checklist."
+        ],
+        [
+          "The five decisions",
+          "Agree on the cost pool; identify the no-study depreciation baseline; evaluate when an incremental deduction could be usable; estimate separately engaged implementation costs; and decide whether the holding period changes the result. Record which inputs remain estimates. The provider can describe study scope, while the preparer evaluates the return-level consequences."
+        ],
+        [
+          "Use a clear responsibility split",
+          "Assign records collection to the owner, component evidence and report preparation to the study engagement, and tax-treatment and filing decisions to the qualified preparer. Confirm the actual assignments in writing. If AE Tax Advisors is consulted, identify the separately agreed advisory scope and how it coordinates with the existing CPA."
+        ],
+        [
+          "Close with a decision and a date",
+          "Leave with one of three next steps: request a scoped proposal, obtain specific missing evidence, or defer. Give each open question an owner and a due date. Send the fee and usability assumptions back for review if anything changes before ordering. A completed meeting is not evidence that a report has been implemented."
+        ]
+      ],
+      "related": [
+        "tools/fee-benefit",
+        "cpa/implementation-handoff"
+      ],
+      "template": [
+        "Decision or question",
+        "Source reference",
+        "Responsible person",
+        "Due date",
+        "Conclusion"
+      ]
+    },
+    {
+      "slug": "cpa/proposal-comparison",
+      "title": "Cost Segregation Proposal Comparison Template for Owners and CPAs",
+      "description": "Compare study proposals on the same property scope, evidence, deliverables, fees and implementation responsibilities.",
+      "group": "CPA resources",
+      "sections": [
+        [
+          "Define one common assignment",
+          "Write the properties, cost periods and asset pools at the top of the comparison. Identify acquisition, later renovations and separately scheduled personal property. Ask each provider to quote this assignment. A cheaper price for a questionnaire product is not automatically a cheaper price for the same engineering and inspection scope."
+        ],
+        [
+          "Compare evidence and report contents",
+          "Record inspection method, access requirements, basis reconciliation, actual versus estimated costs, component schedules, methodology explanation, reviewer responsibility and correction process. Ask for a redacted example relevant to the property type. A longer report is not by itself stronger evidence."
+        ],
+        [
+          "Put exclusions beside the price",
+          "Make rows for the study, additional visits, rush work, record reconstruction, accounting-method work, return implementation, state schedules and examination representation. Use quoted amounts or mark not quoted. Do not assume a phrase such as audit support includes every form of representation or every tax position."
+        ],
+        [
+          "Evaluate the written answers",
+          "Keep each proposal version and its source date. Ask providers to clarify ambiguous inclusions in writing. Stratum publishes $1 per square foot with a $2,000 minimum per property; request confirmation of measurements and scope. Compare that result with the competitor\u2019s actual engagement price, rather than an unsourced industry average."
+        ]
+      ],
+      "related": [
+        "tools/report-walkthrough",
+        "cpa/referral-workflow"
+      ],
+      "template": [
+        "Scope item",
+        "Stratum proposal reference",
+        "Other provider proposal reference",
+        "Included or excluded",
+        "Open question"
+      ]
+    },
+    {
+      "slug": "cpa/asset-reconciliation",
+      "title": "Cost Segregation Asset Register and Reconciliation Template",
+      "description": "Keep building basis, furnishings, renovations and the prior depreciation schedule connected without double counting.",
+      "group": "CPA resources",
+      "sections": [
+        [
+          "Choose stable asset references",
+          "Use identifiers that connect an item across invoice, photo, study schedule and tax asset file. Record the property and cost period separately. A refrigerator transferred at closing and a refrigerator bought later need separate references even if their descriptions match."
+        ],
+        [
+          "Build the cost bridge",
+          "Start with the agreed acquisition or construction amount. Show land and other excluded amounts, separate personal property, additions and supported adjustments in distinct rows. The resulting study pool should reconcile to the agreed amount. An unexplained residual is an open question rather than a component allocation."
+        ],
+        [
+          "Preserve the old-to-new mapping",
+          "For an existing rental, keep the original tax asset identifier next to each proposed new component group. Ask the preparer to prevent the old building amount and the reclassified amounts from being depreciated twice. The provider\u2019s classification schedule and the return preparer\u2019s implementation schedule serve related but different purposes."
+        ],
+        [
+          "Review exceptions before sign-off",
+          "Flag missing invoices, mixed-use items, seller-retained furnishings and costs already deducted or separately capitalized. The reviewer should resolve each exception or retain a clear limitation. Keep the final bridge, source register and approved report together so a later preparer can understand the transition."
+        ]
+      ],
+      "related": [
+        "furnished-str-owner",
+        "cpa/implementation-handoff"
+      ],
+      "template": [
+        "Property label",
+        "Prior asset ID",
+        "Study asset ID",
+        "Source cost",
+        "Adjustment explanation",
+        "Source reference",
+        "Reviewer status"
+      ]
+    },
+    {
+      "slug": "cpa/implementation-handoff",
+      "title": "From Cost Segregation Report to Tax Return: Handoff Checklist",
+      "description": "Define who reviews the report, selects the filing procedure, updates depreciation and confirms implementation.",
+      "group": "CPA resources",
+      "sections": [
+        [
+          "Delivery is the start of implementation",
+          "Receiving a report does not update a return. Record the final report version, property, cost periods and agreed basis. Have the preparer confirm that the component totals match the cost bridge and that prior depreciation history is available. Resolve provider questions before relying on the final schedules."
+        ],
+        [
+          "Confirm the filing procedure",
+          "The preparer determines whether current-year depreciation, a correction, an accounting-method change or another procedure fits the facts. If Form 3115 work is needed, assign it explicitly and confirm applicable filing requirements. The study fee should not be treated as including this work unless the engagement says so."
+        ],
+        [
+          "Keep federal and state schedules separate",
+          "Ask the preparer to evaluate state conformity and any additions, subtractions or separate basis schedules for the relevant state and year. A federal estimate does not establish the state benefit. Preserve the link between the study assets and both schedules if their treatments differ."
+        ],
+        [
+          "Ask for completion evidence",
+          "Retain the updated depreciation file, the preparer\u2019s implementation confirmation and relevant filed-form records. Track unresolved items after filing and retain any corrected schedule with a reason for the change. The owner should know who handles future sale reporting and questions about the study methodology."
+        ]
+      ],
+      "related": [
+        "cpa/asset-reconciliation",
+        "already-depreciating"
+      ],
+      "template": [
+        "Implementation task",
+        "Report or return version",
+        "Responsible professional",
+        "Due date",
+        "Completion evidence",
+        "Open item"
+      ]
+    },
+    {
+      "slug": "cpa/referral-workflow",
+      "title": "A Practical Cost Segregation Referral Workflow for CPAs",
+      "description": "Refer a rental owner with a defined property file, consent, scope and return-preparer coordination.",
+      "group": "CPA resources",
+      "sections": [
+        [
+          "Refer the decision, not a promised result",
+          "An owner may be ready to evaluate a study when there is supported property basis, a clear rental-use history and a preparer willing to model implementation. Describe the open question and expected timeline. Avoid promising a fixed allocation percentage or a deduction against a specific income source before analysis."
+        ],
+        [
+          "Obtain permission and limit the intake",
+          "Agree with the client on what can be shared and how. Start with property type, size, use, acquisition and rental dates, an approximate supported cost pool and the key question. Arrange the appropriate secure document channel during engagement. Do not place taxpayer identifiers or complete tax returns into a public planning tool."
+        ],
+        [
+          "Make the responsibility boundary explicit",
+          "Stratum\u2019s property study and tax advisory or return work need clear assignments. Ask who communicates with the existing preparer, who handles missing records and who approves the final cost bridge. Confirm any referral arrangement and relevant disclosure obligations separately; this resource does not establish a referral fee or partnership contract."
+        ],
+        [
+          "Keep the referral useful after delivery",
+          "Ask for the final report, asset mapping and an opportunity to resolve technical questions. The CPA then completes the agreed implementation and retains the source trail. A repeat referral process works best when each property has its own intake file, deliverable checklist and completion evidence."
+        ]
+      ],
+      "related": [
+        "cpa/owner-preparer-agenda",
+        "cpa/proposal-comparison"
+      ],
+      "template": [
+        "Client-approved property label",
+        "Permission recorded",
+        "Question for study team",
+        "Records owner",
+        "Preparer contact arranged",
+        "Target review date",
+        "Next step"
+      ]
+    },
+    {
+      "slug": "cpa/report-review",
+      "title": "How to Review a Cost Segregation Report Before Accepting It",
+      "description": "Check basis reconciliation, component evidence, assumptions and usable schedules before signing off on a property report.",
+      "group": "CPA resources",
+      "sections": [
+        [
+          "Read the reconciliation before the headline",
+          "Begin with the agreed study pool and verify that the report totals reconcile to it. Check how land, furnishings, later improvements and excluded costs are handled. A high short-life allocation is not a substitute for a supported starting amount."
+        ],
+        [
+          "Trace selected components back to evidence",
+          "Choose material items and inspect how their location, quantity, function and cost were established. Distinguish actual costs from estimates and ask why the chosen methodology fits available records. The IRS audit technique guide is a useful examination reference, but it is not an IRS approval of an individual study or a substitute for law."
+        ],
+        [
+          "Read limitations as part of the report",
+          "Look for inaccessible spaces, missing plans, sampled units, assumptions about ownership and information supplied by the owner. Ask whether an unresolved assumption could materially change the result. Confirm the technical reviewer and the procedure for correcting a factual error."
+        ],
+        [
+          "Check that implementation can be traced",
+          "Request stable asset references, clear cost periods and an explanation of how the preparer can reconcile the study with the existing schedule. Taxpayer-level loss limitations, elections, filing procedure and state treatment remain preparer decisions. Keep technical questions and tax implementation questions assigned to the appropriate person."
+        ]
+      ],
+      "related": [
+        "tools/report-walkthrough",
+        "cpa/asset-reconciliation"
+      ],
+      "template": [
+        "Review point",
+        "Report page or asset reference",
+        "Supporting source",
+        "Exception",
+        "Assigned reviewer",
+        "Resolution"
+      ]
+    }
+  ],
+  "commercial": [
+    {
+      "route": "/blog/cost-segregation-self-storage-facilities/",
+      "title": "Self-storage: distinguish building types and expansion phases",
+      "records": "Provide a site plan showing climate-controlled buildings, drive-up units, office areas, paving, gates and later expansion phases. Match each phase to construction ledgers and service dates. A climate-control system and a security gate should not be classified merely from their names: document the actual function and installation.",
+      "scenario": "A facility acquires adjacent land and adds two buildings while retaining older paving. Keep the land acquisition, new construction and retained improvements in separate cost periods. Ask how the report reconciles shared costs without attributing old assets to the new phase."
+    },
+    {
+      "route": "/blog/cost-segregation-medical-office-buildings/",
+      "title": "Medical offices: identify landlord and practice-owned assets",
+      "records": "Collect leases, buildout agreements and equipment schedules. Distinguish the building owner\u2019s investment from the medical practice\u2019s separately owned equipment and tenant improvements. Document the function of dedicated installations and ordinary building systems before proposing treatment.",
+      "scenario": "A physician owns the real estate through one entity and operates the practice through another. Match each invoice to the payer, tax owner and underlying asset. A payment from the practice account does not by itself determine who owns a building improvement."
+    },
+    {
+      "route": "/blog/cost-segregation-industrial-warehouse/",
+      "title": "Warehouses: map dedicated equipment and ordinary building systems",
+      "records": "Prepare floor plans, process diagrams and equipment ownership records. Identify loading areas, racks, specialized installations and shared utility systems. Record which assets are tenant-owned and which remain with the building. A warehouse label does not decide the recovery period of every component.",
+      "scenario": "A tenant installs production equipment in part of a warehouse while the landlord replaces building-wide electrical distribution. Separate dedicated installations from the general system and trace both to their supported cost pools."
+    },
+    {
+      "route": "/blog/cost-segregation-retail-properties/",
+      "title": "Retail centers: compare acquisition and tenant-buildout scopes",
+      "records": "Provide the rent roll, leases, reimbursement records and buildout ledgers. Identify landlord-owned improvements, tenant-funded work and common areas. Ask whether the proposed engagement covers only acquisition costs or also later projects, and how each will connect to the existing schedule.",
+      "scenario": "Two suites were renovated in different years and a tenant reimbursed part of one project. Preserve gross project costs and the reimbursement facts separately. Ask the preparer to establish tax ownership and basis before those amounts enter the study pool."
+    },
+    {
+      "route": "/blog/cost-segregation-mixed-use-buildings/",
+      "title": "Mixed-use buildings: map use before allocating components",
+      "records": "Document residential, commercial and personal areas, together with shared systems and the dates any use changed. Provide floor plans and a consistent allocation method supported by actual facts. Do not assume that an area-percentage split alone resolves every component or tax classification.",
+      "scenario": "A street-level shop and upstairs apartments share a roof but have separate interior renovations. Identify direct costs by area and shared costs separately. Let the technical and tax reviewers resolve how the distinct uses affect the schedule."
+    },
+    {
+      "route": "/blog/cost-segregation-apartment-buildings/",
+      "title": "Apartments: make unit sampling and renovation differences visible",
+      "records": "Collect unit counts by layout and renovation vintage, common-area plans, appliance inventories and separate building schedules. Ask how representative units are selected and how exceptions are verified. An upgraded model unit should not silently stand in for original units.",
+      "scenario": "A property has renovated units, original units and a newly completed amenity building. Keep the three populations separate, show how quantities were established, and reconcile each project to the overall basis without duplicating shared costs."
+    }
+  ],
+  "comparisons": [
+    {
+      "route": "/compare/seneca-cost-segregation-vs-stratum/",
+      "title": "Seneca: compare the draft-review handoff",
+      "body": "Seneca\u2019s FAQ describes a property-specific proposal and a draft-review stage. For a single rental house, ask whether the CPA review window and corrections are included in the quoted timeline. Put the property\u2019s agreed cost periods and separately purchased furnishings into both proposals before comparing the fee.",
+      "source": "https://www.senecacostseg.com/help/"
+    },
+    {
+      "route": "/compare/re-cost-seg-vs-stratum/",
+      "title": "RE Cost Seg: identify the product before comparing a home study",
+      "body": "R.E. distinguishes its Rapid Report from its Fully Engineered study on its service page. Its published starting prices are $950 and $2,320 for residential, respectively; those are different products and starting prices, not quotes for your home. Compare questionnaire responsibility, inspection, cost analysis and support exclusions for the actual proposed option.",
+      "source": "https://www.recostseg.com/services"
+    },
+    {
+      "route": "/compare/kbkg-vs-stratum/",
+      "title": "KBKG: separate the professional engagement from software",
+      "body": "KBKG\u2019s service page links its professional cost segregation offering and the CostSegregation.com software route. For a rental home, ask which product is being quoted, who verifies inputs and who resolves questions from your CPA. Do not use a software price as the fee for a separately scoped professional engagement.",
+      "source": "https://www.kbkg.com/costsegregation"
+    },
+    {
+      "route": "/compare/maven-cost-segregation-vs-stratum/",
+      "title": "Maven: put physical inspection into the scope comparison",
+      "body": "Maven\u2019s detailed-engineering page describes an in-house team and a physical property inspection. Ask how access will work for an occupied rental, which records are required and who coordinates with the existing CPA. Compare these written responsibilities with Stratum\u2019s proposed scope rather than assuming all engineering labels describe the same workflow.",
+      "source": "https://www.mavencostseg.com/our-services/detailed-engineering-cost-segregation-studies/"
+    }
+  ]
+}

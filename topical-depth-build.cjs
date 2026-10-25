@@ -64,4 +64,7 @@ cp.execFileSync(process.execPath,['scripts/validate-shared-site-shell.cjs'],{cwd
 cp.execFileSync(process.execPath,['scripts/validate-study-pricing.cjs'],{cwd:root,stdio:'inherit'});
 cp.execFileSync(process.execPath,['scripts/validate-comparison-buyers.cjs'],{cwd:root,stdio:'inherit'});
 
+require('./owner-growth.cjs')(out);
+cp.execFileSync(process.execPath,['scripts/validate-owner-growth.cjs'],{cwd:root,stdio:'inherit'});
+cp.execFileSync(process.execPath,['scripts/validate-sitewide-consistency.cjs'],{cwd:root,stdio:'inherit'});
 if(process.env.VERCEL==='1')cp.execFileSync(process.execPath,['scripts/verify-published-search.cjs'],{cwd:root,stdio:'inherit'});

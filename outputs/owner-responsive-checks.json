@@ -1,0 +1,458 @@
+{
+  "mobile": [
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/one-rental-home/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/primary-home-and-rental-use/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa-says-no/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/selling-soon/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/already-depreciating/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/furnished-str-owner/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/condo-and-duplex/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/choose-first-property/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/one-small-rental/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/converted-home/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/long-held-duplex/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/furnished-cabin/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/condo/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/near-term-sale/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/owner-preparer-agenda/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/proposal-comparison/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/asset-reconciliation/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/implementation-handoff/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/referral-workflow/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/report-review/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/tools/fee-benefit/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/tools/portfolio-prioritizer/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/tools/readiness-checklist/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/tools/report-walkthrough/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/",
+      "scroll": 390,
+      "width": 390
+    }
+  ],
+  "desktop": [
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/one-rental-home/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/primary-home-and-rental-use/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa-says-no/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/selling-soon/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/already-depreciating/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/furnished-str-owner/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/condo-and-duplex/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/choose-first-property/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/one-small-rental/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/converted-home/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/long-held-duplex/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/furnished-cabin/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/condo/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/examples/near-term-sale/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/owner-preparer-agenda/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/proposal-comparison/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/asset-reconciliation/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/implementation-handoff/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/referral-workflow/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/cpa/report-review/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/tools/fee-benefit/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/tools/portfolio-prioritizer/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/tools/readiness-checklist/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/tools/report-walkthrough/",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "h1": 1,
+      "path": "/rental-owner-guide/",
+      "scroll": 1280,
+      "width": 1280
+    }
+  ],
+  "retainedMobile": [
+    {
+      "bridge": true,
+      "path": "/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/small-property-cost-segregation/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/short-term-rental-cost-segregation/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/long-term-rental-cost-segregation/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/resources/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/cost-segregation-resources/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/str-cost-segregation-resources/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/pricing/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/cost-segregation-calculator/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/locations/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/compare/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/blog/cost-segregation-self-storage-facilities/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/blog/cost-segregation-medical-office-buildings/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/blog/cost-segregation-industrial-warehouse/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/blog/cost-segregation-retail-properties/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/blog/cost-segregation-mixed-use-buildings/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/blog/cost-segregation-apartment-buildings/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/compare/seneca-cost-segregation-vs-stratum/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/compare/re-cost-seg-vs-stratum/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/compare/kbkg-vs-stratum/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/compare/maven-cost-segregation-vs-stratum/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/cost-segregation-pittsburgh-pa/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/cost-segregation-gatlinburg-tn/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/cost-segregation-san-diego-ca/",
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "bridge": true,
+      "path": "/cost-segregation-los-angeles-ca/",
+      "scroll": 390,
+      "width": 390
+    }
+  ]
+}
