@@ -1,0 +1,38 @@
+name: Verify public rental owner expansion
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/verify-owner-expansion.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check all owner pages, updated pages and downloads on the public domain
+        run: python3 scripts/verify-owner-release.py
+      - name: Summarize public verification
+        if: always()
+        shell: python
+        run: |
+          import json, os
+          from pathlib import Path
+          p=Path('outputs/owner-production-verification.json')
+          if not p.exists():
+              raise SystemExit('Verification report was not produced')
+          d=json.loads(p.read_text())
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'w') as f:
+              f.write('# Rental owner public verification\n\n')
+              f.write(str(d['passed'])+' of '+str(d['checked'])+' public targets passed at '+d['checkedAt']+'.\n\n')
+              f.write('| URL | HTTP | Passed |\n|---|---|---|\n')
+              for r in d['results']:
+                  f.write('|'+r['url']+'|'+str(r.get('status',r.get('error')))+'|'+str(r['passed'])+'|\n')
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: owner-production-verification
+          path: outputs/owner-production-verification.json
+          retention-days: 30
