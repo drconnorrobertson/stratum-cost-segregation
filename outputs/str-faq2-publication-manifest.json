@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-28",
+  "humanAuthorization": "Continue another lengthy FAQ and long-tail batch; find gaps, reuse overlapping pages and publish.",
+  "pages": [
+    {
+      "id": "stratum-faq2-20261028-01",
+      "route": "/blog/airbnb-hot-tub-pool-depreciation/",
+      "new": true,
+      "fragment": "article-1.html",
+      "sourceFile": "01-hot-tubs-pools.md",
+      "title": "Airbnb Hot Tub and Pool Depreciation: What a Study Needs",
+      "description": "Review Airbnb hot tub and pool costs, ownership, installation evidence and service dates before assuming a depreciation class or bonus deduction.",
+      "primaryKeyword": "Airbnb hot tub depreciation",
+      "secondaryKeywords": [
+        "Airbnb pool cost segregation",
+        "hot tub cost segregation recovery period"
+      ],
+      "words": 1544,
+      "coverageDecision": "Specific amenity project evidence; existing land-improvement/component guides remain broader rule owners."
+    },
+    {
+      "id": "stratum-faq2-20261028-02",
+      "route": "/blog/airbnb-repairs-improvements-cost-segregation/",
+      "new": true,
+      "fragment": "article-2.html",
+      "sourceFile": "02-repairs-improvements.md",
+      "title": "Airbnb Repairs vs. Improvements: Where Cost Segregation Fits",
+      "description": "Separate Airbnb repairs, capital improvements and safe-harbor questions before adding costs to a cost segregation study.",
+      "primaryKeyword": "Airbnb repairs vs improvements",
+      "secondaryKeywords": [
+        "Airbnb renovation cost segregation",
+        "STR repair capitalization FAQ"
+      ],
+      "words": 1511,
+      "coverageDecision": "Repair/capitalization decision before cost segregation; safe-harbor guide remains the separate election comparison owner."
+    },
+    {
+      "id": "stratum-faq2-20261028-03",
+      "route": "/blog/cost-segregation-partnership-special-allocations/",
+      "new": false,
+      "fragment": "article-3.html",
+      "sourceFile": "03-co-owned-str.md",
+      "title": "Cost Segregation for Co-Owned STRs and Partnerships",
+      "description": "Review co-owned STR study records, partnership allocations and each owner’s loss limits before projecting individual tax benefits.",
+      "primaryKeyword": "cost segregation co owned Airbnb",
+      "secondaryKeywords": [
+        "Airbnb partnership depreciation allocation",
+        "STR co owners cost segregation"
+      ],
+      "words": 1537,
+      "coverageDecision": "Retain partnership allocation owner and replace inaccurate blanket allocation/interest-basis claims; no co-owner duplicate URL."
+    },
+    {
+      "id": "stratum-faq2-20261028-04",
+      "route": "/blog/cost-segregation-selling-property-early/",
+      "new": false,
+      "fragment": "article-4.html",
+      "sourceFile": "04-selling-soon.md",
+      "title": "Selling an STR After Cost Segregation: Is a Short Hold Worth It?",
+      "description": "Evaluate a short STR hold with usable deductions, study fees, asset sale allocations and recapture instead of assuming cost segregation always pays.",
+      "primaryKeyword": "selling Airbnb after cost segregation",
+      "secondaryKeywords": [
+        "cost segregation short hold STR",
+        "sell rental two years after cost segregation"
+      ],
+      "words": 1551,
+      "coverageDecision": "Retain short-hold sale owner, correct universal land-improvement recapture and profitability claims; no duplicate sale FAQ."
+    }
+  ],
+  "newPageCount": 2,
+  "existingOwnerCount": 2,
+  "keywordEvidence": "Editorial hypotheses; no measured query volume or ranking gain claimed."
+}
