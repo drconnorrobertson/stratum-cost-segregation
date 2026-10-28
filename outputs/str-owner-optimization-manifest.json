@@ -136,6 +136,70 @@
       "description": "Evaluate a vacation-rental cost segregation study using personal-use records, furnishing evidence, ownership boundaries, study costs and preparer review.",
       "primary": "vacation rental cost segregation",
       "secondary": "cost segregation for vacation homes"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/cost-segregation-1031-exchanges/",
+      "key": "exchange",
+      "title": "Cost Segregation & 1031 Exchanges: Basis and Exit Review",
+      "description": "Review cost segregation before an STR exchange: real and personal property, carryover basis, recognized gain, recapture and replacement-property records.",
+      "primary": "cost segregation 1031 exchange",
+      "secondary": "Airbnb 1031 exchange depreciation"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/partial-asset-disposition-cost-segregation/",
+      "key": "disposition",
+      "title": "Partial Asset Dispositions: Rental Replacement Records",
+      "description": "Prepare an STR replacement review with disposed-component evidence, original basis, depreciation history, election timing and replacement-cost records.",
+      "primary": "partial asset disposition cost segregation",
+      "secondary": "Airbnb replacement asset deduction"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/land-improvements-15-year-property-cost-segregation/",
+      "key": "land",
+      "title": "Land Improvements: Evidence for a 15-Year Classification",
+      "description": "Review outdoor STR assets by ownership, function, cost and service date before assigning a 15-year recovery period, bonus treatment or sale classification.",
+      "primary": "15 year land improvements cost segregation",
+      "secondary": "Airbnb outdoor improvements depreciation"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/form-3115-look-back-cost-segregation/",
+      "key": "lookback",
+      "title": "Form 3115 & Look-Back Studies: Filing Review",
+      "description": "Understand the separate study and filing decisions behind a look-back cost segregation review, including method eligibility, section 481 adjustments and prior schedules.",
+      "primary": "Form 3115 look back cost segregation",
+      "secondary": "Airbnb catch up depreciation"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/real-estate-professional-status-cost-segregation/",
+      "key": "reps",
+      "title": "Real Estate Professional Status & Rental Losses",
+      "description": "Separate annual real estate professional qualification from rental material participation, grouping elections and loss limits before projecting study benefits.",
+      "primary": "real estate professional status cost segregation",
+      "secondary": "STR real estate professional material participation"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/passive-activity-loss-rules-cost-segregation/",
+      "key": "passive",
+      "title": "Passive Loss Rules: Can You Use Study Deductions?",
+      "description": "Review rental activity treatment, participation, suspended losses and sale conditions before treating cost segregation depreciation as a current tax saving.",
+      "primary": "passive activity loss rules cost segregation",
+      "secondary": "Airbnb suspended passive losses"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/what-is-cost-segregation/",
+      "key": "basics",
+      "title": "What Is Cost Segregation? A Rental Owner’s Guide",
+      "description": "Learn how a cost segregation study allocates property costs, what evidence supports shorter recovery periods and what STR owners should review before ordering.",
+      "primary": "what is cost segregation",
+      "secondary": "cost segregation basics Airbnb owners"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/cost-segregation-existing-property/",
+      "key": "existing",
+      "title": "Cost Segregation for Property You Already Own",
+      "description": "Assess an existing rental or Airbnb study with acquisition records, prior depreciation, improvement history, available filing procedures and realistic economics.",
+      "primary": "cost segregation existing property",
+      "secondary": "cost segregation existing Airbnb"
     }
   ],
   "contextualBridgePages": [
@@ -153,6 +217,10 @@
   ],
   "newPageUrls": [],
   "sources": {
+    "disposition": [
+      "Treasury Regulation 1.168(i)-8: MACRS dispositions and component basis",
+      "https://www.ecfr.gov/current/title-26/section-1.168(i)-8"
+    ],
     "changeUse": [
       "Treasury Regulation 1.168(i)-4: changes in use",
       "https://www.ecfr.gov/current/title-26/section-1.168(i)-4"
