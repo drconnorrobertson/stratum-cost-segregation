@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-28",
+  "humanAuthorization": "Continue another lengthy FAQ and long-tail batch; find gaps, reuse overlapping pages and publish.",
+  "pages": [
+    {
+      "id": "stratum-faq2-20261028-01",
+      "route": "/resources/scenarios/personal-residence-converted-to-rental-basis-review/",
+      "new": false,
+      "fragment": "article-1.html",
+      "sourceFile": "01-former-home-conversion.md",
+      "title": "Turning Your Former Home Into an Airbnb: Basis and Depreciation FAQ",
+      "description": "Prepare a former-home Airbnb conversion with adjusted basis, conversion-date value, land allocation and rental readiness records.",
+      "primaryKeyword": "convert home to Airbnb depreciation basis",
+      "secondaryKeywords": [
+        "former primary residence Airbnb cost segregation",
+        "Airbnb conversion fair market value basis"
+      ],
+      "words": 1615,
+      "coverageDecision": "Existing conversion-basis scenario is the canonical owner; expand it instead of adding a competing blog URL."
+    },
+    {
+      "id": "stratum-faq2-20261028-02",
+      "route": "/blog/cost-segregation-adu-accessory-dwelling-unit/",
+      "new": false,
+      "fragment": "article-2.html",
+      "sourceFile": "02-adu.md",
+      "title": "ADU Cost Segregation: Airbnb, Shared Costs and Depreciation FAQ",
+      "description": "Review ADU study records, shared project costs, rental use, service dates and depreciation classification without blanket savings promises.",
+      "primaryKeyword": "ADU cost segregation Airbnb",
+      "secondaryKeywords": [
+        "ADU depreciation shared costs",
+        "garage conversion Airbnb cost segregation"
+      ],
+      "words": 1535,
+      "coverageDecision": "Retain ADU owner; correct participation/building-class conflation, universal component classes and guaranteed ROI claims."
+    },
+    {
+      "id": "stratum-faq2-20261028-03",
+      "route": "/blog/cost-segregation-under-500k/",
+      "new": false,
+      "fragment": "article-3.html",
+      "sourceFile": "03-small-property.md",
+      "title": "Is Cost Segregation Worth It for an Airbnb Under $500,000?",
+      "description": "Evaluate a smaller Airbnb study using supported basis, usable benefits, per-property fees and implementation costs instead of a price threshold.",
+      "primaryKeyword": "cost segregation Airbnb under 500k",
+      "secondaryKeywords": [
+        "small Airbnb cost segregation worth it",
+        "cost segregation minimum property value"
+      ],
+      "words": 1522,
+      "coverageDecision": "Retain smaller-property economics owner; replace unsupported typical percentages, ROI multiples and automatic portfolio discounts."
+    },
+    {
+      "id": "stratum-faq2-20261028-04",
+      "route": "/blog/str-furniture-ffe-depreciation/",
+      "new": false,
+      "fragment": "article-4.html",
+      "sourceFile": "04-furniture-records.md",
+      "title": "STR Furniture Depreciation: Missing Receipts and Owner FAQs",
+      "description": "Organize missing STR furniture receipts, seller transfers, moved items and credits before assigning depreciation classes or deductions.",
+      "primaryKeyword": "Airbnb furniture depreciation missing receipts",
+      "secondaryKeywords": [
+        "STR furniture records",
+        "Airbnb furniture without invoices"
+      ],
+      "words": 1571,
+      "coverageDecision": "Expand existing furnishing owner with missing-evidence FAQ; preserve classification and safe-harbor distinctions."
+    }
+  ],
+  "newPageCount": 0,
+  "existingOwnerCount": 4,
+  "keywordEvidence": "Editorial hypotheses; no measured query volume or ranking gain claimed."
+}
