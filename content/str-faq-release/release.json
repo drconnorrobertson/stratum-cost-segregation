@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-28",
+  "humanAuthorization": "Publish these six FAQ articles; use existing pages where overlapping and link new pages in STR resource center.",
+  "pages": [
+    {
+      "id": "stratum-faq-20261028-01",
+      "route": "/blog/can-you-do-cost-segregation-airbnb-mortgage/",
+      "new": true,
+      "fragment": "faq-1.html",
+      "title": "Can You Do Cost Segregation on an Airbnb With a Mortgage?",
+      "description": "Understand Airbnb cost segregation with a mortgage: down payment versus basis, closing records, ownership and usable deductions.",
+      "primaryKeyword": "cost segregation Airbnb mortgage",
+      "secondaryKeywords": [
+        "cost segregation down payment",
+        "financed Airbnb depreciation"
+      ],
+      "words": 1626
+    },
+    {
+      "id": "stratum-faq-20261028-02",
+      "route": "/blog/str-renovation-phased-opening/",
+      "new": false,
+      "fragment": "faq-2.html",
+      "title": "Can You Depreciate an Airbnb Before the First Guest Arrives?",
+      "description": "Review Airbnb depreciation before the first guest using readiness records, calendar availability, asset dates and year-end evidence.",
+      "primaryKeyword": "Airbnb depreciation before first guest",
+      "secondaryKeywords": [
+        "Airbnb placed in service no bookings",
+        "Airbnb ready and available for rent"
+      ],
+      "words": 1563
+    },
+    {
+      "id": "stratum-faq-20261028-03",
+      "route": "/blog/str-100-hour-material-participation-test/",
+      "new": false,
+      "fragment": "faq-3.html",
+      "title": "Can Spouses Combine Hours for Airbnb Material Participation?",
+      "description": "Prepare a spouse participation review for an Airbnb using separate work records, outside-worker facts and the correct activity test.",
+      "primaryKeyword": "spouses Airbnb material participation",
+      "secondaryKeywords": [
+        "combine spouse hours Airbnb",
+        "Airbnb spouse participation cleaner"
+      ],
+      "words": 1534
+    },
+    {
+      "id": "stratum-faq-20261028-04",
+      "route": "/blog/do-you-need-llc-airbnb-cost-segregation/",
+      "new": true,
+      "fragment": "faq-4.html",
+      "title": "Do You Need an LLC for Airbnb Cost Segregation?",
+      "description": "Learn why an LLC alone does not establish Airbnb depreciation eligibility and how to prepare ownership records for a study.",
+      "primaryKeyword": "LLC Airbnb cost segregation",
+      "secondaryKeywords": [
+        "do I need LLC for cost segregation",
+        "cost segregation individual owner Airbnb"
+      ],
+      "words": 1531
+    },
+    {
+      "id": "stratum-faq-20261028-05",
+      "route": "/blog/cost-segregation-vacation-rentals/",
+      "new": false,
+      "fragment": "faq-5.html",
+      "title": "Can You Use Your Airbnb Personally and Still Do Cost Segregation?",
+      "description": "Organize Airbnb personal-use days, rental calendars and study assumptions before projecting depreciation or usable tax benefits.",
+      "primaryKeyword": "Airbnb personal use cost segregation",
+      "secondaryKeywords": [
+        "Airbnb 14 day 10 percent rule cost segregation",
+        "owner stays Airbnb depreciation"
+      ],
+      "words": 1587
+    },
+    {
+      "id": "stratum-faq-20261028-06",
+      "route": "/blog/str-property-manager-study-handoff/",
+      "new": false,
+      "fragment": "faq-6.html",
+      "title": "Can a Remote Airbnb Owner Use Cost Segregation With a Property Manager?",
+      "description": "Prepare a remote Airbnb study with manager records, ownership evidence, participation questions and clear CPA handoff responsibilities.",
+      "primaryKeyword": "remote Airbnb owner cost segregation",
+      "secondaryKeywords": [
+        "Airbnb property manager material participation",
+        "out of state STR owner study records"
+      ],
+      "words": 1604
+    }
+  ]
+}
