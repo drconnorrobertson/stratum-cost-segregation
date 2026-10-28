@@ -65,6 +65,7 @@ cp.execFileSync(process.execPath,['scripts/validate-study-pricing.cjs'],{cwd:roo
 cp.execFileSync(process.execPath,['scripts/validate-comparison-buyers.cjs'],{cwd:root,stdio:'inherit'});
 
 require('./owner-growth.cjs')(out);
+require('./str-owner-optimization.cjs')(out);
 require('./str-firm-guide.cjs')(out);
 cp.execFileSync(process.execPath,['scripts/validate-owner-growth.cjs'],{cwd:root,stdio:'inherit'});
 cp.execFileSync(process.execPath,['scripts/validate-sitewide-consistency.cjs'],{cwd:root,stdio:'inherit'});

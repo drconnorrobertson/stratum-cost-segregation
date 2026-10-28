@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-28",
+  "revisedExistingPages": [
+    {
+      "url": "https://www.stratumcostsegregation.com/short-term-rental-cost-segregation/",
+      "key": "service",
+      "title": "STR & Airbnb Cost Segregation Studies",
+      "description": "Review Stratum STR and Airbnb cost segregation: study scope, $1/sq ft pricing, property records, CPA handoff and a property-specific discovery call.",
+      "primary": "short-term rental cost segregation",
+      "secondary": "airbnb cost segregation study"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/str-cost-segregation-resources/",
+      "key": "resources",
+      "title": "STR & Airbnb Cost Segregation Resource Center",
+      "description": "Find STR and Airbnb cost segregation guides for study costs, furnishing records, provider selection, participation, depreciation and CPA report handoff.",
+      "primary": "STR cost segregation resources",
+      "secondary": "Airbnb depreciation guides"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/cost-segregation-airbnb-properties/",
+      "key": "airbnb",
+      "title": "How Cost Segregation Works for Airbnb Owners",
+      "description": "Understand an Airbnb cost segregation study: property basis, furnished purchases, tax-preparer review, study fees and the records to prepare.",
+      "primary": "cost segregation for Airbnb properties",
+      "secondary": "Airbnb cost segregation"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/cost-segregation-airbnb-arbitrage/",
+      "key": "arbitrage",
+      "title": "Airbnb Arbitrage & Cost Segregation: Who Owns What?",
+      "description": "Separate a leased Airbnb building from operator-owned furnishings and improvements before discussing depreciation or commissioning a cost segregation study.",
+      "primary": "Airbnb arbitrage cost segregation",
+      "secondary": "leased Airbnb improvements depreciation"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/str-furniture-ffe-depreciation/",
+      "key": "furniture",
+      "title": "STR Furniture Depreciation: Costs, Classes & Records",
+      "description": "Prepare Airbnb furniture and equipment records, reconcile seller-transferred items, review recovery classes and evaluate expensing questions with your preparer.",
+      "primary": "STR furniture depreciation",
+      "secondary": "Airbnb furniture depreciation"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/when-not-to-do-cost-segregation/",
+      "key": "when-not",
+      "title": "When to Wait or Decline a Cost Segregation Study",
+      "description": "Review five reasons to pause a cost segregation study: uncertain usable benefit, sale timing, missing records, full engagement cost and property-use questions.",
+      "primary": "when not to do cost segregation",
+      "secondary": "is cost segregation worth it for an Airbnb"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/how-to-read-cost-segregation-report/",
+      "key": "report",
+      "title": "How to Read a Cost Segregation Report",
+      "description": "Review a cost segregation report’s cost reconciliation, component evidence, depreciation inputs and CPA handoff with a practical acceptance register.",
+      "primary": "how to read a cost segregation report",
+      "secondary": "cost segregation CPA handoff"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/str-cost-segregation-document-checklist/",
+      "key": "documents",
+      "title": "STR Cost Segregation Document Checklist",
+      "description": "Prepare STR acquisition, furnishing, improvement and prior-depreciation records. Download a blank source register and resolve missing evidence before a study.",
+      "primary": "STR cost segregation document checklist",
+      "secondary": "Airbnb cost segregation documents"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/str-cost-segregation-proposal-comparison/",
+      "key": "proposals",
+      "title": "Compare STR Cost Segregation Proposals",
+      "description": "Compare STR study proposals using consistent property inputs, written scope, inspection evidence, fees, deliverables and CPA implementation responsibilities.",
+      "primary": "STR cost segregation proposals",
+      "secondary": "compare Airbnb cost segregation quotes"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/str-100-hour-material-participation-test/",
+      "key": "participation",
+      "title": "STR Material Participation: The 100-Hour Comparison",
+      "description": "Understand the STR comparative participation test: more than 100 hours, other individuals’ work, recordkeeping examples and separate study-benefit review.",
+      "primary": "STR 100 hour material participation",
+      "secondary": "Airbnb material participation test"
+    }
+  ],
+  "contextualBridgePages": [
+    "https://www.stratumcostsegregation.com/",
+    "https://www.stratumcostsegregation.com/pricing/",
+    "https://www.stratumcostsegregation.com/how-it-works/",
+    "https://www.stratumcostsegregation.com/blog/roi-cost-segregation-study/",
+    "https://www.stratumcostsegregation.com/blog/bonus-depreciation-2026-rental-property/",
+    "https://www.stratumcostsegregation.com/blog/depreciation-recapture-cost-segregation/"
+  ],
+  "downloads": [
+    "str-study-records-register.csv",
+    "str-furnishing-evidence.csv",
+    "str-report-handoff.csv"
+  ],
+  "newPageUrls": [],
+  "sources": {
+    "study": [
+      "IRS cost segregation examination reference, Chapter 4 (not law or provider certification)",
+      "https://www.irs.gov/pub/irs-pdf/p5653.pdf#page=35"
+    ],
+    "rental": [
+      "IRS Publication 527: rental property use, records and depreciation",
+      "https://www.irs.gov/publications/p527"
+    ],
+    "depreciation": [
+      "IRS Publication 946: depreciation, ownership and bonus rules",
+      "https://www.irs.gov/publications/p946"
+    ],
+    "loss": [
+      "IRS Publication 925: activity and loss-limit rules",
+      "https://www.irs.gov/publications/p925"
+    ],
+    "sale": [
+      "IRS Publication 544: dispositions and recapture",
+      "https://www.irs.gov/publications/p544"
+    ],
+    "safeharbor": [
+      "IRS tangible property guidance: de minimis safe-harbor requirements",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+    ]
+  }
+}

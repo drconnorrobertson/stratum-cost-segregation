@@ -1,11 +1,27 @@
 # Stratum Cost Segregation
-> Residential cost segregation studies for short-term and long-term rental property owners.
+> Engineering-based cost segregation studies and educational resources for rental property owners, including STRs, Airbnb and vacation rentals.
 
-## About
-Stratum Cost Segregation provides IRS-compliant cost segregation studies for residential real estate investors. We help STR and LTR property owners accelerate depreciation deductions through detailed engineering-based analyses that reclassify building components into shorter MACRS recovery periods.
+Stratum is a service provider. Its comparisons and buyer guides are provider-authored, not independent rankings. A study supports property component analysis; the owner’s tax preparer determines eligibility, elections, loss limitations and implementation. No deduction or savings is guaranteed.
 
-## Key Pages
-- Home: https://www.stratumcostsegregation.com/
-- About: https://www.stratumcostsegregation.com/about
-- Services: https://www.stratumcostsegregation.com/services
-- Contact: https://www.stratumcostsegregation.com/contact
+## Study scope and pricing
+- STR and Airbnb studies: https://www.stratumcostsegregation.com/short-term-rental-cost-segregation/
+- Pricing ($1 per square foot, $2,000 minimum per property): https://www.stratumcostsegregation.com/pricing/
+- Discovery: https://www.stratumcostsegregation.com/cost-seg-discovery/
+- Study standards: https://www.stratumcostsegregation.com/reviews/
+
+## STR owner decisions and records
+- STR and Airbnb resource center: https://www.stratumcostsegregation.com/str-cost-segregation-resources/
+- Airbnb study overview: https://www.stratumcostsegregation.com/blog/cost-segregation-airbnb-properties/
+- Is a study worthwhile?: https://www.stratumcostsegregation.com/blog/roi-cost-segregation-study/
+- When to wait or decline: https://www.stratumcostsegregation.com/blog/when-not-to-do-cost-segregation/
+- Furnishings and asset records: https://www.stratumcostsegregation.com/blog/str-furniture-ffe-depreciation/
+- Documents: https://www.stratumcostsegregation.com/blog/str-cost-segregation-document-checklist/
+- Report and CPA handoff: https://www.stratumcostsegregation.com/blog/how-to-read-cost-segregation-report/
+- Material participation: https://www.stratumcostsegregation.com/blog/str-100-hour-material-participation-test/
+- Rental owner tools and illustrations: https://www.stratumcostsegregation.com/rental-owner-guide/
+
+## Provider selection
+- STR firm buyer guide: https://www.stratumcostsegregation.com/blog/best-str-cost-segregation-company/
+- Proposal comparison: https://www.stratumcostsegregation.com/blog/str-cost-segregation-proposal-comparison/
+- Provider directory: https://www.stratumcostsegregation.com/compare/
+- Editorial policy: https://www.stratumcostsegregation.com/editorial-policy/
