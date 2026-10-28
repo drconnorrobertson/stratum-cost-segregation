@@ -200,6 +200,70 @@
       "description": "Assess an existing rental or Airbnb study with acquisition records, prior depreciation, improvement history, available filing procedures and realistic economics.",
       "primary": "cost segregation existing property",
       "secondary": "cost segregation existing Airbnb"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/land-value-allocation-cost-segregation/",
+      "key": "land-basis",
+      "title": "Land Value Allocation: Basis Evidence for Rental Owners",
+      "description": "Support the land and depreciable-cost split before an STR study using acquisition-date values, assessment records and a reconciled property basis.",
+      "primary": "land value allocation cost segregation",
+      "secondary": "Airbnb land building basis"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/section-481a-adjustment-catch-up-depreciation/",
+      "key": "adjustment",
+      "title": "Section 481(a): Reconcile a Depreciation Method Change",
+      "description": "Understand section 481(a) adjustment inputs, sign and timing, historic depreciation rules and loss limits before projecting a look-back study benefit.",
+      "primary": "section 481a catch up depreciation",
+      "secondary": "STR depreciation adjustment"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/excess-business-loss-limitation-cost-segregation/",
+      "key": "excess",
+      "title": "Excess Business Loss Limits After Cost Segregation",
+      "description": "Review the 2026 excess business loss thresholds, taxpayer-level inputs and NOL handoff after other rental loss limits before estimating study savings.",
+      "primary": "excess business loss cost segregation",
+      "secondary": "STR loss limitation 2026"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/mid-quarter-convention-cost-segregation/",
+      "key": "quarter",
+      "title": "Mid-Quarter Convention: STR Asset Timing Review",
+      "description": "Check the MACRS 40% test with asset service dates, relevant basis and taxpayer-wide additions before relying on an STR first-year depreciation estimate.",
+      "primary": "mid quarter convention cost segregation",
+      "secondary": "Airbnb depreciation placed in service"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/state-bonus-depreciation-conformity/",
+      "key": "states",
+      "title": "State Bonus Depreciation: Rental Schedule Checklist",
+      "description": "Evaluate state-specific depreciation adjustments by tax year, taxpayer and property instead of assuming federal STR bonus deductions flow to every state return.",
+      "primary": "state bonus depreciation conformity",
+      "secondary": "Airbnb state depreciation adjustments"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/casualty-loss-insurance-proceeds-cost-segregation/",
+      "key": "casualty",
+      "title": "Rental Casualty Losses: Insurance and Basis Review",
+      "description": "Organize STR casualty records, adjusted basis, reimbursements and replacement plans before calculating a loss, gain or involuntary-conversion election.",
+      "primary": "casualty loss cost segregation",
+      "secondary": "Airbnb insurance proceeds depreciation basis"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/inherited-rental-property-cost-segregation/",
+      "key": "inherited",
+      "title": "Inherited Rental Property: Basis Before a Study",
+      "description": "Review inherited Airbnb ownership, estate valuation, depreciation eligibility and prior heir filings before commissioning a cost segregation study.",
+      "primary": "inherited rental property cost segregation",
+      "secondary": "inherited Airbnb depreciation basis"
+    },
+    {
+      "url": "https://www.stratumcostsegregation.com/blog/qualified-improvement-property-cost-segregation/",
+      "key": "qip",
+      "title": "Qualified Improvement Property: STR Renovation Review",
+      "description": "Check QIP building classification, interior scope, ownership, exclusions and depreciation system before treating rental renovation costs as 15-year property.",
+      "primary": "qualified improvement property cost segregation",
+      "secondary": "Airbnb renovation QIP eligibility"
     }
   ],
   "contextualBridgePages": [
@@ -217,6 +281,30 @@
   ],
   "newPageUrls": [],
   "sources": {
+    "basis": [
+      "IRS Publication 551: basis allocation and inherited property",
+      "https://www.irs.gov/publications/p551"
+    ],
+    "casualty": [
+      "IRS Publication 547: casualty losses and involuntary conversions",
+      "https://www.irs.gov/publications/p547"
+    ],
+    "excess": [
+      "IRS Form 461 instructions: excess business losses",
+      "https://www.irs.gov/instructions/i461"
+    ],
+    "inflation": [
+      "IRS Revenue Procedure 2025-32: 2026 inflation adjustments",
+      "https://www.irs.gov/pub/irs-irbs/irb25-45.pdf"
+    ],
+    "california": [
+      "California FTB 3885A instructions, 2025: depreciation differences",
+      "https://www.ftb.ca.gov/forms/2025/2025-3885a-instructions.html"
+    ],
+    "newyork": [
+      "New York IT-398, 2025: depreciation schedule and instructions",
+      "https://www.tax.ny.gov/pdf/2025/inc/it398_2025_fill_in.pdf"
+    ],
     "disposition": [
       "Treasury Regulation 1.168(i)-8: MACRS dispositions and component basis",
       "https://www.ecfr.gov/current/title-26/section-1.168(i)-8"
