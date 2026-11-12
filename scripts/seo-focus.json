@@ -1,0 +1,22 @@
+{
+  "title": "Cost Segregation Studies, Pricing & Reports | Stratum",
+  "description": "Compare cost segregation study pricing, report scope and property documentation. Explore Stratum studies and the handoff to your tax preparer.",
+  "heading": "Compare the study before commissioning the work",
+  "intro": "Review the price, supporting evidence and return-preparer handoff together.",
+  "links": [
+    {
+      "href": "/pricing/",
+      "label": "Review study pricing"
+    },
+    {
+      "href": "/resources/buyers/sample-cost-segregation-report-walkthrough/",
+      "label": "Walk through a sample report"
+    },
+    {
+      "href": "/blog/cost-segregation-study-cost-pricing/",
+      "label": "Understand study costs"
+    }
+  ],
+  "buildCommand": "node topical-depth-build.cjs && node scripts/brand-check.mjs public && node scripts/contextual-crosslinks.cjs public && node scripts/canonical-discovery.cjs",
+  "outputDirectory": "public"
+}
