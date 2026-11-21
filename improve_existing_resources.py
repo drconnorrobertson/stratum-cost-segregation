@@ -6,6 +6,64 @@ from html import escape as E
 from build_resource_expansion import render,section,p,ul,table,pages,sitemap,DATE,BASE_URL
 ROOT=Path(__file__).resolve().parent
 
+def sync_pricing_guide_lastmod():
+    sitemap_file=ROOT/'sitemap.xml'
+    text=sitemap_file.read_text()
+    target=BASE_URL+'/blog/cost-segregation-study-cost-pricing/'
+    def update(match):
+        row=match[0]
+        if '<loc>'+target+'</loc>' not in row: return row
+        if '<lastmod>' in row: return re.sub(r'<lastmod>[^<]*</lastmod>','<lastmod>2026-11-21</lastmod>',row)
+        return row.replace('</url>','<lastmod>2026-11-21</lastmod></url>')
+    sitemap_file.write_text(re.sub(r'<url>[\s\S]*?</url>',update,text))
+
+def render_pricing_guide(related):
+    """Keep the quote-comparison article distinct from the service pricing page."""
+    policy=json.loads((ROOT/'content/study-pricing.json').read_text())
+    rate=policy['perSquareFoot']; minimum=policy['minimumPerProperty']
+    money=lambda amount: '$'+format(amount, ',.0f')
+    fee=lambda area: max(minimum, area*rate)
+    title='Cost Segregation Study Cost: Fees and Quote Checklist'
+    description='Work through per-property minimums, portfolio fee examples and a checklist for comparing study quotes with separately engaged implementation work.'
+    body=section('Start with the published rate and the property list',
+      f"Stratum publishes a study rate of {money(rate)} per square foot with a {money(minimum)} minimum per property. Apply the minimum separately to each property in a portfolio. Confirm the measured area and written scope before treating a calculator result as an accepted quote.")
+    body+=p('Use the <a href="/pricing/">current pricing schedule and single-property fee calculator</a> for the service offer. This guide helps organize a comparison: which addresses are included, how each fee is calculated, and which other work still needs a separate price. Pricing was checked against that published schedule on November 21, 2026.')
+    body+=section('Worked examples: apply the minimum to each property',
+      'These property sizes are hypothetical arithmetic inputs, not client engagements, provider quotes or tax-savings estimates. The same published rate is used throughout; the per-property minimum explains the differences.')
+    examples=[('One 1,500-square-foot property',f'maximum of {money(minimum)} and 1,500 × {money(rate)}',money(fee(1500))),
+      ('One 3,500-square-foot property',f'maximum of {money(minimum)} and 3,500 × {money(rate)}',money(fee(3500))),
+      ('Three properties, each 1,500 square feet',f'3 × {money(fee(1500))}',money(3*fee(1500))),
+      ('Three properties: 1,500, 2,500 and 4,200 square feet',f'{money(fee(1500))} + {money(fee(2500))} + {money(fee(4200))}',money(sum(fee(n) for n in [1500,2500,4200])))]
+    body+='<div class="table-scroll"><table><caption>Illustrative study fees using the published rate</caption><thead><tr><th>Property list</th><th>Calculation</th><th>Study fee</th></tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+E(value)+'</td>' for value in row)+'</tr>' for row in examples)+'</tbody></table></div>'
+    body+=p(f'Three 1,500-square-foot properties total 4,500 square feet, but their study fees total {money(3*fee(1500))}. Pooling the area into one {money(4500*rate)} calculation would ignore the minimum on each property. Keep an address-by-address fee schedule with a portfolio proposal.')
+    body+=section('Resolve the square-footage question before comparing totals',
+      'Record the address, the area used in the quote, its source and the date of that record. Ask whether the quoted scope includes a basement, garage, detached structure, common areas or a later addition. A listing, assessor record and plan set can describe different measurements. Ask the provider which measurement it accepts rather than choosing whichever number produces the lowest fee.',
+      'Keep the measurement question separate from the asset-classification question. A room being included in the quoted area does not decide how its components will be reported in the study.')
+    body+=section('Compare the same deliverables in both written proposals',
+      'Use the following rows to request clarification from each provider. An unspecified item is an open question, not a zero-dollar inclusion. A lower study fee is meaningful only after the property scope and responsibilities are clear.')
+    body+=table([('Property and periods','List each address and whether the work concerns the acquisition, later improvements or an existing schedule.'),
+      ('Evidence collection','Identify the inspection or remote-evidence method, access requirements and any separately charged travel or specialist work.'),
+      ('Report and schedules','Confirm the report, component schedules, basis reconciliation and handoff format the preparer will receive.'),
+      ('Revisions and questions','Ask how new records, corrected measurements and preparer questions affect the scope, price and delivery date.'),
+      ('Return implementation','Identify who quotes and performs any separately engaged return, amendment or accounting-method work.'),
+      ('Support and payment terms','Read the actual response commitments, exclusions, payment schedule, quote validity and cancellation terms.')])
+    body+=section('Build an all-in comparison from actual written prices',
+      'Keep the study fee in one line and separately quoted implementation or other work in their own lines. Mark an item as included only when the proposal says so; do not count it again as an extra charge. Leave an unquoted amount unresolved rather than inventing an allowance that makes the total look complete.',
+      'Ask the return preparer to identify the work needed for your property before assuming the study fee is the complete project cost. The study price is not a calculation of a deduction, refund or usable tax benefit. Compare those questions separately with the appropriate adviser.')
+    body+=section('Take one complete comparison into the engagement discussion',
+      'Bring the property list, measurement sources, both proposals and a short list of unresolved inclusions. Confirm the accepted fee, deliverables, required records, responsible preparer and delivery assumptions in writing. Retain the agreed version with the final study.')
+    render('blog/cost-segregation-study-cost-pricing',title,description,body,'Study buyer guidance',related,('study','depreciation','loss'))
+    article=ROOT/'blog/cost-segregation-study-cost-pricing/index.html'
+    text=article.read_text()
+    def updated_schema(match):
+        data=json.loads(match[1])
+        for node in data.get('@graph',[]):
+            if node.get('@type') in ('WebPage','Article'): node['dateModified']='2026-11-21'
+        return '<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False)+'</script>'
+    text=re.sub(r'<script type="application/ld\+json">(.*?)</script>',updated_schema,text,flags=re.S)
+    text=text.replace('Published October 9, 2026 · Stratum editorial team','Published October 9, 2026 · Updated November 21, 2026 · Stratum editorial team')
+    article.write_text(text)
+
 def main():
     changes=[]
     # Remove contradictory exclusivity language without claiming a new service.
@@ -29,8 +87,7 @@ def main():
     body+=section('Before signing','Confirm the property list, complete price, delivery assumptions, evidence requirements, exclusions, revision process, and CPA handoff. Ask who will resolve a disputed classification and what audit-support language actually covers. Keep the accepted proposal with the final report.')
     rel=[('resources/buyers/cost-segregation-engagement-exclusions','Study exclusions checklist'),('resources/buyers/comparing-two-study-proposals','Compare two study proposals'),('resources/buyers/study-fee-break-even-analysis','Study-fee break-even analysis')]
     render('pricing','Cost Segregation Pricing and Engagement Scope','Review published Stratum residential fees, delivery targets, scope questions, exclusions, and the costs to confirm before commissioning a study.',body,'Pricing',rel,is_guide=False)
-    title='How Much Does a Cost Segregation Study Cost? Pricing Guide'
-    render('blog/cost-segregation-study-cost-pricing',title,'Compare study fees with scope, evidence quality, implementation costs, and usable incremental depreciation benefits.',body,'Study buyer guidance',rel,('study','depreciation','loss'))
+    render_pricing_guide(rel)
     changes.append('Pricing page and pricing article: scope, fee, delivery, and feasibility repairs')
 
     case=section('An explicitly hypothetical property','This educational model uses a $520,000 vacation-rental purchase and an assumed $78,000 land allocation, leaving $442,000 for the example cost pool. These figures are assumptions, not a documented Stratum client outcome. An actual land allocation, furnishings allocation, and component schedule require supporting evidence.')
@@ -78,6 +135,7 @@ def main():
         s=re.sub(pattern,lambda m:m[1]+re.sub(r'<p>.*?</p>','<p>'+desc+'</p>',m[2],flags=re.S)+m[3],s,flags=re.S)
     blog.write_text(s)
     sitemap()
+    sync_pricing_guide_lastmod()
     (ROOT/'content/existing-content-improvements.json').write_text(json.dumps({'date':DATE,'changes':changes,'verification_limit':'Targeted editorial repairs; no undocumented technical reviewer or client evidence is asserted.'},indent=2)+'\n')
     print(json.dumps(changes,indent=2))
 if __name__=='__main__':main()
