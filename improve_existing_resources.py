@@ -27,7 +27,7 @@ def render_pricing_guide(related):
     description='Work through per-property minimums, portfolio fee examples and a checklist for comparing study quotes with separately engaged implementation work.'
     body=section('Start with the published rate and the property list',
       f"Stratum publishes a study rate of {money(rate)} per square foot with a {money(minimum)} minimum per property. Apply the minimum separately to each property in a portfolio. Confirm the measured area and written scope before treating a calculator result as an accepted quote.")
-    body+=p('Use the <a href="/pricing/">current pricing schedule and single-property fee calculator</a> for the service offer. This guide helps organize a comparison: which addresses are included, how each fee is calculated, and which other work still needs a separate price. Pricing was checked against that published schedule on November 21, 2026.')
+    body+='<p>Use the <a href="/pricing/">current pricing schedule and single-property fee calculator</a> for the service offer. This guide helps organize a comparison: which addresses are included, how each fee is calculated, and which other work still needs a separate price. Pricing was checked against that published schedule on November 21, 2026.</p>'
     body+=section('Worked examples: apply the minimum to each property',
       'These property sizes are hypothetical arithmetic inputs, not client engagements, provider quotes or tax-savings estimates. The same published rate is used throughout; the per-property minimum explains the differences.')
     examples=[('One 1,500-square-foot property',f'maximum of {money(minimum)} and 1,500 × {money(rate)}',money(fee(1500))),
