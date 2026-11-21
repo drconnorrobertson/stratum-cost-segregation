@@ -39,7 +39,7 @@ module.exports = function(out) {
   'small-property-cost-segregation/index.html':['Small Rental Property Cost Segregation | Stratum','Cost segregation for rental homes, duplexes and small multifamily properties. Compare study economics at $1 per square foot with a $2,000 minimum per property.'],
   'cost-segregation-calculator/index.html':['Cost Segregation Calculator & Study Fee Estimate | Stratum','Estimate accelerated depreciation and potential tax deferral, then calculate your study fee at $1 per square foot with a $2,000 minimum per property.'],
   'pricing/index.html':['Cost Segregation Pricing: $1/Sq Ft, $2,000 Minimum | Stratum','Calculate your cost segregation study fee: $1 per square foot with a $2,000 minimum per property. Review fee examples, study scope and book a discovery call.'],
-  'blog/cost-segregation-study-cost-pricing/index.html':['How Much Does a Cost Segregation Study Cost? | Stratum','Understand cost segregation study fees, what to compare and implementation costs. Stratum pricing is $1 per square foot with a $2,000 minimum per property.']
+  'blog/cost-segregation-study-cost-pricing/index.html':['Cost Segregation Study Cost & Pricing Checklist | Stratum','Work through per-property minimums, portfolio fee examples and a checklist for comparing study quotes with separately engaged implementation work.']
  };
  const priority = new Set(['index.html','pricing/index.html','cost-segregation-calculator/index.html','services/index.html','short-term-rental-cost-segregation/index.html','long-term-rental-cost-segregation/index.html','commercial-cost-segregation/index.html','multifamily-cost-segregation/index.html','small-property-cost-segregation/index.html','blog/cost-segregation-study-cost-pricing/index.html','cost-seg-discovery/index.html']);
  let changed=0;
@@ -90,7 +90,14 @@ module.exports = function(out) {
  }}
  walk(out);
  const sitemap=path.join(out,'sitemap.xml');
- let xml=fs.readFileSync(sitemap,'utf8').replace(/<url>\s*<loc>(.*?)<\/loc>([\s\S]*?)<\/url>/g,(all,url,tail)=>updatedURLs.has(url)?'<url><loc>'+url+'</loc>'+(/<lastmod>/.test(tail)?tail.replace(/<lastmod>.*?<\/lastmod>/,'<lastmod>'+policy.effectiveDate+'</lastmod>'):tail+'<lastmod>'+policy.effectiveDate+'</lastmod>')+'</url>':all);
+ let xml=fs.readFileSync(sitemap,'utf8').replace(/<url>\s*<loc>(.*?)<\/loc>([\s\S]*?)<\/url>/g,(all,url,tail)=>{
+  if(!updatedURLs.has(url))return all;
+  const existing=tail.match(/<lastmod>(.*?)<\/lastmod>/)?.[1];
+  // A pricing-policy revision must not backdate a later human content edit.
+  const modified=existing&&/^\d{4}-\d{2}-\d{2}(?:T|$)/.test(existing)&&existing.slice(0,10)>policy.effectiveDate?existing:policy.effectiveDate;
+  const dated=existing?tail.replace(/<lastmod>.*?<\/lastmod>/,'<lastmod>'+modified+'</lastmod>'):tail+'<lastmod>'+modified+'</lastmod>';
+  return '<url><loc>'+url+'</loc>'+dated+'</url>';
+ });
  fs.writeFileSync(sitemap,xml);
  fs.writeFileSync(path.join(out,'assets/study-pricing-policy.json'),JSON.stringify(policy));
  console.log('Unified pricing and conversion updates: '+changed+' pages');
