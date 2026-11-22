@@ -1,3 +1,4 @@
+const latestLastmod=(tail,date)=>{const prior=(tail.match(/<lastmod>(.*?)<\/lastmod>/)||[])[1]||'';return prior>date?prior:date;};
 // Curated owner-first expansion, applied after the retained site has been built.
 const fs=require('node:fs'),path=require('node:path');
 const D=require('./content/owner-growth.json');
@@ -71,7 +72,7 @@ module.exports=function(out){
  for(const [route,title,body,url,label] of markets)inject(route,`<h2>${esc(title)}</h2><p>${esc(body)}</p><p>Official reference checked October 25, 2026: ${link(url,label)}.${route.includes('san-diego')?' '+link('https://www.ftb.ca.gov/forms/2025/2025-3885a-instructions.html','California FTB depreciation adjustment instructions'):''}</p><p>${link(HUB+'tools/readiness-checklist/','Prepare your property records')} · ${link(HUB+'cpa/implementation-handoff/','Plan the federal and state handoff')}</p>`);
  // Make the new hub discoverable from every existing shared footer without crowding the header.
  function addFooterLinks(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const f=path.join(dir,e.name);if(e.isDirectory())addFooterLinks(f);else if(e.name==='index.html'){let h=fs.readFileSync(f,'utf8');h=h.replace(/<footer class="footer"[\s\S]*?<\/footer>/,footer=>footer.replace('<a href="/blog/">Blog</a>',`<a href="${HUB}">Rental owner guide</a></li><li><a href="/blog/">Blog</a>`));fs.writeFileSync(f,h);if(h.match(/<footer class="footer"[\s\S]*?href="\/rental-owner-guide\/"/))manifest.navigationPages++;}}}addFooterLinks(out);
- xml=xml.replace(/<url>\s*<loc>(.*?)<\/loc>([\s\S]*?)<\/url>/g,(all,u,tail)=>manifest.updatedPages.includes(u)?`<url><loc>${u}</loc>${/<lastmod>/.test(tail)?tail.replace(/<lastmod>.*?<\/lastmod>/,`<lastmod>${D.date}</lastmod>`):tail+`<lastmod>${D.date}</lastmod>`}</url>`:all);
+ xml=xml.replace(/<url>\s*<loc>(.*?)<\/loc>([\s\S]*?)<\/url>/g,(all,u,tail)=>manifest.updatedPages.includes(u)?`<url><loc>${u}</loc>${/<lastmod>/.test(tail)?tail.replace(/<lastmod>.*?<\/lastmod>/,`<lastmod>${latestLastmod(tail,D.date)}</lastmod>`):tail+`<lastmod>${latestLastmod(tail,D.date)}</lastmod>`}</url>`:all);
  xml=xml.replace('</urlset>',manifest.newPages.map(u=>`<url><loc>${u}</loc><lastmod>${D.date}</lastmod></url>`).join('\n')+'\n</urlset>');fs.writeFileSync(sitemap,xml);
  fs.copyFileSync(path.join(__dirname,'assets/owner-growth.css'),path.join(out,'assets/owner-growth.css'));
  fs.copyFileSync(path.join(__dirname,'assets/owner-growth.js'),path.join(out,'assets/owner-growth.js'));

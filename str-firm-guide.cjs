@@ -1,3 +1,4 @@
+const latestLastmod=(tail,date)=>{const prior=(tail.match(/<lastmod>(.*?)<\/lastmod>/)||[])[1]||'';return prior>date?prior:date;};
 // Preserve the existing STR buying-intent URL; never generate a competing landing page.
 const fs=require('node:fs'),path=require('node:path');
 const route='/blog/best-str-cost-segregation-company/',date='2026-10-28',base='https://www.stratumcostsegregation.com';
@@ -29,6 +30,6 @@ module.exports=function(out){
  const rows=[['Selection criterion','Provider A written answer','Provider B written answer','Provider C written answer','Source or proposal date','Open question'],...['Preparer and reviewer','Inspection and missing records','Basis and furniture reconciliation','Component evidence and report example','Report and schedule format','Total fee and exclusions','Delivery dependencies','CPA implementation responsibility','Correction and examination support'].map(x=>[x,'','','','',''])];
  fs.writeFileSync(path.join(out,'assets/downloads/str-firm-proposal-comparison.csv'),rows.map(r=>r.map(x=>'"'+x.replaceAll('"','""')+'"').join(',')).join('\r\n')+'\r\n');
  fs.writeFileSync(path.join(out,'assets/str-firm-guide.css'),'.str-firm-table{max-width:100%;overflow-x:auto;margin:24px 0}.str-firm-table table{width:100%;border-collapse:collapse;font-size:.95rem}.str-firm-table th,.str-firm-table td{padding:12px;text-align:left;vertical-align:top;border-bottom:1px solid #ccd4df;overflow-wrap:anywhere}.str-firm-table th{font-weight:700}.str-firm-table caption{text-align:left;font-weight:700;padding:12px 0}.str-firm-entry p{max-width:75ch}@media(max-width:600px){.str-firm-table th,.str-firm-table td{padding:8px;font-size:.85rem}main[data-str-firm-guide] nav ul{padding-left:20px}}');
- const sm=path.join(out,'sitemap.xml');let xml=fs.readFileSync(sm,'utf8');for(const r of [route,...targets]){const url=base+r;xml=xml.replace(/<url>\s*<loc>(.*?)<\/loc>([\s\S]*?)<\/url>/g,(all,u,tail)=>u===url?'<url><loc>'+u+'</loc>'+tail.replace(/<lastmod>.*?<\/lastmod>/g,'')+'<lastmod>'+date+'</lastmod></url>':all)}fs.writeFileSync(sm,xml);
+ const sm=path.join(out,'sitemap.xml');let xml=fs.readFileSync(sm,'utf8');for(const r of [route,...targets]){const url=base+r;xml=xml.replace(/<url>\s*<loc>(.*?)<\/loc>([\s\S]*?)<\/url>/g,(all,u,tail)=>u===url?'<url><loc>'+u+'</loc>'+tail.replace(/<lastmod>.*?<\/lastmod>/g,'')+'<lastmod>'+latestLastmod(tail,date)+'</lastmod></url>':all)}fs.writeFileSync(sm,xml);
  console.log('Updated existing STR firm buying guide and six contextual entry points.');
 };
