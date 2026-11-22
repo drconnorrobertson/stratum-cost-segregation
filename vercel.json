@@ -5,6 +5,21 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/free-estimate",
+      "destination": "/cost-seg-discovery/",
+      "permanent": true
+    },
+    {
+      "source": "/free-estimate/",
+      "destination": "/cost-seg-discovery/",
+      "permanent": true
+    },
+    {
+      "source": "/free-estimate/index.html",
+      "destination": "/cost-seg-discovery/",
+      "permanent": true
+    },
+    {
       "source": "/booking/",
       "destination": "/cost-seg-discovery/",
       "permanent": true

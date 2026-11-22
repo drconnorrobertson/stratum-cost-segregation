@@ -25,3 +25,5 @@ for(const link of config.links){
 fs.writeFileSync(file,s);console.log('SEO focus applied: '+file);
 
 require("./component-evidence-review.cjs")(root);
+
+require("./conversion-owner-consolidation.cjs")(root);
