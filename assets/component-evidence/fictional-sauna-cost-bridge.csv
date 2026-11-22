@@ -1,0 +1,4 @@
+fictional_source_reference,source_description,signed_amount_usd,scope_note,tax_treatment_status
+SCOPE-EX-01,Original contractor scope,10000,Includes2000equipmentallowance,unresolved
+CREDIT-EX-01,Allowance credit,-2000,Removesoriginalequipmentallowance,unresolved
+OWNER-EX-01,Owner-direct kit,2800,Replacesallowanceitem,unresolved

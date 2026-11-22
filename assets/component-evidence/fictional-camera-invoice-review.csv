@@ -1,0 +1,5 @@
+fictional_source_reference,invoice_description,amount_usd,review_question,tax_treatment_status
+INV-EX-01 line1,Camera units and recorder,4000,Match equipment and quantities,unresolved
+INV-EX-01 line2,Installation labor and mounting,1800,Identify installation and shared work,unresolved
+INV-EX-01 line3,Monitoring subscription,600,Identify service period and contract,unresolved
+INV-EX-01 line4,Work on existing cabling,900,Identify retained scope and source,unresolved
